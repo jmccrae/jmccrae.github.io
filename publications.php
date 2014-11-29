@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php include 'header.html'; ?>
              <div class="row col-lg-6 col-lg-offset-3">
 
                  <p><b><a class="publication" href="https://dl.dropboxusercontent.com/u/2265375/LDQ/ldq2014_submission_4.pdf">

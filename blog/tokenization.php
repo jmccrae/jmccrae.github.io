@@ -5,8 +5,7 @@
 
 <p>I often need to tokenize text and have generally relied on the following fairly simple regular expression to do the trick</p>
 
-<pre><code>
-string.split("\\s+")
+<pre><code>string.split("\\s+")
 </code></pre>
 
 <p><code>\\s</code> is the group for (ASCII) spaces and so while this works, in fact it quickly leads to problems, let's take an example bit of text</p>
@@ -15,14 +14,12 @@ string.split("\\s+")
 
 <P>So we quickly have the issue that we get tokens like <b>&ldquo;this</b> or <b>test&rdquo;</b>  that are not so good.. instead we would like to have the quotation marks as a token by themselves. Now there is a regular expression we could use:</p>
 
-<pre><code>
-string.split("\\b")
+<pre><code>string.split("\\b")
 </code></pre>
 
 <p>However, this creates it's own issues: firstly now each space is its own token and compound punctuations doesn't work, &ldquo;like in quotes<b>.&rdquo;</b> Even worse, contractions like &ldquo;doesn't&rdquo; get split into three tokens. Not great... I present my solution:</p>
 
-<pre><code>
-string.replaceAll("(\\.\\.\\.+|[\\p{Po}\\p{Ps}\\p{Pe}\\p{Pi}\\p{Pf}\u2013\u2014\u2015&&[^'\\.]]|(?&lt;!(\\.|\\.\\p{L}))\\.(?=[\\p{Z}\\p{Pf}\\p{Pe}]|\\Z)|(?&lt;!\\p{L})'(?!\\p{L}))"," $1 ")
+<pre><code>string.replaceAll("(\\.\\.\\.+|[\\p{Po}\\p{Ps}\\p{Pe}\\p{Pi}\\p{Pf}\u2013\u2014\u2015&&[^'\\.]]|(?&lt;!(\\.|\\.\\p{L}))\\.(?=[\\p{Z}\\p{Pf}\\p{Pe}]|\\Z)|(?&lt;!\\p{L})'(?!\\p{L}))"," $1 ")
   .replaceAll("\\p{C}|^\\p{Z}+|\\p{Z}+$","")
   .split("\\p{Z}+")
 </code></pre>

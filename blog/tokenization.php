@@ -32,6 +32,7 @@
 <a href="http://www.fileformat.info/info/unicode/category/index.htm">unicode categories</a>, in particular all &lsquo;other&rsquo; punctuation, start and end punctuation (brackets, braces, etc.), initial and final quotes, and long dashes. Finally, the group has two unwanted elements &ldquo;.&rdquo; and ', which are removed.</li>
 <li><code>(?&lt;!(\\.|\\.\\p{L}))\\.(?=[\\p{Z}\\p{Pf}\\p{Pe}]|\\Z)</code>: This is for full stops, they are kind of hard, as we would like to avoid splitting &ldquo;I.B.M.&rdquo; and of course ellipses. First we use a zero-width look-behind assertion to check that we don't have another full stop or a letter then a full stop. The we look forward and check that the next character is space, an end punctuation, a final quote or the end of the string (that is <code>\\Z</code>)</li>
 <li><code>(?&lt;!\\p{L})'(?!\\p{L}))</code>: This finally matches all single quotes, that aren't  between two letters... &lsquo;tis not always correct, but...</li>
+</ol>
 
 <p>The replacement string is then simply whatever matched with a space either side. This generates some extra spaces, of course.</p>
 

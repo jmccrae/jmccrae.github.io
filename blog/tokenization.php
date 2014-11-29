@@ -1,5 +1,6 @@
 <?php include '../header.html'; ?>
 <div class="row">
+<div class="col-lg-8 col-lg-offset-2">
 <h1>A simple regular expression for tokenization of (most) natural language</h1>
 
 <p>I often need to tokenize text and have generally relied on the following fairly simple regular expression to do the trick</p>
@@ -42,5 +43,6 @@ string.replaceAll("(\\.\\.\\.+|[\\p{Po}\\p{Ps}\\p{Pe}\\p{Pi}\\p{Pf}\u2013\u2014\
 <p>Finally, we split the text according to the Unicode spaces that are now in the text. This also eliminates all the extra spaces we created in the first step</p>
 
 <p>This tokenization is a little different to some of the more widely known ones, such as the <a href="http://www.cis.upenn.edu/~treebank/tokenization.html">Penn Tree Bank method</a> or Lucene's, however it does not change the original text other than white-space and is very easy-to-use, plus it has no special rules for English and should work well on most languages (with some obvious exception such as Chinese, Japanese and Korean).</p>
+</div>
 </div>
 <?php include '../footer.html'; ?>

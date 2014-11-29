@@ -31,7 +31,7 @@ done
 
     <p>I wrote the following PHP script for this:</p>
 
-    <pre><code><?php
+    <pre><code>&lt;?php
 if(!isset($_REQUEST["query"])) { ?>
 <html>
  <head>
@@ -64,7 +64,7 @@ if($code == 200) {
 }
 curl_close($ch);
 }
-?>
+?&gt;
 </code></pre>
 
     <p>Now the final step is to register the resource with <a href="http://thedatahub.org/">CKAN</a>. To do this we simply go to the website, create a user account and fill in the form thus:</p>

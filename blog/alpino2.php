@@ -32,24 +32,24 @@ done
     <p>I wrote the following PHP script for this:</p>
 
     <pre><code>&lt;?php
-if(!isset($_REQUEST["query"])) { ?>
-<html>
- <head>
- <title>ALPINO corpus query</title>
- </head>
- <body>
- <form action="" method="get">
- <label for="query">Query:</label><br/>
- <textarea name="query" rows="5" cols="80">
-PREFIX cat: <http://lexinfo.net/corpora/alpino/categories#> 
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+if(!isset($_REQUEST["query"])) { ?&gt;
+&lt;html&gt;
+ &lt;head&gt;
+ &lt;title&gt;ALPINO corpus query&lt;/title&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+ &lt;form action="" method="get"&gt;
+ &lt;label for="query"&gt;Query:&lt;/label&gt;&lt;br/&gt;
+ &lt;textarea name="query" rows="5" cols="80"&gt;
+PREFIX cat: &lt;http://lexinfo.net/corpora/alpino/categories#&gt; 
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
 SELECT * WHERE { ?s ?p ?o } LIMIT 10
-</textarea><br/>
- <input type="submit"/>
- </form>
- </body>
-</html>
-<? } else {
+&lt;/textarea&gt;&lt;br/&gt;
+ &lt;input type="submit"/&gt;
+ &lt;/form&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
+&lt;? } else {
 $ch = curl_init();
 $url = "http://localhost:8888/sparql/?query=" . urlencode($_REQUEST["query"]);
 curl_setopt($ch, CURLOPT_URL, $url);

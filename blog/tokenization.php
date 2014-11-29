@@ -21,7 +21,7 @@ string.split("\\b")
 <p>However, this creates it's own issues: firstly now each space is its own token and compound punctuations doesn't work, &ldquo;like in quotes<b>.&rdquo;</b> Even worse, contractions like &ldquo;doesn't&rdquo; get split into three tokens. Not great... I present my solution:</p>
 
 <pre><code>
-string.replaceAll("(\\.\\.\\.+|[\\p{Po}\\p{Ps}\\p{Pe}\\p{Pi}\\p{Pf}\u2013\u2014\u2015&&[^'\\.]]|(?<!(\\.|\\.\\p{L}))\\.(?=[\\p{Z}\\p{Pf}\\p{Pe}]|\\Z)|(?&lt;!\\p{L})'(?!\\p{L}))"," $1 ")
+string.replaceAll("(\\.\\.\\.+|[\\p{Po}\\p{Ps}\\p{Pe}\\p{Pi}\\p{Pf}\u2013\u2014\u2015&&[^'\\.]]|(?&lt;!(\\.|\\.\\p{L}))\\.(?=[\\p{Z}\\p{Pf}\\p{Pe}]|\\Z)|(?&lt;!\\p{L})'(?!\\p{L}))"," $1 ")
   .replaceAll("\\p{C}|^\\p{Z}+|\\p{Z}+$","")
   .split("\\p{Z}+")
 </code></pre>
@@ -31,8 +31,8 @@ string.replaceAll("(\\.\\.\\.+|[\\p{Po}\\p{Ps}\\p{Pe}\\p{Pi}\\p{Pf}\u2013\u2014\
 <ol>
 <li><code>\\.\\.\\.+</code> : Captures any ellipses</li>
 <li><code>[\\p{Po}\\p{Ps}\\p{Pe}\\p{Pi}\\p{Pf}\u2013\u2014\u2015&&[^'\\.]]</code>: Captures most single punctuation marks. We use mostly 
-<a href="http://www.fileformat.info/info/unicode/category/index.htm">unicode categories</a>, in particular all “other” punctuation, start and end punctuation (brackets, braces, etc.), initial and final quotes, and long dashes. Finally, the group has two unwanted elements &ldquo;.&rdquo; and ‘, which are removed.</li>
-<li><code>(?<!(\\.|\\.\\p{L}))\\.(?=[\\p{Z}\\p{Pf}\\p{Pe}]|\\Z)</code>: This is for full stops, they are kind of hard, as we would like to avoid splitting “I.B.M.” and of course ellipses. First we use a zero-width look-behind assertion to check that we don’t have another full stop or a letter then a full stop. The we look forward and check that the next character is space, an end punctuation, a final quote or the end of the string (that is <code>\\Z</code>)</li>
+<a href="http://www.fileformat.info/info/unicode/category/index.htm">unicode categories</a>, in particular all &lsquo;other&rsquo; punctuation, start and end punctuation (brackets, braces, etc.), initial and final quotes, and long dashes. Finally, the group has two unwanted elements &ldquo;.&rdquo; and ', which are removed.</li>
+<li><code>(?<!(\\.|\\.\\p{L}))\\.(?=[\\p{Z}\\p{Pf}\\p{Pe}]|\\Z)</code>: This is for full stops, they are kind of hard, as we would like to avoid splitting &ldquo;I.B.M.&rdquo; and of course ellipses. First we use a zero-width look-behind assertion to check that we don't have another full stop or a letter then a full stop. The we look forward and check that the next character is space, an end punctuation, a final quote or the end of the string (that is <code>\\Z</code>)</li>
 <li><code>(?<!\\p{L})'(?!\\p{L}))</code>: This finally matches all single quotes, that aren’t  between two letters... ’tis not always correct, but...</li>
 
 <p>The replacement string is then simply whatever matched with a space either side. This generates some extra spaces, of course.</p>
@@ -41,6 +41,6 @@ string.replaceAll("(\\.\\.\\.+|[\\p{Po}\\p{Ps}\\p{Pe}\\p{Pi}\\p{Pf}\u2013\u2014\
 
 <p>Finally, we split the text according to the Unicode spaces that are now in the text. This also eliminates all the extra spaces we created in the first step</p>
 
-<p>This tokenization is a little different to some of the more widely known ones, such as the Penn Tree Bank method or Lucene’s, however it does not change the original text other than white-space and is very easy-to-use, plus it has no special rules for English and should work well on most languages (with some obvious exception such as Chinese, Japanese and Korean).</p>
+<p>This tokenization is a little different to some of the more widely known ones, such as the <a href="http://www.cis.upenn.edu/~treebank/tokenization.html">Penn Tree Bank method</a> or Lucene's, however it does not change the original text other than white-space and is very easy-to-use, plus it has no special rules for English and should work well on most languages (with some obvious exception such as Chinese, Japanese and Korean).</p>
 </div>
 <?php include '../footer.html'; ?>

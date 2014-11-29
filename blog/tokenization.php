@@ -1,6 +1,6 @@
 <?php include '../header.html'; ?>
 <div class="row">
-<div class="col-lg-8 col-lg-offset-2">
+<div class="col-lg-8 col-lg-offset-3">
 <h1>A simple regular expression for tokenization of (most) natural language</h1>
 
 <p>I often need to tokenize text and have generally relied on the following fairly simple regular expression to do the trick</p>

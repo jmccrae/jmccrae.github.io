@@ -77,13 +77,17 @@
             </div>
             <div class="row col-lg-6 col-lg-offset-3 nav_row">
                 <ul class="my_nav">
-                    <?php if($_SERVER['PHP_SELF'] == "index.php") { ?><li class="my_active"><?php } else { echo($_SERVER['SCRIPT_NAME']); ?><li><?php } ?>
+                    <?php if($_SERVER['SCRIPT_NAME'] == "/index.php") { ?><li class="my_active"><?php } else { ?><li><?php } ?>
                         <a href="/index">About</a></li>
-                    <li><a href="/edu_employ">CV</a></li>
-                    <li><a href="/publications">Publications</a></li>
-                    <li><a href="/activities">Activities</a></li>
+                    <?php if($_SERVER['SCRIPT_NAME'] == "/edu_employ.php") { ?><li class="my_active"><?php } else { ?><li><?php } ?>
+                        <a href="/edu_employ">CV</a></li>
+                    <?php if($_SERVER['SCRIPT_NAME'] == "/publications.php") { ?><li class="my_active"><?php } else { ?><li><?php } ?>
+                        <a href="/publications">Publications</a></li>
+                    <?php if($_SERVER['SCRIPT_NAME'] == "/activities.php") { ?><li class="my_active"><?php } else { ?><li><?php } ?>
+                        <a href="/activities">Activities</a></li>
                     <li><img src="/icon_18493.png" height="25px" style="padding-bottom: 6px;"/></li>
-                    <li><a href="/blog/index">Blog</a></li>
+                    <?php if($_SERVER['SCRIPT_NAME'] == "/blog/index.php") { ?><li class="my_active"><?php } else { ?><li><?php } ?>
+                        <a href="/blog/index">Blog</a></li>
                     <li><a href="https://github.com/jmccrae">GitHub</a></li>
                 </ul>
             </div>

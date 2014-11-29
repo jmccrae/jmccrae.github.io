@@ -69,15 +69,15 @@ curl_close($ch);
 
     <p>Now the final step is to register the resource with <a href="http://thedatahub.org/">CKAN</a>. To do this we simply go to the website, create a user account and fill in the form thus:</p>
 
-    <img src="screenshot-from-2012-08-30-184546.png"/>
+    <img src="screenshot-from-2012-08-30-184546.png" width="100%"/>
 
     <p>In particular we added the following URLs</p>
 
     <ul>
-        <li>The welcome page: http://lexinfo.net/corpora/alpino/index.html</li>
-        <li>The SPARQL endpoint: http://lexinfo.net/corpora/alpino/query.php</li>
-        <li>The ZIP of files: http://lexinfo.net/corpora/alpino/alpino-rdf.zip</li>
-        <li>An example page: http://lexinfo.net/corpora/alpino/123.rdf</li>
+        <li>The welcome page: <a href="http://lexinfo.net/corpora/alpino/index.html">http://lexinfo.net/corpora/alpino/index.html</a></li>
+        <li>The SPARQL endpoint: <a href="http://lexinfo.net/corpora/alpino/query.php">http://lexinfo.net/corpora/alpino/query.php</a></li>
+        <li>The ZIP of files: <a href="http://lexinfo.net/corpora/alpino/alpino-rdf.zip">http://lexinfo.net/corpora/alpino/alpino-rdf.zip</a></li>
+        <li>An example page: <a href="http://lexinfo.net/corpora/alpino/123.rdf">http://lexinfo.net/corpora/alpino/123.rdf</a></li>
     </ul>
 
     <p>Finally we send a mail to the open linguistics list to announce the <a href="http://linguistics.okfn.org/">Open Linguistics Working Group</a>.

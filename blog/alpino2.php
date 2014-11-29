@@ -1,5 +1,5 @@
 <?php include '../header.html'; ?>
-<div class="row col-lg-9 col-lg-offset-3">
+<div class="row col-lg-6 col-lg-offset-3">
     
     <h1>Lexical Linked Data Case Study: ALPINO Treebank - Part 2</h1>
 

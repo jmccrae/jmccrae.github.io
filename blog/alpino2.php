@@ -3,7 +3,7 @@
     
     <h1>Lexical Linked Data Case Study: ALPINO Treebank - Part 2</h1>
 
-    <p>Following on from the <a href="alpino">previous post</p>, we will now create a SPARQL endpoint so that we can query the contents of the data. To do this we will use the light-weight engine <a href="http://4store.org/">4store</a>. The first task is to set up the task, on an Ubuntu based machine this is simply achieved with</p>
+    <p>Following on from the <a href="alpino">previous post</a>, we will now create a SPARQL endpoint so that we can query the contents of the data. To do this we will use the light-weight engine <a href="http://4store.org/">4store</a>. The first task is to set up the task, on an Ubuntu based machine this is simply achieved with</p>
 
 <pre><code>sudo apt-get install 4store</code></pre>
 

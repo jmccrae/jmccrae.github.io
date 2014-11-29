@@ -1,0 +1,13 @@
+Option -Multiviews
+
+RewriteEngine on
+
+RewriteRule ^(.*)$ $1.php
+
+<Files header.html>
+    Deny from all
+</Files>
+
+<Files footer.html>
+    Deny from all
+</Files>

@@ -5,8 +5,7 @@
     <h3>Old posts</h3>
     <ul>
         <li><a href="tokenization">A simple regular expression for tokenization of (most) natural language</a></li>
-        <li><a href="alpino">Lexical Linked Data Case Study: ALPINO Treebank</a> (
-<a href="alpino2">Part 2</a>)</li>
+        <li><a href="alpino">Lexical Linked Data Case Study: ALPINO Treebank</a> (<a href="alpino2">Part 2</a>)</li>
     </ul>
 
 

@@ -77,7 +77,8 @@
             </div>
             <div class="row col-lg-6 col-lg-offset-3 nav_row">
                 <ul class="my_nav">
-                    <li <?php if($_SERVER['PHP_SELF'] == "index.php") { ?> class="my_active" <?php}?>><a href="/index">About</a></li>
+                    <?php if($_SERVER['PHP_SELF'] == "index.php") { ?><li class="my_active"><?php } else { ?><li><?php } ?>
+                        <a href="/index">About</a></li>
                     <li><a href="/edu_employ">CV</a></li>
                     <li><a href="/publications">Publications</a></li>
                     <li><a href="/activities">Activities</a></li>

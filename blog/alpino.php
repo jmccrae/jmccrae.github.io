@@ -90,45 +90,45 @@ Content-Type: application/rdf+xml
 <p>It works... Now to link it to something. Inspecting the data, there are three clear groups of categories in the corpus, &ldquo;cat&rdquo; for categories/phrase types, &ldquo;rel&rdquo; for dependency relations and &ldquo;pos&rdquo; for part-of-speech tags. Many of these can be aligned to a data category registry or linguistic ontology. I choose to provide alignments to <a href="http://www.isocat.org/">ISOcat</a> and to <a href="http://www.lexinfo.net/">LexInfo</a>. This was performed by creating an OWL ontology to describe the categories used in the resource, for example the following describes &ldquo;adverbs&rdquo; in ALPINO</p>
 
 <pre><code>
-<owl:NamedIndividual rdf:about="http://lexinfo.net/corpora/alpino/categories#adv">
-   <rdf:type rdf:resource="http://lexinfo.net/corpora/alpino/categories#PartOfSpeech"/>
-   <rdfs:label xml:lang="en">Adverb</rdfs:label>
-   <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-1232"/>
-   <owl:sameAs rdf:resource="&lexinfo;adverb"/>
-</owl:NamedIndividual>
+&lt;owl:NamedIndividual rdf:about="http://lexinfo.net/corpora/alpino/categories#adv"&gt;
+   &lt;rdf:type rdf:resource="http://lexinfo.net/corpora/alpino/categories#PartOfSpeech"/&gt;
+   &lt;rdfs:label xml:lang="en"&gt;Adverb&lt;/rdfs:label&gt;
+   &lt;dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-1232"/&gt;
+   &lt;owl:sameAs rdf:resource="&lexinfo;adverb"/&gt;
+&lt;/owl:NamedIndividual&gt;
 </code></pre>
 
 <p>Finally we modify the XSLT to use these new categories, in particular we modify the script at line 105 (green is new code), so that it generates a triple with a URI object as follows</p>
 
 <code><pre>
-<xsl:choose>
-  <xsl:when test="name()='rel'">
-    <cat:rel>
-      <xsl:attribute name="rdf:resource">
-        <xsl:value-of select="concat('http://lexinfo.net/corpora/alpino/categories#',.)"/>
-      </xsl:attribute>
-    </cat:rel>
-  </xsl:when>
-  <xsl:when test="name()='cat'">
-    <cat:cat>
-      <xsl:attribute name="rdf:resource">
-        <xsl:value-of select="concat('http://lexinfo.net/corpora/alpino/categories#',.)"/>
-      </xsl:attribute>
-    </cat:cat>
-  </xsl:when>
-  <xsl:when test="name()='pos'">
-    <cat:pos>
-      <xsl:attribute name="rdf:resource">
-        <xsl:value-of select="concat('http://lexinfo.net/corpora/alpino/categories#',.)"/>
-      </xsl:attribute>
-    </cat:pos>
-  </xsl:when>
-  <xsl:otherwise>
-     <xsl:element name="{name()}" namespace="{$ns}">
-       <xsl:value-of select="."/>
-     </xsl:element>
-   </xsl:otherwise>
- </xsl:choose>
+&lt;xsl:choose&gt;
+  &lt;xsl:when test="name()='rel'"&gt;
+    &lt;cat:rel&gt;
+      &lt;xsl:attribute name="rdf:resource"&gt;
+        &lt;xsl:value-of select="concat('http://lexinfo.net/corpora/alpino/categories#',.)"/&gt;
+      &lt;/xsl:attribute&gt;
+    &lt;/cat:rel&gt;
+  &lt;/xsl:when&gt;
+  &lt;xsl:when test="name()='cat'"&gt;
+    &lt;cat:cat&gt;
+      &lt;xsl:attribute name="rdf:resource"&gt;
+        &lt;xsl:value-of select="concat('http://lexinfo.net/corpora/alpino/categories#',.)"/&gt;
+      &lt;/xsl:attribute&gt;
+    &lt;/cat:cat&gt;
+  &lt;/xsl:when&gt;
+  &lt;xsl:when test="name()='pos'"&gt;
+    &lt;cat:pos&gt;
+      &lt;xsl:attribute name="rdf:resource"&gt;
+        &lt;xsl:value-of select="concat('http://lexinfo.net/corpora/alpino/categories#',.)"/&gt;
+      &lt;/xsl:attribute&gt;
+    &lt;/cat:pos&gt;
+  &lt;/xsl:when&gt;
+  &lt;xsl:otherwise&gt;
+     &lt;xsl:element name="{name()}" namespace="{$ns}"&gt;
+       &lt;xsl:value-of select="."/&gt;
+     &lt;/xsl:element&gt;
+   &lt;/xsl:otherwise&gt;
+ &lt;/xsl:choose&gt;
 </pre></code>
 
 <p>We apply this and publish this and our ontology and have the first version of our linked data corpora.</p>

@@ -1,6 +1,11 @@
 <?php include 'header.html'; ?>
              <div class="row col-lg-6 col-lg-offset-3">
 
+                <p><b><a class="publication" href="http://ceur-ws.org/Vol-1272/paper_82.pdf">
+                Representing Swedish Lexical Resources in RDF with lemon</a></b>
+                L. Borin, D. Dannells, M. Forsberg, J.P. McCrae, <i>
+Proceedings of the ISWC 2014 Posters & Demonstrations Track
+a track within the 13th International Semantic Web Conference</i>, (2014).</p>
                  <p><b><a class="publication" href="https://dl.dropboxusercontent.com/u/2265375/LDQ/ldq2014_submission_4.pdf">
                          Towards assured data quality and validation by data certification.</a></b> 
                  J.P. McCrae, C. Wiljes, P. Cimiano, <i>Proceedings of the 1st Workshop on Linked Data Quality</i>, (2014).</p>

@@ -1,7 +1,7 @@
 <?php include 'header.html'; ?>
             <div class="row">
                 <div class="col-lg-2 col-lg-offset-3">
-                    <img src="http://www.sc.cit-ec.uni-bielefeld.de/images/jmccrae.jpg" property="foaf:depiction" class="depiction"/>
+                    <img src="/me_circle.jpg" property="foaf:depiction" class="depiction"/>
                 </div>
                 <div class="col-lg-4">
                     <p>

@@ -3,6 +3,7 @@
                 <div class="pageTop">
                     <h2>Recent and Current Activities</h2>
                     <ul>
+                        <li>Organizer of <a href="http://datathon.lider-project.eu/">1st Summer Datathon on Linguistic Linked Open Data</a></li>
                         <li>
                         Co-chair of 4th Workshop on Linked Data in Linguistics</a> collocated with the 
                     <a href="http://acl2015.org/">ACL-IJCNLP 2015</a>.
@@ -34,6 +35,7 @@
                     </ul>
                     <h2>Invited Talks</h2>
 
+                    <p><b><a class="publication" href="linghub-oeg/slides.html">Linghub: Reconciling Heterogeneous Metadata about Language Resources</a></b>, Invited talk at the Ontology Engineering Group, Polytechnic University of Madrid</p>
                     <p>Keynote speaker at 5th Meeting of MUMIA project, June 2013</p>
                     <p><b><a class="publication" href="http://lemon-model.net/papers/gothenburg-lemon-28.01.2013.pdf">Modelling the ontology-lexicon interface with lemon</a></b> Invited talk at CLT Seminar, 
                       <a href="http://spraakbanken.gu.se/">Spr&aring;kbanken, University of Gothenburg</a>. 28/01/2013

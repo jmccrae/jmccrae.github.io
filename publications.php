@@ -1,6 +1,20 @@
 <?php include 'header.html'; ?>
              <div class="row col-lg-6 col-lg-offset-3">
 
+                <p><b><a class="publication" href="#">
+One ontology to bind them all: The META-SHARE OWL ontology for the interoperability of linguistic datasets on the Web</a></b>
+                J.P. McCrae, P. Labropoulou, J. Gracia, M. Villegas, V. Rodriguez Doncel and P. Cimiano, <i>Proceedings of the 4th Workshop on the Multilingual Semantic Web</i>, (2015, accepted).</p>
+
+                <p><b><a class="publication" href="#">
+                LIME: the Metadata Module for OntoLex</a></b>
+                M. Fiorelli, A. Stellato, J.P. McCrae, P. Cimiano and M.T. Pazienza, <i>Proceedings of 12th Extended Semantic Web Conference</i>, (2015, accepted).</p>
+                <p><b><a class="publication" href="http://semantic-web-journal.net/content/multilingual-linked-data">Multilingual Linked Data (Editorial)</a></b>
+                J.P. McCrae, S. Moran, S. Hellmann and M. Brümmer, <i>Semantic Web Journal</i>, (2015, in press).</p>
+
+                <p><b><a class="publication" href="#">
+                Language Resources and Linked Data: A Practical Perspective</a></b>
+                J. Gracia, D. Vila-Suero, J.P. McCrae, T. Flati, C. Baron and M. Dojchinovski, <i>Knowledge Engineering and Knowledge Management, Springer</i>, (2015, in press).</p>
+
                 <p><b><a class="publication" href="http://ceur-ws.org/Vol-1272/paper_82.pdf">
                 Representing Swedish Lexical Resources in RDF with lemon</a></b>
                 L. Borin, D. Dannells, M. Forsberg, J.P. McCrae, <i>

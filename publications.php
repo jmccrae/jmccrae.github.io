@@ -74,15 +74,15 @@
                             Trends of Research in Ontologies and Lexical Resources </SPAN></I><SPAN ><SPAN >, pp 43-62 (2013).</SPAN></SPAN>
                     </P>
                     <P>
-                        <A class="publication" HREF="http://nadir.uc3m.es/feosw2012/proceedings/FEOSWp1.pdf"><U><B>Using
-                            SPIN to formalize accounting regulation on the Semantic Web.</B></U></A><SPAN >D. Spohr, P. Cimiano, J.
+                        <A class="publication" HREF="http://nadir.uc3m.es/feosw2012/proceedings/FEOSWp1.pdf"><B>Using
+                            SPIN to formalize accounting regulation on the Semantic Web.</B></A><SPAN >D. Spohr, P. Cimiano, J.
                             McCrae, S. O'Riain. </SPAN>First International Workshop on Finance
                         and Economics on the Semantic Web in conjunction with 9th Extended
                         Semantic Web Conference, pp 1-15 (2012).
                     </P>
                     <P>
-                        <B><A class="publication" HREF="http://www.lrec-conf.org/proceedings/lrec2012/pdf/544_Paper.pdf"><U>Collaborative
-                            semantic editing of linked data lexica.</U></A> </B><SPAN >J.
+                        <B><A class="publication" HREF="http://www.lrec-conf.org/proceedings/lrec2012/pdf/544_Paper.pdf">Collaborative
+                            semantic editing of linked data lexica.</A> </B><SPAN >J.
                             McCrae, E. Montiel-Ponsoda, P. Cimiano. In Proc. of the 2012
                             International Conference on Language Resource and Evaluation, pp
                             2619-2625 (2012).</SPAN>

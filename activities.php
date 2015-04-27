@@ -23,7 +23,7 @@
                             Co-chair of 2nd Workshop on the <a href="http://msw2.deri.ie">Multilingual Semantic Web</a> at <a href="http://iswc2011.semanticweb.org/">ISWC-2011</a>
                         </li>
                         <li>
-                            Organizer of tutorials on <a href="http://www.sc.cit-ec.uni-bielefeld.de/events/eswli2011">Enriching the Semantic Web with Linguistic Information</a> at <a href="http://www.eswc2011.org/">ESWC-2011</a> and <a href="http://www.sc.cit-ec.uni-bielefeld.de/content/enriching-web-ontology-lexica">Enriching the Web with Ontology-lexica</a> at <a href="http://www.lrec-conf.org/lrec2012/">LREC-2012</a>
+                            Organizer of tutorials on <a href="http://www.sc.cit-ec.uni-bielefeld.de/en/veranstaltung/eswli2011">Enriching the Semantic Web with Linguistic Information</a> at <a href="http://www.eswc2011.org/">ESWC-2011</a> and <a href="http://www.sc.cit-ec.uni-bielefeld.de/en/veranstaltung/enriching-web-ontology-lexica">Enriching the Web with Ontology-lexica</a> at <a href="http://www.lrec-conf.org/lrec2012/">LREC-2012</a>
                         </li>
                         <li>
                             Lead developer of <a href="http://lemon-model.net/">Lemon (Lexicon Model for Ontologies)</a>

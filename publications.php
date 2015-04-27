@@ -20,7 +20,7 @@ One ontology to bind them all: The META-SHARE OWL ontology for the interoperabil
                 L. Borin, D. Dannells, M. Forsberg, J.P. McCrae, <i>
 Proceedings of the ISWC 2014 Posters & Demonstrations Track
 - a track within the 13th International Semantic Web Conference</i>, pp 329-332 (2014).</p>
-                 <p><b><a class="publication" href="https://dl.dropboxusercontent.com/u/2265375/LDQ/ldq2014_submission_4.pdf">
+                 <p><b><a class="publication" href="http://ceur-ws.org/Vol-1215/paper-05.pdf">
                          Towards assured data quality and validation by data certification.</a></b> 
                  J.P. McCrae, C. Wiljes, P. Cimiano, <i>Proceedings of the 1st Workshop on Linked Data Quality</i>, (2014).</p>
                  <p><b><a href="http://alt.qcri.org/semeval2014/cdrom/pdf/SemEval016.pdf">

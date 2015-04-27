@@ -9,7 +9,7 @@ One ontology to bind them all: The META-SHARE OWL ontology for the interoperabil
                 LIME: the Metadata Module for OntoLex</a></b>
                 M. Fiorelli, A. Stellato, J.P. McCrae, P. Cimiano and M.T. Pazienza, <i>Proceedings of 12th Extended Semantic Web Conference</i>, (2015, accepted).</p>
                 <p><b><a class="publication" href="http://semantic-web-journal.net/content/multilingual-linked-data">Multilingual Linked Data (Editorial)</a></b>
-                J.P. McCrae, S. Moran, S. Hellmann and M. Brümmer, <i>Semantic Web Journal</i>, (2015, in press).</p>
+                J.P. McCrae, S. Moran, S. Hellmann and M. Br&uuml;mmer, <i>Semantic Web Journal</i>, (2015, in press).</p>
 
                 <p><b><a class="publication" href="#">
                 Language Resources and Linked Data: A Practical Perspective</a></b>

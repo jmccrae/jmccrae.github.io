@@ -1,6 +1,11 @@
 <?php include 'header.html'; ?>
              <div class="row col-lg-6 col-lg-offset-3">
 
+                <p><b><a class="publication" href="http://ceur-ws.org/Vol-1272/paper_82.pdf">
+                Representing Swedish Lexical Resources in RDF with lemon</a></b>
+                L. Borin, D. Dannells, M. Forsberg, J.P. McCrae, <i>
+Proceedings of the ISWC 2014 Posters & Demonstrations Track
+- a track within the 13th International Semantic Web Conference</i>, pp 329-332 (2014).</p>
                  <p><b><a class="publication" href="https://dl.dropboxusercontent.com/u/2265375/LDQ/ldq2014_submission_4.pdf">
                          Towards assured data quality and validation by data certification.</a></b> 
                  J.P. McCrae, C. Wiljes, P. Cimiano, <i>Proceedings of the 1st Workshop on Linked Data Quality</i>, (2014).</p>
@@ -26,7 +31,7 @@
                  <p><b><a href="http://lemon-model.net/papers/lemonBabelNet.pdf">
                          Representing Multilingual Data as Linked Data: the Case of BabelNet 2.0.</b></a> 
                  M. Ehrmann, F. Ceconi, D. Vannella, J.P. McCrae, P. Cimiano, R. Navigli. 
-                 <i>Proceedings of the 9th Language Resource and Evaluation Conference</i> (2014).</p>
+                 <i>Proceedings of the 9th Language Resource and Evaluation Conference</i> pp. 401-408, (2014).</p>
                  <p><b><a href="http://lemon-model.net/papers/Towards3LD.pdf">
                          3LD: Towards high quality, industry-ready Linguistic Linked Linguistic Data.</b></a>
                   D. Vila-Suero, V. Rodr&iacute;guez-Doncel, A. G&oacute;mez-P&eacute;rez, P. Cimiano, J.P. McCrae, G. Aguado-de-Cea. 

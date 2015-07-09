@@ -2,18 +2,40 @@
              <div class="row col-lg-6 col-lg-offset-3">
 
                 <p><b><a class="publication" href="#">
+                Linking Four Heterogeneous Language Resources as Linked Data</a></b>
+                B. Siemoneit, J.P. McCrae and P. Cimiano, <i>Proceedings of the 4th
+                Workshop on Linked Data in Linguistics</i>, (2015, accepted).</p>
+
+                <p><b><a class="publication" href="#">
+                Reconciling Heterogeneous Descriptions of Language Resources</a></b>
+                J.P. McCrae, P. Cimiano, V. Rodriguez-Doncel, D. Vila Suero, 
+                J. Gracia, L. Matteis, R. Navigli, A. Abele, G. Vulcu and P. Buitelaar, <i>Proceedings of the 4th
+                Workshop on Linked Data in Linguistics</i>, (2015, accepted).</p>
+
+                <p><b><a class="publication" href="#">
+                Linked Terminology: Applying Linked Data Principles to
+Terminological Resources</a></b>
+                P. Cimiano, J.P. McCrae, V. Rodríguez-Doncel, T. Gornostay,
+A. Gómez-Pérez, B. Siemoneit, A. Lagzdins, <i>Proceedings of eLex 2015</i>, (2015, accepted).</p>
+
+                <p><b><a class="publication" href="#">
 One ontology to bind them all: The META-SHARE OWL ontology for the interoperability of linguistic datasets on the Web</a></b>
                 J.P. McCrae, P. Labropoulou, J. Gracia, M. Villegas, V. Rodriguez Doncel and P. Cimiano, <i>Proceedings of the 4th Workshop on the Multilingual Semantic Web</i>, (2015, accepted).</p>
 
-                <p><b><a class="publication" href="#">
+                <p><b><a class="publication" href="http://link.springer.com/chapter/10.1007/978-3-319-18818-8_20#page-1">
                 LIME: the Metadata Module for OntoLex</a></b>
-                M. Fiorelli, A. Stellato, J.P. McCrae, P. Cimiano and M.T. Pazienza, <i>Proceedings of 12th Extended Semantic Web Conference</i>, (2015, accepted).</p>
-                <p><b><a class="publication" href="http://semantic-web-journal.net/content/multilingual-linked-data">Multilingual Linked Data (Editorial)</a></b>
-                J.P. McCrae, S. Moran, S. Hellmann and M. Br&uuml;mmer, <i>Semantic Web Journal</i>, (2015, in press).</p>
+                M. Fiorelli, A. Stellato, J.P. McCrae, P. Cimiano and M.T. Pazienza, <i>Proceedings of 12th Extended Semantic Web Conference</i>, (2015).</p>
 
-                <p><b><a class="publication" href="#">
+                <p><b><a class="publication" href="http://semantic-web-journal.net/content/multilingual-linked-data">Multilingual Linked Data (Editorial)</a></b>
+                J.P. McCrae, S. Moran, S. Hellmann and M. Br&uuml;mmer, <i>Semantic Web Journal</i>, (2015).</p>
+
+                <p><b><a class="publication" href="http://link.springer.com/chapter/10.1007/978-3-319-17966-7_1">
                 Language Resources and Linked Data: A Practical Perspective</a></b>
-                J. Gracia, D. Vila-Suero, J.P. McCrae, T. Flati, C. Baron and M. Dojchinovski, <i>Knowledge Engineering and Knowledge Management, Springer</i>, (2015, in press).</p>
+                J. Gracia, D. Vila-Suero, J.P. McCrae, T. Flati, C. Baron and M. Dojchinovski, <i>Knowledge Engineering and Knowledge Management, Springer</i>, (2015).</p>
+        
+                <p><b><a class="publication" href="http://link.springer.com/chapter/10.1007%2F978-3-662-43585-4_2#page-1">
+                    Design Patterns for Engineering the Ontology-Lexicon Interface</a></b>
+                J.P. McCrae and C. Unger, <i>In: Towards the Multilingual Semantic Web, P. Buitelaar and P. Cimiano (eds)</i> pp. 15-30, (2014).</p>
 
                 <p><b><a class="publication" href="http://ceur-ws.org/Vol-1272/paper_82.pdf">
                 Representing Swedish Lexical Resources in RDF with lemon</a></b>

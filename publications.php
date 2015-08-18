@@ -147,7 +147,7 @@ Proceedings of the ISWC 2014 Posters & Demonstrations Track
                             McCrae, G. Aguado-de-Cea, P. Buitelaar, P. Cimiano, T. Declerck, A.
                             G&oacute;mez-P&eacute;rez, J. Gracia, L. Hollink, E. Montiel-Ponsoda,
                             D. Spohr, T. Wunner. </SPAN><I><SPAN >Language
-                            Resources and Evaluation </SPAN></I><SPAN ><SPAN >(2012).</SPAN></SPAN>
+                            Resources and Evaluation 46.6 pp 701-709</SPAN></I><SPAN ><SPAN >(2012).</SPAN></SPAN>
                     </P>
                     <P>
                         <A class="publication" HREF="http://www-old.sc.linked-open-science.org/sites/www-old.sc.linked-open-science.org/files/paper_0.pdf"><B>LexInfo:

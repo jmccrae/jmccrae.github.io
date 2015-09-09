@@ -16,6 +16,9 @@
                     <h2>Employment</h2>
                     <ul>
                         <li>
+                        <b>Aug 2015 -</b>: <a href="http://www.insight-centre.org/">Insight Centre for Data Analytics</a> Research Fellow.
+                        </li>
+                        <li>
                         <b>Oct 2009 -</b>: <a href="https://www.cit-ec.de/">Cognitive Interaction Technology Excellence Cluster</a> Research Assistant ("Wissenschaftlicher Mitarbeiter"), <a href="http://www.monnet-project.eu/">Monnet Project</a>, 
                         <a href="https://sites.google.com/site/portdial2/">PortDial Project</a>,
                         <a href="http://lider-project.eu/">LIDER Project</a>.

@@ -1,0 +1,419 @@
+{
+    "@context": {
+        "swrc":     "http://swrc.ontoware.org/ontology#",
+        "title":      "swrc:title",
+        "author":     "swrc:author",
+        "journal":    "swrc:journal",
+        "volume":     "swrc:volume",
+        "number":     "swrc:number",
+        "pages":      "swrc:pages",
+        "year":       "swrc:year",
+        "booktitle":  "swrc:booktitle",
+        "publisher":  "swrc:publisher",
+        "editor":     "swrc:editor",
+        "school":     "swrc:school",
+        "url":        "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "@graph": [ 
+    {
+        "@id":       "mccrae2015multilingual",
+        "@type":     "swrc:Article",
+        "title":     "Multilingual Linked Data (editorial)",
+        "author":    ["John P. McCrae", "Steven Moran", "Sebastian Hellmann", "Martin Brümmer"],
+        "journal":   "Semantic Web",
+        "volume":    6,
+        "number":    4,
+        "pages":     "315--317",
+        "year":      2015,
+        "url":      "http://semantic-web-journal.net/content/multilingual-linked-data"
+    },{
+        "@id":       "ecklekohler2015",
+        "@type":     "swrc:Article",
+        "title":     "lemon{U}by - a large, interlinked, syntactically-rich lexical resource for ontologies",
+        "author":    ["Judith Eckle-Kohler", "John McCrae", "Christian Chiarcos"],
+        "journal":   "Semantic Web",
+        "volume":    6,
+        "number":    4,
+        "pages":     "315--317",
+        "year":      2015,
+        "url":      "http://www.semantic-web-journal.net/content/lemonuby-large-interlinked-syntactically-rich-lexical-resource-ontologies-1"
+    },{
+        "@id":       "mccrae2015linghub",
+        "@type":     "swrc:Proceedings",
+        "title":     "Linghub: a Linked Data based portal supporting the discovery of language resources",
+        "author":    ["John P. McCrae", "Philipp Cimiano"],
+        "booktitle": "Proceedings of 11th International Conference on Semantic Systems",
+        "year":      "2015"
+    },{
+        "@id":       "siemoneit2015linking",
+        "@type":     "swrc:InProceedings",
+        "title":     "Linking Four Heterogeneous Language Resources as Linked Data",
+        "author":    ["Benjamin Siemoneit", "John P. McCrae", "Philipp Cimiano"],
+        "booktitle": "Proceedings of the 4th Workshop on Linked Data in Linguistics",
+        "year":      "2015",
+        "pages":     "59--63",
+        "url":      "http://www.aclweb.org/anthology/W15-4207"
+    },{
+        "@id":       "mccrae2015reconciling",
+        "@type":     "swrc:InProceedings",
+        "title":     "Reconciling Heterogeneous Descriptions of Language Resources",
+        "author":    ["John P. McCrae", "Philipp Cimiano", "Victor Rodriguez-Doncel", "Daniel Vila-Suero", "Jorge Gracia", "Luca Matteis", "Roberto Navigli", "Andrejs Abele", "Gabriela Vulcu", "Paul Buitelaar"],
+        "booktitle": "Proceedings of the 4th Workshop on Linked Data in Linguistics",
+        "year":      "2015",
+        "pages":     "39--48",
+        "url":      "http://www.aclweb.org/anthology/W/W15/W15-4205.pdf"
+    },{
+        "@id":       "cimiano2015linked",
+        "@type":     "swrc:Proceedings",
+        "title":     "Linked Terminology: Applying Linked Data Principles to Terminological Resources",
+        "author":    ["Philipp Cimiano", "John P. McCrae", "Victor Rodriguez-Doncel", "Tatiana Gornostaya", "Asuncion Gómez-Pérez", "Benjamin Siemoneit", "Andis Lagzdins"],
+        "booktitle": "Proceedings of eLex 2015",
+        "year":      2015,
+        "pages":     "504--517",
+        "url":       "https://elex.link/elex2015/proceedings/eLex_2015_34_Cimiano+etal.pdf"
+    },{
+        "@id":       "mccrae2015metashare",
+        "@type":     "swrc:InProceedings",
+        "title":     "One ontology to bind them all: The META-SHARE OWL ontology for the interoperability of linguistic datasets on the Web",
+        "author":    ["John P. McCrae", "Penny Labropoulou", "Jorge Gracia", "Marta Villegas", "Victor Rodriguez-Doncel", "Philipp Cimiano"],
+        "booktitle": "Proceedings of the 4th Workshop on the Multilingual Semantic Web",
+        "year":      "2015"
+    },{
+        "@id":       "fiorelli2015lime",
+        "@type":     "swrc:Proceedings",
+        "title":     "LIME: the Metadata Module for OntoLex",
+        "author":    ["Manuel Fiorelli", "Armando Stellato", "John P. McCrae", "Philipp Cimiano", "Maria Teresa Pazienza"],
+        "booktitle": "Proceedings of 12th Extended Semantic Web Conference",
+        "year":      2015,
+        "url":       "http://link.springer.com/chapter/10.1007/978-3-319-18818-8_20#page-1"
+    },{
+        "@id":       "gracia2015language",
+        "@type":     "swrc:InCollection",
+        "url":       "http://link.springer.com/chapter/10.1007/978-3-319-17966-7_1",
+        "title":     "Language Resources and Linked Data: A Practical Perspective",
+        "author":    ["Jorge Gracia", "Daniel Vila-Suero", "John P. McCrae", "Tiziano Flati", "Ciro Baron", "Milan Dojchinovski"],
+        "booktitle": "Knowledge Engineering and Knowledge Management",
+        "publisher": "Springer",
+        "year":      2015
+    },{
+        "@id":       "mccrrea2014design",
+        "@type":     "swrc:InCollection",
+        "url":       "http://link.springer.com/chapter/10.1007%2F978-3-662-43585-4_2#page-1",
+        "title":     "Design Patterns for Engineering the Ontology-Lexicon Interface",
+        "author":    ["John P. McCrae", "Christina Unger"],
+        "booktitle": "Towards the Multilingual Semantic Web",
+        "editor":    ["Paul Buitelaar", "Philipp Cimiano"],
+        "pages":     "15-30",
+        "year":      2014
+    },{
+        "@id":       "borin2014representing",
+        "@type":     "swrc:Proceedings",
+        "url":       "http://ceur-ws.org/Vol-1272/paper_82.pdf",
+        "title":     "Representing Swedish Lexical Resources in RDF with lemon",
+        "author":    ["Lars Borin", "Dana Dannells", "Markus Forsberg", "John P. McCrae"],
+        "booktitle": "Proceedings of the ISWC 2014 Posters & Demonstrations Track - a track within the 13th International Semantic Web Conference",
+        "pages":     "329-332",
+        "year":      2014
+    },{
+        "@id":       "mccrae2014towards",
+        "@type":     "swrc:InProceedings",
+        "url":       "http://ceur-ws.org/Vol-1215/paper-05.pdf",
+        "title":     "Towards assured data quality and validation by data certification",
+        "author":    ["John P. McCrae", "Cord Wiljes", "Philipp Cimiano"],
+        "booktitle": "Proceedings of the 1st Workshop on Linked Data Quality",
+        "year":      2014
+    },{
+        "@id":       "mccrae2014bielefeld",
+        "@type":     "swrc:InProceedings",
+        "url":       "http://alt.qcri.org/semeval2014/cdrom/pdf/SemEval016.pdf",
+        "title":     "Bielefeld SC: Orthonormal Topic Modelling for Grammar Induction",
+        "author":    ["John P. McCrae", "Philipp Cimiano"],
+        "booktitle": "Proceedings of the 8th International Workshop on Semantic Evaluation",
+        "year":      2014
+    },{
+        "@id":       "quattri2014default",
+        "@type":     "swrc:InProceedings",
+        "url":       "http://www.aclweb.org/anthology/W/W14/W14-47.pdf#page=152",
+        "title":     "Default Physical Measurements in SUMO",
+        "author":    ["Francesca Quattri", "Adam Pease", "John P. McCrae"],
+        "booktitle": "Proceedings of 4th Workshop on Cognitive Aspects of the Lexicon",
+        "year":      2014
+    },{
+        "@id":       "mccrae2014modelling",
+        "@type":     "swrc:InProceedings",
+        "url":       "http://anthology.aclweb.org/W/W14/W14-47.pdf#page=212",
+        "title":     "Modelling the Semantics of Adjectives in the Ontology-Lexicon Interface",
+        "author":    ["John P. McCrae", "Christina Unger", "Francesca Quattri", "Philipp Cimiano"],
+        "booktitle": "Proceedings of 4th Workshop on Cognitive Aspects of the Lexicon",
+        "year":      2014
+    },{
+        "@id":       "mccrae2014publishing",
+        "@type":     "swrc:InProceedings",
+        "url":       "https://github.com/jmccrae/wn-rdf-paper/raw/master/rdf-wordnet.pdf",
+        "title":     "Publishing and Linking WordNet using lemon and RDF",
+        "author":    ["John P. McCrae", "Christiane Fellbaum", "Philipp Cimiano"],
+        "booktitle": "Proceedings of the 3rd Workshop on Linked Data in Linguistics",
+        "year":      2014
+    },{
+        "@id":       "ehrmann2014multilingual",
+        "@type":     "swrc:InProceedings",
+        "url":       "http://lemon-model.net/papers/LBN-LDL.pdf",
+        "title":     "A Multilingual Semantic Network as Linked Data: lemon-BabelNet",
+        "author":    ["Maud Ehrmann", "Francesco Ceconi", "Daniela Vannella", "John P. McCrae", "Philipp Cimiano", "Roberto Navigli"],
+        "booktitle": "Proceedings of the 3rd Workshop on Linked Data in Linguistics",
+        "year":      2014
+    },{
+        "@id":       "ehrmann2014representing",
+        "@type":     "swrc:Proceedings",
+        "url":       "http://lemon-model.net/papers/lemonBabelNet.pdf",
+        "title":     "Representing Multilingual Data as Linked Data: the Case of BabelNet 2.0",
+        "author":    ["Maud Ehrmann", "Francesco Ceconi", "Daniela Vannella", "John P. McCrae", "Philipp Cimiano", "Roberto Navigli"],
+        "booktitle": "Proceedings of the 9th Language Resource and Evaluation Conference",
+        "pages":     "401-408",
+        "year":      2014
+    },{
+        "@id":       "vilasuero20143ld",
+        "@type":     "swrc:Proceedings",
+        "url":       "http://lemon-model.net/papers/Towards3LD.pdf",
+        "title":     "3LD: Towards high quality, industry-ready Linguistic Linked Linguistic Data",
+        "author":    ["Daniel Vila-Suero", "Victor Rodriguez-Doncel", "Asunción Gómez-Pérez", "Philipp Cimiano", "John P. McCrae", "Guadalupe Aguado-de-Cea"],
+        "booktitle": "European Data Forum 2014",
+        "year":      2014
+    },{
+        "@id":       "cimiano2014ontology",
+        "@type":     "swrc:Book",
+        "url":       "http://www.morganclaypool.com/doi/abs/10.2200/S00561ED1V01Y201401HLT024",
+        "title":     "Ontology-based interpretation of natural language",
+        "author":    ["Philipp Cimiano", "Christina Unger", "John McCrae"],
+        "publisher": "Morgen & Claypool",
+        "year":      2014
+    },{
+        "@id":       "mccrae2013orthonormal",
+        "@type":     "swrc:Proceedings",
+        "url":       "https://www.aclweb.org/anthology/D/D13/D13-1179.pdf",
+        "title":     "Orthonormal explicit topic analysis for cross-lingual document matching",
+        "author":    ["John McCrae", "Philipp Cimiano", "Roman Klinger"],
+        "booktitle": "Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing",
+        "pages":     "1732-1742",
+        "year":      2013
+    },{
+        "@id":       "unger2013lemon",
+        "@type":     "swrc:InProceedings",
+        "url":       "http://ceur-ws.org/Vol-1064/Unger_lemon.pdf",
+        "title":     "A lemon lexicon for DBpedia",
+        "author":    ["Christina Unger", "John McCrae", "Sebastian Walter", "Sara Winter", "Philipp Cimiano"],
+        "booktitle": "Proceedings of 1st International Workshop on NLP and DBpedia",
+        "year":      2013
+    },{
+        "@id":       "montiel2013multilingual",
+        "@type":     "swrc:Proceedings",
+        "url":       "https://lipn.univ-paris13.fr/tia2013/Proceedings/actesTIA2013.pdf",
+        "title":     "Multilingual variation in the context of linked data",
+        "author":    ["Elena Montiel-Ponsoda", "John McCrae", "Guadalupe Aguado-de-Cea", "Jorge Gracia"],
+        "booktitle": "Proceedings of the 10th International Conference on Terminology and Artificial Intelligence",
+        "pages":     "19-26",
+        "year":      2013
+    },{
+        "@id":       "mccrae2013mining",
+        "@type":     "swrc:InProceedings",
+        "url":       "http://www.aclweb.org/anthology/W/W13/W13-52.pdf#page=20",
+        "title":     "Mining translations from the web of open linked data",
+        "author":    ["John P. McCrae", "Philipp Cimiano"],
+        "booktitle": "Proceedings of the Joint Workshop on NLP&LOD and SWAIE: Semantic Web, Linked Open Data and Infromation Extraction",
+        "pages":     "9-13",
+        "year":      2013
+    },{
+        "@id":       "menke2013releasing",
+        "@type":     "swrc:InProceedings",
+        "url":       "http://www.ldl2013.org/proceedings.pdf",
+        "title":     "Releasing multimodal data as Linguistic Linked Open Data: An experience report",
+        "author":    ["Peter Menke", "John P. McCrae", "Philipp Cimiano"],
+        "booktitle": ["Proceedings of the 2nd Workshop on Linked Data in Linguistics"],
+        "pages":     "44-52",
+        "year":      "2013"
+    },{
+        "@id":       "chiarcos2013towards",
+        "@type":     "swrc:InCollection",
+        "url":       "http://www.lemon-model.net/papers/open-data-for-linguistics.pdf",
+        "title":     "Towards open data for linguistics: Lexical Linked Data",
+        "author":    ["Christian Chiarcos", "John McCrae", "Philipp Cimiano", "Christiane Fellbaum"],
+        "booktitle": "New Trends of Research in Ontologies and Lexical Resources",
+        "pages":     "7-25",
+        "year":      2013
+    },{
+        "@id":       "cimiano2013role",
+        "@type":     "swrc:InCollection",
+        "url":       "http://www.lemon-model.net/papers/senses.pdf",
+        "title":     "On the role of senses in the Ontology-Lexicon",
+        "author":    ["Philipp Cimiano", "John McCrae", "Paul Buitelaar", "Elena Montiel-Ponsoda"],
+        "booktitle": "New Trends of Research in Ontologies and Lexical Resources",
+        "pages":     "43-62",
+        "year":      2013
+    },{
+        "@id":       "spohr2012using",
+        "@type":     "swrc:Proceedings",
+        "url":       "http://nadir.uc3m.es/feosw2012/proceedings/FEOSWp1.pdf",
+        "title":     "Using SPIN to formalize accounting regulation on the Semantic Web",
+        "author":    ["Dennis Spohr", "Philipp Cimiano", "John McCrae", "Sean O'Riain"],
+        "booktitle": "First International Workshop on Finance and Economics on the Semantic Web in conjunction with 9th Extended Semantic Web Conference",
+        "pages":     "1-15",
+        "year":      2012
+    },{
+        "@id":       "mccrae2012collaborative",
+        "@type":     "swrc:Proceedings",
+        "url":       "http://www.lrec-conf.org/proceedings/lrec2012/pdf/544_Paper.pdf",
+        "title":     "Collaborative semantic editing of linked data lexica",
+        "author":    ["John McCrae", "Elena Montiel-Ponsoda", "Philipp Cimiano"],
+        "booktitle": "Proc. of the 2012 International Conference on Language Resource and Evaluation",
+        "pages":     "2619-2625",
+        "year":      2012
+    },{
+        "@id":       "mccrae2012three",
+        "@type":     "swrc:InProceedings",
+        "url":       "http://www-old.sc.linked-open-science.org/sites/www-old.sc.linked-open-science.org/files/crd2012.pdf",
+        "title":     "Three steps for creating high quality ontology-lexica",
+        "author":    ["John McCrae", "Philipp Cimiano"],
+        "booktitle": "Proc. of the Workshop on Collaborative Resource Development and Delivery at the 2012 International Conference on Language Resource and Evaluation",
+        "year":      2012
+    },{
+        "@id":       "mccrae2013integrating",
+        "@type":     "swrc:InCollection",
+        "url":       "http://www-old.sc.linked-open-science.org/sites/www-old.sc.linked-open-science.org/files/ldl2012_0.pdf",
+        "title":     "Integrating WordNet and Wiktionary with lemon",
+        "author":    ["John McCrae", "Philipp Cimiano", "Elena Montiel-Ponsoda"],
+        "booktitle": "Linked Data and Linguistics",
+        "editor":    ["Christian Chiarcos", "Sebastian Nordhoff", "Sebastian Hellmann"],
+        "pages":     "25-34",
+        "year":      2012
+    },{
+        "@id":       "mccrae2012interchanging",
+        "@type":     "swrc:Article",
+        "url":       "http://www-old.sc.linked-open-science.org/sites/www-old.sc.linked-open-science.org/files/paper_2.pdf",
+        "title":     "Interchanging lexical resources on the Semantic Web",
+        "author":    ["John McCrae", "Guadalupe Aguado-de-Cea", "Paul Buitelaar", "Philipp Cimiano", "Thierry Declerck", "Asunción Gómez-Pérez", "Jorge Gracia", "Laura Hollink", "Elena Montiel-Ponsoda", "Dennis Spohr", "Tobias Wunner"],
+        "journal":   "Language Resources and Evaluation",
+        "volume":    46,
+        "number":    6,
+        "pages":     "701-709",
+        "year":      2012
+    },{
+        "@id":       "cimiano2011lexinfo",
+        "@type":     "swrc:Article",
+        "url":       "http://www-old.sc.linked-open-science.org/sites/www-old.sc.linked-open-science.org/files/paper_0.pdf",
+        "title":     "LexInfo: A declarative model for the lexicon-ontology interface",
+        "author":    ["Philipp Cimiano", "Paul Buitelaar", "John McCrae", "Michael Sintek."],
+        "journal":   "Web Semantics: Science, Services and Agents on the World Wide Web",
+        "volume":    9,
+        "number":    1,
+        "pages":     "29-51",
+        "year":      2011
+    },{
+        "@id":       "gracia2011challenges",
+        "@type":     "swrc:Article",
+        "url":       "http://imap.websemanticsjournal.org/index.php/ps/article/viewFile/214/209",
+        "title":     "Challenges for the Multilingual Web of Data.",
+        "author":    ["Jorge Gracia", "Elena Montiel-Ponsoda", "Philipp Cimiano", "Asunción Gómez-Pérez", "Paul Buitelaar", "John McCrae"],
+        "journal":   "Web Semantics: Science, Services and Agents on the World Wide Web",
+        "number":    11,
+        "pages":     "63-71",
+        "year":      2011
+    },{
+        "@id":       "mcccrae2011combining",
+        "@type":     "swrc:InProceedings",
+        "url":       "http://www-old.sc.linked-open-science.org/sites/www-old.sc.linked-open-science.org/files/paper_3.pdf",
+        "title":     "Combining statistical and semantic approaches to the translation of ontologies and taxonomies",
+        "author":    ["John McCrae", "Mauricio Espinoza", "Elena Montiel-Ponsoda", "Guadalupe Aguado-de-Cea", "Philipp Cimiano"],
+        "booktitle": "Fifth Workshop on Syntax, Structure and Semantics in Statistical Translation in conjunction with 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies",
+        "year":      2011
+    },{
+        "@id":       "mccrae2011linking",
+        "@type":     "swrc:Proceedings",
+        "url":       "http://www-old.sc.linked-open-science.org/sites/www-old.sc.linked-open-science.org/files/eswc-lemon.pdf",
+        "title":     "Linking Lexical Resources and Ontologies on the Semantic Web with lemon",
+        "author":    ["John McCrae", "Dennis Spohr", "Philipp Cimiano"],
+        "booktitle": "Proc. of the 8th Extended Semantic Web Conference",
+        "pages":     "245-249",
+        "year":      2011
+    },{
+        "@id":       "buitelaar2011ontology",
+        "@type":     "swrc:Proceedings",
+        "url":       "http://www-old.sc.linked-open-science.org/sites/www-old.sc.linked-open-science.org/files/tia2011_0.pdf",
+        "title":     "Ontology Lexicalization: The lemon perspective",
+        "author":    ["Paul Buitelaar", "Philipp Cimiano", "John McCrae", "Elena Montiel-Ponsoda", "Thierry Declerck"],
+        "booktitle": "Proc. of 9th International Conference on Terminology and Articial Intelligence",
+        "year":      2011
+    },{
+        "@id":       "montiel2011representing",
+        "@type":     "swrc:Proceedings",
+        "url":       "http://www-old.sc.linked-open-science.org/sites/www-old.sc.linked-open-science.org/files/TermVariation(v6)_0.pdf",
+        "title":     "Representing Term Variation in lemon",
+        "author":    ["Elena Montiel-Ponsoda", "Guadalupe Aguado-de-Cea", "John McCrae"],
+        "booktitle": "Proc. of 9th International Conference on Terminology and Articial Intelligence",
+        "year":      2011
+    },{
+        "@id":       "mccrae2010clova",
+        "@type":     "swrc:InProceedings",
+        "url":       "http://ceur-ws.org/Vol-571/571-complete.pdf#page=10",
+        "title":     "CLOVA: An architecture for cross-language semantic data querying",
+        "author":    ["John McCrae", "Jesus R. Campaña", "Philipp Cimiano"],
+        "booktitle": "Proceedings of the 1st Workshop on the Multilingual Semantic Web",
+        "pages":     "5-12",
+        "year":      2010
+    },{
+       "@id":        "collier2010navigating",
+       "@type":      "swrc:InCollection",
+       "url":        "https://www.crcpress.com/Biosurveillance-Methods-and-Case-Studies/KassHout-Zhang/9781439800461",
+       "title":      "Navigating the Information Storm: Web-based global health surveillance in BioCaster",
+       "author":     ["Nigel Collier", "Son Doan", "Reiko Matsuda Goodwin", "John McCrae", "Mike Conway", "Mika Shigematsu", "Ai Kawazoe"],
+       "booktitle":  "Biosurveillance: Methods and Case Studies",
+       "editor":     ["Taha Kass-Hout", "Xiaohui Zhang"],
+       "pages":      "291-312",
+       "year":       2010
+    },{
+        "@id":       "declerck2010ontology",
+        "@type":     "swrc:InCollection",
+        "url":       "http://www.lemon-model.net/papers/MONTIFIC-Monnet%20paper.pdf",
+        "title":     "Ontology-based multilingual access to financial reports for sharing business knowledge across Europe",
+        "author":    ["Thierry Declerck", "Hans-Ulrich Krieger", "Susan-Marie Thomas", "Paul Buitelaar", "Sean O'Riain", "Tobias Wunner", "Gilles Maguet", "John McCrae", "Dennis Spohr", "Elena Montiel-Ponsoda"],
+        "booktitle": "International Financial Control Assessment applying Multingual Ontology Frameworks",
+        "pages":     "67-76",
+        "year":      2010
+    },{
+        "@id":       "collier2010ontology",
+        "@type":     "swrc:Proceedings",
+        "url":       "http://www.lemon-model.net/papers/system.pdf",
+        "title":     "An ontology-driven system for detecting global health events",
+        "author":    ["Nigel Collier", "Reiko Matsuda Goodwin", "John McCrae", "Son Doan", "Ai Kawazoe", "Mike Conway", "Asanee Kawtrakul", "K. Takeuchi", "D. Dien"],
+        "booktitle": "In Proc. of the 23rd International Conference on Computational Linguistics",
+        "pages":     "215-222",
+        "year":      2010
+    },{
+        "@id":       "mccrae2009automatic",
+        "@type":     "swrc:PhDThesis",
+        "url":       "http://www-old.sc.linked-open-science.org/sites/www-old.sc.linked-open-science.org/files/thesis.pdf",
+        "title":     "Automatic extraction of logically consistent ontologies from text corpora",
+        "author":    ["John McCrae"],
+        "school":    "PhD Thesis for Graduate University of Advanced Studies (SoKenDai)",
+        "year":      2009
+    },{
+        "@id":       "mccrae2009srl",
+        "@type":     "swrc:InProceedings",
+        "url":       "http://srl-editor.googlecode.com/files/saakm.pdf",
+        "title":     "SRL Editor: A rule development tool for text mining",
+        "author":    ["John McCrae", "Nigel Collier"],
+        "booktitle": "Proc. of Workshop on Semantic Authoring, Annotation and Knowledge Markup in conjunction with the 5th International Conference on Knowledge Capture",
+        "year":      2009
+    },{
+        "@id":       "mccrae2009synonym",
+        "@type":     "swrc:Article",
+        "url":       "http://www.biomedcentral.com/1471-2105/9/159",
+        "title":     "Synonym set extraction from the biomedical literature by lexical pattern discovery",
+        "author":    ["John McCrae", "Nigel Collier"],
+        "journal":   "BMC Bioinformatics",
+        "volume":    9,
+        "number":    156,
+        "year":      2008
+    }]
+ 
+}
+

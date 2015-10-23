@@ -1,6 +1,7 @@
 <?php include 'header.html'; ?>
              <div class="row col-lg-6 col-lg-offset-3">
 
+                
                 <p><b><a class="publication" href="#">
                 Linking Four Heterogeneous Language Resources as Linked Data</a></b>
                 B. Siemoneit, J.P. McCrae and P. Cimiano, <i>Proceedings of the 4th
@@ -32,7 +33,10 @@ One ontology to bind them all: The META-SHARE OWL ontology for the interoperabil
                 <p><b><a class="publication" href="http://link.springer.com/chapter/10.1007/978-3-319-17966-7_1">
                 Language Resources and Linked Data: A Practical Perspective</a></b>
                 J. Gracia, D. Vila-Suero, J.P. McCrae, T. Flati, C. Baron and M. Dojchinovski, <i>Knowledge Engineering and Knowledge Management, Springer</i>, (2015).</p>
-        
+                 <p><b><a href="http://www.semantic-web-journal.net/content/lemonuby-large-interlinked-syntactically-rich-lexical-resource-ontologies-1">
+                         lemonUby - a large, interlinked syntactically-rich lexical resources for ontologies.</b></a>
+                 J. Eckle-Kohler, J.P. McCrae, C. Chiarcos. <i>Semantic Web Journal</i> 6(4) pp 371-378 (2015).</p>
+         
                 <p><b><a class="publication" href="http://link.springer.com/chapter/10.1007%2F978-3-662-43585-4_2#page-1">
                     Design Patterns for Engineering the Ontology-Lexicon Interface</a></b>
                 J.P. McCrae and C. Unger, <i>In: Towards the Multilingual Semantic Web, P. Buitelaar and P. Cimiano (eds)</i> pp. 15-30, (2014).</p>
@@ -53,11 +57,8 @@ Proceedings of the ISWC 2014 Posters & Demonstrations Track
                  F. Quattri, A. Pease, J.P. McCrae, <i>Proceedings of 4th Workshop on Cognitive Aspects of the Lexicon </i> (2014).</p>
                  <p><b><a href="http://anthology.aclweb.org/W/W14/W14-47.pdf#page=212">
                          Modelling the Semantics of Adjectives in the Ontology-Lexicon Interface.</b></a>
-                 J.P. McCrae, C. Unger, F. Quattri, P. Cimiamo. <i>Proceedings of 4th Workshop on Cognitive Aspects of the Lexicon</i> (2014).</p>
-                 <p><b><a href="http://www.semantic-web-journal.net/content/lemonuby-large-interlinked-syntactically-rich-lexical-resource-ontologies-1">
-                         lemonUby - a large, interlinked syntactically-rich lexical resources for ontologies.</b></a>
-                 J. Eckle-Kohler, J.P. McCrae, C. Chiarcos. <i>Semantic Web Journal</i> (accepted) (2014).</p>
-                 <p><b><a href="https://github.com/jmccrae/wn-rdf-paper/raw/master/rdf-wordnet.pdf">
+                 J.P. McCrae, C. Unger, F. Quattri, P. Cimiano. <i>Proceedings of 4th Workshop on Cognitive Aspects of the Lexicon</i> (2014).</p>
+                <p><b><a href="https://github.com/jmccrae/wn-rdf-paper/raw/master/rdf-wordnet.pdf">
                          Publishing and Linking WordNet using lemon and RDF.</b></a>
                  J.P. McCrae, C. Fellbaum, P. Cimiano. <i>Proceedings of the 3rd Workshop on Linked Data in Linguistics</i> (2014).</p>
                  <p><b><a href="http://lemon-model.net/papers/LBN-LDL.pdf">

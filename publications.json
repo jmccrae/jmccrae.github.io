@@ -16,12 +16,36 @@
     },
     "@graph": [ 
     {
+        "@id":       "mccrae2016domain",
+        "@type":     "swrc:Article",
+        "url":       "http://www.sciencedirect.com/science/article/pii/S1570826815001420",
+        "title":     "Domain adaptation for ontology localization",
+        "author":    ["John P. McCraea", "Mihael Arcan", "Kartik Asooja", "Jorge Gracia", "Paul Buitelaar", "Philipp Cimiano"],
+        "journal":   "Web Semantics",
+        "volume":    36,
+        "pages":     "23-31",
+        "year":      2016
+    }, {
+        "@id":       "mccrae2016representing",
+        "@type":     "swrc:Proceedings",
+        "author":    ["John P. McCrae", "Philipp Cimiano", "Paul Buitelaar", "Georgeta Bordea"],
+        "title":     "Representing Multiword Expressions on the Web with the OntoLex-Lemon model",
+        "booktitle": "PARSEME/ENeL workshop on MWE e-lexicons",
+        "year":      2016
+    }, {
+        "@id":       "mccrae2016open",
+        "@type":     "swrc:Proceedings",
+        "author":    ["John P. McCrae", "Christian Chiarcos", "Francis Bond", "Philipp Cimiano", "Thierry Declerck", "Gerard de Melo", "Jorge Gracia", "Sebastian Hellmann", "Bettina Klimek", "Steven Moran", "Petya Osenova", "Antonio Pareja-Lora", "Jonathan Pool"],
+        "title":     "The Open Linguistics Working Group: Developing the Linguistic Linked Open Data Cloud",
+        "booktitle": "10th Language Resource and Evaluation Conference (LREC)",
+        "year":      2016
+    }, {
         "@id":       "bond2016cili",
         "@type":     "swrc:Proceedings",
         "url":       "https://www.overleaf.com/read/rsnvsbdghybg",
         "title":     "CILI: the Collaborative Interlingual Index",
         "author":    ["Francis Bond", "Piek Vossen", "John P. McCrae", "Christiane Fellbaum"],
-        "booktitle": "Proceedings of the Global WordNet Conference 2016 (Accepted)",
+        "booktitle": "Proceedings of the Global WordNet Conference 2016",
         "year":      2016
     },{
         "@id":       "vossen2016toward",
@@ -29,7 +53,7 @@
         "url":       "https://www.overleaf.com/read/fwhzzvrrwrmw",
         "title":     "Toward a truly multilingual Global Wordnet Grid",
         "author":    ["Piek Vossen", "Francis Bond", "John P. McCrae"],
-        "booktitle": "Proceedings of the Global WordNet Conference 2016 (Accepted)",
+        "booktitle": "Proceedings of the Global WordNet Conference 2016",
         "year":      2016
     },{
         "@id":       "mccrae2015multilingual",

@@ -1,7 +1,7 @@
 <?php include 'header.html'; ?>
 <div class="row col-lg-6 col-lg-offset-3">
 
-<div style="text-align:right;padding-bottom:10px;">Download as: <a href="publications.bib">BibTeX</a>&nbsp;&nbsp;<a href="publications.json">JSON-LD</a></div><p><b><a class="publication" href="http://www.sciencedirect.com/science/article/pii/S1570826815001420">Domain adaptation for ontology localization</a></b>. John P. McCraea, Mihael Arcan, Kartik Asooja, Jorge Gracia, Paul Buitelaar and Philipp Cimiano, <i>Web Semantics</i>, 36pp 23-31, (2016).</p>
+<div style="text-align:right;padding-bottom:10px;">Download as: <a href="publications.bib">BibTeX</a>&nbsp;&nbsp;<a href="publications.json">JSON-LD</a></div><p><b><a class="publication" href="http://www.sciencedirect.com/science/article/pii/S1570826815001420">Domain adaptation for ontology localization</a></b>. John P. McCrae, Mihael Arcan, Kartik Asooja, Jorge Gracia, Paul Buitelaar and Philipp Cimiano, <i>Web Semantics</i>, 36pp 23-31, (2016).</p>
 
 <p><b><a class="publication" href="papers/mccrae2016representing.pdf">Representing Multiword Expressions on the Web with the OntoLex-Lemon model</a></b>. John P. McCrae, Philipp Cimiano, Paul Buitelaar and Georgeta Bordea, <i>PARSEME/ENeL workshop on MWE e-lexicons</i>, (2016).</p>
 

@@ -20,7 +20,7 @@
         "@type":     "swrc:Article",
         "url":       "http://www.sciencedirect.com/science/article/pii/S1570826815001420",
         "title":     "Domain adaptation for ontology localization",
-        "author":    ["John P. McCraea", "Mihael Arcan", "Kartik Asooja", "Jorge Gracia", "Paul Buitelaar", "Philipp Cimiano"],
+        "author":    ["John P. McCrae", "Mihael Arcan", "Kartik Asooja", "Jorge Gracia", "Paul Buitelaar", "Philipp Cimiano"],
         "journal":   "Web Semantics",
         "volume":    36,
         "pages":     "23-31",

@@ -16,6 +16,24 @@
     },
     "@graph": [ 
     {
+        "@id":       "mccrae2016nuig",
+        "@type":     "swrc:Proceedings",
+        "author":    ["John P. McCrae", "Kartik Asooja", "Nitish Aggarwal", "Paul Buitelaar"],
+        "year":      2016,
+        "title":     "NUIG-UNLP at SemEval-2016 Task 1: Soft Alignment and Deep Learning for Semantic Textual Similarity",
+        "booktitle": "SemEval-2016",
+        "url":       "https://aclweb.org/anthology/S/S16/S16-1110.pdf"
+    },
+    {
+        "@id":       "mccrae2016linked",
+        "@type":     "swrc:Proceedings",
+        "author":    ["John P. McCrae", "Gerogeta Bordea", "Paul Buitelaar" ],
+        "year":      2016,
+        "title":     "Linked Data and Text Mining as an Enabler for Reproducible Research",
+        "booktitle":  "1st Workshop on Cross-Platform Text Mining and Natural Language Processing Interoperability",
+        "url":       "http://interop2016.github.io/pdf/INTEROP-7.pdf"
+    },
+    {
         "@id":       "mccrae2016domain",
         "@type":     "swrc:Article",
         "url":       "http://www.sciencedirect.com/science/article/pii/S1570826815001420",
@@ -31,6 +49,7 @@
         "author":    ["John P. McCrae", "Philipp Cimiano", "Paul Buitelaar", "Georgeta Bordea"],
         "title":     "Representing Multiword Expressions on the Web with the OntoLex-Lemon model",
         "booktitle": "PARSEME/ENeL workshop on MWE e-lexicons",
+        "url":       "http://typo.uni-konstanz.de/parseme/images/Meeting/2016-04-07-Struga-meeting/WG1-MCCRAE-ETAL-abstract.pdf",
         "year":      2016
     }, {
         "@id":       "mccrae2016open",
@@ -38,6 +57,7 @@
         "author":    ["John P. McCrae", "Christian Chiarcos", "Francis Bond", "Philipp Cimiano", "Thierry Declerck", "Gerard de Melo", "Jorge Gracia", "Sebastian Hellmann", "Bettina Klimek", "Steven Moran", "Petya Osenova", "Antonio Pareja-Lora", "Jonathan Pool"],
         "title":     "The Open Linguistics Working Group: Developing the Linguistic Linked Open Data Cloud",
         "booktitle": "10th Language Resource and Evaluation Conference (LREC)",
+        "url":       "http://www.lrec-conf.org/proceedings/lrec2016/pdf/851_Paper.pdf",
         "year":      2016
     }, {
         "@id":       "bond2016cili",

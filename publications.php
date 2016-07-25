@@ -3,7 +3,7 @@
 
 <div style="text-align:right;padding-bottom:10px;">Download as: <a href="publications.bib">BibTeX</a>&nbsp;&nbsp;<a href="publications.json">JSON-LD</a></div><p><b><a class="publication" href="https://aclweb.org/anthology/S/S16/S16-1110.pdf">NUIG-UNLP at SemEval-2016 Task 1: Soft Alignment and Deep Learning for Semantic Textual Similarity</a></b>. John P. McCrae, Kartik Asooja, Nitish Aggarwal and Paul Buitelaar, <i>SemEval-2016</i>, (2016).</p>
 
-<p><b><a class="publication" href="http://interop2016.github.io/pdf/INTEROP-7.pdf">Linked Data and Text Mining as an Enabler for Reproducible Research</a></b>. John P. McCrae, Gerogeta Bordea and Paul Buitelaar, <i>1st Workshop on Cross-Platform Text Mining and Natural Language Processing Interoperability</i>, (2016).</p>
+<p><b><a class="publication" href="http://interop2016.github.io/pdf/INTEROP-7.pdf">Linked Data and Text Mining as an Enabler for Reproducible Research</a></b>. John P. McCrae, Georgeta Bordea and Paul Buitelaar, <i>1st Workshop on Cross-Platform Text Mining and Natural Language Processing Interoperability</i>, (2016).</p>
 
 <p><b><a class="publication" href="http://www.sciencedirect.com/science/article/pii/S1570826815001420">Domain adaptation for ontology localization</a></b>. John P. McCrae, Mihael Arcan, Kartik Asooja, Jorge Gracia, Paul Buitelaar and Philipp Cimiano, <i>Web Semantics</i>, 36pp 23-31, (2016).</p>
 

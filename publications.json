@@ -27,7 +27,7 @@
     {
         "@id":       "mccrae2016linked",
         "@type":     "swrc:Proceedings",
-        "author":    ["John P. McCrae", "Gerogeta Bordea", "Paul Buitelaar" ],
+        "author":    ["John P. McCrae", "Georgeta Bordea", "Paul Buitelaar" ],
         "year":      2016,
         "title":     "Linked Data and Text Mining as an Enabler for Reproducible Research",
         "booktitle":  "1st Workshop on Cross-Platform Text Mining and Natural Language Processing Interoperability",

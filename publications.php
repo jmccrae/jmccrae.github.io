@@ -1,7 +1,13 @@
 <?php include 'header.html'; ?>
 <div class="row col-lg-6 col-lg-offset-3">
 
-<div style="text-align:right;padding-bottom:10px;">Download as: <a href="publications.bib">BibTeX</a>&nbsp;&nbsp;<a href="publications.json">JSON-LD</a></div><p><b><a class="publication" href="https://aclweb.org/anthology/S/S16/S16-1110.pdf">NUIG-UNLP at SemEval-2016 Task 1: Soft Alignment and Deep Learning for Semantic Textual Similarity</a></b>. John P. McCrae, Kartik Asooja, Nitish Aggarwal and Paul Buitelaar, <i>SemEval-2016</i>, (2016).</p>
+<div style="text-align:right;padding-bottom:10px;">Download as: <a href="publications.bib">BibTeX</a>&nbsp;&nbsp;<a href="publications.json">JSON-LD</a></div><p><b><a class="publication" href="papers/mccrae2016identifying.pdf">Identifying Poorly-Defined Concepts in WordNet with Graph Metrics</a></b>. John P. McCrae and Narumol Prangnawarat, <i>Proceedings of the First Workshop on Knowledge Extraction and Knowledge Integration (KEKI-2016)</i>, (2016).</p>
+
+<p><b><a class="publication" href="papers/mccrae2016lixr.pdf">LIXR: Quick, succinct conversion of XML to RDF</a></b>. John P. McCrae and Philipp Cimiano, <i>Proceedings of the ISWC 2016 Posters and Demo Track</i>, (2016).</p>
+
+<p><b><a class="publication" href="papers/mccrae2016yuzu.pdf">Yuzu: Publishing Any Data as Linked Data</a></b>. John P. McCrae, <i>Proceedings of the ISWC 2016 Posters and Demo Track</i>, (2016).</p>
+
+<p><b><a class="publication" href="https://aclweb.org/anthology/S/S16/S16-1110.pdf">NUIG-UNLP at SemEval-2016 Task 1: Soft Alignment and Deep Learning for Semantic Textual Similarity</a></b>. John P. McCrae, Kartik Asooja, Nitish Aggarwal and Paul Buitelaar, <i>SemEval-2016</i>, (2016).</p>
 
 <p><b><a class="publication" href="http://interop2016.github.io/pdf/INTEROP-7.pdf">Linked Data and Text Mining as an Enabler for Reproducible Research</a></b>. John P. McCrae, Georgeta Bordea and Paul Buitelaar, <i>1st Workshop on Cross-Platform Text Mining and Natural Language Processing Interoperability</i>, (2016).</p>
 

@@ -16,6 +16,27 @@
     },
     "@graph": [ 
     {
+        "@id":       "mccrae2016identifying",
+        "@type":     "swrc:Proceedings",
+        "author":    ["John P. McCrae", "Narumol Prangnawarat"],
+        "year":      2016,
+        "title":     "Identifying Poorly-Defined Concepts in WordNet with Graph Metrics",
+        "booktitle": "Proceedings of the First Workshop on Knowledge Extraction and Knowledge Integration (KEKI-2016)"
+    },{
+        "@id":       "mccrae2016lixr",
+        "@type":     "swrc:Proceedings",
+        "author":    ["John P. McCrae", "Philipp Cimiano"],
+        "year":      2016,
+        "title":     "LIXR: Quick, succinct conversion of XML to RDF",
+        "booktitle": "Proceedings of the ISWC 2016 Posters and Demo Track"
+    },{
+        "@id":       "mccrae2016yuzu",
+        "@type":     "swrc:Proceedings",
+        "author":    ["John P. McCrae"],
+        "year":      2016,
+        "title":     "Yuzu: Publishing Any Data as Linked Data",
+        "booktitle": "Proceedings of the ISWC 2016 Posters and Demo Track"
+    },{
         "@id":       "mccrae2016nuig",
         "@type":     "swrc:Proceedings",
         "author":    ["John P. McCrae", "Kartik Asooja", "Nitish Aggarwal", "Paul Buitelaar"],

@@ -16,6 +16,13 @@
     },
     "@graph": [ 
     {
+        "@id":       "arcan2016expanding",
+        "@type":     "swrc:Proceedings",
+        "author":    ["Mihael Arcan", "John P. McCrae", "Paul Buitelaar"],
+        "year":      2016,
+        "title":     "Expanding wordnets to new languages with multilingual sense disambiguation",
+        "booktitle": "Proceedings of The 26th International Conference on Computational Linguistics"
+    },{
         "@id":       "mccrae2016identifying",
         "@type":     "swrc:Proceedings",
         "author":    ["John P. McCrae", "Narumol Prangnawarat"],

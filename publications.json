@@ -21,7 +21,8 @@
         "author":    ["Mihael Arcan", "John P. McCrae", "Paul Buitelaar"],
         "year":      2016,
         "title":     "Expanding wordnets to new languages with multilingual sense disambiguation",
-        "booktitle": "Proceedings of The 26th International Conference on Computational Linguistics"
+        "booktitle": "Proceedings of The 26th International Conference on Computational Linguistics",
+        "url": "https://www.aclweb.org/anthology/C/C16/C16-1010.pdf"
     },{
         "@id":       "mccrae2016identifying",
         "@type":     "swrc:Proceedings",

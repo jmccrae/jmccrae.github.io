@@ -7,7 +7,7 @@
                 </div>
                 <div class="col-lg-4">
                     <p>
-                    I am a research fellow at the <a href="http://www.insight-centre.org/">
+                    I am a lecturer above-the-bar at the <a href="http://www.insight-centre.org/">
 Insight Centre for Data Analytics</a> at the <a href="http://www.nuigalway.ie">
 National University of Ireland Galway</a>.
                     I am currently working with <a href="http://www.paulbuitelaar.net/">Paul Buitelaar</a>
@@ -20,7 +20,7 @@ in the <a href="http://nlp.insight-centre.org/">Unit for Natural Language Proces
                     </p>
                     <ul>
                         <li>
-                        Ontologies and the lexicon-ontology interface
+                        Ontologies, lexicography and the lexicon-ontology interface
                         </li>
                         <li>
                         Collaborative development and publishing of language resources
@@ -38,7 +38,7 @@ in the <a href="http://nlp.insight-centre.org/">Unit for Natural Language Proces
                         Machine learning methods for NLP
                         </li>
                         <li>
-                        Probabilistic inference
+                        Digital Humanities
                         </li>
                     </ul>
                     <p>You can contact me at <a href="mailto:john@mccr.ae" property="foaf:mbox">john@mccr.ae</a>.</p>

@@ -13,10 +13,10 @@ for paper in data["@graph"]:
         out.write("<p><b>")
     else:
         out.write("<p><b><a class=\"publication\"")
-    if "url" in paper:
-        out.write(" href=\"" + paper["url"] + "\">")
-    else:
-        out.write(" href=\"papers/" + paper["@id"] + ".pdf\">")
+        if "url" in paper:
+            out.write(" href=\"" + paper["url"] + "\">")
+        else:
+            out.write(" href=\"papers/" + paper["@id"] + ".pdf\">")
     out.write(paper["title"])
     if "ccepted" in str(paper["year"]):
         out.write("</a></b>. ")

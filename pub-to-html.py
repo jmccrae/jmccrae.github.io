@@ -9,13 +9,19 @@ out.write("<div class=\"row col-lg-6 col-lg-offset-3\">\n\n")
 out.write("<div style=\"text-align:right;padding-bottom:10px;\">Download as: <a href=\"publications.bib\">BibTeX</a>&nbsp;&nbsp;<a href=\"publications.json\">JSON-LD</a></div>")
 
 for paper in data["@graph"]:
-    out.write("<p><b><a class=\"publication\"")
+    if "ccepted" in str(paper["year"]):
+        out.write("<p><b>")
+    else:
+        out.write("<p><b><a class=\"publication\"")
     if "url" in paper:
         out.write(" href=\"" + paper["url"] + "\">")
     else:
         out.write(" href=\"papers/" + paper["@id"] + ".pdf\">")
     out.write(paper["title"])
-    out.write("</a></b>. ")
+    if "ccepted" in str(paper["year"]):
+        out.write("</a></b>. ")
+    else:
+        out.write("</a></b>. ")
 
     if len(paper["author"]) == 1:
         out.write(paper["author"][0])

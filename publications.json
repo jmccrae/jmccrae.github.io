@@ -26,21 +26,21 @@
         "@id":      "mccrae2017colloquial",
         "@type":    "swrc:Proceedings",
         "title":    "The Colloquial WordNet: Extending Princeton WordNet with Neologisms",
-        "author":   ["John P. Mccrae", "Ian Wood", "Amanda Hicks" ],
+        "author":   ["John P. McCrae", "Ian Wood", "Amanda Hicks" ],
         "year":     "2017 (accepted)",
         "booktitle": "Proceedings of the First Conference on Language, Data and Knowledge (LDK2017)"
     },{
         "@id":      "mccrae2017evaluation",
         "@type":    "swrc:Proceedings",
         "title":    "An Evaluation Dataset for Linked Data Profiling",
-        "author":   ["Andrejs Abele", "John P. Mccrae", "Paul Buitelaar"],
+        "author":   ["Andrejs Abele", "John P. McCrae", "Paul Buitelaar"],
         "year":     "2017 (accepted)",
         "booktitle": "Proceedings of the First Conference on Language, Data and Knowledge (LDK2017)"
     },{
         "@id":       "mccrae2017ontolex",
         "@type":     "swrc:Proceedings",
         "title":     "The OntoLex-Lemon Model: development and applications",
-        "author":    ["John P. Mccrae", "Paul Buitelaar", "Philipp Cimiano"],
+        "author":    ["John P. McCrae", "Paul Buitelaar", "Philipp Cimiano"],
         "year":      "2017 (accepted)",
         "booktitle": "Proceedings of eLex 2017"
     },{

@@ -37,7 +37,7 @@
         "year":     "2017",
         "booktitle": "Proceedings of the First Conference on Language, Data and Knowledge (LDK2017)"
     },{
-        "@id":      "mccrae2017evaluation",
+        "@id":      "abele2017evaluation",
         "@type":    "swrc:Proceedings",
         "title":    "An Evaluation Dataset for Linked Data Profiling",
         "author":   ["Andrejs Abele", "John P. McCrae", "Paul Buitelaar"],

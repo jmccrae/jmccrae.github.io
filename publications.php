@@ -7,7 +7,7 @@
 
 <p><b><a class="publication" href="papers/mccrae2017colloquial.pdf">The Colloquial WordNet: Extending Princeton WordNet with Neologisms</a></b>. John P. McCrae, Ian Wood and Amanda Hicks, <i>Proceedings of the First Conference on Language, Data and Knowledge (LDK2017)</i>, (2017).</p>
 
-<p><b><a class="publication" href="papers/mccrae2017evaluation.pdf">An Evaluation Dataset for Linked Data Profiling</a></b>. Andrejs Abele, John P. McCrae and Paul Buitelaar, <i>Proceedings of the First Conference on Language, Data and Knowledge (LDK2017)</i>, (2017).</p>
+<p><b><a class="publication" href="papers/abele2017evaluation.pdf">An Evaluation Dataset for Linked Data Profiling</a></b>. Andrejs Abele, John P. McCrae and Paul Buitelaar, <i>Proceedings of the First Conference on Language, Data and Knowledge (LDK2017)</i>, (2017).</p>
 
 <p><b><a class="publication" href="https://www.aclweb.org/anthology/C/C16/C16-1010.pdf">Expanding wordnets to new languages with multilingual sense disambiguation</a></b>. Mihael Arcan, John P. McCrae and Paul Buitelaar, <i>Proceedings of The 26th International Conference on Computational Linguistics</i>, (2016).</p>
 

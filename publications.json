@@ -16,27 +16,6 @@
     },
     "@graph": [ 
     {
-        "@id":      "klimek2017onlit",
-        "@type":    "swrc:Proceedings",
-        "title":    "OnLiT: An Ontology for Linguistic Terminology",
-        "author":   ["Bettina Klimek", "John P. McCrae", "Christian Chiarcos", "Sebastian Hellmann"],
-        "year":     "2017 (accepted)",
-        "booktitle": "Proceedings of the First Conference on Language, Data and Knowledge (LDK2017)"
-    },{
-        "@id":      "mccrae2017colloquial",
-        "@type":    "swrc:Proceedings",
-        "title":    "The Colloquial WordNet: Extending Princeton WordNet with Neologisms",
-        "author":   ["John P. McCrae", "Ian Wood", "Amanda Hicks" ],
-        "year":     "2017 (accepted)",
-        "booktitle": "Proceedings of the First Conference on Language, Data and Knowledge (LDK2017)"
-    },{
-        "@id":      "mccrae2017evaluation",
-        "@type":    "swrc:Proceedings",
-        "title":    "An Evaluation Dataset for Linked Data Profiling",
-        "author":   ["Andrejs Abele", "John P. McCrae", "Paul Buitelaar"],
-        "year":     "2017 (accepted)",
-        "booktitle": "Proceedings of the First Conference on Language, Data and Knowledge (LDK2017)"
-    },{
         "@id":       "mccrae2017ontolex",
         "@type":     "swrc:Proceedings",
         "title":     "The OntoLex-Lemon Model: development and applications",
@@ -44,7 +23,28 @@
         "year":      "2017 (accepted)",
         "booktitle": "Proceedings of eLex 2017"
     },{
-        "@id":       "arcan2016expanding",
+         "@id":      "klimek2017onlit",
+        "@type":    "swrc:Proceedings",
+        "title":    "OnLiT: An Ontology for Linguistic Terminology",
+        "author":   ["Bettina Klimek", "John P. McCrae", "Christian Chiarcos", "Sebastian Hellmann"],
+        "year":     "2017",
+        "booktitle": "Proceedings of the First Conference on Language, Data and Knowledge (LDK2017)"
+    },{
+        "@id":      "mccrae2017colloquial",
+        "@type":    "swrc:Proceedings",
+        "title":    "The Colloquial WordNet: Extending Princeton WordNet with Neologisms",
+        "author":   ["John P. McCrae", "Ian Wood", "Amanda Hicks" ],
+        "year":     "2017",
+        "booktitle": "Proceedings of the First Conference on Language, Data and Knowledge (LDK2017)"
+    },{
+        "@id":      "mccrae2017evaluation",
+        "@type":    "swrc:Proceedings",
+        "title":    "An Evaluation Dataset for Linked Data Profiling",
+        "author":   ["Andrejs Abele", "John P. McCrae", "Paul Buitelaar"],
+        "year":     "2017",
+        "booktitle": "Proceedings of the First Conference on Language, Data and Knowledge (LDK2017)"
+    },{
+       "@id":       "arcan2016expanding",
         "@type":     "swrc:Proceedings",
         "author":    ["Mihael Arcan", "John P. McCrae", "Paul Buitelaar"],
         "year":      2016,

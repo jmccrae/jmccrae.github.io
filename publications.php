@@ -1,13 +1,13 @@
 <?php include 'header.html'; ?>
 <div class="row col-lg-6 col-lg-offset-3">
 
-<div style="text-align:right;padding-bottom:10px;">Download as: <a href="publications.bib">BibTeX</a>&nbsp;&nbsp;<a href="publications.json">JSON-LD</a></div><p><b>OnLiT: An Ontology for Linguistic Terminology</a></b>. Bettina Klimek, John P. McCrae, Christian Chiarcos and Sebastian Hellmann, <i>Proceedings of the First Conference on Language, Data and Knowledge (LDK2017)</i>, (2017 (accepted)).</p>
+<div style="text-align:right;padding-bottom:10px;">Download as: <a href="publications.bib">BibTeX</a>&nbsp;&nbsp;<a href="publications.json">JSON-LD</a></div><p><b>The OntoLex-Lemon Model: development and applications</a></b>. John P. McCrae, Paul Buitelaar and Philipp Cimiano, <i>Proceedings of eLex 2017</i>, (2017 (accepted)).</p>
 
-<p><b>The Colloquial WordNet: Extending Princeton WordNet with Neologisms</a></b>. John P. Mccrae, Ian Wood and Amanda Hicks, <i>Proceedings of the First Conference on Language, Data and Knowledge (LDK2017)</i>, (2017 (accepted)).</p>
+<p><b><a class="publication" href="papers/klimek2017onlit.pdf">OnLiT: An Ontology for Linguistic Terminology</a></b>. Bettina Klimek, John P. McCrae, Christian Chiarcos and Sebastian Hellmann, <i>Proceedings of the First Conference on Language, Data and Knowledge (LDK2017)</i>, (2017).</p>
 
-<p><b>An Evaluation Dataset for Linked Data Profiling</a></b>. Andrejs Abele, John P. Mccrae and Paul Buitelaar, <i>Proceedings of the First Conference on Language, Data and Knowledge (LDK2017)</i>, (2017 (accepted)).</p>
+<p><b><a class="publication" href="papers/mccrae2017colloquial.pdf">The Colloquial WordNet: Extending Princeton WordNet with Neologisms</a></b>. John P. McCrae, Ian Wood and Amanda Hicks, <i>Proceedings of the First Conference on Language, Data and Knowledge (LDK2017)</i>, (2017).</p>
 
-<p><b>The OntoLex-Lemon Model: development and applications</a></b>. John P. Mccrae, Paul Buitelaar and Philipp Cimiano, <i>Proceedings of eLex 2017</i>, (2017 (accepted)).</p>
+<p><b><a class="publication" href="papers/mccrae2017evaluation.pdf">An Evaluation Dataset for Linked Data Profiling</a></b>. Andrejs Abele, John P. McCrae and Paul Buitelaar, <i>Proceedings of the First Conference on Language, Data and Knowledge (LDK2017)</i>, (2017).</p>
 
 <p><b><a class="publication" href="https://www.aclweb.org/anthology/C/C16/C16-1010.pdf">Expanding wordnets to new languages with multilingual sense disambiguation</a></b>. Mihael Arcan, John P. McCrae and Paul Buitelaar, <i>Proceedings of The 26th International Conference on Computational Linguistics</i>, (2016).</p>
 

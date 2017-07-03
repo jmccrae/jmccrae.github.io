@@ -26,6 +26,8 @@ for paper in data["@graph"]:
         print("@incollection{%s," % paper["@id"])
     elif paper["@type"] == "swrc:PhDThesis":
         print("@phdthesis{%s," % paper["@id"])
+    elif paper["@type"] == "swrc:Misc":
+        print("@misc{%s," % paper["@id"])
     first = True
     for key, value in paper.items():
         if key.startswith("@"):

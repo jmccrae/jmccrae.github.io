@@ -61,6 +61,8 @@ for paper in data["@graph"]:
         out.write("</i>, ")
     elif paper["@type"] == "swrc:PhDThesis":
         out.write("PhD Thesis for Graduate University of Advanced Studies (SoKenDai), ")
+    elif paper["@type"] == "swrc:Misc":
+        out.write("Technical Report: " + paper["organization"])
     else:
         sys.stderr.write("unknown type" + paper["@type"])
 

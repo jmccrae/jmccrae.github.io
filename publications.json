@@ -28,21 +28,32 @@
         "title":    "OnLiT: An Ontology for Linguistic Terminology",
         "author":   ["Bettina Klimek", "John P. McCrae", "Christian Chiarcos", "Sebastian Hellmann"],
         "year":     "2017",
-        "booktitle": "Proceedings of the First Conference on Language, Data and Knowledge (LDK2017)"
+        "booktitle": "Proceedings of the First Conference on Language, Data and Knowledge (LDK2017)",
+        "pages":    "42-57"
     },{
         "@id":      "mccrae2017colloquial",
         "@type":    "swrc:Proceedings",
         "title":    "The Colloquial WordNet: Extending Princeton WordNet with Neologisms",
         "author":   ["John P. McCrae", "Ian Wood", "Amanda Hicks" ],
         "year":     "2017",
-        "booktitle": "Proceedings of the First Conference on Language, Data and Knowledge (LDK2017)"
+        "booktitle": "Proceedings of the First Conference on Language, Data and Knowledge (LDK2017)",
+        "pages":    "194-202"
     },{
         "@id":      "abele2017evaluation",
         "@type":    "swrc:Proceedings",
         "title":    "An Evaluation Dataset for Linked Data Profiling",
         "author":   ["Andrejs Abele", "John P. McCrae", "Paul Buitelaar"],
         "year":     "2017",
-        "booktitle": "Proceedings of the First Conference on Language, Data and Knowledge (LDK2017)"
+        "booktitle": "Proceedings of the First Conference on Language, Data and Knowledge (LDK2017)",
+        "pages":    "1-9"
+    },{ 
+        "@id":      "cimiano2016lexicon",
+        "@type":    "swrc:Misc",
+        "title":    "Lexicon Model for Ontologies: Community Report",
+        "author":   ["Philipp Cimiano", "John P. McCrae", "Paul Buitelaar"],
+        "url":      "https://www.w3.org/2016/05/ontolex/",
+        "year":     "2016",
+        "organization": "W3C"
     },{
        "@id":       "arcan2016expanding",
         "@type":     "swrc:Proceedings",

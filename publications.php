@@ -1,7 +1,9 @@
 <?php include 'header.html'; ?>
 <div class="row col-lg-6 col-lg-offset-3">
 
-<div style="text-align:right;padding-bottom:10px;">Download as: <a href="publications.bib">BibTeX</a>&nbsp;&nbsp;<a href="publications.json">JSON-LD</a></div><p><b>The OntoLex-Lemon Model: development and applications</a></b>. John P. McCrae, Paul Buitelaar and Philipp Cimiano, <i>Proceedings of eLex 2017</i>, (2017 (accepted)).</p>
+<div style="text-align:right;padding-bottom:10px;">Download as: <a href="publications.bib">BibTeX</a>&nbsp;&nbsp;<a href="publications.json">JSON-LD</a></div><p><b><a class="publication" href="papers/mccrae2017linking.pdf">Linking Knowledge Graphs across Languages with Semantic Similarity and Machine Translation</a></b>. John P. McCrae, Mihael Arcan and Paul Buitleaar, <i>Proceedings of the First Workshop on Multi-Language Processing in a Globalising World (MLP2017)</i>, (2017).</p>
+
+<p><b><a class="publication" href="papers/mccrae2017ontolex.pdf">The OntoLex-Lemon Model: development and applications</a></b>. John P. McCrae, Paul Buitelaar and Philipp Cimiano, <i>Proceedings of eLex 2017</i>, (2017).</p>
 
 <p><b><a class="publication" href="papers/klimek2017onlit.pdf">OnLiT: An Ontology for Linguistic Terminology</a></b>. Bettina Klimek, John P. McCrae, Christian Chiarcos and Sebastian Hellmann, <i>Proceedings of the First Conference on Language, Data and Knowledge (LDK2017)</i>, pp 42-57, (2017).</p>
 

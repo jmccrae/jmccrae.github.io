@@ -16,11 +16,18 @@
     },
     "@graph": [ 
     {
+        "@id":      "mccrae2017linking",
+        "@type":    "swrc:Proceedings",
+        "title":    "Linking Knowledge Graphs across Languages with Semantic Similarity and Machine Translation",
+        "author":   ["John P. McCrae", "Mihael Arcan", "Paul Buitleaar"],
+        "year":     "2017",
+        "booktitle":    "Proceedings of the First Workshop on Multi-Language Processing in a Globalising World (MLP2017)"
+    },{
         "@id":       "mccrae2017ontolex",
         "@type":     "swrc:Proceedings",
         "title":     "The OntoLex-Lemon Model: development and applications",
         "author":    ["John P. McCrae", "Paul Buitelaar", "Philipp Cimiano"],
-        "year":      "2017 (accepted)",
+        "year":      "2017",
         "booktitle": "Proceedings of eLex 2017"
     },{
          "@id":      "klimek2017onlit",

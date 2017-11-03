@@ -37,6 +37,8 @@
                         </li>
                     </ul>
                     <h2>Invited Talks</h2>
+                    <p><b><a class="publication" href="https://docs.google.com/presentation/d/1bAHWsYwfy-iMFaojQfpTE0c3En7w4SH11s1O3p64A-s/edit?usp=sharing">Saffron: Topic extraction, expert finding and trend analysis from scientific literature</a></b>, Invited talk at the Scientometrics Workshop 2017, Portoroz, Slovenia</p>
+                    <p><b><a class="publication" href="papers/LangOnto2-invited-talk.pdf">Putting ontologies to work in NLP: The lemon model and its applications</a></b>, invited talk at  Joint Second Workshop on Language and Ontology & Terminology and Knowledge Structures (LangOnto2 + TermiKS), at the 10th edition of the Language Resources and Evaluation Conference, 23rd May 2016, Portorož (Slovenia).</p>
 
                     <p><b><a class="publication" href="linghub-oeg/slides.html">Linghub: Reconciling Heterogeneous Metadata about Language Resources</a></b>, Invited talk at the Ontology Engineering Group, Polytechnic University of Madrid</p>
                     <p>Keynote speaker at 5th Meeting of MUMIA project, June 2013</p>

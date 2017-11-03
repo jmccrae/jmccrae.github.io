@@ -39,7 +39,7 @@ for paper in data["@graph"]:
             out.write(", ".join(paper["editor"][:-1]))
             out.write(" and ")
             out.write(paper["editor"][-1])
-        out.write("(eds)</i>, ")
+        out.write(" (eds)</i>, ")
     if paper["@type"] == "swrc:InProceedings":
         out.write("<i>")
         out.write(paper["booktitle"])
@@ -74,7 +74,7 @@ for paper in data["@graph"]:
         out.write(paper["publisher"])
         out.write(" - ")
         out.write(paper["series"])
-        out.write("</i>")
+        out.write("</i>, ")
     elif paper["@type"] == "swrc:PhDThesis":
         out.write("PhD Thesis for Graduate University of Advanced Studies (SoKenDai), ")
     elif paper["@type"] == "swrc:Misc":

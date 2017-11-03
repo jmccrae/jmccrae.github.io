@@ -9,9 +9,9 @@
 
 <p><b><a class="publication" href="papers/pedersen2018elexis.pdf">ELEXIS - a European infrastructure fostering cooperation and infor-mation exchange among lexicographical research communities</a></b>. Bolette Pedersen, John McCrae, Carole Tiberius and Simon Krek, <i>Proceedings of the 9th Global WordNet Conference</i>, (2018).</p>
 
-<p><b><a class="publication" href="http://www.springer.com/gp/book/9783319687223">Knowledge Graphs and Language Technology - ISWC 2016 International Workshops: KEKI and NLP&DBpedia</a></b>. <i>Marieke van Erp, Sebastian Hellmann, John P. McCrae, Christian Chiarcos, Key-Sun Choi, Jorge Gracia, Yoshihiko Hayashi, Seiji Koide, Pablo Mendes, Heiko Paulheim and Hideaki Takeda(eds)</i>, <i>Springer - Lecture Notes in Computer Science</i>(2017).</p>
+<p><b><a class="publication" href="http://www.springer.com/gp/book/9783319687223">Knowledge Graphs and Language Technology - ISWC 2016 International Workshops: KEKI and NLP&DBpedia</a></b>. <i>Marieke van Erp, Sebastian Hellmann, John P. McCrae, Christian Chiarcos, Key-Sun Choi, Jorge Gracia, Yoshihiko Hayashi, Seiji Koide, Pablo Mendes, Heiko Paulheim and Hideaki Takeda (eds)</i>, <i>Springer - Lecture Notes in Computer Science</i>, (2017).</p>
 
-<p><b><a class="publication" href="http://www.springer.com/gp/book/9783319598871">Language, Data, and Knowledge</a></b>. <i>Jorge Gracia, Francis Bond, John P. McCrae, Paul Buitelaar, Christian Chiarcos and Sebastian Hellmann(eds)</i>, <i>Springer - Lecture Notes in Artificial Intelligence</i>(2017).</p>
+<p><b><a class="publication" href="http://www.springer.com/gp/book/9783319598871">Language, Data, and Knowledge</a></b>. <i>Jorge Gracia, Francis Bond, John P. McCrae, Paul Buitelaar, Christian Chiarcos and Sebastian Hellmann (eds)</i>, <i>Springer - Lecture Notes in Artificial Intelligence</i>, (2017).</p>
 
 <p><b><a class="publication" href="papers/mccrae2017linking.pdf">Linking Knowledge Graphs across Languages with Semantic Similarity and Machine Translation</a></b>. John P. McCrae, Mihael Arcan and Paul Buitleaar, <i>Proceedings of the First Workshop on Multi-Language Processing in a Globalising World (MLP2017)</i>, (2017).</p>
 
@@ -65,7 +65,7 @@
 
 <p><b><a class="publication" href="http://link.springer.com/chapter/10.1007/978-3-319-17966-7_1">Language Resources and Linked Data: A Practical Perspective</a></b>. Jorge Gracia, Daniel Vila-Suero, John P. McCrae, Tiziano Flati, Ciro Baron and Milan Dojchinovski, In: <i>Knowledge Engineering and Knowledge Management</i>, (2015).</p>
 
-<p><b><a class="publication" href="http://link.springer.com/chapter/10.1007%2F978-3-662-43585-4_2#page-1">Design Patterns for Engineering the Ontology-Lexicon Interface</a></b>. John P. McCrae and Christina Unger, <i>Paul Buitelaar and Philipp Cimiano(eds)</i>, In: <i>Towards the Multilingual Semantic Web, eds. Paul Buitelaar, Philipp Cimiano</i>, pp 15-30, (2014).</p>
+<p><b><a class="publication" href="http://link.springer.com/chapter/10.1007%2F978-3-662-43585-4_2#page-1">Design Patterns for Engineering the Ontology-Lexicon Interface</a></b>. John P. McCrae and Christina Unger, <i>Paul Buitelaar and Philipp Cimiano (eds)</i>, In: <i>Towards the Multilingual Semantic Web, eds. Paul Buitelaar, Philipp Cimiano</i>, pp 15-30, (2014).</p>
 
 <p><b><a class="publication" href="http://ceur-ws.org/Vol-1272/paper_82.pdf">Representing Swedish Lexical Resources in RDF with lemon</a></b>. Lars Borin, Dana Dannells, Markus Forsberg and John P. McCrae, <i>Proceedings of the ISWC 2014 Posters & Demonstrations Track - a track within the 13th International Semantic Web Conference</i>, pp 329-332, (2014).</p>
 
@@ -107,7 +107,7 @@
 
 <p><b><a class="publication" href="papers/mccrae2012three.pdf">Three steps for creating high quality ontology-lexica</a></b>. John McCrae and Philipp Cimiano, <i>Proc. of the Workshop on Collaborative Resource Development and Delivery at the 2012 International Conference on Language Resource and Evaluation</i>, (2012).</p>
 
-<p><b><a class="publication" href="papers/mccrae2013integrating.pdf">Integrating WordNet and Wiktionary with lemon</a></b>. John McCrae, Philipp Cimiano and Elena Montiel-Ponsoda, <i>Christian Chiarcos, Sebastian Nordhoff and Sebastian Hellmann(eds)</i>, In: <i>Linked Data and Linguistics, eds. Christian Chiarcos, Sebastian Nordhoff, Sebastian Hellmann</i>, pp 25-34, (2012).</p>
+<p><b><a class="publication" href="papers/mccrae2013integrating.pdf">Integrating WordNet and Wiktionary with lemon</a></b>. John McCrae, Philipp Cimiano and Elena Montiel-Ponsoda, <i>Christian Chiarcos, Sebastian Nordhoff and Sebastian Hellmann (eds)</i>, In: <i>Linked Data and Linguistics, eds. Christian Chiarcos, Sebastian Nordhoff, Sebastian Hellmann</i>, pp 25-34, (2012).</p>
 
 <p><b><a class="publication" href="papers/mccrae2012interchanging.pdf">Interchanging lexical resources on the Semantic Web</a></b>. John McCrae, Guadalupe Aguado-de-Cea, Paul Buitelaar, Philipp Cimiano, Thierry Declerck, Asunción Gómez-Pérez, Jorge Gracia, Laura Hollink, Elena Montiel-Ponsoda, Dennis Spohr and Tobias Wunner, <i>Language Resources and Evaluation</i>, 46(6), pp 701-709, (2012).</p>
 
@@ -125,7 +125,7 @@
 
 <p><b><a class="publication" href="http://ceur-ws.org/Vol-571/571-complete.pdf#page=10">CLOVA: An architecture for cross-language semantic data querying</a></b>. John McCrae, Jesus R. Campaña and Philipp Cimiano, <i>Proceedings of the 1st Workshop on the Multilingual Semantic Web</i>, pp 5-12, (2010).</p>
 
-<p><b><a class="publication" href="https://www.crcpress.com/Biosurveillance-Methods-and-Case-Studies/KassHout-Zhang/9781439800461">Navigating the Information Storm: Web-based global health surveillance in BioCaster</a></b>. Nigel Collier, Son Doan, Reiko Matsuda Goodwin, John McCrae, Mike Conway, Mika Shigematsu and Ai Kawazoe, <i>Taha Kass-Hout and Xiaohui Zhang(eds)</i>, In: <i>Biosurveillance: Methods and Case Studies, eds. Taha Kass-Hout, Xiaohui Zhang</i>, pp 291-312, (2010).</p>
+<p><b><a class="publication" href="https://www.crcpress.com/Biosurveillance-Methods-and-Case-Studies/KassHout-Zhang/9781439800461">Navigating the Information Storm: Web-based global health surveillance in BioCaster</a></b>. Nigel Collier, Son Doan, Reiko Matsuda Goodwin, John McCrae, Mike Conway, Mika Shigematsu and Ai Kawazoe, <i>Taha Kass-Hout and Xiaohui Zhang (eds)</i>, In: <i>Biosurveillance: Methods and Case Studies, eds. Taha Kass-Hout, Xiaohui Zhang</i>, pp 291-312, (2010).</p>
 
 <p><b><a class="publication" href="papers/declerck2010ontology.pdf">Ontology-based multilingual access to financial reports for sharing business knowledge across Europe</a></b>. Thierry Declerck, Hans-Ulrich Krieger, Susan-Marie Thomas, Paul Buitelaar, Sean O'Riain, Tobias Wunner, Gilles Maguet, John McCrae, Dennis Spohr and Elena Montiel-Ponsoda, In: <i>International Financial Control Assessment applying Multilingual Ontology Frameworks</i>, pp 67-76, (2010).</p>
 

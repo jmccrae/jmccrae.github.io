@@ -23,14 +23,24 @@ for paper in data["@graph"]:
     else:
         out.write("</a></b>. ")
 
-    if len(paper["author"]) == 1:
-        out.write(paper["author"][0])
-    else:
-        out.write(", ".join(paper["author"][:-1]))
-        out.write(" and ")
-        out.write(paper["author"][-1])
-    out.write(", ")
-    if paper["@type"] == "swrc:Proceedings" or paper["@type"] == "swrc:InProceedings":
+    if "author" in paper:
+        if len(paper["author"]) == 1:
+            out.write(paper["author"][0])
+        else:
+            out.write(", ".join(paper["author"][:-1]))
+            out.write(" and ")
+            out.write(paper["author"][-1])
+        out.write(", ")
+    if "editor" in paper:
+        out.write("<i>")
+        if len(paper["editor"]) == 1:
+            out.write(paper["editor"][0])
+        else:
+            out.write(", ".join(paper["editor"][:-1]))
+            out.write(" and ")
+            out.write(paper["editor"][-1])
+        out.write("(eds)</i>, ")
+    if paper["@type"] == "swrc:InProceedings":
         out.write("<i>")
         out.write(paper["booktitle"])
         out.write("</i>, ")
@@ -59,6 +69,12 @@ for paper in data["@graph"]:
         out.write("<i>")
         out.write(paper["publisher"])
         out.write("</i>, ")
+    elif paper["@type"] == "swrc:Proceedings":
+        out.write("<i>")
+        out.write(paper["publisher"])
+        out.write(" - ")
+        out.write(paper["series"])
+        out.write("</i>")
     elif paper["@type"] == "swrc:PhDThesis":
         out.write("PhD Thesis for Graduate University of Advanced Studies (SoKenDai), ")
     elif paper["@type"] == "swrc:Misc":

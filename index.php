@@ -40,10 +40,14 @@ in the <a href="http://nlp.insight-centre.org/">Unit for Natural Language Proces
                         <li>
                         Digital Humanities
                         </li>
+			<li>
+			Under-resourced languages
+			</li>
                     </ul>
                     <p>You can contact me at <a href="mailto:john@mccr.ae" property="foaf:mbox">john@mccr.ae</a>.</p>
 
-                    <p>ORCID: <a href="http://orcid.org/0000-0002-7227-1331">0000-0002-7227-1331</a></p>
+                    <p>ORCID: <a href="http://orcid.org/0000-0002-7227-1331">0000-0002-7227-1331</a><br>
+			Twitter: <a href="https://twitter.com/johnmccrae">@johnmccrae</a></p>
                 </div>
             </div> 
 <?php include 'footer.html'; ?>

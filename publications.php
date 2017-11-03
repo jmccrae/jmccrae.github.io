@@ -1,7 +1,15 @@
 <?php include 'header.html'; ?>
 <div class="row col-lg-6 col-lg-offset-3">
 
-<div style="text-align:right;padding-bottom:10px;">Download as: <a href="publications.bib">BibTeX</a>&nbsp;&nbsp;<a href="publications.json">JSON-LD</a></div><p><b><a class="publication" href="papers/mccrae2017linking.pdf">Linking Knowledge Graphs across Languages with Semantic Similarity and Machine Translation</a></b>. John P. McCrae, Mihael Arcan and Paul Buitleaar, <i>Proceedings of the First Workshop on Multi-Language Processing in a Globalising World (MLP2017)</i>, (2017).</p>
+<div style="text-align:right;padding-bottom:10px;">Download as: <a href="publications.bib">BibTeX</a>&nbsp;&nbsp;<a href="publications.json">JSON-LD</a></div><p><b><a class="publication" href="papers/mccrae2018mapping.pdf">Mapping WordNet Instances to Wikipedia</a></b>. John P. McCrae, <i>Proceedings of the 9th Global WordNet Conference</i>, (2018).</p>
+
+<p><b><a class="publication" href="papers/mccrae2018towards.pdf">Towards a Crowd-Sourced WordNet for Colloquial English</a></b>. John P. McCrae, Ian Wood and Amanda Hicks, <i>Proceedings of the 9th Global WordNet Conference</i>, (2018).</p>
+
+<p><b><a class="publication" href="papers/chakravarthi2018improving.pdf">Improving Wordnets for Under-Resourced Languages Using Machine Translation information</a></b>. Bharathi Raja Chakravarthi, Mihael Arcan and John P. McCrae, <i>Proceedings of the 9th Global WordNet Conference</i>, (2018).</p>
+
+<p><b><a class="publication" href="papers/pedersen2018elexis.pdf">ELEXIS - a European infrastructure fostering cooperation and infor-mation exchange among lexicographical research communities</a></b>. Bolette Pedersen, John McCrae, Carole Tiberius and Simon Krek, <i>Proceedings of the 9th Global WordNet Conference</i>, (2018).</p>
+
+<p><b><a class="publication" href="papers/mccrae2017linking.pdf">Linking Knowledge Graphs across Languages with Semantic Similarity and Machine Translation</a></b>. John P. McCrae, Mihael Arcan and Paul Buitleaar, <i>Proceedings of the First Workshop on Multi-Language Processing in a Globalising World (MLP2017)</i>, (2017).</p>
 
 <p><b><a class="publication" href="papers/mccrae2017ontolex.pdf">The OntoLex-Lemon Model: development and applications</a></b>. John P. McCrae, Paul Buitelaar and Philipp Cimiano, <i>Proceedings of eLex 2017</i>, (2017).</p>
 

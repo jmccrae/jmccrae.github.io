@@ -3,6 +3,7 @@
                 <div class="pageTop">
                     <h2>Recent and Current Activities</h2>
                     <ul>
+                        <li>Tutor at <a href="http://esslli2018.folli.info/courses/">ESSLLI 2018</a> on &ldquo;Introduction to Linked Open Data in Linguistics&rdquo;</li>
                         <li>Organizer of <a href="http://datathon.lider-project.eu/">1st Summer Datathon on Linguistic Linked Open Data</a></li>
                         <li>
                         Co-chair of 4th Workshop on Linked Data in Linguistics</a> collocated with the 

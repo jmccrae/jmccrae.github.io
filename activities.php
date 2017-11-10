@@ -4,6 +4,9 @@
                     <h2>Recent and Current Activities</h2>
                     <ul>
                         <li>Tutor at <a href="http://esslli2018.folli.info/courses/">ESSLLI 2018</a> on &ldquo;Introduction to Linked Open Data in Linguistics&rdquo;</li>
+<li>Chair of <a href="http://ldk2017.org">1st Conference on Language, Data and Knowledge (LDK-2017)</a>, Galway, Ireland.</li>
+<li>Chair of <a href="http://keki2016.linguistic-lod.org">1st Workshop on Knowledge Extraction and Knowledge Integration (KĒKI)</a> at <a href="http://iswc2016.semanticweb.org">ISWC 2016</a>, Kobe, Japan.</li>
+<li>Chair of <a href="http://ldl2016.linguistic-lod.org">5th Workshop on Linked Data in Linguistics (LDL-2016)</a> at <a href="http://lrec2016.lrec-conf.org">LREC 2016</a>, Portoroz, Slovenia.</li>
                         <li>Organizer of <a href="http://datathon.lider-project.eu/">1st Summer Datathon on Linguistic Linked Open Data</a></li>
                         <li>
                         Co-chair of 4th Workshop on Linked Data in Linguistics</a> collocated with the 

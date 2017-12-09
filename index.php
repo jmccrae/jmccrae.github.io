@@ -1,8 +1,8 @@
 <?php include 'header.html'; ?>
             <div class="row">
                 <div class="col-lg-2 col-lg-offset-3">
-                    <a href="/me_square.jpg">
-                    <img src="/me_circle.jpg" property="foaf:depiction" class="depiction" style="width:100%;max-width:200px;"/>
+                    <a href="/me.jpg" class="circle-crop">
+                    <img src="/me.jpg" property="foaf:depiction" class="depiction" style="width:100%;max-width:200px;"/>
                     </a>
                 </div>
                 <div class="col-lg-4">

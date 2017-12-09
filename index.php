@@ -1,9 +1,11 @@
 <?php include 'header.html'; ?>
             <div class="row">
                 <div class="col-lg-2 col-lg-offset-3">
-                    <a href="/me.jpg" class="circle-crop">
+                    <div class="circle-crop">
+                    <a href="/me.jpg">
                     <img src="/me.jpg" property="foaf:depiction" class="depiction" style="width:100%;max-width:200px;"/>
                     </a>
+                    </div>
                 </div>
                 <div class="col-lg-4">
                     <p>

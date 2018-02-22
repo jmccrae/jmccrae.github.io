@@ -1,7 +1,17 @@
 <?php include 'header.html'; ?>
 <div class="row col-lg-6 col-lg-offset-3">
 
-<div style="text-align:right;padding-bottom:10px;">Download as: <a href="publications.bib">BibTeX</a>&nbsp;&nbsp;<a href="publications.json">JSON-LD</a></div><p><b><a class="publication" href="papers/mccrae2018mapping.pdf">Mapping WordNet Instances to Wikipedia</a></b>. John P. McCrae, <i>Proceedings of the 9th Global WordNet Conference</i>, (2018).</p>
+<div style="text-align:right;padding-bottom:10px;">Download as: <a href="publications.bib">BibTeX</a>&nbsp;&nbsp;<a href="publications.json">JSON-LD</a></div><p><b>A supervised approach to taxonomy extraction using word embeddings</a></b>. Rajdeep Sarkar, John P. McCrae and Paul Buitelaar, <i>Proceedings of the 11th Language Resource and Evaluation Conference (LREC)</i>, (2018 (Accepted)).</p>
+
+<p><b>A Comparison Of Emotion Annotation Schemes And A New Annotated Data Set</a></b>. Ian Wood, John P. McCrae, Vladimir Andryushechkin and Paul Buitelaar, <i>Proceedings of the 11th Language Resource and Evaluation Conference (LREC)</i>, (2018 (Accepted)).</p>
+
+<p><b>Teanga: A Linked Data based platform for Natural Language Processing</a></b>. Housam Ziad, John P. McCrae and Paul Buitelaar, <i>Proceedings of the 11th Language Resource and Evaluation Conference (LREC)</i>, (2018 (Accepted)).</p>
+
+<p><b>Automatic Enrichment of Terminological Resources: the IATE RDF Example</a></b>. Mihael Arcan, Elena Montiel-Ponsoda, John P. McCrae and Paul Buitelaar, <i>Proceedings of the 11th Language Resource and Evaluation Conference (LREC)</i>, (2018 (Accepted)).</p>
+
+<p><b><a class="publication" href="http://ieeexplore.ieee.org/document/8269329/">MixedEmotions: An Open-Source Toolbox for Multi-Modal Emotion Analysis</a></b>. Paul Buitelaar, Ian D. Wood, Sapna Negi, Mihael Arcan, John P. McCrae, Andrejs Abele, Cécile Robin, Vladimir Andryushechkin, Housam Ziad, Hesam Sagha, J. Fernando Sánchez-Rada, Carlos A. Iglesias, Carlos Navarro, Andreas Giefer, Nicolaus Heise, Vincenzo Masucci, Francesco A. Danza, Ciro Caterino, Pavel Smrž, Michal Hradiš, Filip Povolný, Marek Klimeš, Pavel Matějka and Giovanni Tummarello, <i>IEEE Transactions on Multimedia</i>, ??(??), (2018).</p>
+
+<p><b><a class="publication" href="papers/mccrae2018mapping.pdf">Mapping WordNet Instances to Wikipedia</a></b>. John P. McCrae, <i>Proceedings of the 9th Global WordNet Conference</i>, (2018).</p>
 
 <p><b><a class="publication" href="papers/mccrae2018towards.pdf">Towards a Crowd-Sourced WordNet for Colloquial English</a></b>. John P. McCrae, Ian Wood and Amanda Hicks, <i>Proceedings of the 9th Global WordNet Conference</i>, (2018).</p>
 
@@ -41,7 +51,7 @@
 
 <p><b><a class="publication" href="http://typo.uni-konstanz.de/parseme/images/Meeting/2016-04-07-Struga-meeting/WG1-MCCRAE-ETAL-abstract.pdf">Representing Multiword Expressions on the Web with the OntoLex-Lemon model</a></b>. John P. McCrae, Philipp Cimiano, Paul Buitelaar and Georgeta Bordea, <i>PARSEME/ENeL workshop on MWE e-lexicons</i>, (2016).</p>
 
-<p><b><a class="publication" href="http://www.lrec-conf.org/proceedings/lrec2016/pdf/851_Paper.pdf">The Open Linguistics Working Group: Developing the Linguistic Linked Open Data Cloud</a></b>. John P. McCrae, Christian Chiarcos, Francis Bond, Philipp Cimiano, Thierry Declerck, Gerard de Melo, Jorge Gracia, Sebastian Hellmann, Bettina Klimek, Steven Moran, Petya Osenova, Antonio Pareja-Lora and Jonathan Pool, <i>10th Language Resource and Evaluation Conference (LREC)</i>, (2016).</p>
+<p><b><a class="publication" href="http://www.lrec-conf.org/proceedings/lrec2016/pdf/851_Paper.pdf">The Open Linguistics Working Group: Developing the Linguistic Linked Open Data Cloud</a></b>. John P. McCrae, Christian Chiarcos, Francis Bond, Philipp Cimiano, Thierry Declerck, Gerard de Melo, Jorge Gracia, Sebastian Hellmann, Bettina Klimek, Steven Moran, Petya Osenova, Antonio Pareja-Lora and Jonathan Pool, <i>10th Language Resource and Evaluation Conference (LREC)</i>, pp 2435-2441, (2016).</p>
 
 <p><b><a class="publication" href="https://www.overleaf.com/read/rsnvsbdghybg">CILI: the Collaborative Interlingual Index</a></b>. Francis Bond, Piek Vossen, John P. McCrae and Christiane Fellbaum, <i>Proceedings of the Global WordNet Conference 2016</i>, (2016).</p>
 
@@ -51,7 +61,7 @@
 
 <p><b><a class="publication" href="http://www.semantic-web-journal.net/content/lemonuby-large-interlinked-syntactically-rich-lexical-resource-ontologies-1">lemonUby - a large, interlinked, syntactically-rich lexical resource for ontologies</a></b>. Judith Eckle-Kohler, John McCrae and Christian Chiarcos, <i>Semantic Web</i>, 6(4), pp 371-378, (2015).</p>
 
-<p><b><a class="publication" href="papers/mccrae2015linghub.pdf">Linghub: a Linked Data based portal supporting the discovery of language resources</a></b>. John P. McCrae and Philipp Cimiano, <i>Proceedings of the 11th International Conference on Semantic Systems</i>, (2015).</p>
+<p><b><a class="publication" href="papers/mccrae2015linghub.pdf">Linghub: a Linked Data based portal supporting the discovery of language resources</a></b>. John P. McCrae and Philipp Cimiano, <i>Proceedings of the 11th International Conference on Semantic Systems</i>, pp 88-91, (2015).</p>
 
 <p><b><a class="publication" href="http://www.aclweb.org/anthology/W15-4207">Linking Four Heterogeneous Language Resources as Linked Data</a></b>. Benjamin Siemoneit, John P. McCrae and Philipp Cimiano, <i>Proceedings of the 4th Workshop on Linked Data in Linguistics</i>, pp 59-63, (2015).</p>
 
@@ -113,7 +123,7 @@
 
 <p><b><a class="publication" href="papers/cimiano2011lexinfo.pdf">LexInfo: A declarative model for the lexicon-ontology interface</a></b>. Philipp Cimiano, Paul Buitelaar, John McCrae and Michael Sintek., <i>Web Semantics: Science, Services and Agents on the World Wide Web</i>, 9(1), pp 29-51, (2011).</p>
 
-<p><b><a class="publication" href="http://imap.websemanticsjournal.org/index.php/ps/article/viewFile/214/209">Challenges for the Multilingual Web of Data.</a></b>. Jorge Gracia, Elena Montiel-Ponsoda, Philipp Cimiano, Asunción Gómez-Pérez, Paul Buitelaar and John McCrae, <i>Web Semantics: Science, Services and Agents on the World Wide Web</i>, pp 63-71, (2011).</p>
+<p><b><a class="publication" href="http://oa.upm.es/8848/1/Multiling.pdf">Challenges for the Multilingual Web of Data.</a></b>. Jorge Gracia, Elena Montiel-Ponsoda, Philipp Cimiano, Asunción Gómez-Pérez, Paul Buitelaar and John McCrae, <i>Web Semantics: Science, Services and Agents on the World Wide Web</i>, pp 63-71, (2011).</p>
 
 <p><b><a class="publication" href="papers/mccrae2011combining.pdf">Combining statistical and semantic approaches to the translation of ontologies and taxonomies</a></b>. John McCrae, Mauricio Espinoza, Elena Montiel-Ponsoda, Guadalupe Aguado-de-Cea and Philipp Cimiano, <i>Fifth Workshop on Syntax, Structure and Semantics in Statistical Translation in conjunction with 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies</i>, (2011).</p>
 

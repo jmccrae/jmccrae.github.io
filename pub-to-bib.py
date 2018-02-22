@@ -9,13 +9,13 @@ def fix(string):
 
 data = json.loads(open("publications.json").read())
 
-out = open("test/test.tex", "w")
-
-out.write("\\documentclass[a4paper]{article}\n")
-out.write("\\begin{document}\n")
+#out = open("test/test.tex", "w")
+#
+#out.write("\\documentclass[a4paper]{article}\n")
+#out.write("\\begin{document}\n")
 
 for paper in data["@graph"]:
-    out.write("\\cite{%s}\n" % paper["@id"])
+    #out.write("\\cite{%s}\n" % paper["@id"])
     if paper["@type"] == "swrc:InProceedings" or paper["@type"] == "Conference" or paper["@type"] == "Workshop":
         print("@inproceedings{%s," % paper["@id"])
     elif paper["@type"] == "swrc:Proceedings":
@@ -51,6 +51,6 @@ for paper in data["@graph"]:
     print("}")
     print("")
 
-out.write("\\bibliographystyle{ieeetr}\n")
-out.write("\\bibliography{../publications}\n")
-out.write("\\end{document}\n")
+#out.write("\\bibliographystyle{ieeetr}\n")
+#out.write("\\bibliography{../publications}\n")
+#out.write("\\end{document}\n")

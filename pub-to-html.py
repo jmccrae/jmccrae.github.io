@@ -8,7 +8,7 @@ out = open("publications.php", "w")
 out.write("<?php include 'header.html'; ?>\n")
 out.write("<div class=\"row col-lg-6 col-lg-offset-3\">\n\n")
 out.write("<div style=\"text-align:right;\">Download as: <a href=\"publications.bib\">BibTeX</a>&nbsp;&nbsp;<a href=\"publications.json\">JSON-LD</a></div>")
-out.write("""<div style="text-align:right;padding-bottom:10px;">Show:
+out.write("""<div style="text-align:right;padding-bottom:10px;">By Type:&nbsp;&nbsp;
 <a href="#" onclick="showall()">All</a>&nbsp;&nbsp;
 <a href="#" onclick="showonly('Article')">Journal Articles</a>&nbsp;&nbsp;
 <a href="#" onclick="showonly('Book')">Books</a>&nbsp;&nbsp;
@@ -18,9 +18,23 @@ out.write("""<div style="text-align:right;padding-bottom:10px;">Show:
 <a href="#" onclick="showonly('PhDThesis')">Thesis</a>&nbsp;&nbsp;
 <a href="#" onclick="showonly('Misc')">Reports</a>
 </div>""")
+out.write("""<div style="text-align:right;padding-bottom:10px;">By Year:&nbsp;&nbsp;
+<a href="#" onclick="showall()">All</a>&nbsp;&nbsp;
+<a href="#" onclick="showonly('y2018')">2018</a>&nbsp;&nbsp;
+<a href="#" onclick="showonly('y2017')">2017</a>&nbsp;&nbsp;
+<a href="#" onclick="showonly('y2016')">2016</a>&nbsp;&nbsp;
+<a href="#" onclick="showonly('y2015')">2015</a>&nbsp;&nbsp;
+<a href="#" onclick="showonly('y2014')">2014</a>&nbsp;&nbsp;
+<a href="#" onclick="showonly('y2013')">2013</a>&nbsp;&nbsp;
+<a href="#" onclick="showonly('y2012')">2012</a>&nbsp;&nbsp;
+<a href="#" onclick="showonly('y2011')">2011</a>&nbsp;&nbsp;
+<a href="#" onclick="showonly('y2010')">2010</a>&nbsp;&nbsp;
+<a href="#" onclick="showonly('y2009')">2009</a>&nbsp;&nbsp;
+<a href="#" onclick="showonly('y2008')">2008</a>
+</div>""")
 
 def mkclasses(paper):
-    year = re.sub('\W+', '', str(paper["year"]))
+    year = "y" + re.sub('\W+', '', str(paper["year"]))[:4]
     arttype = paper["@type"][5:]
     if "author" in paper:
         coauthors = ' '.join([re.sub('\W+', '', a) for a in paper["author"]])

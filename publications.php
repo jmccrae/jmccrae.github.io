@@ -1,7 +1,16 @@
 <?php include 'header.html'; ?>
 <div class="row col-lg-6 col-lg-offset-3">
 
-<div style="text-align:right;padding-bottom:10px;">Download as: <a href="publications.bib">BibTeX</a>&nbsp;&nbsp;<a href="publications.json">JSON-LD</a></div><div style="text-align:right;padding-bottom:10px;"><a href="#" onclick="showonly('Article')">Journal Articles</a></div><p class="pub 2018Accepted InProceedings RajdeepSarkar JohnPMcCrae PaulBuitelaar"><b>A supervised approach to taxonomy extraction using word embeddings</a></b>. Rajdeep Sarkar, John P. McCrae and Paul Buitelaar, <i>Proceedings of the 11th Language Resource and Evaluation Conference (LREC)</i>, (2018 (Accepted)).</p>
+<div style="text-align:right;">Download as: <a href="publications.bib">BibTeX</a>&nbsp;&nbsp;<a href="publications.json">JSON-LD</a></div><div style="text-align:right;padding-bottom:10px;">
+<a href="#" onclick="showall()">All</a>
+<a href="#" onclick="showonly('Article')">Articles</a>
+<a href="#" onclick="showonly('Book')">Books</a>
+<a href="#" onclick="showonly('InCollection')">Book Chapters</a>
+<a href="#" onclick="showonly('Proceedings')">Proceedings Volumes</a>
+<a href="#" onclick="showonly('InProceedings')">Conference/Workshops</a>
+<a href="#" onclick="showonly('PhDThesis')">Thesis</a>
+<a href="#" onclick="showonly('Misc')">Reports</a>
+</div><p class="pub 2018Accepted InProceedings RajdeepSarkar JohnPMcCrae PaulBuitelaar"><b>A supervised approach to taxonomy extraction using word embeddings</a></b>. Rajdeep Sarkar, John P. McCrae and Paul Buitelaar, <i>Proceedings of the 11th Language Resource and Evaluation Conference (LREC)</i>, (2018 (Accepted)).</p>
 
 <p class="pub 2018Accepted InProceedings IanWood JohnPMcCrae VladimirAndryushechkin PaulBuitelaar"><b>A Comparison Of Emotion Annotation Schemes And A New Annotated Data Set</a></b>. Ian Wood, John P. McCrae, Vladimir Andryushechkin and Paul Buitelaar, <i>Proceedings of the 11th Language Resource and Evaluation Conference (LREC)</i>, (2018 (Accepted)).</p>
 

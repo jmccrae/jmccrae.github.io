@@ -7,8 +7,17 @@ out = open("publications.php", "w")
 
 out.write("<?php include 'header.html'; ?>\n")
 out.write("<div class=\"row col-lg-6 col-lg-offset-3\">\n\n")
-out.write("<div style=\"text-align:right;padding-bottom:10px;\">Download as: <a href=\"publications.bib\">BibTeX</a>&nbsp;&nbsp;<a href=\"publications.json\">JSON-LD</a></div>")
-out.write("<div style=\"text-align:right;padding-bottom:10px;\"><a href=\"#\" onclick=\"showonly('Article')\">Journal Articles</a></div>")
+out.write("<div style=\"text-align:right;\">Download as: <a href=\"publications.bib\">BibTeX</a>&nbsp;&nbsp;<a href=\"publications.json\">JSON-LD</a></div>")
+out.write("""<div style="text-align:right;padding-bottom:10px;">
+<a href="#" onclick="showall()">All</a>
+<a href="#" onclick="showonly('Article')">Articles</a>
+<a href="#" onclick="showonly('Book')">Books</a>
+<a href="#" onclick="showonly('InCollection')">Book Chapters</a>
+<a href="#" onclick="showonly('Proceedings')">Proceedings Volumes</a>
+<a href="#" onclick="showonly('InProceedings')">Conference/Workshops</a>
+<a href="#" onclick="showonly('PhDThesis')">Thesis</a>
+<a href="#" onclick="showonly('Misc')">Reports</a>
+</div>""")
 
 def mkclasses(paper):
     year = re.sub('\W+', '', str(paper["year"]))

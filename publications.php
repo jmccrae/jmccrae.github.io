@@ -12,18 +12,18 @@
 <a href="#" class="arttype selPhDThesis" onclick="showonly('PhDThesis')">Thesis</a>&nbsp;&nbsp;
 <a href="#" class="arttype selMisc" onclick="showonly('Misc')">Reports</a>
 </div><div style="text-align:right;padding-bottom:10px;">By Year:&nbsp;&nbsp;
-<a href="#" class="year all" onclick="showall()" style="color:black;">All</a>&nbsp;&nbsp;
-<a href="#" class="year sely2018" onclick="showonly('y2018')">2018</a>&nbsp;&nbsp;
-<a href="#" class="year sely2017" onclick="showonly('y2017')">2017</a>&nbsp;&nbsp;
-<a href="#" class="year sely2016" onclick="showonly('y2016')">2016</a>&nbsp;&nbsp;
-<a href="#" class="year sely2015" onclick="showonly('y2015')">2015</a>&nbsp;&nbsp;
-<a href="#" class="year sely2014" onclick="showonly('y2014')">2014</a>&nbsp;&nbsp;
-<a href="#" class="year sely2013" onclick="showonly('y2013')">2013</a>&nbsp;&nbsp;
-<a href="#" class="year sely2012" onclick="showonly('y2012')">2012</a>&nbsp;&nbsp;
-<a href="#" class="year sely2011" onclick="showonly('y2011')">2011</a>&nbsp;&nbsp;
-<a href="#" class="year sely2010" onclick="showonly('y2010')">2010</a>&nbsp;&nbsp;
-<a href="#" class="year sely2009" onclick="showonly('y2009')">2009</a>&nbsp;&nbsp;
-<a href="#" class="year sely2000" onclick="showonly('y2008')">2008</a>
+<a href="#" class="year all" onclick="showall()" style="color:black;">All</a>
+<a href="#" class="year sely2018" onclick="showonly('y2018')" style="padding-left:3px;">2018</a>
+<a href="#" class="year sely2017" onclick="showonly('y2017')" style="padding-left:3px;">2017</a>
+<a href="#" class="year sely2016" onclick="showonly('y2016')" style="padding-left:3px;">2016</a>
+<a href="#" class="year sely2015" onclick="showonly('y2015')" style="padding-left:3px;">2015</a>
+<a href="#" class="year sely2014" onclick="showonly('y2014')" style="padding-left:3px;">2014</a>
+<a href="#" class="year sely2013" onclick="showonly('y2013')" style="padding-left:3px;">2013</a>
+<a href="#" class="year sely2012" onclick="showonly('y2012')" style="padding-left:3px;">2012</a>
+<a href="#" class="year sely2011" onclick="showonly('y2011')" style="padding-left:3px;">2011</a>
+<a href="#" class="year sely2010" onclick="showonly('y2010')" style="padding-left:3px;">2010</a>
+<a href="#" class="year sely2009" onclick="showonly('y2009')" style="padding-left:3px;">2009</a>
+<a href="#" class="year sely2008" onclick="showonly('y2008')" style="padding-left:3px;">2008</a>
 </div><p class="pub y2018 rence RajdeepSarkar JohnPMcCrae PaulBuitelaar"><b>A supervised approach to taxonomy extraction using word embeddings</a></b>. Rajdeep Sarkar, John P. McCrae and Paul Buitelaar, <i>Proceedings of the 11th Language Resource and Evaluation Conference (LREC)</i>, (2018 (Accepted)).</p>
 
 <p class="pub y2018 rence IanWood JohnPMcCrae VladimirAndryushechkin PaulBuitelaar"><b>A Comparison Of Emotion Annotation Schemes And A New Annotated Data Set</a></b>. Ian Wood, John P. McCrae, Vladimir Andryushechkin and Paul Buitelaar, <i>Proceedings of the 11th Language Resource and Evaluation Conference (LREC)</i>, (2018 (Accepted)).</p>

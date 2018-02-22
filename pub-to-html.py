@@ -9,7 +9,7 @@ out.write("<?php include 'header.html'; ?>\n")
 out.write("<div class=\"row col-lg-6 col-lg-offset-3\">\n\n")
 out.write("<div style=\"text-align:right;\">Download as: <a href=\"publications.bib\">BibTeX</a>&nbsp;&nbsp;<a href=\"publications.json\">JSON-LD</a></div>")
 out.write("""<div style="text-align:right;padding-bottom:10px;">By Type:&nbsp;&nbsp;
-<a href="#" class="arttype all" onclick="showall()">All</a>&nbsp;&nbsp;
+<a href="#" class="arttype all" onclick="showall()" style="color:black;">All</a>&nbsp;&nbsp;
 <a href="#" class="arttype selArticle" onclick="showonly('Article')">Journal Articles</a>&nbsp;&nbsp;
 <a href="#" class="arttype selBook" onclick="showonly('Book')">Books</a>&nbsp;&nbsp;
 <a href="#" class="arttype selInCollection" onclick="showonly('InCollection')">Book Chapters</a>&nbsp;&nbsp;
@@ -19,7 +19,7 @@ out.write("""<div style="text-align:right;padding-bottom:10px;">By Type:&nbsp;&n
 <a href="#" class="arttype selMisc" onclick="showonly('Misc')">Reports</a>
 </div>""")
 out.write("""<div style="text-align:right;padding-bottom:10px;">By Year:&nbsp;&nbsp;
-<a href="#" class="year all" onclick="showall()">All</a>&nbsp;&nbsp;
+<a href="#" class="year all" onclick="showall()" style="color:black;">All</a>&nbsp;&nbsp;
 <a href="#" class="year sely2018" onclick="showonly('y2018')">2018</a>&nbsp;&nbsp;
 <a href="#" class="year sely2017" onclick="showonly('y2017')">2017</a>&nbsp;&nbsp;
 <a href="#" class="year sely2016" onclick="showonly('y2016')">2016</a>&nbsp;&nbsp;
@@ -130,15 +130,15 @@ out.write("""<script>
             $('.pub:not(.' + p + ')').slideUp();
             $('.' + p).slideDown();
             $('.all').css('color','#00bdff');
-            $('.arttyp').css('color', '#00bdff');
+            $('.arttype').css('color', '#00bdff');
             $('.year').css('color', '#00bdff');
             $('.sel' + p).css('color', 'black');
             }
         function showall(p) {
             $('.pub').slideDown();
-            $('.all').css('color','black');
             $('.arttyp').css('color', '#00bdff');
             $('.year').css('color', '#00bdff');
+            $('.all').css('color','black');
             }
             </script>""")
 

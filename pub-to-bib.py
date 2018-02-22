@@ -16,7 +16,7 @@ out.write("\\begin{document}\n")
 
 for paper in data["@graph"]:
     out.write("\\cite{%s}\n" % paper["@id"])
-    if paper["@type"] == "swrc:InProceedings":
+    if paper["@type"] == "swrc:InProceedings" or paper["@type"] == "Conference" or paper["@type"] == "Workshop":
         print("@inproceedings{%s," % paper["@id"])
     elif paper["@type"] == "swrc:Proceedings":
         print("@proceedings{%s," % paper["@id"])

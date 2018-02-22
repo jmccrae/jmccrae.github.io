@@ -1,5 +1,6 @@
 import json
 import re
+import sys
 
 data = json.loads(open("publications.json").read())
 
@@ -13,8 +14,9 @@ out.write("""<div style="text-align:right;">By Type:&nbsp;&nbsp;
 <a href="#" class="arttype selArticle" onclick="showonly('Article')">Journal Articles</a>&nbsp;&nbsp;
 <a href="#" class="arttype selBook" onclick="showonly('Book')">Books</a>&nbsp;&nbsp;
 <a href="#" class="arttype selInCollection" onclick="showonly('InCollection')">Book Chapters</a>&nbsp;&nbsp;
-<a href="#" class="arttype selProceedings" onclick="showonly('Proceedings')">Proceedings Volumes</a>&nbsp;&nbsp;
-<a href="#" class="arttype selInProceedings" onclick="showonly('InProceedings')">Conference/Workshops Articles</a>&nbsp;&nbsp;
+<a href="#" class="arttype selProceedings" onclick="showonly('Proceedings')">Proceedings</a>&nbsp;&nbsp;
+<a href="#" class="arttype selrence" onclick="showonly('rence')">Conferences</a>&nbsp;&nbsp;
+<a href="#" class="arttype selhop" onclick="showonly('hop')">Workshops</a>&nbsp;&nbsp;
 <a href="#" class="arttype selPhDThesis" onclick="showonly('PhDThesis')">Thesis</a>&nbsp;&nbsp;
 <a href="#" class="arttype selMisc" onclick="showonly('Misc')">Reports</a>
 </div>""")
@@ -74,7 +76,7 @@ for paper in data["@graph"]:
             out.write(" and ")
             out.write(paper["editor"][-1])
         out.write(" (eds)</i>, ")
-    if paper["@type"] == "swrc:InProceedings":
+    if paper["@type"] == "swrc:InProceedings" or paper["@type"] == "Conference" or paper["@type"] == "Workshop":
         out.write("<i>")
         out.write(paper["booktitle"])
         out.write("</i>, ")

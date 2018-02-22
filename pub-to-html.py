@@ -104,7 +104,7 @@ out.write("</div></div>")
 out.write("""<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>""")
 out.write("""<script>
         function showonly(p) {
-            $('.pub:not(' + p + ')').slideUp();
+            $('.pub:not(.' + p + ')').slideUp();
             }
             </script>""")
 

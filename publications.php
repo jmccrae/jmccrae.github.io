@@ -2,28 +2,28 @@
 <div class="row col-lg-6 col-lg-offset-3">
 
 <div style="text-align:right;">Download as: <a href="publications.bib">BibTeX</a>&nbsp;&nbsp;<a href="publications.json">JSON-LD</a></div><div style="text-align:right;">By Type:&nbsp;&nbsp;
-<a href="#" class="arttype all" onclick="showall()" style="color:black;">All</a>&nbsp;&nbsp;
-<a href="#" class="arttype selArticle" onclick="showonly('Article')">Journal Articles</a>&nbsp;&nbsp;
-<a href="#" class="arttype selBook" onclick="showonly('Book')">Books</a>&nbsp;&nbsp;
-<a href="#" class="arttype selInCollection" onclick="showonly('InCollection')">Book Chapters</a>&nbsp;&nbsp;
-<a href="#" class="arttype selProceedings" onclick="showonly('Proceedings')">Proceedings</a>&nbsp;&nbsp;
-<a href="#" class="arttype selrence" onclick="showonly('rence')">Conferences</a>&nbsp;&nbsp;
-<a href="#" class="arttype selhop" onclick="showonly('hop')">Workshops</a>&nbsp;&nbsp;
-<a href="#" class="arttype selPhDThesis" onclick="showonly('PhDThesis')">Thesis</a>&nbsp;&nbsp;
-<a href="#" class="arttype selMisc" onclick="showonly('Misc')">Reports</a>
+<a href="#" class="arttype all" onclick="showall()" style="color:black;">All</a>
+<a href="#" class="arttype style="padding-left:5px;" selArticle" onclick="showonly('Article')">Journal Articles</a>
+<a href="#" class="arttype style="padding-left:5px;" selBook" onclick="showonly('Book')">Books</a>
+<a href="#" class="arttype style="padding-left:5px;" selInCollection" onclick="showonly('InCollection')">Book Chapters</a>
+<a href="#" class="arttype style="padding-left:5px;" selProceedings" onclick="showonly('Proceedings')">Proceedings</a>
+<a href="#" class="arttype style="padding-left:5px;" selrence" onclick="showonly('rence')">Conferences</a>
+<a href="#" class="arttype style="padding-left:5px;" selhop" onclick="showonly('hop')">Workshops</a>
+<a href="#" class="arttype style="padding-left:5px;" selPhDThesis" onclick="showonly('PhDThesis')">Thesis</a>
+<a href="#" class="arttype style="padding-left:5px;" selMisc" onclick="showonly('Misc')">Reports</a>
 </div><div style="text-align:right;padding-bottom:10px;">By Year:&nbsp;&nbsp;
 <a href="#" class="year all" onclick="showall()" style="color:black;">All</a>
-<a href="#" class="year sely2018" onclick="showonly('y2018')" style="padding-left:3px;">2018</a>
-<a href="#" class="year sely2017" onclick="showonly('y2017')" style="padding-left:3px;">2017</a>
-<a href="#" class="year sely2016" onclick="showonly('y2016')" style="padding-left:3px;">2016</a>
-<a href="#" class="year sely2015" onclick="showonly('y2015')" style="padding-left:3px;">2015</a>
-<a href="#" class="year sely2014" onclick="showonly('y2014')" style="padding-left:3px;">2014</a>
-<a href="#" class="year sely2013" onclick="showonly('y2013')" style="padding-left:3px;">2013</a>
-<a href="#" class="year sely2012" onclick="showonly('y2012')" style="padding-left:3px;">2012</a>
-<a href="#" class="year sely2011" onclick="showonly('y2011')" style="padding-left:3px;">2011</a>
-<a href="#" class="year sely2010" onclick="showonly('y2010')" style="padding-left:3px;">2010</a>
-<a href="#" class="year sely2009" onclick="showonly('y2009')" style="padding-left:3px;">2009</a>
-<a href="#" class="year sely2008" onclick="showonly('y2008')" style="padding-left:3px;">2008</a>
+<a href="#" class="year sely2018" onclick="showonly('y2018')" style="padding-left:5px;">2018</a>
+<a href="#" class="year sely2017" onclick="showonly('y2017')" style="padding-left:5px;">2017</a>
+<a href="#" class="year sely2016" onclick="showonly('y2016')" style="padding-left:5px;">2016</a>
+<a href="#" class="year sely2015" onclick="showonly('y2015')" style="padding-left:5px;">2015</a>
+<a href="#" class="year sely2014" onclick="showonly('y2014')" style="padding-left:5px;">2014</a>
+<a href="#" class="year sely2013" onclick="showonly('y2013')" style="padding-left:5px;">2013</a>
+<a href="#" class="year sely2012" onclick="showonly('y2012')" style="padding-left:5px;">2012</a>
+<a href="#" class="year sely2011" onclick="showonly('y2011')" style="padding-left:5px;">2011</a>
+<a href="#" class="year sely2010" onclick="showonly('y2010')" style="padding-left:5px;">2010</a>
+<a href="#" class="year sely2009" onclick="showonly('y2009')" style="padding-left:5px;">2009</a>
+<a href="#" class="year sely2008" onclick="showonly('y2008')" style="padding-left:5px;">2008</a>
 </div><p class="pub y2018 rence RajdeepSarkar JohnPMcCrae PaulBuitelaar"><b>A supervised approach to taxonomy extraction using word embeddings</a></b>. Rajdeep Sarkar, John P. McCrae and Paul Buitelaar, <i>Proceedings of the 11th Language Resource and Evaluation Conference (LREC)</i>, (2018 (Accepted)).</p>
 
 <p class="pub y2018 rence IanWood JohnPMcCrae VladimirAndryushechkin PaulBuitelaar"><b>A Comparison Of Emotion Annotation Schemes And A New Annotated Data Set</a></b>. Ian Wood, John P. McCrae, Vladimir Andryushechkin and Paul Buitelaar, <i>Proceedings of the 11th Language Resource and Evaluation Conference (LREC)</i>, (2018 (Accepted)).</p>

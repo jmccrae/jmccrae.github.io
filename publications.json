@@ -16,6 +16,49 @@
     },
     "@graph": [ 
         {
+            "@id": "sarkar2018supervised",
+            "@type": "swrc:InProceedings",
+            "booktitle": "Proceedings of the 11th Language Resource and Evaluation Conference (LREC)",
+            "year": "2018 (Accepted)",
+            "author": ["Rajdeep Sarkar", "John P. McCrae", "Paul Buitelaar"],
+            "title": "A supervised approach to taxonomy extraction using word embeddings"
+        },
+        {
+            "@id": "wood2018comparison",
+            "@type": "swrc:InProceedings",
+            "booktitle": "Proceedings of the 11th Language Resource and Evaluation Conference (LREC)",
+            "year": "2018 (Accepted)",
+            "author": ["Ian Wood", "John P. McCrae", "Vladimir Andryushechkin", "Paul Buitelaar" ],
+            "title": "A Comparison Of Emotion Annotation Schemes And A New Annotated Data Set"
+        },
+        {
+            "@id": "ziad2018linked",
+            "@type": "swrc:InProceedings",
+            "booktitle": "Proceedings of the 11th Language Resource and Evaluation Conference (LREC)",
+            "year": "2018 (Accepted)",
+            "author": [ "Housam Ziad", "John P. McCrae", "Paul Buitelaar" ],
+            "title": "Teanga: A Linked Data based platform for Natural Language Processing"
+        },
+        {
+            "@id": "arcan2018automatic",
+            "@type": "swrc:InProceedings",
+            "booktitle": "Proceedings of the 11th Language Resource and Evaluation Conference (LREC)",
+            "year": "2018 (Accepted)",
+            "author": ["Mihael Arcan", "Elena Montiel-Ponsoda", "John P. McCrae", "Paul Buitelaar" ],
+            "title": "Automatic Enrichment of Terminological Resources: the IATE RDF Example"
+        },
+        {
+            "@id": "buitelaar2018mixedemotions",
+            "@type": "swrc:Article",
+            "journal": "IEEE Transactions on Multimedia",
+            "year": 2018,
+            "author": ["Paul Buitelaar", "Ian D. Wood", "Sapna Negi", "Mihael Arcan", "John P. McCrae", "Andrejs Abele", "Cécile Robin", "Vladimir Andryushechkin", "Housam Ziad", "Hesam Sagha", "J. Fernando Sánchez-Rada", "Carlos A. Iglesias", "Carlos Navarro", "Andreas Giefer", "Nicolaus Heise", "Vincenzo Masucci", "Francesco A. Danza", "Ciro Caterino", "Pavel Smrž", "Michal Hradiš", "Filip Povolný", "Marek Klimeš", "Pavel Matějka", "Giovanni Tummarello" ],
+            "title": "MixedEmotions: An Open-Source Toolbox for Multi-Modal Emotion Analysis",
+            "url": "http://ieeexplore.ieee.org/document/8269329/",
+            "volume": "??",
+            "number": "??"
+        },
+        {
             "@id": "mccrae2018mapping",
             "@type": "swrc:InProceedings",
             "booktitle": "Proceedings of the 9th Global WordNet Conference",
@@ -184,6 +227,7 @@
             "title":     "The Open Linguistics Working Group: Developing the Linguistic Linked Open Data Cloud",
             "booktitle": "10th Language Resource and Evaluation Conference (LREC)",
             "url":       "http://www.lrec-conf.org/proceedings/lrec2016/pdf/851_Paper.pdf",
+            "pages":     "2435-2441",
             "year":      2016
         }, {
             "@id":       "bond2016cili",
@@ -229,6 +273,7 @@
             "title":     "Linghub: a Linked Data based portal supporting the discovery of language resources",
             "author":    ["John P. McCrae", "Philipp Cimiano"],
             "booktitle": "Proceedings of the 11th International Conference on Semantic Systems",
+            "pages":     "88-91",
             "year":      "2015"
         },{
             "@id":       "siemoneit2015linking",
@@ -492,7 +537,7 @@
         },{
             "@id":       "gracia2011challenges",
             "@type":     "swrc:Article",
-            "url":       "http://imap.websemanticsjournal.org/index.php/ps/article/viewFile/214/209",
+            "url":       "http://oa.upm.es/8848/1/Multiling.pdf",
             "title":     "Challenges for the Multilingual Web of Data.",
             "author":    ["Jorge Gracia", "Elena Montiel-Ponsoda", "Philipp Cimiano", "Asunción Gómez-Pérez", "Paul Buitelaar", "John McCrae"],
             "journal":   "Web Semantics: Science, Services and Agents on the World Wide Web",

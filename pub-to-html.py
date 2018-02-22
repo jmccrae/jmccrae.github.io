@@ -114,6 +114,10 @@ out.write("""<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity=
 out.write("""<script>
         function showonly(p) {
             $('.pub:not(.' + p + ')').slideUp();
+            $('.' + p).slideDown();
+            }
+        function showall(p) {
+            $('.pub').slideDown();
             }
             </script>""")
 

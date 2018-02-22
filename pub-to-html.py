@@ -8,7 +8,7 @@ out = open("publications.php", "w")
 out.write("<?php include 'header.html'; ?>\n")
 out.write("<div class=\"row col-lg-6 col-lg-offset-3\">\n\n")
 out.write("<div style=\"text-align:right;\">Download as: <a href=\"publications.bib\">BibTeX</a>&nbsp;&nbsp;<a href=\"publications.json\">JSON-LD</a></div>")
-out.write("""<div style="text-align:right;padding-bottom:10px;">By Type:&nbsp;&nbsp;
+out.write("""<div style="text-align:right;">By Type:&nbsp;&nbsp;
 <a href="#" class="arttype all" onclick="showall()" style="color:black;">All</a>&nbsp;&nbsp;
 <a href="#" class="arttype selArticle" onclick="showonly('Article')">Journal Articles</a>&nbsp;&nbsp;
 <a href="#" class="arttype selBook" onclick="showonly('Book')">Books</a>&nbsp;&nbsp;

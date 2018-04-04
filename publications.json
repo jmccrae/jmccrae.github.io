@@ -38,6 +38,22 @@
             "year": "2018"
         },
         {
+            "@id": "doyle2018preservation",
+            "@type": "Workshop",
+            "title": "Preservation of Original Orthography in the Construction of an Old Irish Corpus.",
+            "author": ["Adrian Doyle", "John P. McCrae", "Clodagh Downey"],
+            "booktitle": "Processing of the 3rd Workshop for Collaboration and Computing for Under-Resourced Languages",
+            "year": "2018 (Accepted)"
+        },
+        {
+            "@id": "declerck2018elexis",
+            "@type": "Workshop",
+            "title": "ELEXIS - European Lexicographic Infrastructure: Contributions to and from the Linguistic Linked Open Data",
+            "author": ["Thierry Declerck", "John McCrae", "Roberto Navigli", "Ksenia Zaytseva", "Tanja Wissik"],
+            "booktitle": "Proceedings of the Globalex 2018 Workshop",
+            "year": "2018 (Accepted)"
+        },
+        {
             "@id": "sarkar2018supervised",
             "@type": "Conference",
             "booktitle": "Proceedings of the 11th Language Resource and Evaluation Conference (LREC)",

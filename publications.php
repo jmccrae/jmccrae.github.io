@@ -28,6 +28,10 @@
 
 <p class="pub y2018 Article JohnPMcCrae PaulBuitelaar"><b><a class="publication" href="http://www.cit.iit.bas.bg/CIT_2018/v-18-1/10_paper.pdf">Linking Datasets Using Semantic Textual Similarity</a></b>. John P. McCrae and Paul Buitelaar, <i>Cybernetics and Information Technologies</i>, 18(1), pp 109-123, (2018).</p>
 
+<p class="pub y2018 hop AdrianDoyle JohnPMcCrae ClodaghDowney"><b>Preservation of Original Orthography in the Construction of an Old Irish Corpus.</a></b>. Adrian Doyle, John P. McCrae and Clodagh Downey, <i>Processing of the 3rd Workshop for Collaboration and Computing for Under-Resourced Languages</i>, (2018 (Accepted)).</p>
+
+<p class="pub y2018 hop ThierryDeclerck JohnMcCrae RobertoNavigli KseniaZaytseva TanjaWissik"><b>ELEXIS - European Lexicographic Infrastructure: Contributions to and from the Linguistic Linked Open Data</a></b>. Thierry Declerck, John McCrae, Roberto Navigli, Ksenia Zaytseva and Tanja Wissik, <i>Proceedings of the Globalex 2018 Workshop</i>, (2018 (Accepted)).</p>
+
 <p class="pub y2018 rence RajdeepSarkar JohnPMcCrae PaulBuitelaar"><b>A supervised approach to taxonomy extraction using word embeddings</a></b>. Rajdeep Sarkar, John P. McCrae and Paul Buitelaar, <i>Proceedings of the 11th Language Resource and Evaluation Conference (LREC)</i>, (2018 (Accepted)).</p>
 
 <p class="pub y2018 rence IanWood JohnPMcCrae VladimirAndryushechkin PaulBuitelaar"><b>A Comparison Of Emotion Annotation Schemes And A New Annotated Data Set</a></b>. Ian Wood, John P. McCrae, Vladimir Andryushechkin and Paul Buitelaar, <i>Proceedings of the 11th Language Resource and Evaluation Conference (LREC)</i>, (2018 (Accepted)).</p>

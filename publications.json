@@ -18,6 +18,14 @@
     },
     "@graph": [ 
         {
+            "@id": "zayed2018phrase",
+            "@type": "Workshop",
+            "title": "Phrase-Level Metaphor Identification using Distributed Representations of Word Meaning",
+            "author": ["Omnia Zayed", "John P. McCrae", "Paul Buitelaar"],
+            "booktitle": "Proceedings of the Workshop on Figurative Language Processing",
+            "year": "2018 (Accepted)"
+        },
+        {
             "@id": "mccrae2018linking",
             "@type": "swrc:Article",
             "journal": "Cybernetics and Information Technologies",

@@ -24,7 +24,9 @@
 <a href="#" class="year sely2010" onclick="showonly(event,'y2010')" style="padding-left:5px;">2010</a>
 <a href="#" class="year sely2009" onclick="showonly(event,'y2009')" style="padding-left:5px;">2009</a>
 <a href="#" class="year sely2008" onclick="showonly(event,'y2008')" style="padding-left:5px;">2008</a>
-</div><p class="pub y2018 Article JohnPMcCrae PaulBuitelaar"><b><a class="publication" href="http://www.cit.iit.bas.bg/CIT_2018/v-18-1/10_paper.pdf">Linking Datasets Using Semantic Textual Similarity</a></b>. John P. McCrae and Paul Buitelaar, <i>Cybernetics and Information Technologies</i>, 18(1), pp 109-123, (2018).</p>
+</div><p class="pub y2018 hop OmniaZayed JohnPMcCrae PaulBuitelaar"><b>Phrase-Level Metaphor Identification using Distributed Representations of Word Meaning</a></b>. Omnia Zayed, John P. McCrae and Paul Buitelaar, <i>Proceedings of the Workshop on Figurative Language Processing</i>, (2018 (Accepted)).</p>
+
+<p class="pub y2018 Article JohnPMcCrae PaulBuitelaar"><b><a class="publication" href="http://www.cit.iit.bas.bg/CIT_2018/v-18-1/10_paper.pdf">Linking Datasets Using Semantic Textual Similarity</a></b>. John P. McCrae and Paul Buitelaar, <i>Cybernetics and Information Technologies</i>, 18(1), pp 109-123, (2018).</p>
 
 <p class="pub y2018 rence RajdeepSarkar JohnPMcCrae PaulBuitelaar"><b>A supervised approach to taxonomy extraction using word embeddings</a></b>. Rajdeep Sarkar, John P. McCrae and Paul Buitelaar, <i>Proceedings of the 11th Language Resource and Evaluation Conference (LREC)</i>, (2018 (Accepted)).</p>
 

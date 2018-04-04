@@ -18,6 +18,18 @@
     },
     "@graph": [ 
         {
+            "@id": "mccrae2018linking",
+            "@type": "swrc:Article",
+            "journal": "Cybernetics and Information Technologies",
+            "volume": "18",
+            "number": "1",
+            "pages": "109-123",
+            "author": ["John P. McCrae", "Paul Buitelaar"],
+            "title": "Linking Datasets Using Semantic Textual Similarity",
+            "url": "http://www.cit.iit.bas.bg/CIT_2018/v-18-1/10_paper.pdf",
+            "year": "2018"
+        },
+        {
             "@id": "sarkar2018supervised",
             "@type": "Conference",
             "booktitle": "Proceedings of the 11th Language Resource and Evaluation Conference (LREC)",

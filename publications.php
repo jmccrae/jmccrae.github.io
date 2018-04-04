@@ -24,7 +24,9 @@
 <a href="#" class="year sely2010" onclick="showonly(event,'y2010')" style="padding-left:5px;">2010</a>
 <a href="#" class="year sely2009" onclick="showonly(event,'y2009')" style="padding-left:5px;">2009</a>
 <a href="#" class="year sely2008" onclick="showonly(event,'y2008')" style="padding-left:5px;">2008</a>
-</div><p class="pub y2018 rence RajdeepSarkar JohnPMcCrae PaulBuitelaar"><b>A supervised approach to taxonomy extraction using word embeddings</a></b>. Rajdeep Sarkar, John P. McCrae and Paul Buitelaar, <i>Proceedings of the 11th Language Resource and Evaluation Conference (LREC)</i>, (2018 (Accepted)).</p>
+</div><p class="pub y2018 Article JohnPMcCrae PaulBuitelaar"><b><a class="publication" href="http://www.cit.iit.bas.bg/CIT_2018/v-18-1/10_paper.pdf">Linking Datasets Using Semantic Textual Similarity</a></b>. John P. McCrae and Paul Buitelaar, <i>Cybernetics and Information Technologies</i>, 18(1), pp 109-123, (2018).</p>
+
+<p class="pub y2018 rence RajdeepSarkar JohnPMcCrae PaulBuitelaar"><b>A supervised approach to taxonomy extraction using word embeddings</a></b>. Rajdeep Sarkar, John P. McCrae and Paul Buitelaar, <i>Proceedings of the 11th Language Resource and Evaluation Conference (LREC)</i>, (2018 (Accepted)).</p>
 
 <p class="pub y2018 rence IanWood JohnPMcCrae VladimirAndryushechkin PaulBuitelaar"><b>A Comparison Of Emotion Annotation Schemes And A New Annotated Data Set</a></b>. Ian Wood, John P. McCrae, Vladimir Andryushechkin and Paul Buitelaar, <i>Proceedings of the 11th Language Resource and Evaluation Conference (LREC)</i>, (2018 (Accepted)).</p>
 

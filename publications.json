@@ -18,12 +18,20 @@
     },
     "@graph": [ 
         {
+            "@id": "walsh2018constructing",
+            "@type": "Workshop",
+            "title": "Constructing an Annotated Corpus of Verbal MWEs for English",
+            "author": ["Abigail Walsh", "Claire Bonial", "Kristina Geeraert", "John P. McCrae", "Nathan Schneider", "Clarissa Somers"],
+            "booktitle": "Proceedings of Joint Workshop on Linguistic Annotation, Multiword Expressions and Constructions (LAW-MWE-CxG-2018)",
+            "year": 2018
+        },
+        {
             "@id": "zayed2018phrase",
             "@type": "Workshop",
             "title": "Phrase-Level Metaphor Identification using Distributed Representations of Word Meaning",
             "author": ["Omnia Zayed", "John P. McCrae", "Paul Buitelaar"],
             "booktitle": "Proceedings of the Workshop on Figurative Language Processing",
-            "year": "2018 (Accepted)"
+            "year": "2018"
         },
         {
             "@id": "mccrae2018linking",

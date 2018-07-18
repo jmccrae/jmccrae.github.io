@@ -18,12 +18,19 @@
     },
     "@graph": [ 
         {
+            "@id": "krek2018european",
+            "title": "European Lexicographic Infrastructure (ELEXIS)",
+            "author": ["Simon Krek", "John McCrae", "Iztok Kosem", "Tanja Wissek", "Carole Tiberius", "Roberto Navigli", "Boletter Sandford Pedersen"],
+            "booktitle": "Proceedings of the XVIII EURALEX International Congress on Lexicography in Global Contexts", 
+            "year": "2018",
+            "pages": "881-892"
+        }, {
             "@id": "walsh2018constructing",
             "@type": "Workshop",
             "title": "Constructing an Annotated Corpus of Verbal MWEs for English",
             "author": ["Abigail Walsh", "Claire Bonial", "Kristina Geeraert", "John P. McCrae", "Nathan Schneider", "Clarissa Somers"],
             "booktitle": "Proceedings of Joint Workshop on Linguistic Annotation, Multiword Expressions and Constructions (LAW-MWE-CxG-2018)",
-            "year": 2018
+            "year": "2018"
         },
         {
             "@id": "zayed2018phrase",

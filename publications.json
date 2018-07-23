@@ -19,11 +19,13 @@
     "@graph": [ 
         {
             "@id": "krek2018european",
+            "@type": "Conference",
             "title": "European Lexicographic Infrastructure (ELEXIS)",
             "author": ["Simon Krek", "John McCrae", "Iztok Kosem", "Tanja Wissek", "Carole Tiberius", "Roberto Navigli", "Boletter Sandford Pedersen"],
             "booktitle": "Proceedings of the XVIII EURALEX International Congress on Lexicography in Global Contexts", 
             "year": "2018",
-            "pages": "881-892"
+            "pages": "881-892",
+            "url": "http://euralex2018.cjvt.si/wp-content/uploads/sites/6/2018/07/Euralex_2018.pdf"
         }, {
             "@id": "walsh2018constructing",
             "@type": "Workshop",
@@ -74,7 +76,9 @@
             "booktitle": "Proceedings of the 11th Language Resource and Evaluation Conference (LREC)",
             "year": "2018",
             "author": ["Rajdeep Sarkar", "John P. McCrae", "Paul Buitelaar"],
-            "title": "A supervised approach to taxonomy extraction using word embeddings"
+            "title": "A supervised approach to taxonomy extraction using word embeddings",
+            "url": "http://www.lrec-conf.org/proceedings/lrec2018/summaries/601.html"
+
         },
         {
             "@id": "wood2018comparison",
@@ -82,7 +86,8 @@
             "booktitle": "Proceedings of the 11th Language Resource and Evaluation Conference (LREC)",
             "year": "2018",
             "author": ["Ian Wood", "John P. McCrae", "Vladimir Andryushechkin", "Paul Buitelaar" ],
-            "title": "A Comparison Of Emotion Annotation Schemes And A New Annotated Data Set"
+            "title": "A Comparison Of Emotion Annotation Schemes And A New Annotated Data Set",
+            "url": "http://www.lrec-conf.org/proceedings/lrec2018/summaries/61.html"
         },
         {
             "@id": "ziad2018linked",
@@ -90,7 +95,8 @@
             "booktitle": "Proceedings of the 11th Language Resource and Evaluation Conference (LREC)",
             "year": "2018",
             "author": [ "Housam Ziad", "John P. McCrae", "Paul Buitelaar" ],
-            "title": "Teanga: A Linked Data based platform for Natural Language Processing"
+            "title": "Teanga: A Linked Data based platform for Natural Language Processing",
+            "url": "http://www.lrec-conf.org/proceedings/lrec2018/summaries/106.html"
         },
         {
             "@id": "arcan2018automatic",
@@ -98,7 +104,8 @@
             "booktitle": "Proceedings of the 11th Language Resource and Evaluation Conference (LREC)",
             "year": "2018",
             "author": ["Mihael Arcan", "Elena Montiel-Ponsoda", "John P. McCrae", "Paul Buitelaar" ],
-            "title": "Automatic Enrichment of Terminological Resources: the IATE RDF Example"
+            "title": "Automatic Enrichment of Terminological Resources: the IATE RDF Example",
+            "url": "http://www.lrec-conf.org/proceedings/lrec2018/summaries/541.html"
         },
         {
             "@id": "buitelaar2018mixedemotions",

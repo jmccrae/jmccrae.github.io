@@ -30,7 +30,7 @@
             "@id": "krek2018european",
             "@type": "Conference",
             "title": "European Lexicographic Infrastructure (ELEXIS)",
-            "author": ["Simon Krek", "John McCrae", "Iztok Kosem", "Tanja Wissek", "Carole Tiberius", "Roberto Navigli", "Boletter Sandford Pedersen"],
+            "author": ["Simon Krek", "John McCrae", "Iztok Kosem", "Tanja Wissek", "Carole Tiberius", "Roberto Navigli", "Bolette Sandford Pedersen"],
             "booktitle": "Proceedings of the XVIII EURALEX International Congress on Lexicography in Global Contexts", 
             "year": "2018",
             "pages": "881-892",

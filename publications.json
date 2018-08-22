@@ -18,6 +18,15 @@
     },
     "@graph": [ 
         {
+            "@id": "mccrae2018ldk",
+            "@type": "swrc:Proceedings",
+            "title": "6th Workshop on Linked Data in Linguistics: Towards Linguistic Data Science",
+            "editor": ["John P. McCrae", "Christian Chiarcos", "Thierry Declerck", "Jorge Gracia", "Bettina Klimek"],
+            "year": "2018",
+            "publisher": "European Language Resources Association",
+            "url": "http://lrec-conf.org/workshops/lrec2018/W23/index.html",
+            "series": "LREC-2018 Workshop Proceedings"
+        },{
             "@id": "krek2018european",
             "@type": "Conference",
             "title": "European Lexicographic Infrastructure (ELEXIS)",

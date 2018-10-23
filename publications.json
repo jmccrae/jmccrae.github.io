@@ -69,7 +69,8 @@
             "title": "Preservation of Original Orthography in the Construction of an Old Irish Corpus.",
             "author": ["Adrian Doyle", "John P. McCrae", "Clodagh Downey"],
             "booktitle": "Processing of the 3rd Workshop for Collaboration and Computing for Under-Resourced Languages",
-            "year": "2018"
+            "year": "2018",
+            "url": "http://lrec-conf.org/workshops/lrec2018/W26/summaries/20_W26.html"
         },
         {
             "@id": "declerck2018elexis",

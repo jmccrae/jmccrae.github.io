@@ -34,7 +34,7 @@
 
 <p class="pub y2018 Article JohnPMcCrae PaulBuitelaar"><b><a class="publication" href="http://www.cit.iit.bas.bg/CIT_2018/v-18-1/10_paper.pdf">Linking Datasets Using Semantic Textual Similarity</a></b>. John P. McCrae and Paul Buitelaar, <i>Cybernetics and Information Technologies</i>, 18(1), pp 109-123, (2018).</p>
 
-<p class="pub y2018 hop AdrianDoyle JohnPMcCrae ClodaghDowney"><b><a class="publication" href="papers/doyle2018preservation.pdf">Preservation of Original Orthography in the Construction of an Old Irish Corpus.</a></b>. Adrian Doyle, John P. McCrae and Clodagh Downey, <i>Processing of the 3rd Workshop for Collaboration and Computing for Under-Resourced Languages</i>, (2018).</p>
+<p class="pub y2018 hop AdrianDoyle JohnPMcCrae ClodaghDowney"><b><a class="publication" href="http://lrec-conf.org/workshops/lrec2018/W26/summaries/20_W26.html">Preservation of Original Orthography in the Construction of an Old Irish Corpus</a></b>. Adrian Doyle, John P. McCrae and Clodagh Downey, <i>Processing of the 3rd Workshop for Collaboration and Computing for Under-Resourced Languages</i>, (2018).</p>
 
 <p class="pub y2018 hop ThierryDeclerck JohnMcCrae RobertoNavigli KseniaZaytseva TanjaWissik"><b><a class="publication" href="papers/declerck2018elexis.pdf">ELEXIS - European Lexicographic Infrastructure: Contributions to and from the Linguistic Linked Open Data</a></b>. Thierry Declerck, John McCrae, Roberto Navigli, Ksenia Zaytseva and Tanja Wissik, <i>Proceedings of the Globalex 2018 Workshop</i>, (2018).</p>
 
@@ -62,7 +62,7 @@
 
 <p class="pub y2017 hop JohnPMcCrae MihaelArcan PaulBuitleaar"><b><a class="publication" href="papers/mccrae2017linking.pdf">Linking Knowledge Graphs across Languages with Semantic Similarity and Machine Translation</a></b>. John P. McCrae, Mihael Arcan and Paul Buitleaar, <i>Proceedings of the First Workshop on Multi-Language Processing in a Globalising World (MLP2017)</i>, (2017).</p>
 
-<p class="pub y2017 rence JohnPMcCrae PaulBuitelaar PhilippCimiano"><b><a class="publication" href="papers/mccrae2017ontolex.pdf">The OntoLex-Lemon Model: development and applications</a></b>. John P. McCrae, Paul Buitelaar and Philipp Cimiano, <i>Proceedings of eLex 2017</i>, (2017).</p>
+<p class="pub y2017 rence JohnPMcCrae PaulBuitelaar PhilippCimiano"><b><a class="publication" href="https://elex.link/elex2017/wp-content/uploads/2017/09/paper36.pdf">The OntoLex-Lemon Model: development and applications</a></b>. John P. McCrae, Paul Buitelaar and Philipp Cimiano, <i>Proceedings of eLex 2017</i>, pp 587-597, (2017).</p>
 
 <p class="pub y2017 rence BettinaKlimek JohnPMcCrae ChristianChiarcos SebastianHellmann"><b><a class="publication" href="papers/klimek2017onlit.pdf">OnLiT: An Ontology for Linguistic Terminology</a></b>. Bettina Klimek, John P. McCrae, Christian Chiarcos and Sebastian Hellmann, <i>Proceedings of the First Conference on Language, Data and Knowledge (LDK2017)</i>, pp 42-57, (2017).</p>
 
@@ -132,7 +132,7 @@
 
 <p class="pub y2014 hop DanielVilaSuero VictorRodriguezDoncel AsunciónGómezPérez PhilippCimiano JohnPMcCrae GuadalupeAguadodeCea"><b><a class="publication" href="papers/vilasuero20143ld.pdf">3LD: Towards high quality, industry-ready Linguistic Linked Linguistic Data</a></b>. Daniel Vila-Suero, Victor Rodriguez-Doncel, Asunción Gómez-Pérez, Philipp Cimiano, John P. McCrae and Guadalupe Aguado-de-Cea, <i>European Data Forum 2014</i>, (2014).</p>
 
-<p class="pub y2014 Book PhilippCimiano ChristinaUnger JohnMcCrae"><b><a class="publication" href="http://www.morganclaypool.com/doi/abs/10.2200/S00561ED1V01Y201401HLT024">Ontology-based interpretation of natural language</a></b>. Philipp Cimiano, Christina Unger and John McCrae, <i>Morgen & Claypool</i>, (2014).</p>
+<p class="pub y2014 Book PhilippCimiano ChristinaUnger JohnMcCrae"><b><a class="publication" href="http://www.morganclaypool.com/doi/abs/10.2200/S00561ED1V01Y201401HLT024">Ontology-based interpretation of natural language</a></b>. Philipp Cimiano, Christina Unger and John McCrae, <i>Morgan & Claypool</i>, (2014).</p>
 
 <p class="pub y2013 rence JohnMcCrae PhilippCimiano RomanKlinger"><b><a class="publication" href="https://www.aclweb.org/anthology/D/D13/D13-1179.pdf">Orthonormal explicit topic analysis for cross-lingual document matching</a></b>. John McCrae, Philipp Cimiano and Roman Klinger, <i>Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing</i>, pp 1732-1742, (2013).</p>
 
@@ -158,9 +158,9 @@
 
 <p class="pub y2012 Article JohnMcCrae GuadalupeAguadodeCea PaulBuitelaar PhilippCimiano ThierryDeclerck AsunciónGómezPérez JorgeGracia LauraHollink ElenaMontielPonsoda DennisSpohr TobiasWunner"><b><a class="publication" href="papers/mccrae2012interchanging.pdf">Interchanging lexical resources on the Semantic Web</a></b>. John McCrae, Guadalupe Aguado-de-Cea, Paul Buitelaar, Philipp Cimiano, Thierry Declerck, Asunción Gómez-Pérez, Jorge Gracia, Laura Hollink, Elena Montiel-Ponsoda, Dennis Spohr and Tobias Wunner, <i>Language Resources and Evaluation</i>, 46(6), pp 701-709, (2012).</p>
 
-<p class="pub y2011 Article PhilippCimiano PaulBuitelaar JohnMcCrae MichaelSintek"><b><a class="publication" href="papers/cimiano2011lexinfo.pdf">LexInfo: A declarative model for the lexicon-ontology interface</a></b>. Philipp Cimiano, Paul Buitelaar, John McCrae and Michael Sintek., <i>Web Semantics: Science, Services and Agents on the World Wide Web</i>, 9(1), pp 29-51, (2011).</p>
+<p class="pub y2011 Article PhilippCimiano PaulBuitelaar JohnMcCrae MichaelSintek"><b><a class="publication" href="papers/cimiano2011lexinfo.pdf">LexInfo: A declarative model for the lexicon-ontology interface</a></b>. Philipp Cimiano, Paul Buitelaar, John McCrae and Michael Sintek, <i>Web Semantics: Science, Services and Agents on the World Wide Web</i>, 9(1), pp 29-51, (2011).</p>
 
-<p class="pub y2011 Article JorgeGracia ElenaMontielPonsoda PhilippCimiano AsunciónGómezPérez PaulBuitelaar JohnMcCrae"><b><a class="publication" href="http://oa.upm.es/8848/1/Multiling.pdf">Challenges for the Multilingual Web of Data.</a></b>. Jorge Gracia, Elena Montiel-Ponsoda, Philipp Cimiano, Asunción Gómez-Pérez, Paul Buitelaar and John McCrae, <i>Web Semantics: Science, Services and Agents on the World Wide Web</i>, pp 63-71, (2011).</p>
+<p class="pub y2011 Article JorgeGracia ElenaMontielPonsoda PhilippCimiano AsunciónGómezPérez PaulBuitelaar JohnMcCrae"><b><a class="publication" href="http://oa.upm.es/8848/1/Multiling.pdf">Challenges for the Multilingual Web of Data</a></b>. Jorge Gracia, Elena Montiel-Ponsoda, Philipp Cimiano, Asunción Gómez-Pérez, Paul Buitelaar and John McCrae, <i>Web Semantics: Science, Services and Agents on the World Wide Web</i>, pp 63-71, (2011).</p>
 
 <p class="pub y2011 hop JohnMcCrae MauricioEspinoza ElenaMontielPonsoda GuadalupeAguadodeCea PhilippCimiano"><b><a class="publication" href="papers/mccrae2011combining.pdf">Combining statistical and semantic approaches to the translation of ontologies and taxonomies</a></b>. John McCrae, Mauricio Espinoza, Elena Montiel-Ponsoda, Guadalupe Aguado-de-Cea and Philipp Cimiano, <i>Fifth Workshop on Syntax, Structure and Semantics in Statistical Translation in conjunction with 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies</i>, (2011).</p>
 

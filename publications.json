@@ -66,7 +66,7 @@
         {
             "@id": "doyle2018preservation",
             "@type": "Workshop",
-            "title": "Preservation of Original Orthography in the Construction of an Old Irish Corpus.",
+            "title": "Preservation of Original Orthography in the Construction of an Old Irish Corpus",
             "author": ["Adrian Doyle", "John P. McCrae", "Clodagh Downey"],
             "booktitle": "Processing of the 3rd Workshop for Collaboration and Computing for Under-Resourced Languages",
             "year": "2018",
@@ -192,7 +192,9 @@
             "title":     "The OntoLex-Lemon Model: development and applications",
             "author":    ["John P. McCrae", "Paul Buitelaar", "Philipp Cimiano"],
             "year":      "2017",
-            "booktitle": "Proceedings of eLex 2017"
+            "booktitle": "Proceedings of eLex 2017",
+            "pages": "587-597",
+            "url": "https://elex.link/elex2017/wp-content/uploads/2017/09/paper36.pdf"
         },{
              "@id":      "klimek2017onlit",
             "@type":    "Conference",
@@ -485,7 +487,7 @@
             "url":       "http://www.morganclaypool.com/doi/abs/10.2200/S00561ED1V01Y201401HLT024",
             "title":     "Ontology-based interpretation of natural language",
             "author":    ["Philipp Cimiano", "Christina Unger", "John McCrae"],
-            "publisher": "Morgen & Claypool",
+            "publisher": "Morgan & Claypool",
             "year":      2014
         },{
             "@id":       "mccrae2013orthonormal",
@@ -598,7 +600,7 @@
             "@id":       "cimiano2011lexinfo",
             "@type":     "swrc:Article",
             "title":     "LexInfo: A declarative model for the lexicon-ontology interface",
-            "author":    ["Philipp Cimiano", "Paul Buitelaar", "John McCrae", "Michael Sintek."],
+            "author":    ["Philipp Cimiano", "Paul Buitelaar", "John McCrae", "Michael Sintek"],
             "journal":   "Web Semantics: Science, Services and Agents on the World Wide Web",
             "volume":    9,
             "number":    1,
@@ -608,7 +610,7 @@
             "@id":       "gracia2011challenges",
             "@type":     "swrc:Article",
             "url":       "http://oa.upm.es/8848/1/Multiling.pdf",
-            "title":     "Challenges for the Multilingual Web of Data.",
+            "title":     "Challenges for the Multilingual Web of Data",
             "author":    ["Jorge Gracia", "Elena Montiel-Ponsoda", "Philipp Cimiano", "Asunción Gómez-Pérez", "Paul Buitelaar", "John McCrae"],
             "journal":   "Web Semantics: Science, Services and Agents on the World Wide Web",
             "number":    11,

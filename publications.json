@@ -190,7 +190,7 @@
             "@id":       "mccrae2017ontolex",
             "@type":     "Conference",
             "title":     "The OntoLex-Lemon Model: development and applications",
-            "author":    ["John P. McCrae", "Paul Buitelaar", "Philipp Cimiano"],
+            "author":    ["John P. McCrae", "Julia Bosque-Gil", "Jorge Gracia", "Paul Buitelaar", "Philipp Cimiano"],
             "year":      "2017",
             "booktitle": "Proceedings of eLex 2017",
             "pages": "587-597",

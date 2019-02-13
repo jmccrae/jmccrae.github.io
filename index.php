@@ -13,14 +13,10 @@
 <a href="http://datascienceinstitute.ie/">Data Science Institute</a> and
 <a href="http://www.insight-centre.org/">
 Insight Centre for Data Analytics</a> at the <a href="http://www.nuigalway.ie">
-National University of Ireland Galway</a>.
-                    I am currently working with <a href="http://www.paulbuitelaar.net/">Paul Buitelaar</a>
-in the <a href="http://nlp.insight-centre.org/">Unit for Natural Language Processing</a>.</p>
-
-                    <p>
-                    Until 2015 I was a post-doctoral researcher at the <a href="http://www.uni-bielefeld.de/">University of Bielefeld</a> in Bielefeld, Germany in
- <a href="http://cimiano.de/doku.php" property="foaf:knows">Prof. Philipp Cimiano's</a> group, <a href="http://www.sc.cit-ec.uni-bielefeld.de/" property="foaf:workplaceHomepage">AG Semantic Computing</a>.
-                    My research interests include the following:
+National University of Ireland Galway</a> and the leader of the <b>Unit for Linguistic Data</b>. 
+                    I am the coordinator of the <a href="http://pret-a-llod.eu">Pr&ecirc;t-&agrave;-LLOD</a> project
+                    and work package leader in the <a href="http://elex.is">ELEXIS</a> infrastructure.
+                                        My research interests include the following:
                     </p>
                     <ul>
                         <li>
@@ -48,6 +44,14 @@ in the <a href="http://nlp.insight-centre.org/">Unit for Natural Language Proces
 			Under-resourced languages
 			</li>
                     </ul>
+                    <p>I obtained my PhD from the <a href="https://www.nii.ac.jp/en/">National Institute of Informatics</a> in
+                    Tokyo under the supervision of <a href="https://www.mml.cam.ac.uk/nhc30">Nigel Collier</a> and 
+                    Until 2015 I was a post-doctoral researcher at the <a href="http://www.uni-bielefeld.de/">University of Bielefeld</a> in Bielefeld, Germany in
+                    <a href="http://cimiano.de/doku.php" property="foaf:knows">Prof. Philipp Cimiano's</a> group, <a href="http://www.sc.cit-ec.uni-bielefeld.de/" property="foaf:workplaceHomepage">AG Semantic Computing</a>.
+<!--I am currently working with <a href="http://www.paulbuitelaar.net/">Paul Buitelaar</a>
+in the <a href="http://nlp.insight-centre.org/">Unit for Natural Language Processing</a>.</p>-->
+                    <p>
+
                     <p>You can contact me at <a href="mailto:john@mccr.ae" property="foaf:mbox">john@mccr.ae</a>.</p>
 
                     <p>ORCID: <a href="http://orcid.org/0000-0002-7227-1331">0000-0002-7227-1331</a><br>

@@ -46,7 +46,7 @@ National University of Ireland Galway</a> and the leader of the <b>Unit for Ling
                     </ul>
                     <p>I obtained my PhD from the <a href="https://www.nii.ac.jp/en/">National Institute of Informatics</a> in
                     Tokyo under the supervision of <a href="https://www.mml.cam.ac.uk/nhc30">Nigel Collier</a> and 
-                    Until 2015 I was a post-doctoral researcher at the <a href="http://www.uni-bielefeld.de/">University of Bielefeld</a> in Bielefeld, Germany in
+                    until 2015 I was a post-doctoral researcher at the <a href="http://www.uni-bielefeld.de/">University of Bielefeld</a> in Bielefeld, Germany in
                     <a href="http://cimiano.de/doku.php" property="foaf:knows">Prof. Philipp Cimiano's</a> group, <a href="http://www.sc.cit-ec.uni-bielefeld.de/" property="foaf:workplaceHomepage">AG Semantic Computing</a>.
 <!--I am currently working with <a href="http://www.paulbuitelaar.net/">Paul Buitelaar</a>
 in the <a href="http://nlp.insight-centre.org/">Unit for Natural Language Processing</a>.</p>-->

@@ -49,7 +49,8 @@
             "title": "Phrase-Level Metaphor Identification using Distributed Representations of Word Meaning",
             "author": ["Omnia Zayed", "John P. McCrae", "Paul Buitelaar"],
             "booktitle": "Proceedings of the Workshop on Figurative Language Processing",
-            "year": "2018"
+            "year": "2018",
+            "doi": "10.18653/v1/w18-0910"
         },
         {
             "@id": "mccrae2018linking",
@@ -61,7 +62,8 @@
             "author": ["John P. McCrae", "Paul Buitelaar"],
             "title": "Linking Datasets Using Semantic Textual Similarity",
             "url": "http://www.cit.iit.bas.bg/CIT_2018/v-18-1/10_paper.pdf",
-            "year": "2018"
+            "year": "2018",
+            "doi": "10.2478/cait-2018-0010"
         },
         {
             "@id": "doyle2018preservation",
@@ -202,7 +204,8 @@
             "author":   ["Bettina Klimek", "John P. McCrae", "Christian Chiarcos", "Sebastian Hellmann"],
             "year":     "2017",
             "booktitle": "Proceedings of the First Conference on Language, Data and Knowledge (LDK2017)",
-            "pages":    "42-57"
+            "pages":    "42-57",
+            "doi": "10.1007/978-3-319-59888-8_4"
         },{
             "@id":      "mccrae2017colloquial",
             "@type":    "Conference",
@@ -210,7 +213,8 @@
             "author":   ["John P. McCrae", "Ian Wood", "Amanda Hicks" ],
             "year":     "2017",
             "booktitle": "Proceedings of the First Conference on Language, Data and Knowledge (LDK2017)",
-            "pages":    "194-202"
+            "pages":    "194-202",
+            "doi": "10.1007/978-3-319-59888-8_17"
         },{
             "@id":      "abele2017evaluation",
             "@type":    "Conference",
@@ -218,7 +222,8 @@
             "author":   ["Andrejs Abele", "John P. McCrae", "Paul Buitelaar"],
             "year":     "2017",
             "booktitle": "Proceedings of the First Conference on Language, Data and Knowledge (LDK2017)",
-            "pages":    "1-9"
+            "pages":    "1-9",
+            "doi": "10.1007/978-3-319-59888-8_1"
         },{ 
             "@id":      "cimiano2016lexicon",
             "@type":    "swrc:Misc",
@@ -241,7 +246,8 @@
             "author":    ["John P. McCrae", "Narumol Prangnawarat"],
             "year":      2016,
             "title":     "Identifying Poorly-Defined Concepts in WordNet with Graph Metrics",
-            "booktitle": "Proceedings of the First Workshop on Knowledge Extraction and Knowledge Integration (KEKI-2016)"
+            "booktitle": "Proceedings of the First Workshop on Knowledge Extraction and Knowledge Integration (KEKI-2016)",
+            "doi": "10.1007/978-3-319-68723-0_6"
         },{
             "@id":       "mccrae2016lixr",
             "@type":     "Workshop",
@@ -263,7 +269,8 @@
             "year":      2016,
             "title":     "NUIG-UNLP at SemEval-2016 Task 1: Soft Alignment and Deep Learning for Semantic Textual Similarity",
             "booktitle": "SemEval-2016",
-            "url":       "https://aclweb.org/anthology/S/S16/S16-1110.pdf"
+            "url":       "https://aclweb.org/anthology/S/S16/S16-1110.pdf",
+            "doi": "10.18653/v1/s16-1110"
         },
         {
             "@id":       "mccrae2016linked",
@@ -283,7 +290,8 @@
             "journal":   "Web Semantics",
             "volume":    36,
             "pages":     "23-31",
-            "year":      2016
+            "year":      2016,
+            "doi": "10.2139/ssrn.3199218"
         }, {
             "@id":       "mccrae2016representing",
             "@type":     "Workshop",
@@ -327,7 +335,8 @@
             "number":    4,
             "pages":     "315-317",
             "year":      2015,
-            "url":      "http://semantic-web-journal.net/content/multilingual-linked-data"
+            "url":      "http://semantic-web-journal.net/content/multilingual-linked-data",
+            "doi": "10.3233/sw-150178"
         },{
             "@id":       "ecklekohler2015",
             "@type":     "swrc:Article",
@@ -338,7 +347,8 @@
             "number":    4,
             "pages":     "371-378",
             "year":      2015,
-            "url":      "http://www.semantic-web-journal.net/content/lemonuby-large-interlinked-syntactically-rich-lexical-resource-ontologies-1"
+            "url":      "http://www.semantic-web-journal.net/content/lemonuby-large-interlinked-syntactically-rich-lexical-resource-ontologies-1",
+            "doi": "10.3233/sw-140159"
         },{
             "@id":       "mccrae2015linghub",
             "@type":     "Conference",
@@ -355,7 +365,8 @@
             "booktitle": "Proceedings of the 4th Workshop on Linked Data in Linguistics",
             "year":      "2015",
             "pages":     "59-63",
-            "url":      "http://www.aclweb.org/anthology/W15-4207"
+            "url":      "http://www.aclweb.org/anthology/W15-4207",
+            "doi": "10.18653/v1/w15-4207"
         },{
             "@id":       "mccrae2015reconciling",
             "@type":     "Workshop",
@@ -364,7 +375,8 @@
             "booktitle": "Proceedings of the 4th Workshop on Linked Data in Linguistics",
             "year":      "2015",
             "pages":     "39-48",
-            "url":      "http://www.aclweb.org/anthology/W/W15/W15-4205.pdf"
+            "url":      "http://www.aclweb.org/anthology/W/W15/W15-4205.pdf",
+            "doi": "10.18653/v1/w15-4205"
         },{
             "@id":       "cimiano2015linked",
             "@type":     "Conference",
@@ -381,7 +393,8 @@
             "author":    ["John P. McCrae", "Penny Labropoulou", "Jorge Gracia", "Marta Villegas", "Victor Rodriguez-Doncel", "Philipp Cimiano"],
             "booktitle": "Proceedings of the 4th Workshop on the Multilingual Semantic Web",
             "year":      "2015",
-            "url":       "http://ceur-ws.org/Vol-1532/paper4.pdf"
+            "url":       "http://ceur-ws.org/Vol-1532/paper4.pdf",
+            "doi": "10.1007/978-3-319-25639-9_42"
         },{
             "@id":       "fiorelli2015lime",
             "@type":     "Conference",
@@ -389,7 +402,8 @@
             "author":    ["Manuel Fiorelli", "Armando Stellato", "John P. McCrae", "Philipp Cimiano", "Maria Teresa Pazienza"],
             "booktitle": "Proceedings of 12th Extended Semantic Web Conference",
             "year":      2015,
-            "url":       "http://link.springer.com/chapter/10.1007/978-3-319-18818-8_20#page-1"
+            "url":       "http://link.springer.com/chapter/10.1007/978-3-319-18818-8_20#page-1",
+            "doi": "10.1007/978-3-319-18818-8_20"
         },{
             "@id":       "gracia2015language",
             "@type":     "swrc:InCollection",
@@ -409,7 +423,8 @@
             "editor":    ["Paul Buitelaar", "Philipp Cimiano"],
             "pages":     "15-30",
             "publisher": "Springer",
-            "year":      2014
+            "year":      2014,
+            "doi": "10.1007/978-3-662-43585-4_2"
         },{
             "@id":       "borin2014representing",
             "@type":     "Workshop",
@@ -434,7 +449,8 @@
             "title":     "Bielefeld SC: Orthonormal Topic Modelling for Grammar Induction",
             "author":    ["John P. McCrae", "Philipp Cimiano"],
             "booktitle": "Proceedings of the 8th International Workshop on Semantic Evaluation",
-            "year":      2014
+            "year":      2014,
+            "doi": "10.1007/978-3-319-59888-8_17"
         },{
             "@id":       "quattri2014default",
             "@type":     "Workshop",
@@ -442,7 +458,8 @@
             "title":     "Default Physical Measurements in SUMO",
             "author":    ["Francesca Quattri", "Adam Pease", "John P. McCrae"],
             "booktitle": "Proceedings of 4th Workshop on Cognitive Aspects of the Lexicon",
-            "year":      2014
+            "year":      2014,
+            "doi": "10.1007/978-3-319-59888-8_17"
         },{
             "@id":       "mccrae2014modelling",
             "@type":     "Workshop",
@@ -450,7 +467,8 @@
             "title":     "Modelling the Semantics of Adjectives in the Ontology-Lexicon Interface",
             "author":    ["John P. McCrae", "Christina Unger", "Francesca Quattri", "Philipp Cimiano"],
             "booktitle": "Proceedings of 4th Workshop on Cognitive Aspects of the Lexicon",
-            "year":      2014
+            "year":      2014,
+            "doi": "10.1007/978-3-319-59888-8_17"
         },{
             "@id":       "mccrae2014publishing",
             "@type":     "Workshop",
@@ -488,7 +506,8 @@
             "title":     "Ontology-based interpretation of natural language",
             "author":    ["Philipp Cimiano", "Christina Unger", "John McCrae"],
             "publisher": "Morgan & Claypool",
-            "year":      2014
+            "year":      2014,
+            "doi": "10.1007/978-3-319-59888-8_17"
         },{
             "@id":       "mccrae2013orthonormal",
             "@type":     "Conference",
@@ -541,7 +560,8 @@
             "booktitle": "New Trends of Research in Ontologies and Lexical Resources",
             "pages":     "7-25",
             "publisher": "Springer",
-            "year":      2013
+            "year":      2013,
+            "doi": "10.1007/978-3-642-31782-8_2"
         },{
             "@id":       "cimiano2013role",
             "@type":     "swrc:InCollection",
@@ -550,7 +570,8 @@
             "booktitle": "New Trends of Research in Ontologies and Lexical Resources",
             "pages":     "43-62",
             "publisher": "Springer",
-            "year":      2013
+            "year":      2013,
+            "doi": "10.1007/978-3-319-59888-8_17"
         },{
             "@id":       "spohr2012using",
             "@type":     "Workshop",
@@ -559,7 +580,8 @@
             "author":    ["Dennis Spohr", "Philipp Cimiano", "John McCrae", "Sean O'Riain"],
             "booktitle": "First International Workshop on Finance and Economics on the Semantic Web in conjunction with 9th Extended Semantic Web Conference",
             "pages":     "1-15",
-            "year":      2012
+            "year":      2012,
+            "doi": "10.1007/978-3-319-59888-8_17"
         },{
             "@id":       "mccrae2012collaborative",
             "@type":     "Conference",
@@ -585,7 +607,8 @@
             "editor":    ["Christian Chiarcos", "Sebastian Nordhoff", "Sebastian Hellmann"],
             "pages":     "25-34",
             "publisher": "Springer",
-            "year":      2012
+            "year":      2012,
+            "doi": "10.1007/978-3-319-59888-8_17"
         },{
             "@id":       "mccrae2012interchanging",
             "@type":     "swrc:Article",
@@ -595,7 +618,8 @@
             "volume":    46,
             "number":    6,
             "pages":     "701-709",
-            "year":      2012
+            "year":      2012,
+            "doi": "10.1007/978-3-319-59888-8_17"
         },{
             "@id":       "cimiano2011lexinfo",
             "@type":     "swrc:Article",
@@ -605,7 +629,8 @@
             "volume":    9,
             "number":    1,
             "pages":     "29-51",
-            "year":      2011
+            "year":      2011,
+            "doi": "10.1007/978-3-319-59888-8_17"
         },{
             "@id":       "gracia2011challenges",
             "@type":     "swrc:Article",
@@ -615,7 +640,8 @@
             "journal":   "Web Semantics: Science, Services and Agents on the World Wide Web",
             "number":    11,
             "pages":     "63-71",
-            "year":      2011
+            "year":      2011,
+            "doi": "10.1007/978-3-319-59888-8_17"
         },{
             "@id":       "mccrae2011combining",
             "@type":     "Workshop",
@@ -630,7 +656,8 @@
             "author":    ["John McCrae", "Dennis Spohr", "Philipp Cimiano"],
             "booktitle": "Proc. of the 8th Extended Semantic Web Conference",
             "pages":     "245-249",
-            "year":      2011
+            "year":      2011,
+            "doi": "10.1007/978-3-319-59888-8_17"
         },{
             "@id":       "buitelaar2011ontology",
             "@type":     "Conference",
@@ -664,7 +691,8 @@
            "editor":     ["Taha Kass-Hout", "Xiaohui Zhang"],
            "pages":      "291-312",
            "publisher":  "CRC Press",
-           "year":       2010
+           "year":       2010,
+           "doi": "10.1007/978-3-319-59888-8_17"
         },{
             "@id":       "declerck2010ontology",
             "@type":     "swrc:InCollection",
@@ -706,7 +734,8 @@
             "journal":   "BMC Bioinformatics",
             "volume":    9,
             "number":    156,
-            "year":      2008
+            "year":      2008,
+            "doi": "10.1007/978-3-319-59888-8_17"
         }
     ]
  

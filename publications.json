@@ -22,24 +22,38 @@
             "@type": "swrc:Proceedings",
             "title": "6th Workshop on Linked Data in Linguistics: Towards Linguistic Data Science",
             "editor": ["John P. McCrae", "Christian Chiarcos", "Thierry Declerck", "Jorge Gracia", "Bettina Klimek"],
+            "affiliation": ["National University of Ireland, Galway", "Goethe University Frankfurt", "DFKI GmbH and ACDH-ÖAW", "University of Zaragoza", "University of Leipzig" ],
+            "date": "2018-05-12",
+            "description": "Since its establishment in 2012, the Linked Data in Linguistics (LDL) workshop series has become the major forum for presenting, discussing and disseminating technologies, vocabularies, resources and experiences regarding the application of Semantic Web standards and the Linked Open Data paradigm to language resources in order to facilitate their visibility, accessibility, interoperability, reusability, enrichment, combined evaluation and integration. The LDL workshop series is organized by the Open Linguistics Working Group of the Open Knowledge Foundation, and has contributed greatly to the emergence and growth of the Linguistic Linked Open Data (LLOD) cloud. LDL workshops contribute to the discussion, dissemination and establishment of community standards that drive this development, most notably the Lemon/OntoLex model for lexical resources, as well as standards for other types of language resources still under development.  Building on our earlier success in creating and linking language resources, LDL-2018 will focus on Linguistic Data Science, i.e., research methodologies and applications building on Linguistic Linked Open Data and the existing technology and resource stack for linguistics, natural language processing and digital humanities.  LDL-2018 builds on the success of the workshop series, incl. two appearances at LREC (2014, 2016), where we attracted a large number of interested participants. As of 2016, LDL workshops alternate with our stand-alone conference on Language, Data and Knowledge (LDK). LDK-2017 was held in Galway, Ireland, as a 3-day event with 150 registrants and several satellite workshops. Continuing the LDL workshop series together with LDK is important in order to facilitate dissemination within and to receive input from the language resource community, and LREC is the obvious host conference for this purpose. LDL-2018 will be supported by the ELEXIS project on an European Lexicographic Infrastructure.",
+            "open": true,
             "year": "2018",
             "publisher": "European Language Resources Association",
-            "url": "http://lrec-conf.org/workshops/lrec2018/W23/index.html",
+            "url": "http://lrec-conf.org/workshops/lrec2018/W23/pdf/book_of_proceedings.pdf",
             "series": "LREC-2018 Workshop Proceedings"
         },{
             "@id": "krek2018european",
             "@type": "Conference",
             "title": "European Lexicographic Infrastructure (ELEXIS)",
             "author": ["Simon Krek", "John McCrae", "Iztok Kosem", "Tanja Wissek", "Carole Tiberius", "Roberto Navigli", "Bolette Sandford Pedersen"],
+            "affiliation": ["Jožef Stefan Institute", "Insight Centre for Data Analytics, National University of Ireland Galway", "Austrian Academy of Sciences", "Dutch Language Institute", "Sapienza University of Rome", "University of Copenhagen"],
+            "date": "2018-7-21",
+            "description": "In the paper we describe a new EU infrastructure project dedicated to lexicography. The project is part of the Horizon 2020 program, with a duration of four years (2018-2022). The result of the project will be an infrastructure which will (1) enable efficient access to high quality lexicographic data, and (2) bridge the gap between more advanced and less-resourced scholarly communities working on lexicographic resources. One of the main issues addressed by the project is the fact that current lexicographic resources have different levels of (incompatible) structuring, and are not equally suitable for application in in Natural Language Processing and other fields. The project will therefore develop strategies, tools and standards for extracting, structuring and linking lexicographic resources to enable their inclusion in Linked Open Data and the Semantic Web, as well as their use in the context of digital humanities.",
+            "open": true,
             "booktitle": "Proceedings of the XVIII EURALEX International Congress on Lexicography in Global Contexts", 
             "year": "2018",
             "pages": "881-892",
-            "url": "http://euralex2018.cjvt.si/wp-content/uploads/sites/6/2018/07/Euralex_2018.pdf"
+            "url": "http://euralex.org/wp-content/themes/euralex/proceedings/Euralex%202018/118-4-2986-1-10-20180820.pdf"
         }, {
             "@id": "walsh2018constructing",
             "@type": "Workshop",
             "title": "Constructing an Annotated Corpus of Verbal MWEs for English",
             "author": ["Abigail Walsh", "Claire Bonial", "Kristina Geeraert", "John P. McCrae", "Nathan Schneider", "Clarissa Somers"],
+            "date": "2018-08-01",
+            "description": "This paper describes the construction and annotation of a corpus of verbal MWEs for English as part of the PARSEME Shared Task 1.1 on automatic identification of verbal MWEs. The criteria for corpus selection, the categories of MWEs used, and the training process are discussed, along with the particular issues that led to revisions in edition 1.1 of the annotation guidelines. Finally, an overview of the characteristics of the final annotated corpus is presented, as well as some discussion on inter-annotator agreement.",
+            "affiliation": ["ADAPT Centre, Dublin City University", "U.S. Army Research Laboratory", "University of Alberta", "Insight Centre for Data Analytics, National University of Ireland Galway",
+                "Georgetown University", "Georgetown University" ],
+            "open": true,
+            "doi": "10.18653/v1/W18-4921",
             "booktitle": "Proceedings of Joint Workshop on Linguistic Annotation, Multiword Expressions and Constructions (LAW-MWE-CxG-2018)",
             "year": "2018"
         },
@@ -49,8 +63,12 @@
             "title": "Phrase-Level Metaphor Identification using Distributed Representations of Word Meaning",
             "author": ["Omnia Zayed", "John P. McCrae", "Paul Buitelaar"],
             "booktitle": "Proceedings of the Workshop on Figurative Language Processing",
+            "date": "2018-06-01",
+            "description": "Metaphor is an essential element of human cognition which is often used to express ideas and emotions that might be difficult to express using literal language. Processing metaphoric language is a challenging task for a wide range of applications ranging from text simplification to psychotherapy. Despite the variety of approaches that are trying to process metaphor, there is still a need for better models that mimic the human cognition while exploiting fewer resources. In this paper, we present an approach based on distributional semantics to identify metaphors on the phrase-level.  We investigated the use of different word embeddings models to identify verb-noun pairs where the verb is used metaphorically. Several experiments are conducted to show the performance of the proposed approach on benchmark datasets.",
+            "affiliation": ["Insight Centre for Data Analytics, Data Science Institute, National University of Ireland Galway", "Insight Centre for Data Analytics, Data Science Institute, National University of Ireland Galway","Insight Centre for Data Analytics, Data Science Institute, National University of Ireland Galway"],
+            "open": true,
             "year": "2018",
-            "doi": "10.18653/v1/w18-0910"
+            "doi": "10.18653/v1/W18-0910"
         },
         {
             "@id": "mccrae2018linking",
@@ -60,6 +78,9 @@
             "number": "1",
             "pages": "109-123",
             "author": ["John P. McCrae", "Paul Buitelaar"],
+            "description": "Linked data has been widely recognized as an important paradigm for representing data and one of the most important aspects of supporting its use is discovery of links between datasets. For many datasets, there is a significant amount of textual information in the form of labels, descriptions and documentation about the elements of the dataset and the fundament of a precise linking is in the application of semantic textual similarity to link these datasets. However, most linking tools so far rely on only simple string similarity metrics such as Jaccard scores. We present an evaluation of some metrics that have performed well in recent semantic textual similarity evaluations and apply these to linking existing datasets",
+            "affiliation": ["Insight Centre for Data Analytics, National University of Ireland Galway", "Insight Centre for Data Analytics, National University of Ireland Galway"],
+            "open": false,
             "title": "Linking Datasets Using Semantic Textual Similarity",
             "url": "http://www.cit.iit.bas.bg/CIT_2018/v-18-1/10_paper.pdf",
             "year": "2018",
@@ -71,14 +92,23 @@
             "title": "Preservation of Original Orthography in the Construction of an Old Irish Corpus",
             "author": ["Adrian Doyle", "John P. McCrae", "Clodagh Downey"],
             "booktitle": "Processing of the 3rd Workshop for Collaboration and Computing for Under-Resourced Languages",
+            "date": "2018-05-12",
+            "description": "This paper will examine the process of creating a digital corpus based on the Würzburg glosses, the earliest large collection of glosses written in the Irish language. Modern editorial standards applied in publications of these glosses can alter spelling, punctuation, and even the semantic meaning of a sentence where one word is used in place of another. Therefore, an understanding of the original orthography utilised by Old Irish scribes is important in determining the orthography which should be utilised in a modern digital corpus. This paper will outline why the text of the Würzburg glosses as it appears in Thesaurus Palaeohibernicus is the best candidate for digitisation. The automated digitisation and proofing process of the corpus will be outlined, and details will be given of a tag-set utilised within the digital corpus in order to preserve information present in Thesaurus Palaeohibernicus as metadata.",
+            "affiliation": ["National University of Ireland Galway", "National University of Ireland Galway", "National University of Ireland Galway"],
+            "open": true,
             "year": "2018",
-            "url": "http://lrec-conf.org/workshops/lrec2018/W26/summaries/20_W26.html"
+            "url": "http://lrec-conf.org/workshops/lrec2018/W26/pdf/20_W26.pdf"
         },
         {
             "@id": "declerck2018elexis",
             "@type": "Workshop",
             "title": "ELEXIS - European Lexicographic Infrastructure: Contributions to and from the Linguistic Linked Open Data",
             "author": ["Thierry Declerck", "John McCrae", "Roberto Navigli", "Ksenia Zaytseva", "Tanja Wissik"],
+            "date": "2018-05-12",
+            "description": "In this paper we outline the interoperability aspects of the recently started European project ELEXIS (European Lexicographic Infrastructure). ELEXIS aims to integrate, extend and harmonise national and regional efforts in the field of lexicography, both modern and historical, with the goal of creating a sustainable infrastructure which will enable efficient access to high quality lexical data in the digital age, and bridge the gap between more advanced and lesser-supported lexicographic resources. For this, ELEXIS will make use of or establish common standards and solutions for the development of lexicographic resources and develop strategies and tools for extracting, structuring and linking lexicographic resources.",
+            "affiliation": ["Austrian Centre for Digital Humanities at the Austrian Academy of Sciences and DFKI GmbH, Multilingual Technologies Lab",
+                "Insight Centre for Data Analytics at the National University of Ireland Galway, Ireland", "Sapienza University of Rome", "Austrian Centre for Digital Humanities at the Austrian Academy of Sciences", "Austrian Centre for Digital Humanities at the Austrian Academy of Sciences"],
+            "open": true,
             "booktitle": "Proceedings of the Globalex 2018 Workshop",
             "year": "2018"
         },
@@ -88,9 +118,12 @@
             "booktitle": "Proceedings of the 11th Language Resource and Evaluation Conference (LREC)",
             "year": "2018",
             "author": ["Rajdeep Sarkar", "John P. McCrae", "Paul Buitelaar"],
+            "date": "2018-05-12",
+            "description": "Large collections of texts are commonly generated by large organizations and making sense of these collections of texts is a significant challenge. One method for handling this is to organize the concepts into a hierarchical structure such that similar concepts can be discovered and easily browsed. This approach was the subject of a recent evaluation campaign, TExEval, however the results of this task showed that none of the systems consistently outperformed a relatively simple baseline.In order to solve this issue, we propose a new method that uses supervised learning to combine multiple features with a support vector machine classifier including the baseline features. We show that this outperforms the baseline and thus provides a stronger method for identifying taxonomic relations than previous methods",
+            "affiliation": ["Indian Institute of Technology Kharagpur", "Insight Centre for Data Analytics, National University of Ireland Galway", "Insight Centre for Data Analytics, National University of Ireland Galway"],
+            "open": true,
             "title": "A supervised approach to taxonomy extraction using word embeddings",
-            "url": "http://www.lrec-conf.org/proceedings/lrec2018/summaries/601.html"
-
+            "url": "http://www.lrec-conf.org/proceedings/lrec2018/pdf/601.pdf"
         },
         {
             "@id": "wood2018comparison",
@@ -99,7 +132,11 @@
             "year": "2018",
             "author": ["Ian Wood", "John P. McCrae", "Vladimir Andryushechkin", "Paul Buitelaar" ],
             "title": "A Comparison Of Emotion Annotation Schemes And A New Annotated Data Set",
-            "url": "http://www.lrec-conf.org/proceedings/lrec2018/summaries/61.html"
+            "date": "2018-05-12",
+            "description": "While the recognition of positive/negative sentiment in text is an established task with many standard data sets and well developed methodologies, the recognition of more nuanced affect has received less attention, and in particular, there are very few publicly available gold standard annotated resources. To address this lack, we present a series of emotion annotation studies on tweets culminating in a publicly available collection of 2,019 tweets with scores on four emotion dimensions: valence, arousal, dominance and surprise, following the emotion representation model identified by Fontaine et.al. (Fontaine et al., 2007). Further, we make a comparison of relative vs. absolute annotation schemes. We find improved annotator agreement with a relative annotation scheme (comparisons) on a dimensional emotion model over a categorical annotation scheme on Ekman’s six basic emotions (Ekman et al., 1987), however when we compare inter-annotator agreement for comparisons with agreement for a rating scale annotation scheme (both with the same dimensional emotion model), we find improved inter-annotator agreement with rating scales, challenging a common belief that relative judgements are more reliable.",
+            "affiliation": ["Insight Centre for Data Analytics, National University of Ireland Galway", "Insight Centre for Data Analytics, National University of Ireland Galway", "Insight Centre for Data Analytics, National University of Ireland Galway", "Insight Centre for Data Analytics, National University of Ireland Galway"],
+            "open": true,
+            "url": "http://www.lrec-conf.org/proceedings/lrec2018/pdf/61.pdf"
         },
         {
             "@id": "ziad2018linked",
@@ -107,8 +144,12 @@
             "booktitle": "Proceedings of the 11th Language Resource and Evaluation Conference (LREC)",
             "year": "2018",
             "author": [ "Housam Ziad", "John P. McCrae", "Paul Buitelaar" ],
+            "date": "2018-05-12",
+            "description": "In this paper, we describe Teanga, a linked data based platform for natural language processing (NLP). Teanga enables the use of many NLP services from a single interface, whether the need was to use a single service or multiple services in a pipeline. Teanga focuses on the problem of NLP services interoperability by using linked data to define the types of services input and output. Teanga’s strengths include being easy to install and run, easy to use, able to run multiple NLP tasks from one interface and helping users to build a pipeline of tasks through a graphical user interface.",
+            "affiliation": ["Insight Centre for Data Analytics, National University of Ireland, Galway", "Insight Centre for Data Analytics, National University of Ireland, Galway", "Insight Centre for Data Analytics, National University of Ireland, Galway"],
+            "open": true,
             "title": "Teanga: A Linked Data based platform for Natural Language Processing",
-            "url": "http://www.lrec-conf.org/proceedings/lrec2018/summaries/106.html"
+            "url": "http://www.lrec-conf.org/proceedings/lrec2018/pdf/106.pdf"
         },
         {
             "@id": "arcan2018automatic",
@@ -117,6 +158,10 @@
             "year": "2018",
             "author": ["Mihael Arcan", "Elena Montiel-Ponsoda", "John P. McCrae", "Paul Buitelaar" ],
             "title": "Automatic Enrichment of Terminological Resources: the IATE RDF Example",
+            "date": "2018-05-12",
+            "description": "Terminological resources have proven necessary in many organizations and institutions to ensure communication between experts. However, the maintenance of these resources is a very time-consuming and expensive process. Therefore, the work described in this contribution aims to automate the maintenance process of such resources. As an example, we demonstrate enriching the RDF version of IATE with new terms in the languages for which no translation was available, as well as with domain-disambiguated sentences and information about usage frequency. This is achieved by relying on machine translation trained on parallel corpora that contains the terms in question and multilingual word sense disambiguation performed on the context provided by the sentences. Our results show that for most languages translating the terms within a disambiguated context significantly outperforms the approach with randomly selected sentences.",
+            "affiliation": ["Insight Centre for Data Analytics, National University of Ireland Galway", "Ontology Engineering Group, Universidad Politecnica de Madrid", "Insight Centre for Data Analytics, National University of Ireland Galway", "Insight Centre for Data Analytics, National University of Ireland Galway"],
+            "open": true,
             "url": "http://www.lrec-conf.org/proceedings/lrec2018/summaries/541.html"
         },
         {
@@ -125,10 +170,72 @@
             "journal": "IEEE Transactions on Multimedia",
             "year": 2018,
             "author": ["Paul Buitelaar", "Ian D. Wood", "Sapna Negi", "Mihael Arcan", "John P. McCrae", "Andrejs Abele", "Cécile Robin", "Vladimir Andryushechkin", "Housam Ziad", "Hesam Sagha", "J. Fernando Sánchez-Rada", "Carlos A. Iglesias", "Carlos Navarro", "Andreas Giefer", "Nicolaus Heise", "Vincenzo Masucci", "Francesco A. Danza", "Ciro Caterino", "Pavel Smrž", "Michal Hradiš", "Filip Povolný", "Marek Klimeš", "Pavel Matějka", "Giovanni Tummarello" ],
+            "date": "2018-09-01",
+            "description": "Recently, there is an increasing tendency to embed functionalities for recognizing emotions from user-generated media content in automated systems such as call-centre operations, recommendations, and assistive technologies, providing richer and more informative user and content profiles. However, to date, adding these functionalities was a tedious, costly, and time-consuming effort, requiring identification and integration of diverse tools with diverse interfaces as required by the use case at hand. The MixedEmotions Toolbox leverages the need for such functionalities by providing tools for text, audio, video, and linked data processing within an easily integrable plug-and-play platform. These functionalities include: 1) for text processing: emotion and sentiment recognition; 2) for audio processing: emotion, age, and gender recognition; 3) for video processing: face detection and tracking, emotion recognition, facial landmark localization, head pose estimation, face alignment, and body pose estimation; and 4) for linked data: knowledge graph integration. Moreover, the MixedEmotions Toolbox is open-source and free. In this paper, we present this toolbox in the context of the existing landscape, and provide a range of detailed benchmarks on standard test-beds showing its state-of-the-art performance. Furthermore, three real-world use cases show its effectiveness, namely, emotion-driven smart TV, call center monitoring, and brand reputation analysis.",
+            "affiliation": ["National University of Ireland Galway", "National University of Ireland Galway", "National University of Ireland Galway", "National University of Ireland Galway", "National University of Ireland Galway", "National University of Ireland Galway", "National University of Ireland Galway", "National University of Ireland Galway", "National University of Ireland Galway", "University of Passau", "GSI Universidad Politécnica de Madrid", "GSI Universidad Politécnica de Madrid", "Paradigma Digital", "Deutsche Welle", "Deutsche Welle", "Expert Systems", "Expert Systems", "Expert Systems", "Brno University of Technology", "Brno University of Technology", "Phonexia", "Phonexia", "Phonexia", "Siren Solutions" ],
+            "open": false,
             "title": "MixedEmotions: An Open-Source Toolbox for Multi-Modal Emotion Analysis",
             "url": "http://ieeexplore.ieee.org/document/8269329/",
-            "volume": "??",
-            "number": "??"
+            "volume": "20",
+            "number": "9",
+            "doi": "10.1109/TMM.2018.2798287"
+        },
+        {
+            "@id": "mccrae2018mapping",
+            "@type": "Conference",
+            "booktitle": "Proceedings of the 9th Global WordNet Conference",
+            "year": 2018,
+            "author": ["John P. McCrae"],
+            "date": "2018-01-12",
+            "description": "Lexical resource differ from encyclopaedic resources and represent two distinct types of resource covering general language and named entities respectively.  However, many lexical resources, including Princeton WordNet, contain many proper nouns, referring to named entities in the world yet it is not possible or desirable for a lexical resource to cover all named entities that may reasonably occur in a text. In this paper, we propose that instead of including synsets for instance concepts PWN should instead provide links to Wikipedia articles describing the concept. In order to enable this we have created a gold-quality mapping between all of the 7,742 instances in PWN and Wikipedia (where such a mapping is possible). As such, this resource aims to provide a gold standard for link discovery, while also allowing PWN to distinguish itself from other resources such as DBpedia or BabelNet. Moreover, this linking connects PWN to the Linguistic Linked Open Data cloud, thus creating a richer, more usable resource for natural language processing.",
+            "affiliation": ["Insight Centre for Data Analytics, National University of Ireland Galway"],
+            "open": true,
+            "title": "Mapping WordNet Instances to Wikipedia"
+        },
+        {
+            "@id": "mccrae2018towards",
+            "@type": "Conference",
+            "booktitle": "Proceedings of the 9th Global WordNet Conference",
+            "year": 2018,
+            "author": ["John P. McCrae","Ian Wood","Amanda Hicks"],
+            "title": "Towards a Crowd-Sourced WordNet for Colloquial English",
+            "date": "2018-01-12",
+            "description": "Princeton WordNet is one of the most widely-used resources for natural language processing, but is updated only infrequently and cannot keep up with the fast-changing usage of the English language on social media platforms such as Twitter. The Colloquial WordNet aims to provide an open platform whereby anyone can contribute, while still following the structure of WordNet. Many crowdsourced lexical resources often have significant quality issues, and as such care must be taken in the design of the interface to ensure quality. In this paper, we present the development of a platform that can be opened on the Web to any lexicographer who wishes to contribute to this resource and the lexicographic methodology applied by this interface",
+            "affiliation": ["Insight Centre for Data Analytics, National University of Ireland Galway", "Insight Centre for Data Analytics, National University of Ireland Galway", "Health Outcomes & Policy, University of Florida" ],
+            "open": true
+        },
+        {
+            "@id": "chakravarthi2018improving",
+            "@type": "Conference",
+            "booktitle": "Proceedings of the 9th Global WordNet Conference",
+            "year": 2018,
+            "author": ["Bharathi Raja Chakravarthi", "Mihael Arcan", "John P. McCrae"],
+            "title": "Improving Wordnets for Under-Resourced Languages Using Machine Translation information",
+            "date": "2018-01-12",
+            "description": "Wordnets are extensively used in natural language processing, but the current approaches for manually building a wordnet from scratch involves large research groups for a long period of time, which are typically not available for under-resourced languages. Even if wordnet-like resources are available for under-resourced languages, they are often not easily accessible, which can alter the results of applications using these resources. Our proposed method presents an expand approach for improving and generating wordnets with the help of machine translation. We apply our methods to improve and extend wordnets for the Dravidian languages, i.e., Tamil, Telugu, Kannada, which are severly under-resourced languages. We report evaluation results of the generated wordnet senses in term of precision for these languages. In addition to that, we carried out a manual evaluation of the translations for the Tamil language, where we demonstrate that our approach can aid in improving wordnet resources for under-resourced Dravidian languages.",
+            "affiliation": ["Insight Centre for Data Analytics, National University of Ireland Galway", "Insight Centre for Data Analytics, National University of Ireland Galway", "Insight Centre for Data Analytics, National University of Ireland Galway"],
+            "open": true
+        },{
+            "@id": "pedersen2018elexis",
+            "@type": "Conference",
+            "booktitle": "Proceedings of the 9th Global WordNet Conference",
+            "year": 2018,
+            "author":["Bolette Pedersen", "John McCrae", "Carole Tiberius","Simon Krek"],
+            "title": "ELEXIS - a European infrastructure fostering cooperation and infor-mation exchange among lexicographical research communities",
+            "date": "2018-01-12",
+            "description": "The paper describes objectives, concept and methodology for ELEXIS, a European infrastructure fostering cooperation and information exchange among lexicographical research communities. The infrastructure is a newly granted project under the Horizon 2020 INFRAIA call, with the topic Integrating Activities for Starting Communities. The project is planned to start in January 2018",
+            "affliation": ["University of Copenhagen", "National University of Ireland Galway", " Dutch Language Institute", " Jožef Stefan Institute"],
+            "open": true
+        },
+        {
+            "@id": "vanerp2017knowledge",
+            "@type": "swrc:Proceedings",
+            "editor": ["Marieke van Erp","Sebastian Hellmann","John P. McCrae","Christian Chiarcos", "Key-Sun Choi", "Jorge Gracia", "Yoshihiko Hayashi", "Seiji Koide", "Pablo Mendes", "Heiko Paulheim", "Hideaki Takeda"],
+            "title": "Knowledge Graphs and Language Technology - ISWC 2016 International Workshops: KEKI and NLP&DBpedia",
+            "title": "MixedEmotions: An Open-Source Toolbox for Multi-Modal Emotion Analysis",
+            "url": "http://ieeexplore.ieee.org/document/8269329/",
+            "volume": "20",
+            "number": "9"
         },
         {
             "@id": "mccrae2018mapping",

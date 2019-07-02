@@ -115,7 +115,7 @@
             "description": "This paper describes the different proposed approaches to the TIAD 2019 Shared Task, which consisted in the automatic discovery and generation of dictionaries leveraging multilingual knowledge bases. We present three methods based on graph analysis and neural machine translation and show that we can generate translations without parallel data.",
             "year": "2019"
         },{
-            "@id": "mccrae2019orthonormal",
+            "@id": "mccrae2019tiad",
             "@type": "Workshop",
             "title": "TIAD Shared Task 2019: Orthonormal Explicit Topic Analysis for Translation Inference across Dictionaries",
             "author": ["John P. McCrae"],
@@ -179,7 +179,7 @@
             "volume": "70",
             "publisher": "Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik",
             "address": "Dagstuhl, Germany",
-            "uri": "http://drops.dagstuhl.de/portals/oasics/index.php?semnr=16105",
+            "url": "http://drops.dagstuhl.de/portals/oasics/index.php?semnr=16105",
             "doi": "10.4230/OASIcs.LDK.2019.0"
         }, {
             "@id": "ahmadi2018lexicographical",

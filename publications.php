@@ -49,7 +49,7 @@
 
 <p class="pub y2019 hop DanielTorregrosa MihaelArcan SinaAhmadi JohnPMcCrae"><b><a class="publication" href="papers/torregrosa2019tiad.pdf">TIAD 2019 Shared Task: Leveraging Knowledge Graphs with Neural Machine Translation for Automatic Multilingual Dictionary Generation</a></b>. Daniel Torregrosa, Mihael Arcan, Sina Ahmadi and John P. McCrae, <i>Proceedings of the 2nd Translation Inference Across Dictionaries (TIAD) Shared Task</i>, (2019).</p>
 
-<p class="pub y2019 hop JohnPMcCrae"><b><a class="publication" href="papers/mccrae2019orthonormal.pdf">TIAD Shared Task 2019: Orthonormal Explicit Topic Analysis for Translation Inference across Dictionaries</a></b>. John P. McCrae, <i>Proceedings of the 2nd Translation Inference Across Dictionaries (TIAD) Shared Task</i>, (2019).</p>
+<p class="pub y2019 hop JohnPMcCrae"><b><a class="publication" href="papers/mccrae2019tiad.pdf">TIAD Shared Task 2019: Orthonormal Explicit Topic Analysis for Translation Inference across Dictionaries</a></b>. John P. McCrae, <i>Proceedings of the 2nd Translation Inference Across Dictionaries (TIAD) Shared Task</i>, (2019).</p>
 
 <p class="pub y2019 rence SinaAhmadi MihaelArcan JohnMcCrae"><b><a class="publication" href="papers/ahmadi2019lexical.pdf">Lexical Sense Alignment using Weighted Bipartite b-Matching</a></b>. Sina Ahmadi, Mihael Arcan and John McCrae, <i>Proceedings of the Poster Track of LDK 2019</i>, (2019).</p>
 
@@ -59,7 +59,7 @@
 
 <p class="pub y2019 rence BharathiRajaChakravarthi MihaelArcan JohnPMcCrae"><b><a class="publication" href="http://drops.dagstuhl.de/opus/volltexte/2019/10370">Comparison of Different Orthographies for Machine Translation of Under-Resourced Dravidian Languages</a></b>. Bharathi Raja Chakravarthi, Mihael Arcan and John P. McCrae, <i>Maria Eskevich, Gerard de Melo, Christian Fäth, John P. McCrae, Paul Buitelaar, Christian Chiarcos, Bettina Klimek and Milan Dojchinovski (eds)</i>, <i>2nd Conference on Language, Data and Knowledge (LDK 2019)</i>, pp 6:1--6:14, (2019).</p>
 
-<p class="pub y2019 Proceedings"><b><a class="publication" href="papers/eskevich2019ldk.pdf">2nd Conference on Language, Data and Knowledge (LDK 2019)</a></b>. <i>Maria Eskevich, Gerard de Melo, Christian Fäth, John P. McCrae, Paul Buitelaar, Christian Chiarcos, Bettina Klimek and Milan Dojchinovski (eds)</i>, <i>Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik - OpenAccess Series in Informatics (OASIcs)</i>, (2019).</p>
+<p class="pub y2019 Proceedings"><b><a class="publication" href="http://drops.dagstuhl.de/portals/oasics/index.php?semnr=16105">2nd Conference on Language, Data and Knowledge (LDK 2019)</a></b>. <i>Maria Eskevich, Gerard de Melo, Christian Fäth, John P. McCrae, Paul Buitelaar, Christian Chiarcos, Bettina Klimek and Milan Dojchinovski (eds)</i>, <i>Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik - OpenAccess Series in Informatics (OASIcs)</i>, (2019).</p>
 
 <p class="pub y2018 hop SinaAhmadi MihaelArcan JohnMcCrae"><b><a class="publication" href="https://lexdhai.insight-centre.org/Lex_DH__AI_2018_paper_4.pdf">On Lexicographical Networks</a></b>. Sina Ahmadi, Mihael Arcan and John McCrae, <i>Workshop on eLexicography: Between Digital Humanities and Artificial Intelligence</i>, (2018).</p>
 

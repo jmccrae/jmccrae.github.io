@@ -7,7 +7,7 @@
 
                     <div>
                         <a href="http://www.pret-a-llod.eu/">
-                        <img src="pret-a-llog.png" alt="Prêt-à-LLOD"/>
+                        <img src="pret-a-llod.png" alt="Prêt-à-LLOD" class="project-img"/><br/>
                         <i><b>Pr&ecircum;t-&agrave;-LLOD</b>: Making Linguistic Linked Open Data Ready-to-use</i></a>
                     </div>
                 </div>

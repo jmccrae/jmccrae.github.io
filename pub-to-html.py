@@ -22,6 +22,7 @@ out.write("""<div style="text-align:right;">By Type:&nbsp;&nbsp;
 </div>""")
 out.write("""<div style="text-align:right;padding-bottom:10px;">By Year:&nbsp;&nbsp;
 <a href="#" class="year all" onclick="showall(event)" style="color:black;">All</a>
+<a href="#" class="year sely2019" onclick="showonly(event,'y2019')" style="padding-left:5px;">2019</a>
 <a href="#" class="year sely2018" onclick="showonly(event,'y2018')" style="padding-left:5px;">2018</a>
 <a href="#" class="year sely2017" onclick="showonly(event,'y2017')" style="padding-left:5px;">2017</a>
 <a href="#" class="year sely2016" onclick="showonly(event,'y2016')" style="padding-left:5px;">2016</a>
@@ -45,6 +46,8 @@ def mkclasses(paper):
         return "pub " + year + " " + arttype
 
 for paper in data["@graph"]:
+    if "year" not in paper:
+        print(paper["@id"])
     if "ccepted" in str(paper["year"]):
         out.write("<p class=\"" + mkclasses(paper) + "\"><b>")
     else:
@@ -107,6 +110,8 @@ for paper in data["@graph"]:
         out.write("</i>, ")
     elif paper["@type"] == "swrc:Proceedings":
         out.write("<i>")
+        if "publisher" not in paper:
+            print(paper["@id"])
         out.write(paper["publisher"])
         out.write(" - ")
         out.write(paper["series"])

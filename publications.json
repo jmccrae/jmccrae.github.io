@@ -91,7 +91,7 @@
             "@type": "Workshop",
             "title": "Preservation of Original Orthography in the Construction of an Old Irish Corpus",
             "author": ["Adrian Doyle", "John P. McCrae", "Clodagh Downey"],
-            "booktitle": "Processing of the 3rd Workshop for Collaboration and Computing for Under-Resourced Languages",
+            "booktitle": "Proceedings of the 3rd Workshop for Collaboration and Computing for Under-Resourced Languages",
             "date": "2018-05-12",
             "description": "This paper will examine the process of creating a digital corpus based on the Würzburg glosses, the earliest large collection of glosses written in the Irish language. Modern editorial standards applied in publications of these glosses can alter spelling, punctuation, and even the semantic meaning of a sentence where one word is used in place of another. Therefore, an understanding of the original orthography utilised by Old Irish scribes is important in determining the orthography which should be utilised in a modern digital corpus. This paper will outline why the text of the Würzburg glosses as it appears in Thesaurus Palaeohibernicus is the best candidate for digitisation. The automated digitisation and proofing process of the corpus will be outlined, and details will be given of a tag-set utilised within the digital corpus in order to preserve information present in Thesaurus Palaeohibernicus as metadata.",
             "affiliation": ["National University of Ireland Galway", "National University of Ireland Galway", "National University of Ireland Galway"],
@@ -224,7 +224,7 @@
             "title": "ELEXIS - a European infrastructure fostering cooperation and infor-mation exchange among lexicographical research communities",
             "date": "2018-01-12",
             "description": "The paper describes objectives, concept and methodology for ELEXIS, a European infrastructure fostering cooperation and information exchange among lexicographical research communities. The infrastructure is a newly granted project under the Horizon 2020 INFRAIA call, with the topic Integrating Activities for Starting Communities. The project is planned to start in January 2018",
-            "affliation": ["University of Copenhagen", "National University of Ireland Galway", " Dutch Language Institute", " Jožef Stefan Institute"],
+            "affiliation": ["University of Copenhagen", "National University of Ireland Galway", " Dutch Language Institute", " Jožef Stefan Institute"],
             "open": true
         },
         {

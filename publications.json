@@ -105,6 +105,11 @@
             "author": ["Mihael Arcan", "Daniel Torregrosa", "Sina Ahmadi", "John P. McCrae"],
             "booktitle": "Proceedings of the 2nd Translation Inference Across Dictionaries (TIAD) Shared Task",
             "description": "In the widely-connected digital world, multilingual lexical resources are one of the most important resources, for natural language processing applications, including information retrieval, question answering or knowledge management. These applications benefit from the multilingual knowledge as well as from the semantic relation between the words documented in these resources. Since multilingual dictionary creation and curation is a time-consuming task, we explored the use of multi-way neural machine translation trained on corpora of languages from the same family and trained additionally with a relatively small human-validated dictionary to infer new translation candidates. Our results showed not only that new dictionary entries can be identified and extracted from the translation model, but also that the expected precision and recall of the resulting dictionary can be adjusted by using different thresholds.",
+            "affiliation": ["National University of Ireland Galway","National University of Ireland Galway","National University of Ireland Galway","National University of Ireland Galway"],
+            "date": "2019-05-20",
+            "open": true,
+            "license": "cc-zero",
+            "grants": [{"id":"731015"}],
             "year": "2019"
        },{
             "@id": "torregrosa2019tiad",
@@ -113,7 +118,12 @@
             "author": ["Daniel Torregrosa", "Mihael Arcan", "Sina Ahmadi", "John P. McCrae"],
             "booktitle": "Proceedings of the 2nd Translation Inference Across Dictionaries (TIAD) Shared Task",
             "description": "This paper describes the different proposed approaches to the TIAD 2019 Shared Task, which consisted in the automatic discovery and generation of dictionaries leveraging multilingual knowledge bases. We present three methods based on graph analysis and neural machine translation and show that we can generate translations without parallel data.",
-            "year": "2019"
+            "affiliation": ["National University of Ireland Galway","National University of Ireland Galway","National University of Ireland Galway","National University of Ireland Galway"],
+            "date": "2019-05-20",
+            "open": true,
+            "license": "cc-zero",
+            "grants": [{"id":"731015"}],
+             "year": "2019"
         },{
             "@id": "mccrae2019tiad",
             "@type": "Workshop",
@@ -121,7 +131,12 @@
             "author": ["John P. McCrae"],
             "booktitle": "Proceedings of the 2nd Translation Inference Across Dictionaries (TIAD) Shared Task",
             "description": "The task of inferring translations can be achieved by the means of comparable corpora and in this paper we apply explicit topic modelling over comparable corpora to the task of inferring translation candidates. In particular, we use the Orthonormal Explicit Topic Analysis (ONETA) model, which has been shown to be the state-of-the-art explicit topic model through its elimination of correlations between topics. The method proves highly effective at selecting translations with high precision.",
-            "year": "2019"
+            "affiliation": ["National University of Ireland Galway"],
+            "date": "2019-05-20",
+            "open": true,
+            "license": "cc-zero",
+            "grants": [{"id":"731015"}],
+             "year": "2019"
         },{
             "@id": "ahmadi2019lexical",
             "@type": "Conference",
@@ -129,6 +144,11 @@
             "author": ["Sina Ahmadi", "Mihael Arcan", "John McCrae"],
             "booktitle": "Proceedings of the Poster Track of LDK 2019",
             "description": "Lexical resources are important components of natural language processing (NLP) applications providing linguistic information about the vocabulary of a language and the semantic relationships between the words. While there is an increasing number of lexical resources, particularly expert-made ones such as WordNet or FrameNet  as well as collaboratively- curated ones such as Wikipedia1 or Wiktionary2 , manual construction and maintenance of such resources is a cumbersome task. This can be efficiently addressed by NLP techniques.  Aligned resources have shown to improve word, knowledge and domain coverage and increase multilingualism by creating new lexical resources such as Yago , BabelNet and ConceptNet  In addition, they can improve the performance of NLP tasks such as word sense disambiguation  semantic role tagging and semantic relations extraction.",
+            "affiliation": ["National University of Ireland Galway","National University of Ireland Galway","National University of Ireland Galway","National University of Ireland Galway"],
+            "date": "2019-05-20",
+            "open": true,
+            "license": "cc-zero",
+            "grants": [{"id":"731015"}],
             "year": "2019"
        }, {
             "@id": "jarrar2019representing",
@@ -137,6 +157,11 @@
             "author": ["Mustafa Jarrar", "Hamzeh Amayreh", "John McCrae" ],
             "booktitle": "Proceedings of the Poster Track of LDK 2019",
             "description": " We present our progress in representing 150 Arabic multilingual lexicons using Lemon, which we have been digitizing from scratch. These lexicons are available through a lexicographic search engine (https://ontology.birzeit.edu) that allows searching for translations, synonyms, and definitions. Representing these lexicons in Lemon will enable them to be used by ontologies and NLP applications, as well as to be interlinked with the Open Linguistic Data Cloud. ",
+            "affiliation": ["Birzeit University","Birzeit University","National University of Ireland Galway"],
+            "date": "2019-05-20",
+            "open": true,
+            "license": "cc-zero",
+            "grants": [{"id":"731015"}],
             "year": "2019"
           },{
             "@id": "zayed2019crowd",
@@ -148,7 +173,12 @@
             "open": true,
             "url": "http://drops.dagstuhl.de/opus/volltexte/2019/10374/pdf/OASIcs-LDK-2019-10.pdf",
             "doi": "10.4230/OASIcs.LDK.2019.10",
-            "description": "Metaphor is one of the most important elements of human communication, especially in informal settings such as social media. There have been a number of datasets created for metaphor identification, however, this task has proven difficult due to the nebulous nature of metaphoricity. In this paper, we present a crowd-sourcing approach for the creation of a dataset for metaphor identification, that is able to rapidly achieve large coverage over the different usages of metaphor in a given corpus while maintaining high accuracy. We validate this methodology by creating a set of 2,500 manually annotated tweets in English, for which we achieve inter-annotator agreement scores over 0.8, which is higher than other reported results that did not limit the task. This methodology is based on the use of an existing classifier for metaphor in order to assist in the identification and the selection of the examples for annotation, in a way that reduces the cognitive load for annotators and enables quick and accurate annotation. We selected a corpus of both general language tweets and political tweets relating to Brexit and we compare the resulting corpus on these two domains. As a result of this work, we have published the first dataset of tweets annotated for metaphors, which we believe will be invaluable for the development, training and evaluation of approaches for metaphor identification in tweets."
+            "description": "Metaphor is one of the most important elements of human communication, especially in informal settings such as social media. There have been a number of datasets created for metaphor identification, however, this task has proven difficult due to the nebulous nature of metaphoricity. In this paper, we present a crowd-sourcing approach for the creation of a dataset for metaphor identification, that is able to rapidly achieve large coverage over the different usages of metaphor in a given corpus while maintaining high accuracy. We validate this methodology by creating a set of 2,500 manually annotated tweets in English, for which we achieve inter-annotator agreement scores over 0.8, which is higher than other reported results that did not limit the task. This methodology is based on the use of an existing classifier for metaphor in order to assist in the identification and the selection of the examples for annotation, in a way that reduces the cognitive load for annotators and enables quick and accurate annotation. We selected a corpus of both general language tweets and political tweets relating to Brexit and we compare the resulting corpus on these two domains. As a result of this work, we have published the first dataset of tweets annotated for metaphors, which we believe will be invaluable for the development, training and evaluation of approaches for metaphor identification in tweets.",
+            "affiliation": ["National University of Ireland Galway","National University of Ireland Galway","National University of Ireland Galway","National University of Ireland Galway"],
+            "date": "2019-05-20",
+            "open": true,
+            "license": "cc-by",
+            "grants": [{"id":"731015"}]
         }, {
             "@id": "chakravarthi2019comparison",
             "@type": "Conference",
@@ -167,8 +197,14 @@
             "url": "http://drops.dagstuhl.de/opus/volltexte/2019/10370",
             "URN": "urn:nbn:de:0030-drops-103700",
             "doi": "10.4230/OASIcs.LDK.2019.6",
-            "description": "Under-resourced languages are a significant challenge for statistical approaches to machine translation, and recently it has been shown that the usage of training data from closely-related languages can improve machine translation quality of these languages. While languages within the same language family share many properties, many under-resourced languages are written in their own native script, which makes taking advantage of these language similarities difficult. In this paper, we propose to alleviate the problem of different scripts by transcribing the native script into common representation i.e. the Latin script or the International Phonetic Alphabet (IPA). In particular, we compare the difference between coarse-grained transliteration to the Latin script and fine-grained IPA transliteration. We performed experiments on the language pairs English-Tamil, English-Telugu, and English-Kannada translation task. Our results show improvements in terms of the BLEU, METEOR and chrF scores from transliteration and we find that the transliteration into the Latin script outperforms the fine-grained IPA transcription."
-       },{
+            "description": "Under-resourced languages are a significant challenge for statistical approaches to machine translation, and recently it has been shown that the usage of training data from closely-related languages can improve machine translation quality of these languages. While languages within the same language family share many properties, many under-resourced languages are written in their own native script, which makes taking advantage of these language similarities difficult. In this paper, we propose to alleviate the problem of different scripts by transcribing the native script into common representation i.e. the Latin script or the International Phonetic Alphabet (IPA). In particular, we compare the difference between coarse-grained transliteration to the Latin script and fine-grained IPA transliteration. We performed experiments on the language pairs English-Tamil, English-Telugu, and English-Kannada translation task. Our results show improvements in terms of the BLEU, METEOR and chrF scores from transliteration and we find that the transliteration into the Latin script outperforms the fine-grained IPA transcription.",
+            "affiliation": ["National University of Ireland Galway","National University of Ireland Galway","National University of Ireland Galway","National University of Ireland Galway"],
+            "date": "2019-05-20",
+            "open": true,
+            "license": "cc-by",
+            "grants": [{"id":"731015"}]
+
+        },{
             "@id": "eskevich2019ldk",
             "@type": "swrc:Proceedings",
             "editor": ["Maria Eskevich", "Gerard de Melo", "Christian Fäth", "John P. McCrae", "Paul Buitelaar", "Christian Chiarcos", "Bettina Klimek", "Milan Dojchinovski"],
@@ -190,7 +226,13 @@
             "url": "https://lexdhai.insight-centre.org/Lex_DH__AI_2018_paper_4.pdf",
             "open": true,
             "year": "2018",
-            "description": "Lexical resources are important components of natural language processing (NLP) applications providing machine-readable knowledge for various tasks. One of the most popular examples of lexical resources are lexicons. Lexicons provide linguistic information about the vocabulary of a language and the semantic relationships between the words in a pair of languages. In addition to the lexicons, there are various other types of lexical resources, particularly those which are made by experts such as WordNet, VerbNet and FrameNet and, those which are collaboratively curated such as Wikipedia and Wiktionary."
+            "description": "Lexical resources are important components of natural language processing (NLP) applications providing machine-readable knowledge for various tasks. One of the most popular examples of lexical resources are lexicons. Lexicons provide linguistic information about the vocabulary of a language and the semantic relationships between the words in a pair of languages. In addition to the lexicons, there are various other types of lexical resources, particularly those which are made by experts such as WordNet, VerbNet and FrameNet and, those which are collaboratively curated such as Wikipedia and Wiktionary.",
+            "affiliation": ["National University of Ireland Galway","National University of Ireland Galway","National University of Ireland Galway","National University of Ireland Galway"],
+            "date": "2018-12-06",
+            "open": true,
+            "license": "cc-zero",
+            "grants": [{"id":"731015"}]
+
          },
         {
             "@id": "mccrae2018ldl",

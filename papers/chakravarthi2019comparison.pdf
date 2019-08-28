@@ -1,0 +1,146 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<META NAME="DC.Publisher" CONTENT="Schloss Dagstuhl - Leibniz-Zentrum fuer Informatik">
+<META NAME="citation_conference_title" CONTENT="2nd Conference on Language, Data and Knowledge (LDK 2019)">
+<META NAME="citation_doi" CONTENT="10.4230/OASIcs.LDK.2019.6">
+<META NAME="citation_startpage" CONTENT="1">
+<META NAME="citation_lastpage" CONTENT="14">
+<META NAME="DC.Title" LANG="eng" CONTENT="Comparison of Different Orthographies for Machine Translation of Under-Resourced Dravidian Languages">
+<META NAME="citation_title" CONTENT="Comparison of Different Orthographies for Machine Translation of Under-Resourced Dravidian Languages">
+<META NAME="DC.Creator.PersonalName" CONTENT="Chakravarthi, Bharathi Raja">
+<META NAME="citation_author" CONTENT="Chakravarthi, Bharathi Raja">
+<META NAME="DC.Creator.PersonalName" CONTENT="Arcan, Mihael">
+<META NAME="citation_author" CONTENT="Arcan, Mihael">
+<META NAME="DC.Creator.PersonalName" CONTENT="McCrae, John P.">
+<META NAME="citation_author" CONTENT="McCrae, John P.">
+<META NAME="DC.Subject" SCHEME="SWD" CONTENT="Under-resourced languages, Machine translation, Dravidian languages, Phonetic transcription, Transliteration, International Phonetic Alphabet, IPA, M">
+<META NAME="DC.Subject" SCHEME="DDC-Sachgruppe" CONTENT="004">
+<META NAME="DC.Date.Creation_of_intellectual_content" CONTENT="2019">
+<META NAME="citation_date" CONTENT="2019">
+<META NAME="DC.Date.Creation_of_present_form" SCHEME="ISO8601" CONTENT="2019-05-20">
+<META NAME="DC.Type" CONTENT="InProceedings">
+<META NAME="DC.Format" SCHEME="IMT" CONTENT="application/pdf">
+<META NAME="DC.Identifier" SCHEME="urn:nbn:de" CONTENT="urn:nbn:de:0030-drops-103700">
+<META NAME="DC.Identifier" SCHEME="URL" CONTENT="http://drops.dagstuhl.de/opus/volltexte/2019/10370/index.html">
+<META NAME="citation_pdf_url" CONTENT="http://drops.dagstuhl.de/opus/volltexte/2019/10370/">
+<META NAME="DC.Source" CONTENT="DROPS-IDN/10370">
+<META NAME="DC.Language" SCHEME="ISO639-2" CONTENT="eng">
+<META NAME="DC.Description" LANG="eng" CONTENT="Under-resourced languages are a significant challenge for statistical approaches to machine translation, and recently it has been shown that the usage of training data from closely-related languages can improve machine translation quality of these languages. While languages within the same language family share many properties, many under-resourced languages are written in their own native script, which makes taking advantage of these language similarities difficult. In this paper, we propose to alleviate the problem of different scripts by transcribing the native script into common representation i.e. the Latin script or the International Phonetic Alphabet (IPA). In particular, we compare the difference between coarse-grained transliteration to the Latin script and fine-grained IPA transliteration. We performed experiments on the language pairs English-Tamil, English-Telugu, and English-Kannada translation task. Our results show improvements in terms of the BLEU, METEOR and chrF scores from transliteration and we find that the transliteration into the Latin script outperforms the fine-grained IPA transcription.">
+<TITLE>DROPS - Comparison of Different Orthographies for Machine Translation of Under-Resourced Dravidian Languages</TITLE></HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#606060" VLINK="#303030" itemscope itemtype="http://schema.org/WebPage">
+<IMG SRC="/opus/Icons/drops-logo.png" ALIGN=TOP BORDER=0 VSPACE=0 HSPACE=0>
+      </H2>
+    </TD>
+  </TR>
+</TABLE>
+<FONT FACE=arial, arial, helvetica>
+<HR>
+<div itemscope itemtype="http://schema.org/ScholarlyArticle" itemid="http://drops.dagstuhl.de/opus/volltexte/2019/10370/">
+<span style="display:none" itemprop="provider">Schloss Dagstuhl - Leibniz-Zentrum fuer Informatik GmbH</span>
+<span style="display:none" itemprop="publisher">Schloss Dagstuhl - Leibniz-Zentrum fuer Informatik GmbH</span>
+<span style="display:none" itemprop="learningResourceType">scholarly article </span>
+<span style="display:none" itemprop="inLanguage">en</span>
+<span style="display:none" itemprop="copyrightHolder">Chakravarthi, Bharathi Raja; Arcan, Mihael; McCrae, John P.</span>
+<span style="display:none" itemprop="publishingPrinciples">http://www.dagstuhl.de/oasics</span>
+<FONT SIZE=-1><A HREF=/doku/urheberrecht1.html>License</A><BR>
+when quoting this document, please refer to the following<BR>
+DOI: <a itemprop="url" href="http://dx.doi.org/10.4230/OASIcs.LDK.2019.6"><B>10.4230/OASIcs.LDK.2019.6</B></a><BR>
+URN: <a href="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:0030-drops-103700"><B>urn:nbn:de:0030-drops-103700</B></a><BR>
+URL: <a itemprop="url" href="http://drops.dagstuhl.de/opus/volltexte/2019/10370/"><B>http://drops.dagstuhl.de/opus/volltexte/2019/10370/</a></B> 
+</FONT>
+<HR>
+<font face=arial, arial, helvetica>
+<B><A itemprop="author" HREF="/opus/ergebnis.php?wer=opus&suchart=teil&Lines_Displayed=10&sort=o.date_year+DESC%2C+o.title&suchfeld1=freitext&suchwert1=&opt1=AND&opt2=AND&suchfeld3=date_year&suchwert3=&startindex=0&page=0&dir=2&suche=&suchfeld2=oa.person&suchwert2=Chakravarthi%2C%20Bharathi%20Raja">Chakravarthi, Bharathi Raja</A></B> ; 
+<B><A itemprop="author" HREF="/opus/ergebnis.php?wer=opus&suchart=teil&Lines_Displayed=10&sort=o.date_year+DESC%2C+o.title&suchfeld1=freitext&suchwert1=&opt1=AND&opt2=AND&suchfeld3=date_year&suchwert3=&startindex=0&page=0&dir=2&suche=&suchfeld2=oa.person&suchwert2=Arcan%2C%20Mihael">Arcan, Mihael</A></B> ; 
+<B><A itemprop="author" HREF="/opus/ergebnis.php?wer=opus&suchart=teil&Lines_Displayed=10&sort=o.date_year+DESC%2C+o.title&suchfeld1=freitext&suchwert1=&opt1=AND&opt2=AND&suchfeld3=date_year&suchwert3=&startindex=0&page=0&dir=2&suche=&suchfeld2=oa.person&suchwert2=McCrae%2C%20John%20P.">McCrae, John P.</A></B>
+
+</B><P>
+<H3 itemprop="name">Comparison of Different Orthographies for Machine Translation of Under-Resourced Dravidian Languages</H3>
+<TABLE> 
+<TR><TD><font face=arial, arial, helvetica>
+pdf-format: </TD>
+
+<TD><TABLE BORDER=3 CELLPADDING=4 CELLSPACING=4>
+<TR>
+
+<TD><font face=arial, arial, helvetica>
+<A itemprop="url" HREF="http://drops.dagstuhl.de/opus/volltexte/2019/10370/pdf/OASIcs-LDK-2019-6.pdf">OASIcs-LDK-2019-6.pdf (0.5 MB)   </A>
+</TD>
+</TR>
+</TABLE>
+</TD>
+</TR>
+</TABLE>
+<P>
+<HR>
+
+<div itemprop="about">
+<H3>Abstract</H3>
+Under-resourced languages are a significant challenge for statistical approaches to machine translation, and recently it has been shown that the usage of training data from closely-related languages can improve machine translation quality of these languages. While languages within the same language family share many properties, many under-resourced languages are written in their own native script, which makes taking advantage of these language similarities difficult. In this paper, we propose to alleviate the problem of different scripts by transcribing the native script into common representation i.e. the Latin script or the International Phonetic Alphabet (IPA). In particular, we compare the difference between coarse-grained transliteration to the Latin script and fine-grained IPA transliteration. We performed experiments on the language pairs English-Tamil, English-Telugu, and English-Kannada translation task. Our results show improvements in terms of the BLEU, METEOR and chrF scores from transliteration and we find that the transliteration into the Latin script outperforms the fine-grained IPA transcription. 
+</div>
+<HR><P> 
+<H3>BibTeX - Entry</H3>
+<PRE><tt>@InProceedings{chakravarthi_et_al:OASIcs:2019:10370,
+  author =	{Bharathi Raja Chakravarthi and Mihael Arcan and John P. McCrae},
+  title =	{{Comparison of Different Orthographies for Machine Translation of Under-Resourced Dravidian Languages}},
+  booktitle =	{2nd Conference on Language, Data and Knowledge (LDK 2019)},
+  pages =	{6:1--6:14},
+  series =	{OpenAccess Series in Informatics (OASIcs)},
+  ISBN =	{978-3-95977-105-4},
+  ISSN =	{2190-6807},
+  year =	{2019},
+  volume =	{70},
+  editor =	{Maria Eskevich and Gerard de Melo and Christian F{\"a}th and John P. McCrae and Paul Buitelaar and Christian Chiarcos and Bettina Klimek and Milan Dojchinovski},
+  publisher =	{Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},
+  address =	{Dagstuhl, Germany},
+  URL =		{http://drops.dagstuhl.de/opus/volltexte/2019/10370},
+  URN =		{urn:nbn:de:0030-drops-103700},
+  doi =		{10.4230/OASIcs.LDK.2019.6},
+  annote =	{Keywords: Under-resourced languages, Machine translation, Dravidian languages, Phonetic transcription, Transliteration, International Phonetic Alphabet, IPA, M}
+}
+</tt></PRE> 
+<HR><P> 
+<TABLE BORDER=0> 
+<TR> 
+<TD VALIGN=TOP><font face=arial, arial, helvetica>
+<B>Keywords:</B></TD> 
+<TD></TD><TD><font face=arial, arial, helvetica>
+Under-resourced languages, Machine translation, Dravidian languages, Phonetic transcription, Transliteration, International Phonetic Alphabet, IPA, M </TD>
+</TR> 
+<TR> 
+<TD VALIGN=TOP><font face=arial, arial, helvetica>
+<B>Seminar:</B></TD>
+<TD></TD><TD><font face=arial, arial, helvetica>
+2nd Conference on Language, Data and Knowledge (LDK 2019) 
+</TR> 
+<TR> 
+<TD VALIGN=TOP><font face=arial, arial, helvetica>
+<B>Issue date:</B></TD> 
+<TD></TD><TD><font face=arial, arial, helvetica>
+2019 </TD>
+</TR> 
+<TR> 
+<TD VALIGN=TOP><font face=arial, arial, helvetica>
+<B>Date of publication:</B></TD> 
+<TD></TD><TD><font face=arial, arial, helvetica>
+<span itemprop="copyrightYear">2019</span> </TD>
+<span style="display:none" itemprop="datePublished">2019</span> </TD>
+</TR> 
+</TABLE> 
+</div> 
+<P>
+<HR>
+<CENTER>
+<A HREF="/opus">DROPS-Home</A> |
+<A HREF="/opus/suche/index.php">Fulltext Search</A> |
+<A HREF="/opus/doku/imprint.php">Imprint</A> |
+<A HREF="/opus/doku/privacy.php">Privacy</A>
+<IMG alt="Published by LZI" SRC="/opus/Icons/logo_t.png" ALIGN="right" BORDER=0 VSPACE=0 HSPACE=10>
+</CENTER>
+<BR><BR>
+<BR><BR>
+</tr>
+</table>
+</BODY>
+</HTML>

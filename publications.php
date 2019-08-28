@@ -25,25 +25,25 @@
 <a href="#" class="year sely2010" onclick="showonly(event,'y2010')" style="padding-left:5px;">2010</a>
 <a href="#" class="year sely2009" onclick="showonly(event,'y2009')" style="padding-left:5px;">2009</a>
 <a href="#" class="year sely2008" onclick="showonly(event,'y2008')" style="padding-left:5px;">2008</a>
-</div><p class="pub y2019 hop AdrianDoyle JohnPMcCrae ClodaghDowney"><b>A Character-Level LSTM Network Model for Tokenizing the Old Irish text of the Würzburg Glosses on the Pauline Epistles</a></b>. Adrian Doyle, John P. McCrae and Clodagh Downey, <i>Proceedings of the Celtic Language Technology Workshop 2019</i>, (2019 (Accepted)).</p>
-
-<p class="pub y2019 hop JohnPMcCrae AdrianDoyle"><b>Adapting Term Recognition to an Under-Resourced Language: the Case of Irish</a></b>. John P. McCrae and Adrian Doyle, <i>Proceedings of the Celtic Language Technology Workshop 2019</i>, (2019 (Accepted)).</p>
-
-<p class="pub y2019 rence BiancaPereira CécileRobin TobiasDaudert JohnPMcCrae PaulBuitelaar PranabMohanty"><b>Taxonomy Extraction for Customer Service Knowledge Base Construction</a></b>. Bianca Pereira, Cécile Robin, Tobias Daudert, John P. McCrae, Paul Buitelaar and Pranab Mohanty, <i>Proceedings of the SEMANTicS 2019</i>, (2019 (Accepted)).</p>
-
-<p class="pub y2019 hop BharathiRajaChakravarthi MihaelArcan JohnPMcCrae"><b>WordNet Gloss Translation for Under-resourced Languages using Multilingual Neural Machine Translation</a></b>. Bharathi Raja Chakravarthi, Mihael Arcan and John P. McCrae, <i>Proceedings of the MomenT Workshop</i>, (2019 (Accepted)).</p>
-
-<p class="pub y2019 hop BharathiRajaChakravarthi RubaPriyadharshini BernardoStearns ArunJayapal MihaelArcan JohnPMcCrae"><b>Multilingual Multimodal Machine Translation for Dravidian Languages utilizing Phonetic Transcription</a></b>. Bharathi Raja Chakravarthi, Ruba Priyadharshini, Bernardo Stearns, Arun Jayapal, Mihael Arcan and John P. McCrae, <i>Proceedings of the 2nd Workshop on Technologies for MT of Low Resource Languages (LoResMT 2019)</i>, (2019 (Accepted)).</p>
+</div><p class="pub y2019 rence BettinaKlimek JohnPMcCrae MaximIonov JamesKTauber ChristianChiarcos JuliaBosqueGil PaulBuitelaar"><b>Challenges for the Representations for Morphology in Ontology Lexicons</a></b>. Bettina Klimek, John P. McCrae, Maxim Ionov, James K. Tauber, Christian Chiarcos, Julia Bosque-Gil and Paul Buitelaar, <i>Proceedings of Sixth Biennial Conference on Electronic Lexicography, eLex 2019</i>, (2019 (Accepted)).</p>
 
 <p class="pub y2019 rence JohnPMcCrae CaroleTiberius AnasFahadKhan IlanKernerman ThierryDeclerck SimonKrek MonicaMonachini SinaAhmadi"><b>The ELEXIS Interface for Interoperable Lexical Resources</a></b>. John P. McCrae, Carole Tiberius, Anas Fahad Khan, Ilan Kernerman, Thierry Declerck, Simon Krek, Monica Monachini and Sina Ahmadi, <i>Proceedings of Sixth Biennial Conference on Electronic Lexicography, eLex 2019</i>, (2019 (Accepted)).</p>
 
-<p class="pub y2019 rence BettinaKlimek JohnPMcCrae MaximIonov JamesKTauber ChristianChiarcos JuliaBosqueGil PaulBuitelaar"><b>Challenges for the Representations for Morphology in Ontology Lexicons</a></b>. Bettina Klimek, John P. McCrae, Maxim Ionov, James K. Tauber, Christian Chiarcos, Julia Bosque-Gil and Paul Buitelaar, <i>Proceedings of Sixth Biennial Conference on Electronic Lexicography, eLex 2019</i>, (2019 (Accepted)).</p>
-
 <p class="pub y2019 rence SinaAhmadi HosseinHassani JohnPMcCrae"><b>Towards Electronic Lexicography for the Kurdish Language</a></b>. Sina Ahmadi, Hossein Hassani and John P. McCrae, <i>Proceedings of Sixth Biennial Conference on Electronic Lexicography, eLex 2019</i>, (2019 (Accepted)).</p>
 
-<p class="pub y2019 rence JohnPMcCrae AlexandreRademaker FrancisBond EwaRudnicka ChristianeFellbaum"><b>English WordNet 2019 -- An Open-Source WordNet for English</a></b>. John P. McCrae, Alexandre Rademaker, Francis Bond, Ewa Rudnicka and Christiane Fellbaum, <i>Proceedings of the 10th Global WordNet Conference – GWC 2019</i>, (2019 (Accepted)).</p>
+<p class="pub y2019 rence BiancaPereira CécileRobin TobiasDaudert JohnPMcCrae PaulBuitelaar PranabMohanty"><b>Taxonomy Extraction for Customer Service Knowledge Base Construction</a></b>. Bianca Pereira, Cécile Robin, Tobias Daudert, John P. McCrae, Paul Buitelaar and Pranab Mohanty, <i>Proceedings of the SEMANTicS 2019</i>, (2019 (Accepted)).</p>
 
-<p class="pub y2019 hop JohnPMcCrae"><b>Identification of Adjective-Noun Neologisms using Pretrained Language Models</a></b>. John P. McCrae, <i>Joint Workshop on Multiword Expressions and WordNet (MWE-WN 2019) at ACL 2019</i>, (2019 (Accepted)).</p>
+<p class="pub y2019 hop AdrianDoyle JohnPMcCrae ClodaghDowney"><b><a class="publication" href="https://www.aclweb.org/anthology/W19-6910.pdf">A Character-Level LSTM Network Model for Tokenizing the Old Irish text of the Würzburg Glosses on the Pauline Epistles</a></b>. Adrian Doyle, John P. McCrae and Clodagh Downey, <i>Proceedings of the Celtic Language Technology Workshop 2019</i>, (2019).</p>
+
+<p class="pub y2019 hop JohnPMcCrae AdrianDoyle"><b><a class="publication" href="https://www.aclweb.org/anthology/W19-6907.pdf">Adapting Term Recognition to an Under-Resourced Language: the Case of Irish</a></b>. John P. McCrae and Adrian Doyle, <i>Proceedings of the Celtic Language Technology Workshop 2019</i>, (2019).</p>
+
+<p class="pub y2019 hop BharathiRajaChakravarthi MihaelArcan JohnPMcCrae"><b><a class="publication" href="https://www.aclweb.org/anthology/W19-7101.pdf">WordNet Gloss Translation for Under-resourced Languages using Multilingual Neural Machine Translation</a></b>. Bharathi Raja Chakravarthi, Mihael Arcan and John P. McCrae, <i>Proceedings of the MomenT Workshop</i>, (2019).</p>
+
+<p class="pub y2019 hop BharathiRajaChakravarthi RubaPriyadharshini BernardoStearns ArunJayapal SSrivedy MihaelArcan ManelZarrouk JohnPMcCrae"><b><a class="publication" href="https://www.aclweb.org/anthology/W19-6809.pdf">Multilingual Multimodal Machine Translation for Dravidian Languages utilizing Phonetic Transcription</a></b>. Bharathi Raja Chakravarthi, Ruba Priyadharshini, Bernardo Stearns, Arun Jayapal, S Srivedy, Mihael Arcan, Manel Zarrouk and John P. McCrae, <i>Proceedings of the 2nd Workshop on Technologies for MT of Low Resource Languages (LoResMT 2019)</i>, (2019).</p>
+
+<p class="pub y2019 rence JohnPMcCrae AlexandreRademaker FrancisBond EwaRudnicka ChristianeFellbaum"><b><a class="publication" href="papers/mccrae2019english.pdf">English WordNet 2019 -- An Open-Source WordNet for English</a></b>. John P. McCrae, Alexandre Rademaker, Francis Bond, Ewa Rudnicka and Christiane Fellbaum, <i>Proceedings of the 10th Global WordNet Conference – GWC 2019</i>, (2019).</p>
+
+<p class="pub y2019 hop JohnPMcCrae"><b><a class="publication" href="https://www.aclweb.org/anthology/W19-5116.pdf">Identification of Adjective-Noun Neologisms using Pretrained Language Models</a></b>. John P. McCrae, <i>Joint Workshop on Multiword Expressions and WordNet (MWE-WN 2019) at ACL 2019</i>, (2019).</p>
 
 <p class="pub y2019 hop MihaelArcan DanielTorregrosa SinaAhmadi JohnPMcCrae"><b><a class="publication" href="papers/arcan2019inferring.pdf">Inferring translation candidates for multilingual dictionary generation</a></b>. Mihael Arcan, Daniel Torregrosa, Sina Ahmadi and John P. McCrae, <i>Proceedings of the 2nd Translation Inference Across Dictionaries (TIAD) Shared Task</i>, (2019).</p>
 
@@ -51,9 +51,9 @@
 
 <p class="pub y2019 hop JohnPMcCrae"><b><a class="publication" href="papers/mccrae2019tiad.pdf">TIAD Shared Task 2019: Orthonormal Explicit Topic Analysis for Translation Inference across Dictionaries</a></b>. John P. McCrae, <i>Proceedings of the 2nd Translation Inference Across Dictionaries (TIAD) Shared Task</i>, (2019).</p>
 
-<p class="pub y2019 rence SinaAhmadi MihaelArcan JohnMcCrae"><b><a class="publication" href="papers/ahmadi2019lexical.pdf">Lexical Sense Alignment using Weighted Bipartite b-Matching</a></b>. Sina Ahmadi, Mihael Arcan and John McCrae, <i>Proceedings of the Poster Track of LDK 2019</i>, (2019).</p>
+<p class="pub y2019 rence SinaAhmadi MihaelArcan JohnMcCrae"><b><a class="publication" href="http://ceur-ws.org/Vol-2402/paper3.pdf">Lexical Sense Alignment using Weighted Bipartite b-Matching</a></b>. Sina Ahmadi, Mihael Arcan and John McCrae, <i>Proceedings of the Poster Track of LDK 2019</i>, pp 12-16, (2019).</p>
 
-<p class="pub y2019 rence MustafaJarrar HamzehAmayreh JohnMcCrae"><b><a class="publication" href="papers/jarrar2019representing.pdf">Representing Arabic Lexicons in Lemon - a Preliminary Study</a></b>. Mustafa Jarrar, Hamzeh Amayreh and John McCrae, <i>Proceedings of the Poster Track of LDK 2019</i>, (2019).</p>
+<p class="pub y2019 rence MustafaJarrar HamzehAmayreh JohnMcCrae"><b><a class="publication" href="http://ceur-ws.org/Vol-2402/paper6.pdf">Representing Arabic Lexicons in Lemon - a Preliminary Study</a></b>. Mustafa Jarrar, Hamzeh Amayreh and John McCrae, <i>Proceedings of the Poster Track of LDK 2019</i>, pp 29-33, (2019).</p>
 
 <p class="pub y2019 rence OmniaZayed JohnPMcCrae PaulBuitelaar"><b><a class="publication" href="http://drops.dagstuhl.de/opus/volltexte/2019/10374/pdf/OASIcs-LDK-2019-10.pdf">Crowd-sourcing A High-Quality Dataset for Metaphor Identification in Tweets</a></b>. Omnia Zayed, John P. McCrae and Paul Buitelaar, <i>2nd Conference on Language, Data and Knowledge (LDK 2019)</i>, (2019).</p>
 

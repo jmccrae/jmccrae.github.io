@@ -18,45 +18,12 @@
     },
     "@graph": [ 
         {
-            "@id": "doyle2019character",
-            "@type": "Workshop",
-            "title": "A Character-Level LSTM Network Model for Tokenizing the Old Irish text of the Würzburg Glosses on the Pauline Epistles",
-            "author": ["Adrian Doyle", "John P. McCrae", "Clodagh Downey" ],
-            "booktitle": "Proceedings of the Celtic Language Technology Workshop 2019",
-            "description": "This paper examines difficulties inherent in tokenization of Early Irish texts and demonstrates that a neural-network-based approach may provide a viable solution for historical texts which contain unconventional spacing and spelling anomalies. Guidelines for tokenizing Old Irish text are presented and the creation of a character-level LSTM network is detailed, its accuracy assessed, and efforts at optimising its performance are recorded. Based on the results of this research it is expected that a character- level LSTM model may provide a viable solution for tokenization of historical texts where the use of Scriptio Continua, or alternative spacing conventions, makes the automatic separation of tokens difficult.",
-            "year": "2019 (Accepted)"
-        },
-        {
-            "@id": "mccrae2019adapting",
-            "@type": "Workshop",
-            "title": "Adapting Term Recognition to an Under-Resourced Language: the Case of Irish",
-            "author": ["John P. McCrae", "Adrian Doyle" ],
-            "booktitle": "Proceedings of the Celtic Language Technology Workshop 2019",
-            "description": "Automatic Term Recognition (ATR) is an important method for the summarization and analysis of large corpora, and normally requires a significant amount of linguistic input, in particular the use of part-of-speech taggers. For an under-resourced language such as Irish, the resources necessary for this may be scarce or entirely absent. We evaluate two methods for the automatic extraction of terms, based on the small part-of-speech-tagged corpora that are available for Irish and on a large terminology list, and show that both methods can produce viable term extractors. We evaluate this with a newly constructed corpus that is the first available corpus for term extraction in Irish. Our results shine some light on the challenge of adapting natural language processing systems to under-resourced scenarios.",
-            "year": "2019 (Accepted)"
-        },{
-            "@id": "pereira2019taxonomy",
+            "@id": "klimek2019challenges",
             "@type": "Conference",
-            "title": "Taxonomy Extraction for Customer Service Knowledge Base Construction",
-            "author": ["Bianca Pereira", "Cécile Robin", "Tobias Daudert", "John P. McCrae", "Paul Buitelaar", "Pranab Mohanty" ],
-            "booktitle": "Proceedings of the SEMANTicS 2019",
-            "description": "Customer service agents play an important role in bridging the gap between customers' vocabulary and business terms. In a scenario where organisations are moving into semi-automatic customer service, semantic technologies with capacity to bridge this gap become a necessity. In this paper we explore the use of automatic taxonomy extraction from text as a means to reconstruct a customer-agent taxonomic vocabulary.  We evaluate our proposed solution in an industry use case scenario in the financial domain and show that our approaches for automated term extraction and using in-domain training for taxonomy construction can improve the quality of automatically constructed taxonomic knowledge bases.",
-            "year": "2019 (Accepted)"
-        },{
-            "@id": "chakravarthi2019wordnet",
-            "@type": "Workshop",
-            "title": "WordNet Gloss Translation for Under-resourced Languages using Multilingual Neural Machine Translation",
-            "author": ["Bharathi Raja Chakravarthi", "Mihael Arcan", "John P. McCrae"],
-            "booktitle": "Proceedings of the MomenT Workshop",
-            "description": "In this paper, we translate the glosses in the English WordNet based on the expand approach for improving and generating wordnets with the help of multilingual neural machine translation. Neural Machine Translation (NMT) has recently been applied to many tasks in natural language processing, leading to state-of-the-art performance. However, the performance of NMT often suffers in low resource scenarios where large corpora cannot be obtained. Using training data from closely related language have proven to be invaluable for improving performance.  In this paper, we describe how we trained multilingual NMT from closely related language utilizing phonetic transcription for Dravidian languages. We report the evaluation result of the generated wordnets sense in terms of precision. By comparing to the recently proposed approach, we show improvement in terms of precision.",
-            "year": "2019 (Accepted)"
-        },{
-            "@id": "chakravarthi2019multilingual",
-            "@type": "Workshop",
-            "title": "Multilingual Multimodal Machine Translation for Dravidian Languages utilizing Phonetic Transcription",
-            "author": ["Bharathi Raja Chakravarthi", "Ruba Priyadharshini", "Bernardo Stearns", "Arun Jayapal", "Mihael Arcan", "John P. McCrae"],
-            "booktitle": "Proceedings of the 2nd Workshop on Technologies for MT of Low Resource Languages (LoResMT 2019)",
-            "description": "Multimodal machine translation is the task of translating from source language to target language using information from other modalities.  Existing multimodal datasets have been restricted to only highly resourced languages. These datasets were collected by manual translation of English descriptions from the Flickr30K dataset. In this work, we introduce MMDravi, a Multilingual Multimodal dataset for under-resourced Dravidian languages. It comprises of 30K sentences which were created utilizing several machine translation outputs.  Using data from MMDravi and a phonetic transcription of the corpus, we build an MMNMT system for closely related Dravidian languages to take advantage of multilingual corpus and other modalities. We evaluate our MMNMT translations generated by the proposed approach with human annotated evaluation tests in terms of BLEU, METEOR, and TER. Relying on multilingual corpora, phonetic transcription, and image features, our approach improves the translation quality for the under-resourced languages.",
+            "title": "Challenges for the Representations for Morphology in Ontology Lexicons",
+            "author": ["Bettina Klimek", "John P. McCrae", "Maxim Ionov", "James K. Tauber", "Christian Chiarcos", "Julia Bosque-Gil", "Paul Buitelaar"],
+            "booktitle": "Proceedings of Sixth Biennial Conference on Electronic Lexicography, eLex 2019",
+            "description": "Recent years have experienced a growing trend in the publication of language resources as Linguistic Linked Data (LLD) to enhance their discovery, reuse and the interoperability of tools that consume language data. To this aim, the OntoLex-lemon model has emerged as a de-facto standard to represent lexical data on the Web. However, traditional dictionaries contain a considerable amount of morphological information which is not straightforwardly representable as LLD within the current model. In order to fill this gap a new Morphology Module of OntoLex-lemon is currently developed. This papers presents the results of this model as on-going work as well as the underlying challenges that emerged during the module development. Based on the MMoOn Core ontology, it aims to account for a wide range of morphological information, ranging from endings to derive whole paradigms to the decomposition and generation of lexical entries which is in compliance to other OntoLex-lemon modules and facilitates the encoding of complex morphological data in ontology lexicons.",
             "year": "2019 (Accepted)"
         },{
             "@id": "mccrae2019elexis",
@@ -67,14 +34,6 @@
             "description": "ELEXIS is a project that aims to create a European network of lexical resources, and one of the key challenges for this is the development of an interoperable interface for different lexical resources so that further tools may improve the data. This paper describes this interface and in particular describes the five methods of entrance into the infrastructure, through retrodigitization, by conversion to TEI-Lex0, by the TEI-Lex0 format, by the OntoLex format or through the REST interface described in this paper.",
             "year": "2019 (Accepted)"
        }, {
-            "@id": "klimek2019challenges",
-            "@type": "Conference",
-            "title": "Challenges for the Representations for Morphology in Ontology Lexicons",
-            "author": ["Bettina Klimek", "John P. McCrae", "Maxim Ionov", "James K. Tauber", "Christian Chiarcos", "Julia Bosque-Gil", "Paul Buitelaar"],
-            "booktitle": "Proceedings of Sixth Biennial Conference on Electronic Lexicography, eLex 2019",
-            "description": "Recent years have experienced a growing trend in the publication of language resources as Linguistic Linked Data (LLD) to enhance their discovery, reuse and the interoperability of tools that consume language data. To this aim, the OntoLex-lemon model has emerged as a de-facto standard to represent lexical data on the Web. However, traditional dictionaries contain a considerable amount of morphological information which is not straightforwardly representable as LLD within the current model. In order to fill this gap a new Morphology Module of OntoLex-lemon is currently developed. This papers presents the results of this model as on-going work as well as the underlying challenges that emerged during the module development. Based on the MMoOn Core ontology, it aims to account for a wide range of morphological information, ranging from endings to derive whole paradigms to the decomposition and generation of lexical entries which is in compliance to other OntoLex-lemon modules and facilitates the encoding of complex morphological data in ontology lexicons.",
-            "year": "2019 (Accepted)"
-        },{
             "@id": "ahmadi2019towards",
             "@type": "Conference",
             "title": "Towards Electronic Lexicography for the Kurdish Language",
@@ -83,13 +42,87 @@
             "description": "This paper describes the development of lexicographic resources for Kurdish and provides a lexical model for this language. Kurdish is considered a less-resourced language, and currently, lacks the machine-readable lexicon resources. The unique potential which  Linked Data and the Semantic Web offer to e-lexicography enables interoperability across lexical resources by elevating the traditional linguistic data to machine-processable semantic formats. Therefore, we present our lexicon in Ontolex-Lemon ontology as a standard model for sharing lexical information on the Semantic Web. The research covers Sorani, Kurmanji, and Hawrami dialects of Kurdish. This research suggests that although Kurdish is a less-resourced language, in terms of documented lexicons, it owns a wide range of resources, but because they are machine-readable, they could not contribute to the language processing. The outcome of this project, which is made publicly available, assists scholars in their efforts towards making Kurdish a resource-rich language.",
             "year": "2019 (Accepted)"
         },{
+            "@id": "pereira2019taxonomy",
+            "@type": "Conference",
+            "title": "Taxonomy Extraction for Customer Service Knowledge Base Construction",
+            "author": ["Bianca Pereira", "Cécile Robin", "Tobias Daudert", "John P. McCrae", "Paul Buitelaar", "Pranab Mohanty" ],
+            "booktitle": "Proceedings of the SEMANTicS 2019",
+            "description": "Customer service agents play an important role in bridging the gap between customers' vocabulary and business terms. In a scenario where organisations are moving into semi-automatic customer service, semantic technologies with capacity to bridge this gap become a necessity. In this paper we explore the use of automatic taxonomy extraction from text as a means to reconstruct a customer-agent taxonomic vocabulary.  We evaluate our proposed solution in an industry use case scenario in the financial domain and show that our approaches for automated term extraction and using in-domain training for taxonomy construction can improve the quality of automatically constructed taxonomic knowledge bases.",
+            "year": "2019 (Accepted)"
+        },{
+            "@id": "doyle2019character",
+            "@type": "Workshop",
+            "title": "A Character-Level LSTM Network Model for Tokenizing the Old Irish text of the Würzburg Glosses on the Pauline Epistles",
+            "author": ["Adrian Doyle", "John P. McCrae", "Clodagh Downey" ],
+            "booktitle": "Proceedings of the Celtic Language Technology Workshop 2019",
+            "description": "This paper examines difficulties inherent in tokenization of Early Irish texts and demonstrates that a neural-network-based approach may provide a viable solution for historical texts which contain unconventional spacing and spelling anomalies. Guidelines for tokenizing Old Irish text are presented and the creation of a character-level LSTM network is detailed, its accuracy assessed, and efforts at optimising its performance are recorded. Based on the results of this research it is expected that a character- level LSTM model may provide a viable solution for tokenization of historical texts where the use of Scriptio Continua, or alternative spacing conventions, makes the automatic separation of tokens difficult.",
+            "year": "2019",
+            "affiliation": ["National University of Ireland Galway","National University of Ireland Galway","National University of Ireland Galway"],
+            "date": "2019-08-19",
+            "open": true,
+            "license": "cc-by",
+            "grants": [{"id":"731015"}],
+            "url": "https://www.aclweb.org/anthology/W19-6910.pdf",
+            "doi": "10.18653/v1/w19-6910"
+        }, {
+            "@id": "mccrae2019adapting",
+            "@type": "Workshop",
+            "title": "Adapting Term Recognition to an Under-Resourced Language: the Case of Irish",
+            "author": ["John P. McCrae", "Adrian Doyle" ],
+            "booktitle": "Proceedings of the Celtic Language Technology Workshop 2019",
+            "description": "Automatic Term Recognition (ATR) is an important method for the summarization and analysis of large corpora, and normally requires a significant amount of linguistic input, in particular the use of part-of-speech taggers. For an under-resourced language such as Irish, the resources necessary for this may be scarce or entirely absent. We evaluate two methods for the automatic extraction of terms, based on the small part-of-speech-tagged corpora that are available for Irish and on a large terminology list, and show that both methods can produce viable term extractors. We evaluate this with a newly constructed corpus that is the first available corpus for term extraction in Irish. Our results shine some light on the challenge of adapting natural language processing systems to under-resourced scenarios.",
+            "year": "2019",
+            "affiliation": ["National University of Ireland Galway","National University of Ireland Galway"],
+            "date": "2019-08-19",
+            "open": true,
+            "license": "cc-by",
+            "grants": [{"id":"731015"}],
+            "url": "https://www.aclweb.org/anthology/W19-6907.pdf",
+            "doi": "10.18653/v1/w19-6907"
+
+        },{
+           "@id": "chakravarthi2019wordnet",
+            "@type": "Workshop",
+            "title": "WordNet Gloss Translation for Under-resourced Languages using Multilingual Neural Machine Translation",
+            "author": ["Bharathi Raja Chakravarthi", "Mihael Arcan", "John P. McCrae"],
+            "booktitle": "Proceedings of the MomenT Workshop",
+            "description": "In this paper, we translate the glosses in the English WordNet based on the expand approach for improving and generating wordnets with the help of multilingual neural machine translation. Neural Machine Translation (NMT) has recently been applied to many tasks in natural language processing, leading to state-of-the-art performance. However, the performance of NMT often suffers in low resource scenarios where large corpora cannot be obtained. Using training data from closely related language have proven to be invaluable for improving performance.  In this paper, we describe how we trained multilingual NMT from closely related language utilizing phonetic transcription for Dravidian languages. We report the evaluation result of the generated wordnets sense in terms of precision. By comparing to the recently proposed approach, we show improvement in terms of precision.",
+            "year": "2019",
+            "affiliation": ["National University of Ireland Galway","National University of Ireland Galway","National University of Ireland Galway"],
+            "date": "2019-08-19",
+            "open": true,
+            "license": "cc-by",
+            "grants": [{"id":"731015"}],
+            "url": "https://www.aclweb.org/anthology/W19-7101.pdf",
+            "doi": "10.18653/v1/w19-7101"
+        },{
+            "@id": "chakravarthi2019multilingual",
+            "@type": "Workshop",
+            "title": "Multilingual Multimodal Machine Translation for Dravidian Languages utilizing Phonetic Transcription",
+            "author": ["Bharathi Raja Chakravarthi", "Ruba Priyadharshini", "Bernardo Stearns", "Arun Jayapal", "S Srivedy", "Mihael Arcan", "Manel Zarrouk", "John P. McCrae"],
+            "booktitle": "Proceedings of the 2nd Workshop on Technologies for MT of Low Resource Languages (LoResMT 2019)",
+            "description": "Multimodal machine translation is the task of translating from source language to target language using information from other modalities.  Existing multimodal datasets have been restricted to only highly resourced languages. These datasets were collected by manual translation of English descriptions from the Flickr30K dataset. In this work, we introduce MMDravi, a Multilingual Multimodal dataset for under-resourced Dravidian languages. It comprises of 30K sentences which were created utilizing several machine translation outputs.  Using data from MMDravi and a phonetic transcription of the corpus, we build an MMNMT system for closely related Dravidian languages to take advantage of multilingual corpus and other modalities. We evaluate our MMNMT translations generated by the proposed approach with human annotated evaluation tests in terms of BLEU, METEOR, and TER. Relying on multilingual corpora, phonetic transcription, and image features, our approach improves the translation quality for the under-resourced languages.",
+            "year": "2019",
+            "affiliation":["National University of Ireland Galway","Saraswathi Narayanan College", "National University of Ireland Galway", "Smart Insights from Conversations", "Tamil Nadu Agricultural University", "National University of Ireland Galway","National University of Ireland Galway","National University of Ireland Galway"],
+            "date": "2019-08-20",
+            "open": true,
+            "license": "cc-by",
+            "grants": [{"id":"731015"}],
+            "url": "https://www.aclweb.org/anthology/W19-6809.pdf",
+            "doi": "10.18653/v1/w19-6809"
+        },{
             "@id": "mccrae2019english",
             "@type": "Conference",
             "title": "English WordNet 2019 -- An Open-Source WordNet for English",
             "author": ["John P. McCrae", "Alexandre Rademaker", "Francis Bond", "Ewa Rudnicka", "Christiane Fellbaum"],
             "booktitle": "Proceedings of the 10th Global WordNet Conference – GWC 2019",
             "description": "We describe the release of a new wordnet for English based on the Princeton WordNet, but now developed under an open-source model. In particular, this version of WordNet, which we call English WordNet 2019, which has been developed by multiple people around the world through GitHub, fixes many errors in previous wordnets for English. We give some details of the changes that have been made in this version and give some perspectives about likely future changes that will be made as this project continues to evolve.",
-            "year": "2019 (Accepted)"
+            "year": "2019",
+            "affiliation": ["National University of Ireland Galway","IBM Research and FGV/EMAp", "Nanyang Technological University", "Wroclaw University of Technology", "Princeton University"],
+            "date": "2019-07-23",
+            "grants": [{"id":"731015"}],
+            "open": true,
+            "license": "cc-by"
          }, {
             "@id": "mccrae2019identification",
             "@type": "Workshop",
@@ -97,7 +130,14 @@
             "title": "Identification of Adjective-Noun Neologisms using Pretrained Language Models",
             "booktitle": "Joint Workshop on Multiword Expressions and WordNet (MWE-WN 2019) at ACL 2019",
             "description": "Neologism detection is a key task in the constructing of lexical resources and has wider implications for NLP, however the identification of multiword neologisms has received little attention. In this paper, we show that we can effectively identify the distinction between compositional and non-compositional adjective-noun pairs by using pretrained language models and comparing this with individual word embeddings. Our results show that the use of these models significantly improves over baseline linguistic features, however the combination with linguistic features still further improves the results, suggesting the strength of a hybrid approach.",
-            "year": "2019 (Accepted)"
+            "year": "2019",
+            "affiliation": ["National University of Ireland Galway"],
+            "date": "2019-08-02",
+            "open": true,
+            "license": "cc-by",
+            "grants": [{"id":"731015"}],
+            "url":       "https://www.aclweb.org/anthology/W19-5116.pdf",
+            "doi": "10.18653/v1/w19-5116"
         },{
             "@id": "arcan2019inferring",
             "@type": "Workshop",
@@ -149,7 +189,9 @@
             "open": true,
             "license": "cc-zero",
             "grants": [{"id":"731015"}],
-            "year": "2019"
+            "year": "2019",
+            "url": "http://ceur-ws.org/Vol-2402/paper3.pdf",
+            "pages": "12-16"
        }, {
             "@id": "jarrar2019representing",
             "@type": "Conference",
@@ -162,7 +204,9 @@
             "open": true,
             "license": "cc-zero",
             "grants": [{"id":"731015"}],
-            "year": "2019"
+            "year": "2019",
+            "url": "http://ceur-ws.org/Vol-2402/paper6.pdf",
+            "pages": "29-33"
           },{
             "@id": "zayed2019crowd",
             "@type": "Conference",

@@ -22,25 +22,44 @@
             "@type": "Conference",
             "title": "Challenges for the Representations for Morphology in Ontology Lexicons",
             "author": ["Bettina Klimek", "John P. McCrae", "Maxim Ionov", "James K. Tauber", "Christian Chiarcos", "Julia Bosque-Gil", "Paul Buitelaar"],
-            "booktitle": "Proceedings of Sixth Biennial Conference on Electronic Lexicography, eLex 2019",
+            "affiliation": ["Leipzig University", "National University of Ireland Galway", "Goethe-University Frankfurt", "Open Greek and Latin Project", "Goethe-University Frankfurt", "Universidad Politécnica de Madrid", "National University of Ireland Galway"],
+            "date": "2019-10-03",
+            "open": true,
+            "license": "cc-by-sa",
+            "grants": [{"id":"731015"},{"id":"825182"}],
+            "url": "https://elex.link/elex2019/wp-content/uploads/2019/09/eLex_2019_33.pdf",
+             "booktitle": "Proceedings of Sixth Biennial Conference on Electronic Lexicography, eLex 2019",
             "description": "Recent years have experienced a growing trend in the publication of language resources as Linguistic Linked Data (LLD) to enhance their discovery, reuse and the interoperability of tools that consume language data. To this aim, the OntoLex-lemon model has emerged as a de-facto standard to represent lexical data on the Web. However, traditional dictionaries contain a considerable amount of morphological information which is not straightforwardly representable as LLD within the current model. In order to fill this gap a new Morphology Module of OntoLex-lemon is currently developed. This papers presents the results of this model as on-going work as well as the underlying challenges that emerged during the module development. Based on the MMoOn Core ontology, it aims to account for a wide range of morphological information, ranging from endings to derive whole paradigms to the decomposition and generation of lexical entries which is in compliance to other OntoLex-lemon modules and facilitates the encoding of complex morphological data in ontology lexicons.",
-            "year": "2019 (Accepted)"
+            "year": "2019"
         },{
             "@id": "mccrae2019elexis",
             "@type": "Conference",
             "title": "The ELEXIS Interface for Interoperable Lexical Resources",
             "author": ["John P. McCrae", "Carole Tiberius", "Anas Fahad Khan", "Ilan Kernerman", "Thierry Declerck", "Simon Krek", "Monica Monachini", "Sina Ahmadi"],
+            "affiliation": ["National University of Ireland Galway", "Instituut voor de Nederlandse Taal", "CNR- Istituto di Linguistica Computazionale «A. Zampolli»", "K Dictionaries", "Austrian Centre for Digital Humanities, Austrian Academy of Sciences", "Jožef Stefan Institute/University of Ljubljana", "CNR- Istituto di Linguistica Computazionale «A. Zampolli»", "National University of Ireland Galway"],
+            "date": "2019-10-03",
+            "open": true,
+            "license": "cc-by-sa",
+            "grants": [{"id":"731015"}],
+            "url": "https://elex.link/elex2019/wp-content/uploads/2019/09/eLex_2019_37.pdf",
             "booktitle": "Proceedings of Sixth Biennial Conference on Electronic Lexicography, eLex 2019",
             "description": "ELEXIS is a project that aims to create a European network of lexical resources, and one of the key challenges for this is the development of an interoperable interface for different lexical resources so that further tools may improve the data. This paper describes this interface and in particular describes the five methods of entrance into the infrastructure, through retrodigitization, by conversion to TEI-Lex0, by the TEI-Lex0 format, by the OntoLex format or through the REST interface described in this paper.",
-            "year": "2019 (Accepted)"
+            "year": "2019"
        }, {
             "@id": "ahmadi2019towards",
             "@type": "Conference",
             "title": "Towards Electronic Lexicography for the Kurdish Language",
             "author": ["Sina Ahmadi", "Hossein Hassani", "John P. McCrae" ],
+            "affiliation": ["National University of Ireland Galway", "University of Kurdistan Hewler", "National University of Ireland Galway"],
+            "date": "2019-10-03",
+            "open": true,
+            "license": "cc-by-sa",
+            "grants": [{"id":"731015"}],
+            "url": "https://elex.link/elex2019/wp-content/uploads/2019/09/eLex_2019_50.pdf",
             "booktitle": "Proceedings of Sixth Biennial Conference on Electronic Lexicography, eLex 2019",
             "description": "This paper describes the development of lexicographic resources for Kurdish and provides a lexical model for this language. Kurdish is considered a less-resourced language, and currently, lacks the machine-readable lexicon resources. The unique potential which  Linked Data and the Semantic Web offer to e-lexicography enables interoperability across lexical resources by elevating the traditional linguistic data to machine-processable semantic formats. Therefore, we present our lexicon in Ontolex-Lemon ontology as a standard model for sharing lexical information on the Semantic Web. The research covers Sorani, Kurmanji, and Hawrami dialects of Kurdish. This research suggests that although Kurdish is a less-resourced language, in terms of documented lexicons, it owns a wide range of resources, but because they are machine-readable, they could not contribute to the language processing. The outcome of this project, which is made publicly available, assists scholars in their efforts towards making Kurdish a resource-rich language.",
-            "year": "2019 (Accepted)"
+
+            "year": "2019"
         },{
             "@id": "pereira2019taxonomy",
             "@type": "Conference",

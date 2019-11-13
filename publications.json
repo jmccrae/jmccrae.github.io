@@ -169,7 +169,8 @@
             "open": true,
             "license": "cc-zero",
             "grants": [{"id":"731015"}],
-            "year": "2019"
+            "year": "2019",
+            "url": "http://ceur-ws.org/Vol-2493/regular1.pdf"
        },{
             "@id": "torregrosa2019tiad",
             "@type": "Workshop",
@@ -182,7 +183,8 @@
             "open": true,
             "license": "cc-zero",
             "grants": [{"id":"731015"}],
-             "year": "2019"
+             "year": "2019",
+             "url": "http://ceur-ws.org/Vol-2493/regular1.pdf"
         },{
             "@id": "mccrae2019tiad",
             "@type": "Workshop",
@@ -195,7 +197,8 @@
             "open": true,
             "license": "cc-zero",
             "grants": [{"id":"731015"}],
-             "year": "2019"
+             "year": "2019",
+             "url": "http://ceur-ws.org/Vol-2493/system4.pdf"
         },{
             "@id": "ahmadi2019lexical",
             "@type": "Conference",

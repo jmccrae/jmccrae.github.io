@@ -18,6 +18,49 @@
     },
     "@graph": [ 
         {
+            "@id": "mccrae2019linguistic",
+            "@type": "Conference",
+            "title": "Linguistic Linked Open Data for All",
+            "author": ["John P. McCrae", "Thierry Declerck"],
+            "affiliation": ["National University of Ireland Galway", "DFKI GmbH"],
+            "date": "2019-12-05",
+            "open": true,
+            "license": "cc-by",
+            "grants": [{"id":"731015"},{"id":"825182"}],
+            "url": "https://lt4all.org/media/papers/O5/179.pdf",
+            "booktitle": "Proceedings of the Language Technology 4 All Conference",
+            "description": "In this paper we briefly describe the European H2020 project “Prêt-à-LLOD” (‘Ready-to-use Multilingual Linked Language Data for Knowledge Services across Sectors’). This project aims to increase the uptake of language technologies by exploiting the combination of linked data and language technologies, that is Linguistic Linked Open Data (LLOD), to create ready-to-use multilingual data. Prêt-à-LLOD aims to achieve this by creating a new methodology for building data value chains applicable to a wide-range of sectors and applications and based around language resources and language technologies that can be integrated by means of semantic technologies, in particular the usage of the LLOD.",
+            "year": "2019"
+        },
+        {
+            "@id": "krek2019towards",
+            "@type": "Conference",
+            "title": "Towards a Global Lexicographic Infrastructure",
+            "author": ["Simon Krek", "Thierry Declerck", "John Philip McCrae", "Tanja Wissik"],
+            "affiliation": ["Jožef Stefan Institute", "DFKI GmbH", "National University of Ireland Galway", "Austrian Centre for Digital Humanities at the Austrian Academy of Sciences"],
+            "date": "2019-12-05",
+            "open": true,
+            "license": "cc-by",
+            "grants": [{"id":"731015"}],
+            "url": "https://lt4all.org/media/papers/O7/173.pdf",
+            "booktitle": "Proceedings of the Language Technology 4 All Conference",
+            "description": "In this paper we briefly describe the European project ELEXIS (European Lexicographic Infrastructure). ELEXIS aims to integrate, extend and harmonise national and regional efforts in the field of lexicography, both modern and historical, with the goal of creating a sustainable infrastructure which will enable efficient access to high quality lexical data in the digital age, and bridge the gap between more advanced and lesser-supported lexicographic resources. For this, ELEXIS makes use of or establish common standards and solutions for the development of lexicographic resources and develop strategies and tools for extracting, structuring and linking lexicographic resource",
+            "year": "2019"
+        },{
+            "@id": "mccrae2019cardamom",
+            "@type": "Conference",
+            "title": "Cardamom: Comparative Deep Models for Minority and Historical Languages",
+            "author": ["John Philip McCrae", "Theodorus Fransen"],
+            "affiliation": ["National University of Ireland Galway", "National University of Ireland Galway"],
+            "date": "2019-12-05",
+            "open": true,
+            "license": "cc-by",
+            "grants": [],
+            "url": "https://lt4all.org/media/papers/O9/159.pdf",
+            "booktitle": "Proceedings of the Language Technology 4 All Conference",
+            "description": "This paper gives an overview of the Cardamom project, which aims to close the resource gap for minority and under-resourced languages by means of deep-learning-based natural language processing (NLP) and exploiting similarities of closely-related languages. The project further extends this concept to historical languages, which can be considered as closely related to their modern form, and as such aims to provide NLP through both space and time for languages that have been ignored by current approaches.",
+           "year": "2019"
+        },       {
             "@id": "klimek2019challenges",
             "@type": "Conference",
             "title": "Challenges for the Representations for Morphology in Ontology Lexicons",
@@ -67,7 +110,8 @@
             "author": ["Bianca Pereira", "Cécile Robin", "Tobias Daudert", "John P. McCrae", "Paul Buitelaar", "Pranab Mohanty" ],
             "booktitle": "Proceedings of the SEMANTicS 2019",
             "description": "Customer service agents play an important role in bridging the gap between customers' vocabulary and business terms. In a scenario where organisations are moving into semi-automatic customer service, semantic technologies with capacity to bridge this gap become a necessity. In this paper we explore the use of automatic taxonomy extraction from text as a means to reconstruct a customer-agent taxonomic vocabulary.  We evaluate our proposed solution in an industry use case scenario in the financial domain and show that our approaches for automated term extraction and using in-domain training for taxonomy construction can improve the quality of automatically constructed taxonomic knowledge bases.",
-            "year": "2019 (Accepted)"
+            "year": "2019",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-030-33220-4_13"
         },{
             "@id": "doyle2019character",
             "@type": "Workshop",

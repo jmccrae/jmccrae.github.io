@@ -18,6 +18,56 @@
     },
     "@graph": [ 
         {
+            "@id": "zayed2020figure",
+            "@type": "Conference",
+            "title": "Figure Me Out: A Gold Standard Dataset for Metaphor Interpretation",
+            "author": ["Omnia Zayed", "John P. McCrae","Paul Buitelaar"],
+            "affiliation": ["NUIG", "NUIG", "NUIG"],
+            "date": "2020-05-11",
+            "booktitle": "Proceedings of the 12th Language Resource and Evaluation Conference (LREC 2020)",
+            "year": "2020 (Accepted)"
+        },{
+            "@id": "bond2020issues",
+            "@type":    "Conference",
+            "title": "Some Issues with Building a Multilingual Wordnet",
+            "author": ["Francis Bond", "Luis Morgado da Costa", "Michael Wayne Goodman", "John P. McCrae","Ahti Lohk"],
+            "affiliation": ["Nanyang Technological University","Nanyang Technological University","Nanyang Technological University","NUIG", "Tallinn University of Technology"],
+            "date": "2020-05-11",
+            "booktitle": "Proceedings of the 12th Language Resource and Evaluation Conference (LREC 2020)",
+            "year": "2020 (Accepted)"
+        },{
+            "@id": "ahmadi2020multilingual",
+            "@type": "Conference",
+            "title": "A Multilingual Evaluation Dataset for Monolingual Word Sense Alignment",
+            "author": ["Sina Ahmadi","John P. McCrae","Sanni Nimb","Thomas Troelsgård","Sussi Olsen","Bolette S. Pedersen","Thierry Declerck","Tanja Wissik","Monica Monachini","Andrea Bellandi","Fahad Khan","Irene Pisani","Simon Krek","Veronika Lipp", "Tamás Váradi","László Simon","András Győrffy","Carole Tiberius","Tanneke Schoonheim","Yifat Ben Moshe", "Maya Rudich","Raya Abu Ahmad","Dorielle Lonke","Kira Kovalenko","Margit Langemets","Jelena Kallas", "Oksana Dereza","Theodorus Fransen","David Cillessen","David Lindemann","Mikel Alonso","Ana Salgado", "José Luis Sancho","Rafael-J. Ureña-Ruiz","Kiril Simov","Petya Osenova","Zara Kancheva","Ivaylo Radev", "Ranka Stanković","Cvetana  Krstev","Biljana Lazić","Aleksandra Marković","Andrej Perdih","Dejan Gabrovšek"],
+            "affiliation": ["NUIG", "NUIG","Society for Danish Language and Literature","Society for Danish Language and Literature","Centre for Language Technology, University of Copenhagen","Centre for Language Technology","University of Copenhagen","Austrian Centre for Digital Humanities","Austrian Centre for Digital Humanities","Istituto di Linguistica Computazionale “A. Zampolli– CNR”","Istituto di Linguistica Computazionale “A. Zampolli– CNR”","Istituto di Linguistica Computazionale “A. Zampolli– CNR”","Università di Pisa","Jožef Stefan Institute","Research Institute for Linguistics","Research Institute for Linguistics","Research Institute for Linguistics","Research Institute for Linguistics","Dutch Language Institute","Dutch Language Institute","K Dictionaries","K Dictionaries","K Dictionaries","K Dictionaries","Institute for Linguistic Studies of the Russian Academy of Sciences","Institute of the Estonian Language","Institute of the Estonian Language","NUIG","NUIG","NUIG","Euskal Herriko Unibertsitatea, Universidad del País Vasco","Euskal Herriko Unibertsitatea, Universidad del País Vasco","Pórtico da Língua Portuguesa","Centro de estudios de la Real Academia Española","Centro de estudios de la Real Academia Española","Bulgarian Academy of Sciences","Bulgarian Academy of Sciences","Bulgarian Academy of Sciences","Bulgarian Academy of Sciences","University of Belgrade","University of Belgrade","University of Belgrade","Institute for Serbian Language SASA","Research Centre of the Slovenian Academy of Sciences and Arts, Fran Ramovš Institute of the Slovenian Language","Research Centre of the Slovenian Academy of Sciences and Arts, Fran Ramovš Institute of the Slovenian Language"],
+            "date": "2020-05-11",
+            "booktitle": "Proceedings of the 12th Language Resource and Evaluation Conference (LREC 2020)",
+            "year": "2020 (Accepted)"
+        },{
+            "@id": "declerck2020recent",
+            "@type": "Conference",
+            "title": "Recent Developments for the Linguistic Linked Open Data Infrastructure",
+            "author": ["Thierry Declerck","John Philip McCrae","Christian Chiarcos","Philipp Cimiano","Jorge Gracia","Matthias Hartung","Deirdre Lee","Elena Montiel-Ponsoda","Artem Revenko","Roser Saurí"],
+            "date": "2020-05-11",
+            "booktitle": "Proceedings of the 12th Language Resource and Evaluation Conference (LREC 2020)",
+            "year": "2020 (Accepted)"
+        },{
+            "@id": "krishan2019comparative",
+            "@type": "Conference",
+            "title": "A Comparative Study of SVM and LSTM Deep Learning Algorithms for Stock Market Prediction",
+            "author": ["Sai Krishna Lakshminarayanan", "John McCrae"],
+            "affiliation": ["National University of Ireland Galway", "National University of Ireland Galway"],
+            "date": "2019-12-05",
+            "open": true,
+            "license": "cc-zero",
+            "grants": [],
+            "url": "http://ceur-ws.org/Vol-2563/aics_41.pdf",
+            "booktitle": "Proceedings for the 27th AIAI Irish Conference on Artificial Intelligence and Cognitive Science",
+            "description": "The paper presents a comparative study of the performance of Long Short-Term Memory (LSTM) neural network models with Support Vector Machine (SVM) regression models. The framework built as a part of this study comprises of eight models. In this, 4 models are built using LSTM and 4 models using SVM respectively. Two major datasets are used for this paper. One is the base standard Dow Jones Index (DJI) stock price dataset and another is the combination of this stock price dataset along with external added input parameters of crude oil and gold prices. This comparative study shows the best model in combination with our input dataset. The performance of the models is measured in terms of their Root Mean Squared Error (RMSE), Mean Squared Error (MSE), Mean Absolute Error, Mean Absolute Percentage Error (MAPE) and R squared (R2) score values. The methodologies and the results of the models are discussed and possible enhancements to this work are also provided.",
+            "year": "2019"
+        },
+        {
             "@id": "mccrae2019linguistic",
             "@type": "Conference",
             "title": "Linguistic Linked Open Data for All",
@@ -108,10 +158,14 @@
             "@type": "Conference",
             "title": "Taxonomy Extraction for Customer Service Knowledge Base Construction",
             "author": ["Bianca Pereira", "Cécile Robin", "Tobias Daudert", "John P. McCrae", "Paul Buitelaar", "Pranab Mohanty" ],
+            "affiliation": ["National University of Ireland Galway","National University of Ireland Galway","National University of Ireland Galway","National University of Ireland Galway","National University of Ireland Galway","Fidelity Investments"],
             "booktitle": "Proceedings of the SEMANTicS 2019",
             "description": "Customer service agents play an important role in bridging the gap between customers' vocabulary and business terms. In a scenario where organisations are moving into semi-automatic customer service, semantic technologies with capacity to bridge this gap become a necessity. In this paper we explore the use of automatic taxonomy extraction from text as a means to reconstruct a customer-agent taxonomic vocabulary.  We evaluate our proposed solution in an industry use case scenario in the financial domain and show that our approaches for automated term extraction and using in-domain training for taxonomy construction can improve the quality of automatically constructed taxonomic knowledge bases.",
             "year": "2019",
-            "url": "https://link.springer.com/chapter/10.1007/978-3-030-33220-4_13"
+            "date": "2019-11-04",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-030-33220-4_13",
+            "open": true,
+            "license": "cc-by"
         },{
             "@id": "doyle2019character",
             "@type": "Workshop",

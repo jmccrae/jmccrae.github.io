@@ -13,6 +13,9 @@ def locate_file(name, pub):
     else:
         return None
 
+def map_affiliation(affil):
+    return ["National University of Ireland Galway" if a == "NUIG" else a for a in affil]
+
 def main():
     if len(sys.argv) < 3:
         sys.stderr.write("usage: add-to-zendo.py ACCESS_TOKEN paper1 paper2 ...")
@@ -55,7 +58,8 @@ def main():
                         'title': pub["title"],
                         'upload_type': "publication",
                         'publication_date': pub["date"],
-                        'creators': [{'name': n[0], 'affiliation': n[1]} for n in zip(pub["author"], pub["affiliation"])],
+                        'creators': [{'name': n[0], 'affiliation': n[1]} for n in zip(pub["author"], 
+                            map_affiliation(pub["affiliation"]))],
                         'description': pub["description"],
                         'language': 'eng'
                         }

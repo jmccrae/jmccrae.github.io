@@ -22,6 +22,7 @@ out.write("""<div style="text-align:right;">By Type:&nbsp;&nbsp;
 </div>""")
 out.write("""<div style="text-align:right;padding-bottom:10px;">By Year:&nbsp;&nbsp;
 <a href="#" class="year all" onclick="showall(event)" style="color:black;">All</a>
+<a href="#" class="year sely2020" onclick="showonly(event,'y2020')" style="padding-left:5px;">2020</a>
 <a href="#" class="year sely2019" onclick="showonly(event,'y2019')" style="padding-left:5px;">2019</a>
 <a href="#" class="year sely2018" onclick="showonly(event,'y2018')" style="padding-left:5px;">2018</a>
 <a href="#" class="year sely2017" onclick="showonly(event,'y2017')" style="padding-left:5px;">2017</a>

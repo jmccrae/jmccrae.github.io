@@ -25,7 +25,19 @@
 <a href="#" class="year sely2010" onclick="showonly(event,'y2010')" style="padding-left:5px;">2010</a>
 <a href="#" class="year sely2009" onclick="showonly(event,'y2009')" style="padding-left:5px;">2009</a>
 <a href="#" class="year sely2008" onclick="showonly(event,'y2008')" style="padding-left:5px;">2008</a>
-</div><p class="pub y2020 rence OmniaZayed JohnPMcCrae PaulBuitelaar"><b>Figure Me Out: A Gold Standard Dataset for Metaphor Interpretation</a></b>. Omnia Zayed, John P. McCrae and Paul Buitelaar, <i>Proceedings of the 12th Language Resource and Evaluation Conference (LREC 2020)</i>, (2020 (Accepted)).</p>
+</div><p class="pub y2020 hop ChristianChiarcos MaximIonov JessedeDoes KatrienDepuydt AnasFahadKhan SanderStolk ThierryDeclerck JohnPhilipMcCrae"><b>Modelling Frequency and Attestations for OntoLex-Lemon</a></b>. Christian Chiarcos, Maxim Ionov, Jesse de Does, Katrien Depuydt, Anas Fahad Khan, Sander Stolk, Thierry Declerck and John Philip McCrae, <i>Proceedings of the Globalex Workshop on Linked Lexicography (@LREC 2020)</i>, (2020 (Accepted)).</p>
+
+<p class="pub y2020 hop AnaSalgado SinaAhmadi AlbertoSimões JohnPhilipMcCrae RuteCosta"><b>Challenges of Word Sense Alignment: Portuguese Language Resources</a></b>. Ana Salgado, Sina Ahmadi, Alberto Simões, John Philip McCrae and Rute Costa, <i>Proceedings of the 7th Workshop on Linked Data in Linguistics: Building tools and infrastructure at LREC 2020</i>, (2020 (Accepted)).</p>
+
+<p class="pub y2020 hop JohnPhilipMcCrae AlexandreRademaker EwaRudnicka FrancisBond"><b>English WordNet 2020: Improving and Extending a WordNet for English using an Open-Source Methodology</a></b>. John Philip McCrae, Alexandre Rademaker, Ewa Rudnicka and Francis Bond, <i>Proceedings of the Multimodal Wordnets Workshop at LREC 2020</i>, (2020 (Accepted)).</p>
+
+<p class="pub y2020 hop BharathiRajaChakravarthi NavyaJose ShardulSuryawanshi ElizabethSherly JohnPhilipMcCrae"><b>A Sentiment Analysis Dataset for Code-Mixed Malayalam-English</a></b>. Bharathi Raja Chakravarthi, Navya Jose, Shardul Suryawanshi, Elizabeth Sherly and John Philip McCrae, <i>Proceedings of 1st Joint SLTU (Spoken Language Technologies for Under-resourced languages) and CCURL (Collaboration and Computing for Under-Resourced Languages) Workshop at LREC 2020</i>, (2020 (Accepted)).</p>
+
+<p class="pub y2020 hop BharathiRajaChakravarthi VigneshwaranMuralidaran RubaPriyadharshini JohnPhilipMcCrae"><b>Corpus Creation for Sentiment Analysis in Code-Mixed Tamil-English Text</a></b>. Bharathi Raja Chakravarthi, Vigneshwaran Muralidaran, Ruba Priyadharshini and John Philip McCrae, <i>Proceedings of 1st Joint SLTU (Spoken Language Technologies for Under-resourced languages) and CCURL (Collaboration and Computing for Under-Resourced Languages) Workshop at LREC 2020</i>, (2020 (Accepted)).</p>
+
+<p class="pub y2020 rence SinaAhmadi SanniNimb ThomasTroelsgård JohnPMcCrae NicolaiHSørensen"><b>Towards Automatic Linking of Lexicographic Data: the case of a historical and a modern Danish dictionary</a></b>. Sina Ahmadi, Sanni Nimb, Thomas Troelsgård, John P. McCrae and Nicolai H. Sørensen, <i>Proceedings of the XIX EURALEX International Congress</i>, (2020 (Accepted)).</p>
+
+<p class="pub y2020 rence OmniaZayed JohnPMcCrae PaulBuitelaar"><b>Figure Me Out: A Gold Standard Dataset for Metaphor Interpretation</a></b>. Omnia Zayed, John P. McCrae and Paul Buitelaar, <i>Proceedings of the 12th Language Resource and Evaluation Conference (LREC 2020)</i>, (2020 (Accepted)).</p>
 
 <p class="pub y2020 rence FrancisBond LuisMorgadodaCosta MichaelWayneGoodman JohnPMcCrae AhtiLohk"><b>Some Issues with Building a Multilingual Wordnet</a></b>. Francis Bond, Luis Morgado da Costa, Michael Wayne Goodman, John P. McCrae and Ahti Lohk, <i>Proceedings of the 12th Language Resource and Evaluation Conference (LREC 2020)</i>, (2020 (Accepted)).</p>
 

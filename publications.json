@@ -18,6 +18,61 @@
     },
     "@graph": [ 
         {
+            "@id": "chiarcos2020modelling",
+            "@type": "Workshop",
+            "title": "Modelling Frequency and Attestations for OntoLex-Lemon",
+            "author": ["Christian Chiarcos", "Maxim Ionov", "Jesse de Does", "Katrien Depuydt", "Anas Fahad Khan", "Sander Stolk", "Thierry Declerck", "John Philip McCrae"],
+            "affiliation": ["", "", "", "", "", "", "", "", "NUIG"],
+            "date": "2020-05-11",
+            "booktitle": "Proceedings of the Globalex Workshop on Linked Lexicography (@LREC 2020)",
+            "year": "2020 (Accepted)"
+        },{
+            "@id": "salgado2020challenges",
+            "@type": "Workshop",
+            "title": "Challenges of Word Sense Alignment: Portuguese Language Resources",
+            "author": ["Ana Salgado", "Sina Ahmadi", "Alberto Simões", "John Philip McCrae", "Rute Costa"],
+            "affiliation": ["", "NUIG", "", "NUIG", ""],
+            "date": "2020-05-11",
+            "booktitle": "Proceedings of the 7th Workshop on Linked Data in Linguistics: Building tools and infrastructure at LREC 2020",
+            "year": "2020 (Accepted)"
+        },{
+            "@id": "mccrae2020english",
+            "@type": "Workshop",
+            "title": "English WordNet 2020: Improving and Extending a WordNet for English using an Open-Source Methodology",
+            "author": ["John Philip McCrae", "Alexandre Rademaker", "Ewa Rudnicka", "Francis Bond"],
+            "affiliation": ["NUIG", "", "", ""],
+            "date": "2020-05-11",
+            "booktitle": "Proceedings of the Multimodal Wordnets Workshop at LREC 2020",
+            "year": "2020 (Accepted)"
+        },{
+             "@id": "chakravarthi2020sentiment",
+            "@type": "Workshop",
+            "title": "A Sentiment Analysis Dataset for Code-Mixed Malayalam-English",
+            "author": ["Bharathi Raja Chakravarthi", "Navya Jose", "Shardul Suryawanshi", "Elizabeth Sherly", "John Philip McCrae"],
+            "affiliation": ["NUIG", "", "NUIG", "", "NUIG"],
+            "date": "2020-05-11",
+            "booktitle": "Proceedings of 1st Joint SLTU (Spoken Language Technologies for Under-resourced languages) and CCURL (Collaboration and Computing for Under-Resourced Languages) Workshop at LREC 2020",
+            "year": "2020 (Accepted)"
+        },{
+             "@id": "chakravarthi2020corpus",
+            "@type": "Workshop",
+            "title": "Corpus Creation for Sentiment Analysis in Code-Mixed Tamil-English Text",
+            "author": ["Bharathi Raja Chakravarthi", "Vigneshwaran Muralidaran", "Ruba Priyadharshini", "John Philip McCrae"],
+            "affiliation": ["NUIG", "", "", "NUIG"],
+            "date": "2020-05-11",
+            "booktitle": "Proceedings of 1st Joint SLTU (Spoken Language Technologies for Under-resourced languages) and CCURL (Collaboration and Computing for Under-Resourced Languages) Workshop at LREC 2020",
+            "year": "2020 (Accepted)"
+        },{
+            "@id": "ahmadi2020towards",
+            "@type": "Conference",
+            "title": "Towards Automatic Linking of Lexicographic Data: the case of a historical and a modern Danish dictionary",
+            "author": ["Sina Ahmadi", "Sanni Nimb", "Thomas Troelsgård", "John P. McCrae", "Nicolai H. Sørensen"],
+            "affiliation": ["NUIG", "Society for Danish Language and Literature", "Society for Danish Language and Literature", "NUIG", "Society for Danish Language and Literature"],
+            "date": "2020-09-08",
+            "booktitle": "Proceedings of the XIX EURALEX International Congress",
+            "year": "2020 (Accepted)"
+        },
+        {
             "@id": "zayed2020figure",
             "@type": "Conference",
             "title": "Figure Me Out: A Gold Standard Dataset for Metaphor Interpretation",

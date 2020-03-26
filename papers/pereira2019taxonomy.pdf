@@ -1,0 +1,793 @@
+<!DOCTYPE HTML>
+<html lang="en-gb" class="no-js">
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=2.5,user-scalable=yes">
+    <meta name="citation_publisher" content="Springer, Cham"/>
+    <meta name="citation_title" content="Taxonomy Extraction for Customer Service Knowledge Base Construction"/>
+    <meta name="citation_doi" content="10.1007/978-3-030-33220-4_13"/>
+    <meta name="citation_language" content="en"/>
+    <meta name="citation_abstract_html_url" content="https://link.springer.com/chapter/10.1007/978-3-030-33220-4_13"/>
+    <meta name="citation_fulltext_html_url" content="https://link.springer.com/chapter/10.1007/978-3-030-33220-4_13"/>
+    <meta name="citation_pdf_url" content="https://link.springer.com/content/pdf/10.1007%2F978-3-030-33220-4_13.pdf"/>
+    <meta name="citation_springer_api_url" content="http://api.springer.com/metadata/pam?q=doi:10.1007/978-3-030-33220-4_13&amp;api_key="/>
+    <meta name="citation_firstpage" content="175"/>
+    <meta name="citation_lastpage" content="190"/>
+    <meta name="citation_author" content="Bianca Pereira"/>
+    <meta name="citation_author_institution" content="National University of Ireland Galway"/>
+    <meta name="citation_author_email" content="bianca.pereira@insight-centre.org"/>
+    <meta name="citation_author" content="Cecile Robin"/>
+    <meta name="citation_author_institution" content="National University of Ireland Galway"/>
+    <meta name="citation_author" content="Tobias Daudert"/>
+    <meta name="citation_author_institution" content="National University of Ireland Galway"/>
+    <meta name="citation_author" content="John P. McCrae"/>
+    <meta name="citation_author_institution" content="National University of Ireland Galway"/>
+    <meta name="citation_author" content="Pranab Mohanty"/>
+    <meta name="citation_author_institution" content="Fidelity Investments"/>
+    <meta name="citation_author" content="Paul Buitelaar"/>
+    <meta name="citation_author_institution" content="National University of Ireland Galway"/>
+    <meta name="dc.identifier" content="10.1007/978-3-030-33220-4_13"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="citation_fulltext_world_readable" content=""/>
+    <meta name="description" content="Customer service agents play an important role in bridging the gap between customers’ vocabulary and business terms. In a scenario where organisations are moving into semi-automatic customer..."/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="Taxonomy Extraction for Customer Service Knowledge Base Construction"/>
+    <meta name="twitter:image" content="https://static-content.springer.com/cover/book/978-3-030-33220-4.jpg"/>
+    <meta name="twitter:image:alt" content="Content cover image"/>
+    <meta name="twitter:site" content="SpringerLink"/>
+    <meta name="twitter:description" content="Customer service agents play an important role in bridging the gap between customers’ vocabulary and business terms. In a scenario where organisations are moving into semi-automatic customer..."/>
+    <meta name="citation_inbook_title" content="Semantic Systems. The Power of AI and Knowledge Graphs"/>
+    <meta name="citation_publication_date" content="2019/09/09"/>
+    <meta name="citation_conference_series_id" content="springer/semantics"/>
+    <meta name="citation_conference_title" content="International Conference on Semantic Systems"/>
+    <meta name="citation_conference_sequence_num" content="15"/>
+    <meta name="citation_conference_abbrev" content="SEMANTiCS"/>
+    <meta property="og:title" content="Taxonomy Extraction for Customer Service Knowledge Base Construction"/>
+    <meta property="og:type" content="Paper"/>
+    <meta property="og:url" content="https://link.springer.com/chapter/10.1007/978-3-030-33220-4_13"/>
+    <meta property="og:image" content="https://static-content.springer.com/cover/book/978-3-030-33220-4.jpg"/>
+    <meta property="og:site_name" content="SpringerLink"/>
+    <meta property="og:description" content="Customer service agents play an important role in bridging the gap between customers’ vocabulary and business terms. In a scenario where organisations are moving into semi-automatic customer..."/>
+
+        <title>Taxonomy Extraction for Customer Service Knowledge Base Construction | SpringerLink</title>
+        <link rel="canonical" href="https://link.springer.com/chapter/10.1007/978-3-030-33220-4_13"/>
+        <link rel="shortcut icon" href="/springerlink-static/632953562/images/favicon/favicon.ico">
+<link rel="icon" sizes="16x16 32x32 48x48" href="/springerlink-static/632953562/images/favicon/favicon.ico">
+<link rel="icon" sizes="16x16" type="image/png" href="/springerlink-static/632953562/images/favicon/favicon-16x16.png">
+<link rel="icon" sizes="32x32" type="image/png" href="/springerlink-static/632953562/images/favicon/favicon-32x32.png">
+<link rel="icon" sizes="48x48" type="image/png" href="/springerlink-static/632953562/images/favicon/favicon-48x48.png">
+<link rel="apple-touch-icon" href="/springerlink-static/632953562/images/favicon/app-icon-iphone@3x.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/springerlink-static/632953562/images/favicon/ic_launcher_hdpi.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/springerlink-static/632953562/images/favicon/app-icon-ipad.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/springerlink-static/632953562/images/favicon/app-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/springerlink-static/632953562/images/favicon/app-icon-iphone@2x.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/springerlink-static/632953562/images/favicon/ic_launcher_xxhdpi.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/springerlink-static/632953562/images/favicon/app-icon-ipad@2x.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/springerlink-static/632953562/images/favicon/app-icon-iphone@3x.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/springerlink-static/632953562/images/favicon/ic_launcher_xxhdpi.png">
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//google-analytics.com">
+<link rel="dns-prefetch" href="//www.google-analytics.com">
+<link rel="dns-prefetch" href="//www.googletagservices.com">
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+<link rel="dns-prefetch" href="//static-content.springer.com">
+        <link rel="stylesheet" href="/springerlink-static/632953562/css/basic.css" media="screen">
+<link rel="stylesheet" href="/springerlink-static/632953562/css/styles.css" class="js-ctm" media="only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)">
+<link rel="stylesheet" href="/springerlink-static/632953562/css/print.css" media="print">
+
+
+            <script type="text/javascript">
+        window.Krux||((Krux=function(){Krux.q.push(arguments);}).q=[]);
+        var dataLayer = [{
+                'GA Key':"UA-26408784-1",
+                'Features':["leaderboardadverts","eventtracker"],
+                'Event Category':"Conference Paper",
+                'Open Access':"Y",
+                'Labs':"Y",
+                'DOI':"10.1007/978-3-030-33220-4_13",
+                'VG Wort Identifier':"vgzm.415900-10.1007-978-3-030-33220-4_13",
+                'hasAccess':"Y",
+                'Full HTML':"Y",
+                'Has Body':"Y",
+                'Static Hash':"632953562",
+                'Has Preview':"N",
+                'user':{"license":{"businessPartnerID":["3000081220","3000178775","3000215760","3000240761"],"businessPartnerIDString":"3000081220|3000178775|3000215760|3000240761"}},
+                'content':{"serial":{"eissn":"1611-3349","pissn":"0302-9743"},"book":{"seriesTitle":"Lecture Notes in Computer Science","eisbn":"978-3-030-33220-4","pisbn":"978-3-030-33219-8","bookProductType":"Proceedings","seriesId":"558","title":"Semantic Systems. The Power of AI and Knowledge Graphs","doi":"10.1007/978-3-030-33220-4"},"attributes":{"deliveryPlatform":"bunsen"},"chapter":{"doi":"10.1007/978-3-030-33220-4_13"},"category":{"pmc":{"primarySubject":"Computer Science","primarySubjectCode":"I","secondarySubjects":{"4":"User Interfaces and Human Computer Interaction","5":"Information Systems Applications (incl. Internet)","1":"Knowledge based Systems","2":"Special Purpose and Application-Based Systems","3":"Computer Communication Networks"},"secondarySubjectCodes":{"4":"I18067","5":"I18040","1":"I21030","2":"I13030","3":"I13022"}},"sucode":"SUCO11645"},"type":"ConferencePaper"},
+                'Access Type':"subscription",
+                'Page':"chapter",
+                'Bpids':"3000081220, 3000178775, 3000215760, 3000240761",
+                'Bpnames':"National University of Ireland Galway, James Hardiman Lib, IRIS - LNCS, IReL Consortium c/o Maynooth University c/o The Library Maynooth University, 1255 IRIS Ireland",
+                'SubjectCodes':"SCI, SCI21030, SCI13030, SCI13022, SCI18067, SCI18040",
+                'session':{"authentication":{"loginStatus":"N"},"attributes":{"edition":"academic"}},
+                'eventTrackerBaseUrl':"https://event-tracker.springernature.com",
+                'Keywords':"Taxonomy extraction, Knowledge base construction, Conversational agents",
+                'Country':"IE",
+                'ConferenceSeriesId':"semantics",
+
+                    'doi': "10.1007-978-3-030-33220-4_13",
+                    'kwrd': ["Taxonomy_extraction","Knowledge_base_construction","Conversational_agents"],
+                    'pmc': ["I","I21030","I13030","I13022","I18067","I18040"],
+                    'BPID': ["3000081220","3000178775","3000215760","3000240761"],
+                    'ksg': Krux.segments,
+                    'kuid': Krux.uid,
+
+        }];
+    </script>
+
+<script type="text/javascript" src="/springerlink-static/632953562/js/jquery-3.3.1.min.js"></script>
+
+        <script type="text/javascript" src="https://cdn.cookielaw.org/consent/6b2ec9cd-5ace-4387-96d2-963e596401c6.js" charset="UTF-8"></script>
+
+<script type="text/javascript">
+    function OptanonWrapper() {
+        dataLayer.push({
+            'event' : 'onetrustActive'
+        });
+    }
+</script>
+
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WCF9Z9');</script>
+
+    </head>
+    <body>
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WCF9Z9"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    <div class="skip-to">
+    <a class="skip-to__link pseudo-focus" href="#main-content">Skip to main content</a>
+        <a class="skip-to__link skip-to__link--contents pseudo-focus" href="#article-contents">Skip to sections</a>
+</div>
+        <div class="page-wrapper">
+            <noscript>
+    <div class="nojs-banner u-interface">
+        <p>This service is more advanced with JavaScript available, learn more at <a
+                href="http://activatejavascript.org" target="_blank" rel="noopener">http://activatejavascript.org</a>
+        </p>
+    </div>
+</noscript>
+                        <div id="leaderboard" class="leaderboard u-hide" data-component="SpringerLink.GoogleAds" data-namespace="leaderboard">
+            <div class="leaderboard__wrapper">
+                <p class="leaderboard__label">Advertisement</p>
+                <button class="leaderboard__hide" title="Hide this advertisement"  data-track="click" data-track-action="Hide advertisement" data-track-label="">Hide</button>
+                <div id="doubleclick-leaderboard-ad" class="leaderboard__ad u-pt-24"></div>
+            </div>
+        </div>
+
+
+                <header id="header" class="header u-interface">
+        <div class="header__content">
+            <div class="header__menu-container">
+                    <a id="logo" class="site-logo" href="/" title="Go to homepage">
+                <div class="u-screenreader-only">SpringerLink</div>
+    <svg class="site-logo__springer" width="148" height="30" role="img" focusable="false" aria-hidden="true">
+        <image width="148" height="30" alt="" src="/springerlink-static/632953562/images/png/springerlink.png" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/springerlink-static/632953562/images/svg/springerlink.svg"></image>
+    </svg>
+
+    </a>
+
+
+                    <nav id="search-container" class="u-inline-block">
+                        <div class="search">
+                            <div class="search__content">
+                                <form class="u-form-single-input" action="/search" method="get" role="search">
+    <label for="search-springerlink">Search SpringerLink</label>
+    <div class="u-relative">
+        <input id="search-springerlink" name="query" type="text" autocomplete="off" value="">
+        <input class="u-hide-text" type="submit" value="Submit" title="Submit">
+        <svg class="u-vertical-align-absolute" width="13" height="13" viewBox="222 151 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" role="presentation">
+            <path d="M227 159C228.7 159 230 157.7 230 156 230 154.3 228.7 153 227 153 225.3 153 224 154.3 224 156 224 157.7 225.3 159 227 159L227 159 227 159 227 159ZM230 160.1L231.1 159 233.9 161.7C234.2 162.1 234.2 162.6 233.9 162.9 233.6 163.2 233.1 163.2 232.7 162.9L230 160.1 230 160.1 230 160.1 230 160.1ZM227 161L227 161C224.2 161 222 158.8 222 156 222 153.2 224.2 151 227 151 229.8 151 232 153.2 232 156 232 158.8 229.8 161 227 161L227 161 227 161 227 161 227 161Z" stroke="none" fill-rule="evenodd"/>
+        </svg>
+    </div>
+</form>
+                            </div>
+                        </div>
+                    </nav>
+
+                    <nav class="nav-container u-interface">
+    <div class="global-nav__wrapper">
+        <div class="search-button">
+            <a class="search-button__label" href="#search-container">
+                <span class="search-button__title">Search</span><svg width="12" height="12" viewBox="222 151 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" role="presentation">
+                    <path d="M227 159C228.7 159 230 157.7 230 156 230 154.3 228.7 153 227 153 225.3 153 224 154.3 224 156 224 157.7 225.3 159 227 159L227 159 227 159 227 159ZM230 160.1L231.1 159 233.9 161.7C234.2 162.1 234.2 162.6 233.9 162.9 233.6 163.2 233.1 163.2 232.7 162.9L230 160.1 230 160.1 230 160.1 230 160.1ZM227 161L227 161C224.2 161 222 158.8 222 156 222 153.2 224.2 151 227 151 229.8 151 232 153.2 232 156 232 158.8 229.8 161 227 161L227 161 227 161 227 161 227 161Z" stroke="none" fill-rule="evenodd"></path>
+                </svg>
+            </a>
+        </div>
+
+        <ul class="global-nav" data-component="SV.Menu" data-title="Navigation menu" data-text="Menu">
+            <li>
+                <a href="/">
+                    <span class="u-overflow-ellipsis">Home</span>
+                </a>
+            </li>
+
+                <li class="global-nav__logged-out">
+                    <a class="test-login-link" href="//link.springer.com/signup-login?previousUrl=https%3A%2F%2Flink.springer.com%2Fchapter%2F10.1007%2F978-3-030-33220-4_13">
+                        <span class="u-overflow-ellipsis">Log in</span>
+                    </a>
+                </li>
+
+        </ul>
+    </div> 
+</nav> 
+            </div>
+
+        </div>
+    </header>
+
+            
+            <main id="main-content" class="main-wrapper" tabindex="-1">
+                <div class="main-container uptodate-recommendations-off">
+                    <aside class="main-sidebar-left">
+                        <div class="main-sidebar-left__content">
+                            <div class="cover-image test-cover" itemscope>
+                                    <a class="test-cover-link" href="/book/10.1007/978-3-030-33220-4">
+        <span class="u-screenreader-only">Semantic Systems. The Power of AI and Knowledge Graphs</span>
+        <img class="test-cover-image" src="https://media.springernature.com/w306/springer-static/cover/book/978-3-030-33220-4.jpg" itemprop="image" alt=""/>
+    </a>
+
+
+                            </div>
+                        </div>
+                    </aside>
+                    <div class="main-body" data-role="NavigationContainer">
+                        
+
+            <div class="cta-button-container cta-button-container--top u-hide-two-col" aria-hidden="true">
+                    <div class="c-button-dropdown--blue download-book-options test-download-book-options u-interface" data-component="SpringerLink.DownloadOptions">
+        <h3 class="u-h4" data-role="button-dropdown__title">
+    <span>Download</span>
+    <span class="hide-text-small">book</span>
+</h3>
+<ul class="download-book-options__content" data-role="button-dropdown__content">
+        <li>
+            <a href="/content/pdf/10.1007%2F978-3-030-33220-4.pdf" title="Download this book in PDF format" target="_blank" rel="noopener" class="test-bookpdf-link" data-track="click" data-track-action="Book download - pdf" data-track-label="">
+                <span class="download-book-options__types" data-track="click" data-track-action="Book download - pdf" data-track-label="">
+                    <svg width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"/></svg>
+                    <span>PDF</span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="/download/epub/10.1007%2F978-3-030-33220-4.epub" title="Download this book in EPUB format" target="_blank" rel="noopener" class="test-bookepub-link" data-track="click" data-track-action="Book download - ePub" data-track-label="">
+                <span class="download-book-options__types" data-track="click" data-track-action="Book download - ePub" data-track-label="">
+                    <svg width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"/></svg>
+                    <span>EPUB</span>
+                </span>
+            </a>
+        </li>
+</ul>
+
+    </div>
+
+            </div>
+
+
+                        <article class="main-body__content">
+                            <div xmlns="http://www.w3.org/1999/xhtml" class="FulltextWrapper"><div class="ArticleHeader main-context"><div id="enumeration" class="enumeration">    <div>
+        <a data-test="ConfSeriesLink" href="/conference/semantics">
+            <span data-test="ConfSeriesName"> International Conference on Semantic Systems</span>
+        </a>
+    </div>
+<p class="test-LocationInConferenceProceeding icon--meta-keyline"><span data-test="ConferenceAcronym">SEMANTiCS 2019</span>: <span class="BookTitle"><a href="/book/10.1007/978-3-030-33220-4" data-track="click" data-track-action="Book title" data-track-label="">Semantic Systems. The Power of AI and Knowledge Graphs</a></span><span class="page-numbers-info">
+                pp 175-190</span><span class="u-inline-block u-ml-4"> |
+                <a href="#citeas" data-track="click" data-track-action="Cite as link" data-track-label="Enumeration section">Cite as</a></span></p></div><div class="MainTitleSection"><h1 class="ChapterTitle" lang="en">Taxonomy Extraction for Customer Service Knowledge Base Construction</h1></div><div class="authors u-clearfix" data-component="SpringerLink.Authors"><ul class="u-interface u-inline-list authors__title" data-role="AuthorsNavigation"><li><span>Authors</span></li><li><a href="#authorsandaffiliations" data-track="click" data-track-action="Authors and affiliations tab" data-track-label="">Authors and affiliations</a></li></ul><div class="authors__list" data-role="AuthorsList"><ul class="test-contributor-names"><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors__name">Bianca Pereira</span><span class="author-information"><span class="authors__contact"><a href="mailto:bianca.pereira@insight-centre.org" title="bianca.pereira@insight-centre.org" itemprop="email" data-track="click" data-track-action="Email author" data-track-label=""><img src="/springerlink-static/images/svg/email.svg" height="24" width="24" alt="Email author" /></a></span></span></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors__name">Cecile Robin</span></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors__name">Tobias Daudert</span></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors__name">John P. McCrae</span></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors__name">Pranab Mohanty</span></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors__name">Paul Buitelaar</span></li></ul></div></div><div class="main-context__container" data-component="SpringerLink.ArticleMetrics"><div class="main-context__column"><span><div id="open-choice-icon" class="open-access u-text-separator-after-micro">Open Access</div><span class="test-render-category">Conference paper</span></span><div class="article-dates"><span class="article-dates__label">First Online: </span><span class="article-dates__first-online"><time datetime="2019-11-04">04 November 2019</time></span></div></div></div><span id="test-SeriesTitle" class="vol-info">
+                Part of the
+                <a class="gtm-book-series-link" href="/bookseries/558">Lecture Notes in Computer Science</a>
+                book series (LNCS, volume 11702)</span></div><section class="Abstract" id="Abs1" tabindex="-1" lang="en"><h2 class="Heading">Abstract</h2><p id="Par1" class="Para">
+Customer service agents play an important role in bridging the gap between customers’ vocabulary and business terms. In a scenario where organisations are moving into semi-automatic customer service, semantic technologies with capacity to bridge this gap become a necessity. In this paper we explore the use of automatic taxonomy extraction from text as a means to reconstruct a customer-agent taxonomic vocabulary. We evaluate our proposed solution in an industry use case scenario in the financial domain and show that our approaches for automated term extraction and using in-domain training for taxonomy construction can improve the quality of automatically constructed taxonomic knowledge bases.
+</p></section><div class="KeywordGroup" lang="en"><h2 class="Heading">Keywords</h2><span class="Keyword">Taxonomy extraction </span><span class="Keyword">Knowledge base construction </span><span class="Keyword">Conversational agents </span></div><div class="note test-pdf-link" id="cobranding-and-download-availability-text"><div>    <a href="/content/pdf/10.1007%2F978-3-030-33220-4_13.pdf" target="_blank" rel="noopener" data-track="click" data-track-action="Pdf download" data-track-label="">Download</a>
+ conference paper PDF</div></div><div class="article-actions--inline" id="article-actions--inline" data-component="article-actions--inline"></div><div id="body"><section id="Sec1" tabindex="-1" class="Section1 RenderAsSection1"><h2 class="Heading"><span class="HeadingNumber">1 </span>Introduction</h2><div class="content"><p id="Par2" class="Para">Customer service agents are charged with the role of identifying the intention behind customer questions, retrieving the relevant business information that address those queries, and expressing it in a form that the customer is able to understand. However, the increasing demand for customer services and the necessity to scale up a human workforce are an ongoing challenge for businesses. To address that, organisations are turning to semi-automatic customer service through the use of digital conversational agents (DCAs, also referred to as chatbots) for primary contact with customers, leaving human agents to deal mostly with unusual or more complex customer queries.</p><p id="Par3" class="Para">Some of the challenges faced by DCAs are: the acquisition of domain knowledge, and knowledge representation that can be audited by the business. Whereas human agents may pass through training programmes to understand the business they are working with, DCAs not only need to acquire knowledge about the business but also about the way customers express their informational needs. Further, while it is expected that human agents would be responsible for the provision of the correct information needed by the customer, DCAs cannot be held legally responsible. Instead, businesses need to have means to audit the knowledge used by these DCAs in order to minimise the error in the retrieval of information. Therefore, DCAs need to make use of knowledge representation mechanisms that are applicable to their tasks but also interpretable by humans.</p><p id="Par4" class="Para">In this paper we propose a solution for the automatic generation of taxonomies from customer service dialogue data. Such solution contributes to the conversational agent use case by taking advantage of existing dialogues between customers and agents as learning data about the domain, and by automatically generating taxonomies as semantic structures for auditing the knowledge used by the conversational agent. The main contributions of this paper are: the comparison of state-of-the-art Term Extraction features, the proposal of Taxonomy Likelihood Scores to measure how likely a tree represents an actual taxonomy, and the applicability of our solution to an anonymised financial customer service use case provided by Fidelity Investments.</p></div></section><section id="Sec2" tabindex="-1" class="Section1 RenderAsSection1"><h2 class="Heading"><span class="HeadingNumber">2 </span>Related Work</h2><div class="content"><p id="Par5" class="Para">DCAs need to have domain-specific knowledge in order to be effective interfaces for human-computer interaction. Most attempts to represent such knowledge have been based on extracting information directly from textual sources, such as online discussion forums [<span class="CitationRef"><a href="#CR19">19</a></span>]. However, it has been identified that a structured form of knowledge can provide a useful intermediate step. Sánchez-Díaz et al. [<span class="CitationRef"><a href="#CR26">26</a></span>] used a logical representation to apply chatbots as intelligent tutors, whereas Semantic Web representations have been used in OntBot [<span class="CitationRef"><a href="#CR3">3</a></span>], through manually designed ontologies, and DBpedia bot [<span class="CitationRef"><a href="#CR7">7</a></span>], by using an open domain knowledge graph. However, none of these solutions is based on automatically generated domain-specific taxonomies. (See Abdul-Kader et al. [<span class="CitationRef"><a href="#CR1">1</a></span>] for a survey.)</p><p id="Par6" class="Para">The approach we have defined in this paper consists of two steps. First we extract the terms that are most relevant to the domain, a task referred to as automatic term recognition (ATR). Current approaches to this task have employed a varied suite of methods for extracting terms from text based on parts of speech and metrics for assessing ‘termhood’ [<span class="CitationRef"><a href="#CR15">15</a></span>, <span class="CitationRef"><a href="#CR29">29</a></span>], domain modelling [<span class="CitationRef"><a href="#CR11">11</a></span>], and the composition of multiple metrics in an unsupervised manner [<span class="CitationRef"><a href="#CR5">5</a></span>]. More recently, these methods have been combined into off-the-shelf tools such as ATR4S [<span class="CitationRef"><a href="#CR7">7</a></span>] and JATE [<span class="CitationRef"><a href="#CR31">31</a></span>], and our system is a similar implementation to ATR4S.</p><p id="Par7" class="Para">The second step organizes these terms into a taxonomy. Although similar to hypernym learning [<span class="CitationRef"><a href="#CR28">28</a></span>], the challenges it proposes are quite different (see [<span class="CitationRef"><a href="#CR10">10</a></span>]). Multiple string and grammar-based methods have been proposed, where baseline systems have used string-based metrics with Hearst-like patterns learned from text [<span class="CitationRef"><a href="#CR23">23</a></span>], while more advanced ones have been based on the concept of <em class="EmphasisTypeItalic ">endocentricity</em> of terms to indicate a hypernym-like relationship [<span class="CitationRef"><a href="#CR30">30</a></span>]. Other methods not based on grammar such as genetic algorithms [<span class="CitationRef"><a href="#CR14">14</a></span>] or word embeddings [<span class="CitationRef"><a href="#CR17">17</a></span>, <span class="CitationRef"><a href="#CR27">27</a></span>] have also been explored. We include these approaches in our system thus providing an integrated solution to both term and taxonomy extraction.</p></div></section><section id="Sec3" tabindex="-1" class="Section1 RenderAsSection1"><h2 class="Heading"><span class="HeadingNumber">3 </span>Task Definition</h2><div class="content"><p id="Par8" class="Para">Taxonomy extraction consists of extracting a set of terms from a corpus and organising them into a taxonomic structure [<span class="CitationRef"><a href="#CR10">10</a></span>], i.e. a hierarchical tree structure where terms closer to the root of the tree are considered broader<sup><a href="#Fn1" id="Fn1_source">1</a></sup> than terms farther to the root.</p><p id="Par10" class="Para">Our framework for taxonomy extraction from text is divided into two steps: automatic term recognition and taxonomy construction. The term recognition step aims at detecting the most relevant terms (also referred to as keyphrases) for a domain represented by a corpus. Based on this list of terms, the taxonomy construction step aims at finding a suitable taxonomy that maintains the correct broad/narrow relationship between terms.</p><div id="FPar1" class="FormalPara FormalParaRenderingStyle1"><h3 class="u-regular"><span class="Heading">Definition 1</span></h3><div id="Par11" class="Para">Given a set of terms <em class="EmphasisTypeItalic ">T</em> in which each <span class="InlineEquation" id="IEq1">\(t \in T\)</span> is represented by a label <span class="InlineEquation" id="IEq2">\(t_{l}\)</span>. A <strong class="EmphasisTypeBold ">taxonomy</strong>, <span class="InlineEquation" id="IEq3">\(\mathcal {T}=(T,\sqsubseteq )\)</span>, is then defined as a partial ordering of a set of terms, <em class="EmphasisTypeItalic ">T</em>, satisfying the following constraints:<div class="UnorderedList"><ul class="UnorderedListMarkDash"><li> <p id="Par12" class="Para">(Reflexivity) <span class="InlineEquation" id="IEq4">\(t \sqsubseteq t\)</span> <span class="InlineEquation" id="IEq5">\(\forall t \in T\)</span></p> </li><li> <p id="Par13" class="Para">(Antisymmetry) <span class="InlineEquation" id="IEq6">\(t_{1} \sqsubseteq t_{2}\)</span> and <span class="InlineEquation" id="IEq7">\(t_{2} \sqsubseteq t_{1}\)</span> if and only if <span class="InlineEquation" id="IEq8">\(t_{1} = t_{2}\)</span> <span class="InlineEquation" id="IEq9">\(\forall t_{1},t_{2} \in T\)</span></p> </li><li> <p id="Par14" class="Para">(Transitivity) <span class="InlineEquation" id="IEq10">\(t_{1} \sqsubseteq t_{2}\)</span> and <span class="InlineEquation" id="IEq11">\(t_{2} \sqsubseteq t_{3}\)</span> implies <span class="InlineEquation" id="IEq12">\(t_{1} \sqsubseteq t_{3}\)</span> <span class="InlineEquation" id="IEq13">\(\forall t_{1},t_{2},t_{3} \in T\)</span></p> </li><li> <p id="Par15" class="Para">(Unique parent) if <span class="InlineEquation" id="IEq14">\(t_{1} \sqsubseteq t_{2}\)</span> and <span class="InlineEquation" id="IEq15">\(t_{1} \sqsubseteq t_{3}\)</span> then <span class="InlineEquation" id="IEq16">\(t_{2} \sqsubseteq t_{3}\)</span> or <span class="InlineEquation" id="IEq17">\(t_{3} \sqsubseteq t_{2}\)</span> <span class="InlineEquation" id="IEq18">\(\forall t_{1},t_{2},t_{3} \in T\)</span></p> </li><li> <p id="Par16" class="Para">(Single root) There is some element <span class="InlineEquation" id="IEq19">\(r \in T\)</span> such that <span class="InlineEquation" id="IEq20">\(t \sqsubseteq r\)</span> <span class="InlineEquation" id="IEq21">\(\forall t \in T\)</span></p> </li></ul></div></div></div></div></section><section id="Sec4" tabindex="-1" class="Section1 RenderAsSection1"><h2 class="Heading"><span class="HeadingNumber">4 </span>Automatic Term Recognition</h2><div class="content"><div id="Par17" class="Para">Our proposed solution for term recognition uses a corpus-based approach based on a pipeline of four consecutive steps (Fig. <span class="InternalRef"><a href="#Fig1">1</a></span>): (i) identification of candidate terms, (ii) scoring, (iii) ranking, and (iv) filtering.<figure class="Figure" id="Fig1"><div class="MediaObject" id="MO1"> <a href="https://media.springernature.com/original/springer-static/image/chp%3A10.1007%2F978-3-030-33220-4_13/MediaObjects/480663_1_En_13_Fig1_HTML.png" target="_blank" rel="noopener"><span class="u-screenreader-only">Open image in new window</span><img src="https://media.springernature.com/lw785/springer-static/image/chp%3A10.1007%2F978-3-030-33220-4_13/MediaObjects/480663_1_En_13_Fig1_HTML.png" alt="Fig. 1." /></a> </div><figcaption class="Caption" lang="en"><div class="CaptionContent"><span class="CaptionNumber">Fig. 1.</span> <p class="SimplePara">Automatic term recognition pipeline.</p> </div></figcaption></figure></div><div id="Par18" class="Para">The <strong class="EmphasisTypeBold ">identification of candidate terms</strong> consists of identifying the key terms appearing within each document. This is accomplished by detecting all noun phrases appearing in the corpus that:<div class="UnorderedList"><ul class="UnorderedListMarkDash"><li> <p id="Par19" class="Para">Contain a minimum and a maximum number of n-grams.</p> </li><li> <p id="Par20" class="Para">Do not either start or end with a stopword [<span class="CitationRef"><a href="#CR20">20</a></span>].</p> </li><li> <p id="Par21" class="Para">Follows a set of part-of-speech patterns empirically found to be associated with terms  [<span class="CitationRef"><a href="#CR9">9</a></span>, <span class="CitationRef"><a href="#CR20">20</a></span>].</p> </li><li> <p id="Par22" class="Para">Occurs within the corpus at least a given number of times.</p> </li></ul></div></div><p id="Par23" class="Para">The <strong class="EmphasisTypeBold ">scoring</strong> step provides a quantitative measurement for the relevance of each candidate term to the domain in the corpus. As the notion of relevance changes from one application area to another, the scoring step can make use of one or multiple scoring functions more suitable for the underlying domain and task. In this work we will explore the use of multiple combinations of scoring functions for the choice of terms in the financial customer service domain.</p><p id="Par24" class="Para">Formally, consider <em class="EmphasisTypeItalic ">C</em> a corpus and <span class="InlineEquation" id="IEq22">\(t \in C\)</span> a candidate term extracted in the step for identification of candidate terms. The score for a given term <em class="EmphasisTypeItalic ">t</em> is a n-tuple <span class="InlineEquation" id="IEq23">\(score(t) = (f_{1}(t), f_{2}(t), ..., f_{n}(t))\)</span> given by a set of functions that indicate the relevance of <em class="EmphasisTypeItalic ">t</em> in <em class="EmphasisTypeItalic ">C</em> for a task <em class="EmphasisTypeItalic ">T</em>.</p><div id="Par25" class="Para">In this work we evaluate scoring functions within four categories:<div class="UnorderedList"><ul class="UnorderedListMarkDash"><li> <p id="Par26" class="Para"><em class="EmphasisTypeItalic ">Frequency of occurrences</em>: scoring functions that consider only frequencies of candidate terms within the corpus and/or frequency of words occurring within candidate terms (TF-IDF, Residual IDF [<span class="CitationRef"><a href="#CR13">13</a></span>], C Value [<span class="CitationRef"><a href="#CR4">4</a></span>], ComboBasic [<span class="CitationRef"><a href="#CR6">6</a></span>]).</p> </li><li> <p id="Par27" class="Para"><em class="EmphasisTypeItalic ">Context of occurrences</em>: scoring functions that follow the distributional hypothesis [<span class="CitationRef"><a href="#CR18">18</a></span>] to distinguish terms from non-terms by considering the distribution of words in their contexts (PostRankDC [<span class="CitationRef"><a href="#CR11">11</a></span>]).</p> </li><li> <p id="Par28" class="Para"><em class="EmphasisTypeItalic ">Reference corpora</em>: scoring functions based on the assumption that terms can be distinguished from other words and collocations by comparing occurrence statistics in the dataset against statistics from a reference corpus - usually of general language/non specific domain (Weirdness [<span class="CitationRef"><a href="#CR2">2</a></span>], Relevance [<span class="CitationRef"><a href="#CR24">24</a></span>]).</p> </li><li> <p id="Par29" class="Para"><em class="EmphasisTypeItalic ">Topic modelling</em>: scoring functions based on the idea that topic modelling uncovers semantic information useful for term recognition, in particular that the distribution of words over the topics found by the topic modelling is a less noisy signal than the simple frequency of occurrences (Novel Topic Model (NTM) [<span class="CitationRef"><a href="#CR21">21</a></span>]).</p> </li></ul></div></div><div id="Par30" class="Para">The <strong class="EmphasisTypeBold ">ranking</strong> step sorts all candidate terms from the most relevant (i.e. highest score value) to the least relevant (i.e. lowest score value). However, depending on the amount of scoring functions used, the ranking mechanism will be different:<div class="UnorderedList"><ul class="UnorderedListMarkDash"><li> <p id="Par31" class="Para"><em class="EmphasisTypeItalic ">Single score</em>: where only one score function is used, all terms are sorted in ascending order of their associated score value.</p> </li><li> <div id="Par32" class="Para"><em class="EmphasisTypeItalic ">Voting</em>: when more than one scoring function is used, the ranking is based on the voting mechanism from [<span class="CitationRef"><a href="#CR32">32</a></span>] and happens in two steps. In the first step, the single score procedure is applied to each scoring function used, resulting in a set of ranked lists R – one list per scoring function. Next, the final ranking position for a candidate term <em class="EmphasisTypeItalic ">t</em> is given by Eq. <span class="InternalRef"><a href="#Equ1">1</a></span> where <em class="EmphasisTypeItalic ">n</em> is the number of scoring functions used and <span class="InlineEquation" id="IEq24">\(R_{i}(t)\)</span> is the rank position of <em class="EmphasisTypeItalic ">t</em> as provided by the scoring function <em class="EmphasisTypeItalic ">i</em>. <div id="Equ1" class="Equation EquationMathjax"><div class="EquationContent">$$\begin{aligned} rank(t) = \sum _{i}^{n}\frac{1}{R_{i}(t)} \end{aligned}$$</div> <div class="EquationNumber">(1)</div></div></div> </li></ul></div></div><p id="Par33" class="Para">Last, the <strong class="EmphasisTypeBold ">filtering</strong> step keeps only the top <em class="EmphasisTypeItalic ">n</em> terms after the ranking step (where <em class="EmphasisTypeItalic ">n</em> is a parameter provided to the algorithm).</p></div></section><section id="Sec5" tabindex="-1" class="Section1 RenderAsSection1"><h2 class="Heading"><span class="HeadingNumber">5 </span>Taxonomy Construction</h2><div class="content"><div id="Par34" class="Para">Taxonomy construction aims to build a taxonomy based on the terms extracted by the automatic term recognition algorithm. The proposed pipeline consists of two consecutive steps (Fig. <span class="InternalRef"><a href="#Fig2">2</a></span>): (i) pairwise scoring, and (ii) search. In the first step, each pair of terms extracted {<span class="InlineEquation" id="IEq25">\(\forall (c,d) \in T | c \ne d\)</span>} will receive a score referring to the estimated probability <span class="InlineEquation" id="IEq26">\(p(c \sqsubseteq d)\)</span> that <em class="EmphasisTypeItalic ">c</em> is a narrower term than <em class="EmphasisTypeItalic ">d</em>. This score will be based on the terms themselves and on their corpus frequency. Based on this set of scores, the second step will search for a tree structure that maximises the likelihood of it being a taxonomy, according to a pre-defined taxonomy likelihood score. The result of this process is a taxonomy <span class="InlineEquation" id="IEq27">\(\mathcal {T}\)</span> containing all the terms provided as input.<figure class="Figure" id="Fig2"><div class="MediaObject" id="MO3"> <a href="https://media.springernature.com/original/springer-static/image/chp%3A10.1007%2F978-3-030-33220-4_13/MediaObjects/480663_1_En_13_Fig2_HTML.png" target="_blank" rel="noopener"><span class="u-screenreader-only">Open image in new window</span><img src="https://media.springernature.com/lw785/springer-static/image/chp%3A10.1007%2F978-3-030-33220-4_13/MediaObjects/480663_1_En_13_Fig2_HTML.png" alt="Fig. 2." /></a> </div><figcaption class="Caption" lang="en"><div class="CaptionContent"><span class="CaptionNumber">Fig. 2.</span> <p class="SimplePara">Taxonomy construction pipeline.</p> </div></figcaption></figure></div><section id="Sec6" tabindex="-1" class="Section2 RenderAsSection2"><h3 class="Heading"><span class="HeadingNumber">5.1 </span>Pairwise Scoring</h3><p id="Par35" class="Para">Pairwise scoring aims at identifying, for a pair of terms (<em class="EmphasisTypeItalic ">c</em>, <em class="EmphasisTypeItalic ">d</em>) where <span class="InlineEquation" id="IEq28">\(c \ne d\)</span>, if <em class="EmphasisTypeItalic ">c</em> is a narrower concept than <em class="EmphasisTypeItalic ">d</em> (<span class="InlineEquation" id="IEq29">\(c \sqsubseteq d\)</span>). In this work we accomplished this by using a supervised learning setting.</p><div id="Par36" class="Para">For each pair of terms (<em class="EmphasisTypeItalic ">c</em>, <em class="EmphasisTypeItalic ">d</em>) a feature vector is created with features from the following four categories:<div class="UnorderedList"><ul class="UnorderedListMarkDash"><li> <p id="Par37" class="Para"><em class="EmphasisTypeItalic ">String-based features:</em> Features in this category presume that shorter terms embedded within longer ones are more general. For instance, ‘funds’ is more general than ‘mutual funds’. Features in this category are: Inclusion, overlap, and longest common substring (LCS). Inclusion is +1 if <em class="EmphasisTypeItalic ">c</em> is totally contained within <em class="EmphasisTypeItalic ">d</em>, −1 if <em class="EmphasisTypeItalic ">d</em> is totally contained within <em class="EmphasisTypeItalic ">c</em>, or 0 otherwise. Overlap represents how many words are shared between two terms. Last, LCS measures the longest string of characters shared by two terms.</p> </li><li> <div id="Par38" class="Para"><em class="EmphasisTypeItalic ">Frequency-based features:</em> This category assumes that the generality or specificity of a term influences its frequency in the domain corpus. Features in this category are: relative frequency and term difference. Relative frequency measures the difference between the frequency of two terms (Eq. <span class="InternalRef"><a href="#Equ2">2</a></span> where <em class="EmphasisTypeItalic ">f</em>(<em class="EmphasisTypeItalic ">x</em>) denotes the frequency of term <em class="EmphasisTypeItalic ">x</em>). Term difference measures the difference in the distribution of two terms (Eq. <span class="InternalRef"><a href="#Equ3">3</a></span> where <em class="EmphasisTypeItalic ">D</em>(<em class="EmphasisTypeItalic ">x</em>) denotes the number of documents in which the term <em class="EmphasisTypeItalic ">x</em> appears). <div id="Equ2" class="Equation EquationMathjax"><div class="EquationContent">$$\begin{aligned} relativeFrequency(c,d) = log(\frac{f(d)}{f(c)}) \end{aligned}$$</div> <div class="EquationNumber">(2)</div></div><div id="Equ3" class="Equation EquationMathjax"><div class="EquationContent">$$\begin{aligned} termDifference= \frac{|D(c) \cap D(d)|}{|D(d)|} \end{aligned}$$</div> <div class="EquationNumber">(3)</div></div></div> </li><li> <div id="Par39" class="Para"><em class="EmphasisTypeItalic ">Word embedding features:</em> Features in this category intend to capture the generality of a term by the relation it has with other terms in a shared latent semantic space. For that, GloVe [<span class="CitationRef"><a href="#CR25">25</a></span>] vectors are gathered for each word within a term <em class="EmphasisTypeItalic ">c</em> in order to generate a vector <span class="InlineEquation" id="IEq30">\(v_{c}\)</span> for the whole term using Single Value Decomposition (SVD) [<span class="CitationRef"><a href="#CR27">27</a></span>]. Two approaches are used, each one leading to a different word embedding feature: SVD average and SVD minmax. The word embedding (WE) features used for pairwise scoring between a pair (<em class="EmphasisTypeItalic ">c</em>, <em class="EmphasisTypeItalic ">d</em>) will be calculated according to Eq. <span class="InternalRef"><a href="#Equ4">4</a></span>. <div id="Equ4" class="Equation EquationMathjax"><div class="EquationContent">$$\begin{aligned} WE(c,d) =v_{c}^{T}Av_{d} \end{aligned}$$</div> <div class="EquationNumber">(4)</div></div></div> </li><li> <div id="Par40" class="Para"><em class="EmphasisTypeItalic ">Lexical features:</em> Features in this category take advantage of existing lexical databases (e.g. Wordnet [<span class="CitationRef"><a href="#CR22">22</a></span>]) with information on the generality of terms (i.e. <span class="InlineEquation" id="IEq31">\(c \sqsubseteq d\)</span>). Features available are: complete hypernyms (CH) and word hypernyms (WH). The CH feature measures if both terms appear related (directly or indirectly) within the background database, whereas the WH feature measures the presence of relations between any two pairs of words in terms <em class="EmphasisTypeItalic ">c</em> and <em class="EmphasisTypeItalic ">d</em> according to Eq. <span class="InternalRef"><a href="#Equ5">5</a></span>. <div id="Equ5" class="Equation EquationMathjax"><div class="EquationContent">$$\begin{aligned} WH (c,d) = \frac{\#words(t_{c}) + \#words(t_{d})}{2}\sum {CH(w_{c},w_{d})} \end{aligned}$$</div> <div class="EquationNumber">(5)</div></div></div> </li></ul></div></div><p id="Par41" class="Para">A SVM (Support Vector Machine) classifier<sup><a href="#Fn2" id="Fn2_source">2</a></sup> is then trained using a manually created taxonomy with an associated corpus in the same domain. Each pair of terms (<em class="EmphasisTypeItalic ">c</em>, <em class="EmphasisTypeItalic ">d</em>) where <span class="InlineEquation" id="IEq32">\(c \ne d\)</span> and <em class="EmphasisTypeItalic ">c</em> is a child of <em class="EmphasisTypeItalic ">d</em> in the training taxonomy is labelled with +1, otherwise the pair is labelled as −1. The result of the classification is the probability estimation for the class +1 which is then given as the estimate for <span class="InlineEquation" id="IEq33">\(p(c \sqsubseteq d)\)</span>.</p></section><section id="Sec7" tabindex="-1" class="Section2 RenderAsSection2"><h3 class="Heading"><span class="HeadingNumber">5.2 </span>Search</h3><p id="Par43" class="Para">Based on the pairwise score between any two terms provided as input to the taxonomy construction, the search step aims at identifying a tree structure that represents a taxonomy of these terms. In order to identify how close a tree structure is to a valid taxonomy, a taxonomy likelihood score was designed. In this work we design and evaluate three score functions: transitive, non-transitive, and Bhattacharyya-Poisson. The goal for the search is to find a tree-structure that maximises the taxonomy likelihood score. Here we also experimented with two types of search methods: greedy and beam.</p><p id="Par44" class="Para"> <strong class="EmphasisTypeBold ">Taxonomy Likelihood Score</strong> </p><div id="Par45" class="Para"><em class="EmphasisTypeItalic ">Transitive.</em> The transitive score (Eq. <span class="InternalRef"><a href="#Equ6">6</a></span>) just follows the basic assumption that the best taxonomy is the one that maximises the product of all <span class="InlineEquation" id="IEq34">\(p(c \sqsubseteq d)\)</span> for all (<em class="EmphasisTypeItalic ">c</em>, <em class="EmphasisTypeItalic ">d</em>) pairs of terms. In practice, we take logs of the probabilities and maximise the resulting sum (Eq. <span class="InternalRef"><a href="#Equ7">7</a></span>).<div id="Equ6" class="Equation EquationMathjax"><div class="EquationContent">$$\begin{aligned} S(T) = \prod _{c \sqsubseteq d} p(c \sqsubseteq d) \end{aligned}$$</div> <div class="EquationNumber">(6)</div></div><div id="Equ7" class="Equation EquationMathjax"><div class="EquationContent">$$\begin{aligned} \max \limits _{T} S(T) = \max \limits _{T} \sum _{c \sqsubseteq d} \log p(c \sqsubseteq d) \end{aligned}$$</div> <div class="EquationNumber">(7)</div></div><em class="EmphasisTypeItalic ">Non-transitive.</em> In practice, the transitive score is not expected to work well since it is maximised by taxonomies for which there are as few as possible pair of terms (<em class="EmphasisTypeItalic ">c</em>, <em class="EmphasisTypeItalic ">d</em>) such that <span class="InlineEquation" id="IEq35">\(c \sqsubseteq d\)</span>. The most trivial case is when a taxonomy is composed only by a single root term and all other terms are a direct child of it. As such, taxonomies that are constructed from maximising the transitive score tend to have a very large number of average children. In order to avoid that, the non-transitive score (Eq. <span class="InternalRef"><a href="#Equ8">8</a></span>) considers only the set of direct children, which are denoted by <span class="InlineEquation" id="IEq36">\(c \le d\)</span> and should satisfy the following constraints:<div class="UnorderedList"><ul class="UnorderedListMarkDash"><li> <p id="Par46" class="Para"><span class="InlineEquation" id="IEq37">\(c \le d\)</span> implies <span class="InlineEquation" id="IEq38">\(c \sqsubseteq d\)</span>.</p> </li><li> <p id="Par47" class="Para"><span class="InlineEquation" id="IEq39">\(c \sqsubseteq d\)</span> implies there exists <em class="EmphasisTypeItalic ">e</em> such that <span class="InlineEquation" id="IEq40">\(c \le e\)</span> and <span class="InlineEquation" id="IEq41">\(e \sqsubseteq d\)</span>.</p> </li><li> <p id="Par48" class="Para">For all, <span class="InlineEquation" id="IEq42">\(c \le d\)</span> there does not exist <em class="EmphasisTypeItalic ">e</em>, <span class="InlineEquation" id="IEq43">\(e \ne d\)</span>, <span class="InlineEquation" id="IEq44">\(e \ne c\)</span>, such that <span class="InlineEquation" id="IEq45">\(c \le e\)</span> and <span class="InlineEquation" id="IEq46">\(e \le d\)</span>.</p> </li></ul></div><div id="Equ8" class="Equation EquationMathjax"><div class="EquationContent">$$\begin{aligned} S_{nonTransitive}(T) = \prod _{c \le d} p(c \sqsubseteq d) \end{aligned}$$</div> <div class="EquationNumber">(8)</div></div><em class="EmphasisTypeItalic ">Bhattacharyya-Poisson.</em> Despite the possible improvement given by the non-transitive likelihood function, it may still lead to a single path (i.e. a tree with just one branch), what differs from usual expectations for taxonomies as more balanced trees (i.e. tree structures with multiple branches). In order to address this, the Bhattacharyya-Poisson likelihood score takes into account the number of children of each node in the tree.</div><div id="Par49" class="Para">Formally, let <span class="InlineEquation" id="IEq47">\(n_{c}\)</span> denote the number of terms in a taxonomy that have exactly <em class="EmphasisTypeItalic ">c</em> children. If the tree was to be constructed in a truly random fashion we would expect <span class="InlineEquation" id="IEq48">\(n_{c}\)</span> to be distributed according to a binomial distribution (Eq. <span class="InternalRef"><a href="#Equ9">9</a></span>). However, in a completely balanced tree of <em class="EmphasisTypeItalic ">N</em> terms there are <span class="InlineEquation" id="IEq49">\(N - 1\)</span> direct children so that the number of children in each branch is <span class="InlineEquation" id="IEq50">\(p = \frac{(N - 1)}{b}\)</span>, where <em class="EmphasisTypeItalic ">b</em> is the number of branches. In order to allow us to vary the average number of children in each branch (<span class="InlineEquation" id="IEq51">\(\lambda \)</span>), since taxonomies do not need to be completely balanced, we use the Poisson distribution as an approximation for the binomial distribution (Eq. <span class="InternalRef"><a href="#Equ10">10</a></span>). However, the constraints on what constitutes a taxonomy fix this value to very near 1 and we wish to vary this in order to control the taxonomy structure. We thus ignore the leaf nodes in the taxonomy (i.e., we ignore <span class="InlineEquation" id="IEq52">\(n_{0}\)</span>).<div id="Equ9" class="Equation EquationMathjax"><div class="EquationContent">$$\begin{aligned} p(n_{c}=m) = choose(N,m)p^{m}(1-p)^{N-m} \end{aligned}$$</div> <div class="EquationNumber">(9)</div></div><div id="Equ10" class="Equation EquationMathjax"><div class="EquationContent">$$\begin{aligned} p(n_{c}=m) \simeq \frac{\lambda ^{m}e^{-\lambda }}{m!} \end{aligned}$$</div> <div class="EquationNumber">(10)</div></div>In order to measure the similarity of the candidate taxonomy with this theoretical probability value we use the Bhattacharyya distance [<span class="CitationRef"><a href="#CR8">8</a></span>] that measures the similarity of two (discrete) probability distributions <em class="EmphasisTypeItalic ">p</em> and <em class="EmphasisTypeItalic ">q</em> as provided in Eq. <span class="InternalRef"><a href="#Equ11">11</a></span>. If we compare this to the actual children count in a taxonomy, we can score a taxonomy as provided in Eq. <span class="InternalRef"><a href="#Equ12">12</a></span>. Finally, this is interpolated with the previous metric to score a taxonomy as provided in Eq. <span class="InternalRef"><a href="#Equ13">13</a></span>.<div id="Equ11" class="Equation EquationMathjax"><div class="EquationContent">$$\begin{aligned} B(p,q) = \sum _{i}\sqrt{p_{i}q{i}} \end{aligned}$$</div> <div class="EquationNumber">(11)</div></div><div id="Equ12" class="Equation EquationMathjax"><div class="EquationContent">$$\begin{aligned} BP(T) = \sum _{i=1}^{N}\frac{n_{i}\lambda ^{n_{i}}e^{-\lambda }}{(N-n_{0})n_{i}!} \end{aligned}$$</div> <div class="EquationNumber">(12)</div></div><div id="Equ13" class="Equation EquationMathjax"><div class="EquationContent">$$\begin{aligned} S_{BP}(T) = \prod _{c \le d} p(c \sqsubseteq d) + \alpha N \times BP(T) \end{aligned}$$</div> <div class="EquationNumber">(13)</div></div><strong class="EmphasisTypeBold ">Search Method.</strong> Having chosen the likelihood score, the next step is to use a search strategy that optimises this likelihood score. We used two search strategies: (i) greedy, and (ii) beam.</div><p id="Par50" class="Para"><em class="EmphasisTypeItalic ">Greedy.</em> In this method, provided the pairwise scores for all pairs of terms, the pair that has the maximal score for <span class="InlineEquation" id="IEq53">\(p(c \sqsubseteq d)\)</span> is added as <span class="InlineEquation" id="IEq54">\(c \le d\)</span>. This process is repeated until a full taxonomy is constructed, that is we take pairs <span class="InlineEquation" id="IEq55">\(c \le d\)</span> that satisfy the first four axioms of the taxonomy, from the first (reflexivity - unique parent) until the final axiom is satisfied (single root), which means the taxonomy is complete.</p><p id="Par51" class="Para"><em class="EmphasisTypeItalic ">Beam.</em> In contrast to the greedy method, where only a single partially constructed taxonomy is maintained, this method keeps a list of the top scoring possible solutions. This list (also called beam) is of a fixed size, thus the addition of a new partial solution may cause the least scoring partial solution to be dropped. Complete solutions are stored in a separate beam and the algorithm proceeds until it has considered all possible pairs of concepts and returns the highest scoring complete solution found.</p></section></div></section><section id="Sec8" tabindex="-1" class="Section1 RenderAsSection1"><h2 class="Heading"><span class="HeadingNumber">6 </span>Experiments</h2><div class="content"><section id="Sec9" tabindex="-1" class="Section2 RenderAsSection2"><h3 class="Heading"><span class="HeadingNumber">6.1 </span>Automatic Term Recognition</h3><p id="Par52" class="Para">Our experiments were performed on an anonymised customer service chatlog dataset containing 300,000 conversations provided by Fidelity Investments, where any personal information was removed prior to using the data for this project. In order to use such dataset, first we need to decide what is the unit of analysis or, in other words, what would be considered a document in the corpus. There are two obvious options: each interaction made by a customer or an agent, or the whole customer-agent conversation. In our experiments we decided to use the whole conversation as unit of analysis for two reasons: (i) to give priority to terms frequent in conversations rather than those cited multiple times only in a single conversation; and (ii) because different elements in a conversation could provide contextual information for the terms extracted.</p><p id="Par53" class="Para">Also, in order to protect customers’ identities and personal data, the corpus provided is full of anonymisation tokens, i.e. tokens that were put in place of what would be sensitive information (e.g. name, email address, etc.). Before conducting any experiment, a list of stopword terms was compiled containing all anonymisation tokens appearing in the corpus so that these would not be captured as terms due to their potential high frequency in the corpus.</p><p id="Par54" class="Para">After preprocessing the corpus, several experiments were conducted in order to identify the most suitable configuration for automatic term recognition in the customer-agent interaction scenario. First, we adjusted the hyper-parameters for identification of candidate terms: the part-of-speech patterns used are given by the literature [<span class="CitationRef"><a href="#CR9">9</a></span>, <span class="CitationRef"><a href="#CR20">20</a></span>], the list of stopwords includes common English stopwords and the anonymisation tokes extracted, a relevant term should have frequency higher than 2, and it should not have an unlimited size so we choose a maximum of 4-grams and we varied the minimum n-gram between 1 and 2. Table <span class="InternalRef"><a href="#Tab1">1</a></span> summarises the configuration of each experiment.</p><div id="Par55" class="Para">For scoring functions we choose TF-IDF as a baseline due to its common use in measuring relevant terms in a corpus. We also opted to have settings with one function from each category to measure how they behave independently, except the reference corpora category since using Wikipedia as background corpus could give a high number of false positive terms if used alone. Also, we included a configuration (TE<span class="InlineEquation" id="IEq56">\(_{1}\)</span> and TE<span class="InlineEquation" id="IEq57">\(_{2}\)</span>) that has demonstrated positive results in previous experiments. And last, due to the positive results of the use of ComboBasic (TE<span class="InlineEquation" id="IEq58">\(_{2}\)</span> long) we experimented combining it with a reference corpora scoring function.<div id="Tab1" class="Table"><div class="Caption" lang="en"><div class="CaptionContent"><span class="CaptionNumber">Table 1.</span> <p class="SimplePara">Configuration of each automatic term recognition experiment</p> </div></div><div class="u-scroll-horizontal"><table><colgroup><col class="tcol1 align-left" /><col class="tcol2 align-left" /><col class="tcol3 align-left" /><col class="tcol4 align-left" /><col class="tcol5 align-left" /><col class="tcol6 align-left" /><col class="tcol7 align-left" /><col class="tcol8 align-left" /></colgroup><thead><tr><th rowspan="2"> <p class="SimplePara">Experiment</p> </th><th colspan="2"> <p class="SimplePara">n-gram</p> </th><th colspan="4"> <p class="SimplePara">Scoring function</p> </th><th rowspan="2"> <p class="SimplePara">Ranking</p> </th></tr><tr><th> <p class="SimplePara">Min</p> </th><th> <p class="SimplePara">Max</p> </th><th> <p class="SimplePara">Frequency</p> </th><th> <p class="SimplePara">Context</p> </th><th> <p class="SimplePara">Reference corpora</p> </th><th> <p class="SimplePara">Topic modelling</p> </th></tr></thead><tbody><tr><td> <p class="SimplePara">TE baseline</p> </td><td> <p class="SimplePara">1</p> </td><td> <p class="SimplePara">4</p> </td><td> <p class="SimplePara">tf-idf</p> </td><td> <p class="SimplePara">-</p> </td><td> <p class="SimplePara">-</p> </td><td> <p class="SimplePara">-</p> </td><td> <p class="SimplePara">Single</p> </td></tr><tr><td> <p class="SimplePara">TE baseline long</p> </td><td> <p class="SimplePara">2</p> </td><td> <p class="SimplePara">4</p> </td><td> <p class="SimplePara">tf-idf</p> </td><td> <p class="SimplePara">-</p> </td><td> <p class="SimplePara">-</p> </td><td> <p class="SimplePara">-</p> </td><td> <p class="SimplePara">Single</p> </td></tr><tr><td rowspan="4"> <p class="SimplePara">TE<span class="InlineEquation" id="IEq59">\(_{1}\)</span></p> </td><td rowspan="4"> <p class="SimplePara">1</p> </td><td rowspan="4"> <p class="SimplePara">4</p> </td><td> <p class="SimplePara">tf-idf</p> </td><td rowspan="4"> <p class="SimplePara">-</p> </td><td rowspan="4"> <p class="SimplePara">Weirdness</p> </td><td rowspan="4"> <p class="SimplePara">-</p> </td><td rowspan="4"> <p class="SimplePara">Voting</p> </td></tr><tr><td> <p class="SimplePara">Residual Idf</p> </td></tr><tr><td> <p class="SimplePara">C Value</p> </td></tr><tr><td> <p class="SimplePara">ComboBasic</p> </td></tr><tr><td rowspan="4"> <p class="SimplePara">TE<span class="InlineEquation" id="IEq60">\(_{1}\)</span> long</p> </td><td rowspan="4"> <p class="SimplePara">2</p> </td><td rowspan="4"> <p class="SimplePara">4</p> </td><td> <p class="SimplePara">tf-idf</p> </td><td rowspan="4"> <p class="SimplePara">-</p> </td><td rowspan="4"> <p class="SimplePara">Weirdness</p> </td><td rowspan="4"> <p class="SimplePara">-</p> </td><td rowspan="4"> <p class="SimplePara">Voting</p> </td></tr><tr><td> <p class="SimplePara">Residual Idf</p> </td></tr><tr><td> <p class="SimplePara">C Value</p> </td></tr><tr><td> <p class="SimplePara">ComboBasic</p> </td></tr><tr><td> <p class="SimplePara">TE<span class="InlineEquation" id="IEq61">\(_{2}\)</span></p> </td><td> <p class="SimplePara">1</p> </td><td> <p class="SimplePara">4</p> </td><td> <p class="SimplePara">ComboBasic</p> </td><td> <p class="SimplePara">-</p> </td><td> <p class="SimplePara">-</p> </td><td> <p class="SimplePara">-</p> </td><td> <p class="SimplePara">Single</p> </td></tr><tr><td> <p class="SimplePara">TE<span class="InlineEquation" id="IEq62">\(_{2}\)</span> long</p> </td><td> <p class="SimplePara">2</p> </td><td> <p class="SimplePara">4</p> </td><td> <p class="SimplePara">ComboBasic</p> </td><td> <p class="SimplePara">-</p> </td><td> <p class="SimplePara">-</p> </td><td> <p class="SimplePara">-</p> </td><td> <p class="SimplePara">Single</p> </td></tr><tr><td> <p class="SimplePara">TE<span class="InlineEquation" id="IEq63">\(_{3}\)</span> long</p> </td><td> <p class="SimplePara">2</p> </td><td> <p class="SimplePara">4</p> </td><td> <p class="SimplePara">ComboBasic</p> </td><td> <p class="SimplePara">-</p> </td><td> <p class="SimplePara">Relevance</p> </td><td> <p class="SimplePara">-</p> </td><td> <p class="SimplePara">Voting</p> </td></tr><tr><td> <p class="SimplePara">TE<span class="InlineEquation" id="IEq64">\(_{4}\)</span></p> </td><td> <p class="SimplePara">1</p> </td><td> <p class="SimplePara">4</p> </td><td> <p class="SimplePara">-</p> </td><td> <p class="SimplePara">PostRankDC</p> </td><td> <p class="SimplePara">-</p> </td><td> <p class="SimplePara">-</p> </td><td> <p class="SimplePara">Single</p> </td></tr><tr><td> <p class="SimplePara">TE<span class="InlineEquation" id="IEq65">\(_{4}\)</span> long</p> </td><td> <p class="SimplePara">2</p> </td><td> <p class="SimplePara">4</p> </td><td> <p class="SimplePara">-</p> </td><td> <p class="SimplePara">PostRankDC</p> </td><td> <p class="SimplePara">-</p> </td><td> <p class="SimplePara">-</p> </td><td> <p class="SimplePara">Single</p> </td></tr><tr><td> <p class="SimplePara">TE<span class="InlineEquation" id="IEq66">\(_{5}\)</span></p> </td><td> <p class="SimplePara">1</p> </td><td> <p class="SimplePara">4</p> </td><td> <p class="SimplePara">-</p> </td><td> <p class="SimplePara">-</p> </td><td> <p class="SimplePara">-</p> </td><td> <p class="SimplePara">NTM</p> </td><td> <p class="SimplePara">Single</p> </td></tr><tr><td> <p class="SimplePara">TE<span class="InlineEquation" id="IEq67">\(_{5}\)</span> long</p> </td><td> <p class="SimplePara">2</p> </td><td> <p class="SimplePara">4</p> </td><td> <p class="SimplePara">-</p> </td><td> <p class="SimplePara">-</p> </td><td> <p class="SimplePara">-</p> </td><td> <p class="SimplePara">NTM</p> </td><td> <p class="SimplePara">Single</p> </td></tr></tbody></table></div></div></div><p id="Par56" class="Para"><strong class="EmphasisTypeBold ">Results and Discussion.</strong> The evaluation of the automatic term recognition experiments was based on the manual evaluation of a list of terms. A group of domain experts from Fidelity Investments who are familiar with financial industry taxonomies were asked to evaluate the relevance of each term to the financial domain according to a 5-point Likert-type scale (from irrelevant to very relevant). Any term rated as either 4 or 5 by a majority of annotators (i.e. at least four annotators) was considered a relevant term in the financial domain.</p><div id="Par57" class="Para">The list of terms for evaluation was generated by merging the top 100 terms extracted by each experiment, removing duplicates and ranking them using the Mean Reciprocal Rank [<span class="CitationRef"><a href="#CR16">16</a></span>]. The final list was then limited to a manageable number of terms (200 terms) sent for manual validation by a team of experts in the financial customer service domain. Since each term may appear in more than one experiment, Table <span class="InternalRef"><a href="#Tab1">1</a></span> reports how much of the evaluation list is covered by each experiment. The result of each experiment is then evaluated using precision, i.e. the proportion of correct terms among those appearing in the evaluation set. Based on this evaluation, the experiments TE<span class="InlineEquation" id="IEq68">\(_{2}\)</span> log and TE<span class="InlineEquation" id="IEq69">\(_{3}\)</span> were the ones to provide the best results in our experiments (Table <span class="InternalRef"><a href="#Tab2">2</a></span>).<div id="Tab2" class="Table"><div class="Caption" lang="en"><div class="CaptionContent"><span class="CaptionNumber">Table 2.</span> <p class="SimplePara">Evaluation of automatic term recognition experiments</p> </div></div><div class="u-scroll-horizontal"><table><colgroup><col class="tcol1 align-left" /><col class="tcol2 align-left" /><col class="tcol3 align-left" /></colgroup><thead><tr><th> <p class="SimplePara">Experiment</p> </th><th> <p class="SimplePara">Coverage (%)</p> </th><th> <p class="SimplePara">Precision (%)</p> </th></tr></thead><tbody><tr><td> <p class="SimplePara">TE baseline</p> </td><td> <p class="SimplePara">36</p> </td><td> <p class="SimplePara">48.6</p> </td></tr><tr><td> <p class="SimplePara">TE baseline long</p> </td><td> <p class="SimplePara">38.5</p> </td><td> <p class="SimplePara">59.7</p> </td></tr><tr><td> <p class="SimplePara">TE<span class="InlineEquation" id="IEq70">\(_{1}\)</span></p> </td><td> <p class="SimplePara">47</p> </td><td> <p class="SimplePara">50.0</p> </td></tr><tr><td> <p class="SimplePara">TE<span class="InlineEquation" id="IEq71">\(_{1}\)</span> long</p> </td><td> <p class="SimplePara">41.5</p> </td><td> <p class="SimplePara">59.0</p> </td></tr><tr><td> <p class="SimplePara">TE<span class="InlineEquation" id="IEq72">\(_{2}\)</span></p> </td><td> <p class="SimplePara">30.5</p> </td><td> <p class="SimplePara">54.1</p> </td></tr><tr><td> <p class="SimplePara">TE<span class="InlineEquation" id="IEq73">\(_{2}\)</span> long</p> </td><td> <p class="SimplePara">37.5</p> </td><td> <p class="SimplePara"> <strong class="EmphasisTypeBold ">65.3</strong> </p> </td></tr><tr><td> <p class="SimplePara">TE<span class="InlineEquation" id="IEq74">\(_{3}\)</span> long</p> </td><td> <p class="SimplePara">37.5</p> </td><td> <p class="SimplePara"> <strong class="EmphasisTypeBold ">65.3</strong> </p> </td></tr><tr><td> <p class="SimplePara">TE<span class="InlineEquation" id="IEq75">\(_{4}\)</span></p> </td><td> <p class="SimplePara">45</p> </td><td> <p class="SimplePara">56.7</p> </td></tr><tr><td> <p class="SimplePara">TE<span class="InlineEquation" id="IEq76">\(_{4}\)</span> long</p> </td><td> <p class="SimplePara">30.5</p> </td><td> <p class="SimplePara">62.3</p> </td></tr><tr><td> <p class="SimplePara">TE<span class="InlineEquation" id="IEq77">\(_{5}\)</span></p> </td><td> <p class="SimplePara">21.5</p> </td><td> <p class="SimplePara">30.2</p> </td></tr><tr><td> <p class="SimplePara">TE<span class="InlineEquation" id="IEq78">\(_{5}\)</span> long</p> </td><td> <p class="SimplePara">21.5</p> </td><td> <p class="SimplePara">30.2</p> </td></tr></tbody></table></div></div></div><p id="Par58" class="Para">The positive results using the ComboBasic feature are mostly due to its ability to remove conversational words (such as “good morning”, “thanks”). Because greetings do not appear in the corpus either as part of longer combination of words (e.g. “good morning” will not typically be a substring of any longer noun phrase), or as an aggregation of smaller and frequent terms (e.g. “morning” is not a frequent term in the corpus and “good” is not even considered a term for being an adjective), then the requirements for frequency and term embeddedness expected by ComboBasic will be less likely to consider greetings as terms.</p><p id="Par59" class="Para">The drawback of using ComboBasic, on the other hand, is that it fails to retrieve terms of different lengths. In fact, only the experiment TE<span class="InlineEquation" id="IEq79">\(_{5}\)</span> retrieved a mix of single and multi-word terms. Also, other irrelevant terms that could have been removed by filtering out common out-of-domain terms using the weirdness feature (TE<span class="InlineEquation" id="IEq80">\(_{3}\)</span> long) did not have the expected result. The interpretation we give is that Wikipedia is not the most suitable corpus for this use case. Instead, in future work, we would like to experiment with customer service data in other domains so that we could remove terms that are common to customer service domain in general while keeping those that are specific to customer service in the financial domain. The difficulty lies in the availability of such datasets.</p></section><section id="Sec10" tabindex="-1" class="Section2 RenderAsSection2"><h3 class="Heading"><span class="HeadingNumber">6.2 </span>Taxonomy Construction</h3><p id="Par60" class="Para">The objective of our taxonomy construction experiments are twofold: (i) to evaluate the combination of likelihood score and search methods that generate the best taxonomy structure; and (ii) to verify the impact of using an in-domain taxonomy as training data for the pairwise scoring function.</p><p id="Par61" class="Para">In order to separate the error generated by the automatic term recognition from the results of the taxonomy construction, we did not use the terms extracted previously. Instead, three manually constructed financial taxonomies provided by Fidelity Investments (financial products, financial sectors, and financial topics) were used to inform the terms to be used in each experiment. The products taxonomy was used to train the in-domain model for pairwise scoring while the remaining taxonomies were used as gold standard for evaluation.</p><p id="Par62" class="Para">First, two pairwise scoring models were trained using LibSVM [<span class="CitationRef"><a href="#CR12">12</a></span>], a library for support vector classification. The first model is trained on an out-of-domain taxonomy (food domain) and background corpus provided by the TexEval challenge [<span class="CitationRef"><a href="#CR10">10</a></span>]. The second model is trained using the products taxonomy and the pages in the Fidelity.com website as a corpus for extraction of features required by the Pairwise Scoring algorithm. All relationships between terms (<em class="EmphasisTypeItalic ">c</em>, <em class="EmphasisTypeItalic ">d</em>) appearing in the training taxonomy are given as positive examples (+1) and any other combination of terms is a negative example (−1). As the negative class sample is very large we perform negative sampling, with a fixed ratio of 5 negative examples to each positive one. The pairwise scoring uses the probability estimation in LibSVM by returning the probability that the class is +1 as <span class="InlineEquation" id="IEq81">\(p(c \sqsubseteq d)\)</span>.</p><div id="Par63" class="Para">The workflow for comparison of taxonomy construction configurations using the different models is the following:<div class="UnorderedList"><ul class="UnorderedListMarkDash"><li> <p id="Par64" class="Para"><em class="EmphasisTypeItalic ">Step1</em>. The term extraction algorithm was used to extract from the chatlog dataset the frequency of each term in the gold standard <span class="InlineEquation" id="IEq82">\(T_{GOLD}\)</span> taxonomy.</p> </li><li> <p id="Par65" class="Para"><em class="EmphasisTypeItalic ">Step2</em>. The taxonomy construction algorithm was applied using the term frequencies from step 1, varying the configuration (Table <span class="InternalRef"><a href="#Tab3">3</a></span>) and model to be evaluated.</p> </li></ul></div><div id="Tab3" class="Table"><div class="Caption" lang="en"><div class="CaptionContent"><span class="CaptionNumber">Table 3.</span> <p class="SimplePara">Configuration of each taxonomy construction experiment</p> </div></div><div class="u-scroll-horizontal"><table><colgroup><col class="tcol1 align-left" /><col class="tcol2 align-left" /><col class="tcol3 align-left" /><col class="tcol4 align-left" /></colgroup><thead><tr><th></th><th colspan="3"> <p class="SimplePara">Likelihood score</p> </th></tr><tr><th> <p class="SimplePara">Search</p> </th><th> <p class="SimplePara">Transitive</p> </th><th> <p class="SimplePara">Non-transitive</p> </th><th> <p class="SimplePara">Bhattacharyya-Poisson</p> </th></tr></thead><tbody><tr><td> <p class="SimplePara">Greedy</p> </td><td> <p class="SimplePara">TA<span class="InlineEquation" id="IEq83">\(_{1}\)</span></p> </td><td> <p class="SimplePara">TA<span class="InlineEquation" id="IEq84">\(_{2}\)</span></p> </td><td> <p class="SimplePara">TA<span class="InlineEquation" id="IEq85">\(_{3}\)</span></p> </td></tr><tr><td> <p class="SimplePara">Beam</p> </td><td> <p class="SimplePara">TA<span class="InlineEquation" id="IEq86">\(_{4}\)</span></p> </td><td> <p class="SimplePara">TA<span class="InlineEquation" id="IEq87">\(_{5}\)</span></p> </td><td> <p class="SimplePara">TA<span class="InlineEquation" id="IEq88">\(_{6}\)</span></p> </td></tr></tbody></table></div></div></div><div id="Par66" class="Para">The unit of analysis for our evaluation is each pair of concepts <em class="EmphasisTypeItalic ">x</em> and <em class="EmphasisTypeItalic ">y</em> where there is a relation <span class="InlineEquation" id="IEq89">\(x \sqsubseteq y\)</span>. Note that transitivity was not taken into consideration, therefore only direct connection between terms was considered. The results of each run were evaluated using link precision as described in Eq. <span class="InternalRef"><a href="#Equ14">14</a></span>, where <em class="EmphasisTypeItalic ">T</em> is the resulting taxonomy provided by the taxonomy construction algorithm, and <span class="InlineEquation" id="IEq90">\(T_{GOLD}\)</span> is the taxonomy provided as the expected result.<div id="Equ14" class="Equation EquationMathjax"><div class="EquationContent">$$\begin{aligned} precision (T,T_{GOLD}) = \frac{|\{(x \sqsubseteq y) \in T \wedge (x \sqsubseteq y) \in T_{GOLD}\}|}{|\{(x \sqsubseteq y) \in T\}|} \end{aligned}$$</div> <div class="EquationNumber">(14)</div></div><strong class="EmphasisTypeBold ">Results and Discussion.</strong> The problem of taxonomy construction is very challenging, and previous evaluations such as TexEval [<span class="CitationRef"><a href="#CR10">10</a></span>] have only reported precision as high as 30%. One challenge is that the structure of multiple taxonomies in the same domain may vary considerably, therefore it is difficult to take advantage of the overall structure of one taxonomy when the best structure in another occasion may be completely different. Therefore, due to the multiple challenges in the automatic generation of a taxonomy structure (see [<span class="CitationRef"><a href="#CR10">10</a></span>]), a precision measure of 20% can already be considered as a strong result.</div><div id="Par67" class="Para">From the perspective of the logical connection between terms in the taxonomy, the best performing setting (Table <span class="InternalRef"><a href="#Tab4">4</a></span>) was the one using the Bhattacharyya-Poisson likelihood score function, greedy search strategy, and the in-domain model (using the products taxonomy as background knowledge). This setting consistently gave better results than all the others on the three taxonomies available. It is important to note, however, that only the sectors and topics taxonomies were used as gold standard since the products taxonomy was the one used as training data. The results using the products taxonomy are displayed only to contrast the impact of using an in-domain taxonomy versus using an out-of-domain one to train the pairwise scoring model. In fact, the results suggest that the choice of likelihood score and search method have a higher contribution to the quality of the final taxonomy than the domain of the taxonomy used to train the pairwise scoring algorithm. Therefore, we infer that the taxonomy construction framework can be successfully applied to other customer service domains where there is no background taxonomy to train the pairwise scoring model.<div id="Tab4" class="Table"><div class="Caption" lang="en"><div class="CaptionContent"><span class="CaptionNumber">Table 4.</span> <p class="SimplePara">Precision (%) of taxonomy construction algorithm</p> </div></div><div class="u-scroll-horizontal"><table><colgroup><col class="tcol1 align-left" /><col class="tcol2 align-left" /><col class="tcol3 align-left" /><col class="tcol4 align-left" /><col class="tcol5 align-left" /><col class="tcol6 align-left" /><col class="tcol7 align-left" /><col class="tcol8 align-left" /></colgroup><thead><tr><th rowspan="2"> <p class="SimplePara">Search method</p> </th><th rowspan="2"> <p class="SimplePara">Likelihood score function</p> </th><th colspan="3"> <p class="SimplePara">Out-of-Domain model</p> </th><th colspan="3"> <p class="SimplePara">In-Domain model</p> </th></tr><tr><th> <p class="SimplePara">Products</p> </th><th> <p class="SimplePara">Sectors</p> </th><th> <p class="SimplePara">Topics</p> </th><th> <p class="SimplePara">Products</p> </th><th> <p class="SimplePara">Sectors</p> </th><th> <p class="SimplePara">Topics</p> </th></tr></thead><tbody><tr><td rowspan="3"> <p class="SimplePara">Greedy</p> </td><td> <p class="SimplePara">Transitive</p> </td><td> <p class="SimplePara">16.86</p> </td><td> <p class="SimplePara">11.25</p> </td><td> <p class="SimplePara">11.41</p> </td><td> <p class="SimplePara">7.28</p> </td><td> <p class="SimplePara">8.75</p> </td><td> <p class="SimplePara">7.38</p> </td></tr><tr><td> <p class="SimplePara">Non-Transitive</p> </td><td> <p class="SimplePara">17.62</p> </td><td> <p class="SimplePara">12.50</p> </td><td> <p class="SimplePara">11.41</p> </td><td> <p class="SimplePara">21.84</p> </td><td> <p class="SimplePara">15.00</p> </td><td> <p class="SimplePara">13.42</p> </td></tr><tr><td> <p class="SimplePara">BP</p> </td><td> <p class="SimplePara">17.62</p> </td><td> <p class="SimplePara">12.50</p> </td><td> <p class="SimplePara">12.08</p> </td><td> <p class="SimplePara">22.22</p> </td><td> <p class="SimplePara">16.25</p> </td><td> <p class="SimplePara">13.42</p> </td></tr><tr><td rowspan="3"> <p class="SimplePara">Beam</p> </td><td> <p class="SimplePara">Transitive</p> </td><td> <p class="SimplePara">4.21</p> </td><td> <p class="SimplePara">1.25</p> </td><td> <p class="SimplePara">1.34</p> </td><td> <p class="SimplePara">3.83</p> </td><td> <p class="SimplePara">1.25</p> </td><td> <p class="SimplePara">0.67</p> </td></tr><tr><td> <p class="SimplePara">Non-Transitive</p> </td><td> <p class="SimplePara">16.86</p> </td><td> <p class="SimplePara">11.25</p> </td><td> <p class="SimplePara">10.74</p> </td><td> <p class="SimplePara">16.48</p> </td><td> <p class="SimplePara">8.75</p> </td><td> <p class="SimplePara">8.72</p> </td></tr><tr><td> <p class="SimplePara">BP</p> </td><td> <p class="SimplePara">18.01</p> </td><td> <p class="SimplePara">12.50</p> </td><td> <p class="SimplePara">10.74</p> </td><td> <p class="SimplePara">15.33</p> </td><td> <p class="SimplePara">8.75</p> </td><td> <p class="SimplePara">9.40</p> </td></tr></tbody></table></div></div></div><p id="Par68" class="Para">In general, the pairwise scoring model is just one element that impacts on the final taxonomy built from text. In some cases its use provided better results and in some cases not. Overall, the choices of likelihood score function and search strategy had a higher impact on the quality of the final taxonomy than the taxonomy provided for pairwise scoring training. Nonetheless, the use of a domain taxonomy as background knowledge showed between 10% and 25% improvement in the precision when using the non-transitive score or BP functions with the greedy search.</p></section></div></section><section id="Sec11" tabindex="-1" class="Section1 RenderAsSection1"><h2 class="Heading"><span class="HeadingNumber">7 </span>Conclusion and Future Work</h2><div class="content"><p id="Par69" class="Para">In this paper, we presented a solution for the automatic extraction of taxonomies, motivated by its use by conversational agents, and applied this solution to an anonymised customer service dialogue data provided by Fidelity Investments.</p><p id="Par70" class="Para">We evaluated multiple methods for automatic term recognition, where ComboBasic was the most suitable term scoring function for the dataset used. Also, we introduced multiple functions to evaluate the likelihood that a tree structure is a taxonomy and evaluated their efficacy in taxonomy extraction. Furthermore, our results suggest that despite our approach benefiting from in-domain data, it does not require the taxonomy used for training to be in the same domain of the business, which makes our solution applicable to customer service domains where a manually created taxonomy is not available.</p><p id="Par71" class="Para">In future work, we plan to explore: the use of customer service text datasets in other domains as background knowledge to remove greetings and other out-of-domain terms, the design of likelihood scores that take into consideration the desired graph structure of the taxonomy, and the application of the extracted taxonomy in a conversational agent.</p></div></section><section id="Footnotes" class="FootnoteSection Section1 RenderAsSection1"><h2 class="Heading">Footnotes</h2><div class="content"><ol><li class="Footnote"><span class="FootnoteNumber"><a href="#Fn1_source">1</a>.</span><div class="FootnoteContent" id="Fn1"><p id="Par9" class="Para">By ‘broader’ we do not mean hypernymy, but that the topic has a wider scope.</p></div></li><li class="Footnote"><span class="FootnoteNumber"><a href="#Fn2_source">2</a>.</span><div class="FootnoteContent" id="Fn2"><p id="Par42" class="Para">Earlier versions of the system experimented with other classifiers, however we have found that SVMs provide higher quality and robust performance.</p></div></li></ol></div></section></div><section class="Section1 RenderAsSection1" id="Bib1" tabindex="-1"><h2 class="Heading">References</h2><div class="content"><ol class="BibliographyWrapper"><li class="Citation"><div class="CitationNumber">1.</div><div class="CitationContent" id="CR1">Abdul-Kader, S.A., Woods, J.: Survey on chatbot design techniques in speech conversation systems. Int. J. Adv. Comput. Sci. Appl. <strong class="EmphasisTypeBold ">6</strong>(7) (2015)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Abdul-Kader%2C%20S.A.%2C%20Woods%2C%20J.%3A%20Survey%20on%20chatbot%20design%20techniques%20in%20speech%20conversation%20systems.%20Int.%20J.%20Adv.%20Comput.%20Sci.%20Appl.%206%287%29%20%282015%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">2.</div><div class="CitationContent" id="CR2">Ahmad, K., Gillam, L., Tostevin, L., et al.: University of surrey participation in TREC8: weirdness indexing for logical document extrapolation and retrieval (wilder). In: TREC, pp. 1–8 (1999)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Ahmad%2C%20K.%2C%20Gillam%2C%20L.%2C%20Tostevin%2C%20L.%2C%20et%20al.%3A%20University%20of%20surrey%20participation%20in%20TREC8%3A%20weirdness%20indexing%20for%20logical%20document%20extrapolation%20and%20retrieval%20%28wilder%29.%20In%3A%20TREC%2C%20pp.%201%E2%80%938%20%281999%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">3.</div><div class="CitationContent" id="CR3">Al-Zubaide, H., Issa, A.A.: Ontbot: ontology based chatbot. In: International Symposium on Innovations in Information and Communications Technology, pp. 7–12. IEEE (2011)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Al-Zubaide%2C%20H.%2C%20Issa%2C%20A.A.%3A%20Ontbot%3A%20ontology%20based%20chatbot.%20In%3A%20International%20Symposium%20on%20Innovations%20in%20Information%20and%20Communications%20Technology%2C%20pp.%207%E2%80%9312.%20IEEE%20%282011%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">4.</div><div class="CitationContent" id="CR4">Ananiadou, S.: A methodology for automatic term recognition. In: COLING 1994, vol. 2: The 15th International Conference on Computational Linguistics. vol. 2 (1994)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Ananiadou%2C%20S.%3A%20A%20methodology%20for%20automatic%20term%20recognition.%20In%3A%20COLING%201994%2C%20vol.%202%3A%20The%2015th%20International%20Conference%20on%20Computational%20Linguistics.%20vol.%202%20%281994%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">5.</div><div class="CitationContent" id="CR5">Astrakhantsev, N.: Automatic term acquisition from domain-specific text collection by using wikipedia. Proc. Inst. Syst. Program. <strong class="EmphasisTypeBold ">26</strong>(4), 7–20 (2014)<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.15514/ISPRAS-2014-26(4)-1"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Automatic%20term%20acquisition%20from%20domain-specific%20text%20collection%20by%20using%20wikipedia&amp;author=N.%20Astrakhantsev&amp;journal=Proc.%20Inst.%20Syst.%20Program.&amp;volume=26&amp;issue=4&amp;pages=7-20&amp;publication_year=2014"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">6.</div><div class="CitationContent" id="CR6">Astrakhantsev, N.: Methods and software for terminology extraction from domain-specific text collection. Ph.D. thesis, Ph. D. thesis, Institute for System Programming of Russian Academy of Sciences (2015)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Astrakhantsev%2C%20N.%3A%20Methods%20and%20software%20for%20terminology%20extraction%20from%20domain-specific%20text%20collection.%20Ph.D.%20thesis%2C%20Ph.%20D.%20thesis%2C%20Institute%20for%20System%20Programming%20of%20Russian%20Academy%20of%20Sciences%20%282015%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">7.</div><div class="CitationContent" id="CR7">Athreya, R.G., Ngonga Ngomo, A.C., Usbeck, R.: Enhancing community interactions with data-driven chatbots-the DBpedia chatbot. In: Companion of the The Web Conference 2018 on The Web Conference 2018, pp. 143–146. International World Wide Web Conferences Steering Committee (2018)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Athreya%2C%20R.G.%2C%20Ngonga%20Ngomo%2C%20A.C.%2C%20Usbeck%2C%20R.%3A%20Enhancing%20community%20interactions%20with%20data-driven%20chatbots-the%20DBpedia%20chatbot.%20In%3A%20Companion%20of%20the%20The%20Web%20Conference%202018%20on%20The%20Web%20Conference%202018%2C%20pp.%20143%E2%80%93146.%20International%20World%20Wide%20Web%20Conferences%20Steering%20Committee%20%282018%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">8.</div><div class="CitationContent" id="CR8">Bhattacharyya, A.: On a measure of divergence between two statistical populations defined by their probability distributions. Bull. Calcutta Math. Soc. <strong class="EmphasisTypeBold ">35</strong>, 99–109 (1943)<span class="Occurrences"><span class="Occurrence OccurrenceAMSID"><a class="gtm-reference" data-reference-type="MathSciNet" target="_blank" rel="noopener" href="http://www.ams.org/mathscinet-getitem?mr=10358"><span><span>MathSciNet</span></span></a></span><span class="Occurrence OccurrenceZLBID"><a class="gtm-reference" data-reference-type="MATH" target="_blank" rel="noopener" href="http://www.emis.de/MATH-item?0063.00364"><span><span>zbMATH</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=On%20a%20measure%20of%20divergence%20between%20two%20statistical%20populations%20defined%20by%20their%20probability%20distributions&amp;author=A.%20Bhattacharyya&amp;journal=Bull.%20Calcutta%20Math.%20Soc.&amp;volume=35&amp;pages=99-109&amp;publication_year=1943"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">9.</div><div class="CitationContent" id="CR9">Bordea, G.: Domain adaptive extraction of topical hierarchies for expertise mining. Ph.D. thesis (2013)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Bordea%2C%20G.%3A%20Domain%20adaptive%20extraction%20of%20topical%20hierarchies%20for%20expertise%20mining.%20Ph.D.%20thesis%20%282013%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">10.</div><div class="CitationContent" id="CR10">Bordea, G., Lefever, E., Buitelaar, P.: SemEval-2016 task 13: taxonomy extraction evaluation (TexEval-2). In: Proceedings of the 10th International Workshop on Semantic Evaluation (SemEval-2016), pp. 1081–1091 (2016)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Bordea%2C%20G.%2C%20Lefever%2C%20E.%2C%20Buitelaar%2C%20P.%3A%20SemEval-2016%20task%2013%3A%20taxonomy%20extraction%20evaluation%20%28TexEval-2%29.%20In%3A%20Proceedings%20of%20the%2010th%20International%20Workshop%20on%20Semantic%20Evaluation%20%28SemEval-2016%29%2C%20pp.%201081%E2%80%931091%20%282016%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">11.</div><div class="CitationContent" id="CR11">Buitelaar, P., Bordea, G., Polajnar, T.: Domain-independent term extraction through domain modelling. In: The 10th International Conference on Terminology and Artificial Intelligence (TIA 2013), Paris, France. 10th International Conference on Terminology and Artificial Intelligence (2013)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Buitelaar%2C%20P.%2C%20Bordea%2C%20G.%2C%20Polajnar%2C%20T.%3A%20Domain-independent%20term%20extraction%20through%20domain%20modelling.%20In%3A%20The%2010th%20International%20Conference%20on%20Terminology%20and%20Artificial%20Intelligence%20%28TIA%202013%29%2C%20Paris%2C%20France.%2010th%20International%20Conference%20on%20Terminology%20and%20Artificial%20Intelligence%20%282013%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">12.</div><div class="CitationContent" id="CR12">Chang, C.C., Lin, C.J.: LIBSVM: a library for support vector machines. ACM Trans. intell. Syst. Technol. (TIST) <strong class="EmphasisTypeBold ">2</strong>(3), 27 (2011)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=LIBSVM%3A%20a%20library%20for%20support%20vector%20machines&amp;author=CC.%20Chang&amp;author=CJ.%20Lin&amp;journal=ACM%20Trans.%20intell.%20Syst.%20Technol.%20%28TIST%29&amp;volume=2&amp;issue=3&amp;pages=27&amp;publication_year=2011"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">13.</div><div class="CitationContent" id="CR13">Church, K.W., Gale, W.A.: Poisson mixtures. Nat. Lang. Eng. <strong class="EmphasisTypeBold ">1</strong>(2), 163–190 (1995)<span class="Occurrences"><span class="Occurrence OccurrenceAMSID"><a class="gtm-reference" data-reference-type="MathSciNet" target="_blank" rel="noopener" href="http://www.ams.org/mathscinet-getitem?mr=1407247"><span><span>MathSciNet</span></span></a></span><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1017/S1351324900000139"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Poisson%20mixtures&amp;author=KW.%20Church&amp;author=WA.%20Gale&amp;journal=Nat.%20Lang.%20Eng.&amp;volume=1&amp;issue=2&amp;pages=163-190&amp;publication_year=1995"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">14.</div><div class="CitationContent" id="CR14">Cleuziou, G., Moreno, J.G.: QASSIT at SemEval-2016 Task 13: on the integration of semantic vectors in pretopological spaces for lexical taxonomy acquisition. In: 10th International Workshop on Semantic Evaluation (SemEval-2016), pp. 1315–1319 (2016)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Cleuziou%2C%20G.%2C%20Moreno%2C%20J.G.%3A%20QASSIT%20at%20SemEval-2016%20Task%2013%3A%20on%20the%20integration%20of%20semantic%20vectors%20in%20pretopological%20spaces%20for%20lexical%20taxonomy%20acquisition.%20In%3A%2010th%20International%20Workshop%20on%20Semantic%20Evaluation%20%28SemEval-2016%29%2C%20pp.%201315%E2%80%931319%20%282016%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">15.</div><div class="CitationContent" id="CR15">Cram, D., Daille, B.: Terminology extraction with term variant detection. In: Proceedings of ACL-2016 System Demonstrations, pp. 13–18 (2016)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Cram%2C%20D.%2C%20Daille%2C%20B.%3A%20Terminology%20extraction%20with%20term%20variant%20detection.%20In%3A%20Proceedings%20of%20ACL-2016%20System%20Demonstrations%2C%20pp.%2013%E2%80%9318%20%282016%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">16.</div><div class="CitationContent" id="CR16">Craswell, N.: Mean reciprocal rank. In: Encyclopedia of Database Systems, pp. 1703–1703 (2009)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Craswell%2C%20N.%3A%20Mean%20reciprocal%20rank.%20In%3A%20Encyclopedia%20of%20Database%20Systems%2C%20pp.%201703%E2%80%931703%20%282009%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">17.</div><div class="CitationContent" id="CR17">Fu, R., Guo, J., Qin, B., Che, W., Wang, H., Liu, T.: Learning semantic hierarchies via word embeddings. In: Proceedings of the 2014 Conference of the Association for Computational Linguistics, pp. 1199–1209 (2014)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Fu%2C%20R.%2C%20Guo%2C%20J.%2C%20Qin%2C%20B.%2C%20Che%2C%20W.%2C%20Wang%2C%20H.%2C%20Liu%2C%20T.%3A%20Learning%20semantic%20hierarchies%20via%20word%20embeddings.%20In%3A%20Proceedings%20of%20the%202014%20Conference%20of%20the%20Association%20for%20Computational%20Linguistics%2C%20pp.%201199%E2%80%931209%20%282014%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">18.</div><div class="CitationContent" id="CR18">Harris, Z.S.: Distributional structure. Word <strong class="EmphasisTypeBold ">10</strong>(2–3), 146–162 (1954)<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1080/00437956.1954.11659520"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Distributional%20structure&amp;author=ZS.%20Harris&amp;journal=Word&amp;volume=10&amp;issue=2%E2%80%933&amp;pages=146-162&amp;publication_year=1954"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">19.</div><div class="CitationContent" id="CR19">Huang, J., Zhou, M., Yang, D.: Extracting chatbot knowledge from online discussion forums. IJCAI <strong class="EmphasisTypeBold ">7</strong>, 423–428 (2007)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Extracting%20chatbot%20knowledge%20from%20online%20discussion%20forums&amp;author=J.%20Huang&amp;author=M.%20Zhou&amp;author=D.%20Yang&amp;journal=IJCAI&amp;volume=7&amp;pages=423-428&amp;publication_year=2007"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">20.</div><div class="CitationContent" id="CR20">Hulth, A.: Enhancing linguistically oriented automatic keyword extraction. In: Proceedings of HLT-NAACL 2004: Short Papers (2004)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Hulth%2C%20A.%3A%20Enhancing%20linguistically%20oriented%20automatic%20keyword%20extraction.%20In%3A%20Proceedings%20of%20HLT-NAACL%202004%3A%20Short%20Papers%20%282004%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">21.</div><div class="CitationContent" id="CR21">Li, S., Li, J., Song, T., Li, W., Chang, B.: A novel topic model for automatic term extraction. In: Proceedings of the 36th International ACM SIGIR Conference on Research and Development in Information Retrieval, pp. 885–888. ACM (2013)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Li%2C%20S.%2C%20Li%2C%20J.%2C%20Song%2C%20T.%2C%20Li%2C%20W.%2C%20Chang%2C%20B.%3A%20A%20novel%20topic%20model%20for%20automatic%20term%20extraction.%20In%3A%20Proceedings%20of%20the%2036th%20International%20ACM%20SIGIR%20Conference%20on%20Research%20and%20Development%20in%20Information%20Retrieval%2C%20pp.%20885%E2%80%93888.%20ACM%20%282013%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">22.</div><div class="CitationContent" id="CR22">Miller, G.: WordNet: An Electronic Lexical Database. MIT Press, Cambridge (1998)<span class="Occurrences"><span class="Occurrence OccurrenceZLBID"><a class="gtm-reference" data-reference-type="MATH" target="_blank" rel="noopener" href="http://www.emis.de/MATH-item?0913.68054"><span><span>zbMATH</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=WordNet%3A%20An%20Electronic%20Lexical%20Database&amp;author=G.%20Miller&amp;publication_year=1998"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">23.</div><div class="CitationContent" id="CR23">Panchenko, A., et al.: TAXI at SemEval-2016 Task 13: a taxonomy induction method based on lexico-syntactic patterns, substrings and focused crawling. In: 10th International Workshop on Semantic Evaluation (SemEval-2016) (2016)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Panchenko%2C%20A.%2C%20et%20al.%3A%20TAXI%20at%20SemEval-2016%20Task%2013%3A%20a%20taxonomy%20induction%20method%20based%20on%20lexico-syntactic%20patterns%2C%20substrings%20and%20focused%20crawling.%20In%3A%2010th%20International%20Workshop%20on%20Semantic%20Evaluation%20%28SemEval-2016%29%20%282016%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">24.</div><div class="CitationContent" id="CR24">Peñas, A., Verdejo, F., Gonzalo, J.: Corpus-based terminology extraction applied to information access. In: Proceedings of Corpus Linguistics. vol. 2001, p. 458. Citeseer, Priceton (2001)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Pe%C3%B1as%2C%20A.%2C%20Verdejo%2C%20F.%2C%20Gonzalo%2C%20J.%3A%20Corpus-based%20terminology%20extraction%20applied%20to%20information%20access.%20In%3A%20Proceedings%20of%20Corpus%20Linguistics.%20vol.%202001%2C%20p.%20458.%20Citeseer%2C%20Priceton%20%282001%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">25.</div><div class="CitationContent" id="CR25">Pennington, J., Socher, R., Manning, C.: GloVe: global vectors for word representation. In: Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP), pp. 1532–1543 (2014)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Pennington%2C%20J.%2C%20Socher%2C%20R.%2C%20Manning%2C%20C.%3A%20GloVe%3A%20global%20vectors%20for%20word%20representation.%20In%3A%20Proceedings%20of%20the%202014%20Conference%20on%20Empirical%20Methods%20in%20Natural%20Language%20Processing%20%28EMNLP%29%2C%20pp.%201532%E2%80%931543%20%282014%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">26.</div><div class="CitationContent" id="CR26">Sánchez-Díaz, X., Ayala-Bastidas, G., Fonseca-Ortiz, P., Garrido, L.: A knowledge-based methodology for building a conversational chatbot as an intelligent tutor. In: Batyrshin, I., Martínez-Villaseñor, M.L., Ponce Espinosa, H.E. (eds.) MICAI 2018. LNCS (LNAI), vol. 11289, pp. 165–175. Springer, Cham (2018). <span class="ExternalRef"> <a target="_blank" rel="noopener" href="https://doi.org/10.1007/978-3-030-04497-8_14"><span class="RefSource">https://doi.org/10.1007/978-3-030-04497-8_14</span></a></span><span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1007/978-3-030-04497-8_14"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=A%20knowledge-based%20methodology%20for%20building%20a%20conversational%20chatbot%20as%20an%20intelligent%20tutor&amp;author=X.%20S%C3%A1nchez-D%C3%ADaz&amp;author=G.%20Ayala-Bastidas&amp;author=P.%20Fonseca-Ortiz&amp;author=L.%20Garrido&amp;pages=165-175&amp;publication_year=2018"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">27.</div><div class="CitationContent" id="CR27">Sarkar, R., McCrae, J.P., Buitelaar, P.: A supervised approach to taxonomy extraction using word embeddings. In: Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC-2018) (2018)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Sarkar%2C%20R.%2C%20McCrae%2C%20J.P.%2C%20Buitelaar%2C%20P.%3A%20A%20supervised%20approach%20to%20taxonomy%20extraction%20using%20word%20embeddings.%20In%3A%20Proceedings%20of%20the%20Eleventh%20International%20Conference%20on%20Language%20Resources%20and%20Evaluation%20%28LREC-2018%29%20%282018%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">28.</div><div class="CitationContent" id="CR28">Snow, R., Jurafsky, D., Ng, A.Y.: Learning syntactic patterns for automatic hypernym discovery. In: Advances in Neural Information Processing Systems, pp. 1297–1304 (2005)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Snow%2C%20R.%2C%20Jurafsky%2C%20D.%2C%20Ng%2C%20A.Y.%3A%20Learning%20syntactic%20patterns%20for%20automatic%20hypernym%20discovery.%20In%3A%20Advances%20in%20Neural%20Information%20Processing%20Systems%2C%20pp.%201297%E2%80%931304%20%282005%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">29.</div><div class="CitationContent" id="CR29">Spasić, I., Greenwood, M., Preece, A., Francis, N., Elwyn, G.: Flexiterm: a flexible term recognition method. J. Biomed. Semant. <strong class="EmphasisTypeBold ">4</strong>(1), 27 (2013)<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1186/2041-1480-4-27"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Flexiterm%3A%20a%20flexible%20term%20recognition%20method&amp;author=I.%20Spasi%C4%87&amp;author=M.%20Greenwood&amp;author=A.%20Preece&amp;author=N.%20Francis&amp;author=G.%20Elwyn&amp;journal=J.%20Biomed.%20Semant.&amp;volume=4&amp;issue=1&amp;pages=27&amp;publication_year=2013"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">30.</div><div class="CitationContent" id="CR30">Tan, L., Bond, F., van Genabith, J.: USAAR at SemEval-2016 Task 13: Hyponym endocentricity. In: 10th International Workshop on Semantic Evaluation (SemEval-2016) (2016)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Tan%2C%20L.%2C%20Bond%2C%20F.%2C%20van%20Genabith%2C%20J.%3A%20USAAR%20at%20SemEval-2016%20Task%2013%3A%20Hyponym%20endocentricity.%20In%3A%2010th%20International%20Workshop%20on%20Semantic%20Evaluation%20%28SemEval-2016%29%20%282016%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">31.</div><div class="CitationContent" id="CR31">Zhang, Z., Gao, J., Ciravegna, F.: Jate 2.0: Java automatic term extraction with apache SOLR. In: Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC-2016) (2016)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Zhang%2C%20Z.%2C%20Gao%2C%20J.%2C%20Ciravegna%2C%20F.%3A%20Jate%202.0%3A%20Java%20automatic%20term%20extraction%20with%20apache%20SOLR.%20In%3A%20Proceedings%20of%20the%20Tenth%20International%20Conference%20on%20Language%20Resources%20and%20Evaluation%20%28LREC-2016%29%20%282016%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">32.</div><div class="CitationContent" id="CR32">Zhang, Z., Iria, J., Brewster, C., Ciravegna, F.: A comparative evaluation of term recognition algorithms. In: Proceedings of the Sixth International Conference on Language Resources and Evaluation (LREC-2008), vol. 5 (2008)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Zhang%2C%20Z.%2C%20Iria%2C%20J.%2C%20Brewster%2C%20C.%2C%20Ciravegna%2C%20F.%3A%20A%20comparative%20evaluation%20of%20term%20recognition%20algorithms.%20In%3A%20Proceedings%20of%20the%20Sixth%20International%20Conference%20on%20Language%20Resources%20and%20Evaluation%20%28LREC-2008%29%2C%20vol.%205%20%282008%29"><span><span>Google Scholar</span></span></a></span></span></div></li></ol></div></section><section class="Section1 RenderAsSection1"><h2 class="Heading" id="copyrightInformation">Copyright information</h2><div class="ArticleCopyright content"><div class="ChapterCopyright">© The Author(s) 2019</div><div id="License" class="License"><p class="SimplePara"><strong class="EmphasisTypeBold ">Open Access</strong> This chapter is licensed under the terms of the Creative Commons Attribution 4.0 International License (http://creativecommons.org/licenses/by/4.0/), which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license and indicate if changes were made.</p><p class="SimplePara">The images or other third party material in this chapter are included in the chapter's Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the chapter's Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder.</p></div></div></section><section id="authorsandaffiliations" class="Section1 RenderAsSection1"><h2 class="Heading">Authors and Affiliations</h2><div class="content authors-affiliations u-interface"><ul class="test-contributor-names"><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors-affiliations__name">Bianca Pereira</span><ul class="authors-affiliations__indexes u-inline-list" data-role="AuthorsIndexes"><li data-affiliation="affiliation-1">1</li></ul><span class="author-information"><span class="author-information__contact u-icon-before"><a href="mailto:bianca.pereira@insight-centre.org" title="bianca.pereira@insight-centre.org" itemprop="email" data-track="click" data-track-action="Email author" data-track-label="">Email author</a></span></span></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors-affiliations__name">Cecile Robin</span><ul class="authors-affiliations__indexes u-inline-list" data-role="AuthorsIndexes"><li data-affiliation="affiliation-1">1</li></ul></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors-affiliations__name">Tobias Daudert</span><ul class="authors-affiliations__indexes u-inline-list" data-role="AuthorsIndexes"><li data-affiliation="affiliation-1">1</li></ul></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors-affiliations__name">John P. McCrae</span><ul class="authors-affiliations__indexes u-inline-list" data-role="AuthorsIndexes"><li data-affiliation="affiliation-1">1</li></ul></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors-affiliations__name">Pranab Mohanty</span><ul class="authors-affiliations__indexes u-inline-list" data-role="AuthorsIndexes"><li data-affiliation="affiliation-2">2</li></ul></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors-affiliations__name">Paul Buitelaar</span><ul class="authors-affiliations__indexes u-inline-list" data-role="AuthorsIndexes"><li data-affiliation="affiliation-1">1</li></ul></li></ul><ol class="test-affiliations"><li class="affiliation" data-test="affiliation-1" data-affiliation-highlight="affiliation-1" itemscope="" itemtype="http://schema.org/Organization"><span class="affiliation__count">1.</span><span class="affiliation__item"><span itemprop="department" class="affiliation__department">Insight Centre for Data Analytics, Data Science Institute</span><span itemprop="name" class="affiliation__name">National University of Ireland Galway</span><span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress" class="affiliation__address"><span itemprop="addressRegion" class="affiliation__city">Galway</span><span itemprop="addressCountry" class="affiliation__country">Ireland</span></span></span></li><li class="affiliation" data-test="affiliation-2" data-affiliation-highlight="affiliation-2" itemscope="" itemtype="http://schema.org/Organization"><span class="affiliation__count">2.</span><span class="affiliation__item"><span itemprop="name" class="affiliation__name">Fidelity Investments</span><span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress" class="affiliation__address"><span itemprop="addressRegion" class="affiliation__city">Boston</span><span itemprop="addressCountry" class="affiliation__country">USA</span></span></span></li></ol></div></section></div>
+                        </article>
+                        <aside class="section section--collapsible" id="AboutThisContent">
+    <h2 class="section__heading" id="aboutcontent">About this paper</h2>
+    <div class="section__content bibliographic-information">
+                <div id="crossMark" class="crossmark">
+            <a data-crossmark="10.1007%2F978-3-030-33220-4_13" target="_blank" rel="noopener" href="https://crossmark.crossref.org/dialog/?doi=10.1007%2F978-3-030-33220-4_13" title="Verify currency and authenticity via CrossMark" data-track="click" data-track-action="Crossmark" data-track-label="">
+                <span class="u-screenreader-only">CrossMark</span>
+                <svg class="CrossMark" id="crossmark-icon" width="57" height="81">
+                    <image width="57" height="81" alt="Verify currency and authenticity via CrossMark" src="/springerlink-static/632953562/images/png/crossmark.png" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/springerlink-static/632953562/images/svg/crossmark.svg"></image>
+                </svg>
+            </a>
+        </div>
+
+        <div class="crossmark__adjacent">
+            <dl class="citation-info u-highlight-target u-mb-16" id="citeas" tabindex="-1">
+    <dt class="test-cite-heading">
+        Cite this paper as:
+    </dt>
+    <dd id="citethis-text">Pereira B., Robin C., Daudert T., McCrae J.P., Mohanty P., Buitelaar P. (2019) Taxonomy Extraction for Customer Service Knowledge Base Construction. In: Acosta M., Cudré-Mauroux P., Maleshkova M., Pellegrini T., Sack H., Sure-Vetter Y. (eds) Semantic Systems. The Power of AI and Knowledge Graphs. SEMANTiCS 2019. Lecture Notes in Computer Science, vol 11702. Springer, Cham</dd>
+</dl>
+                <ul class="bibliographic-information__list bibliographic-information__list--inline">
+        <li class="bibliographic-information__item">
+            <span class="bibliographic-information__title">First Online</span>
+            <span class="bibliographic-information__value u-overflow-wrap">04 November 2019</span>
+        </li>
+        <li class="bibliographic-information__item">
+            <span class="bibliographic-information__title">DOI</span>
+            <span class="bibliographic-information__value u-overflow-wrap" id="doi-url">https://doi.org/10.1007/978-3-030-33220-4_13</span>
+        </li>
+            <li class="bibliographic-information__item">
+                <span class="bibliographic-information__title">Publisher Name</span>
+                <span class="bibliographic-information__value" id="publisher-name">Springer, Cham</span>
+            </li>
+            <li class="bibliographic-information__item">
+                <span class="bibliographic-information__title">Print ISBN</span>
+                <span class="bibliographic-information__value" id="print-isbn">978-3-030-33219-8</span>
+            </li>
+            <li class="bibliographic-information__item">
+                <span class="bibliographic-information__title">Online ISBN</span>
+                <span class="bibliographic-information__value" id="electronic-isbn">978-3-030-33220-4</span>
+            </li>
+
+                <li class="bibliographic-information__item">
+            <span class="bibliographic-information__title">eBook Packages</span>
+                <span class="bibliographic-information__value"><a id="ebook-package" href="/search?facet-content-type&#x3D;%22Book%22&amp;package&#x3D;11645&amp;facet-start-year&#x3D;2019&amp;facet-end-year&#x3D;2019">Computer Science</a></span>
+        </li>
+
+    </ul>
+
+            <ul class="bibliographic-information__list">
+            <li class="bibliographic-information__item">
+                <a id="about-book" href="//www.springer.com/978-3-030-33219-8?wt_mc&#x3D;ThirdParty.SpringerLink.3.EPR653.About_eBook" >Buy this book on publisher's site</a>
+            </li>
+        <li class="bibliographic-information__item">
+            <a id="reprintsandpermissions-link" target="_blank" rel="noopener" href="https://s100.copyright.com/AppDispatchServlet?publisherName&#x3D;SpringerNature&amp;orderBeanReset&#x3D;true&amp;orderSource&#x3D;SpringerLink&amp;copyright&#x3D;The+Author%28s%29&amp;author&#x3D;Bianca+Pereira%2C+Cecile+Robin%2C+Tobias+Daudert+et+al&amp;contentID&#x3D;10.1007%2F978-3-030-33220-4_13&amp;endPage&#x3D;190&amp;publicationDate&#x3D;2019&amp;startPage&#x3D;175&amp;title&#x3D;Taxonomy+Extraction+for+Customer+Service+Knowledge+Base+Construction&amp;imprint&#x3D;The+Author%28s%29&amp;publication&#x3D;eBook&amp;oa&#x3D;CC+BY" title="Visit RightsLink for information about reusing this paper" data-track="click" data-track-action="Reprints and Permissions" data-track-label="">Reprints and Permissions</a>
+        </li>
+</ul>
+
+
+
+        </div>
+      
+      
+          
+    </div>
+</aside>
+
+                        <div class="section section--collapsible uptodate-recommendations gtm-recommendations">
+    <h2 class="uptodate-recommendations__title section__heading gtm-recommendations__title" id="uptodaterecommendations">Personalised recommendations</h2>
+    <div class="section__content">
+        <div class="uptodate-recommendations__container">
+             <link rel="uptodate-inline" href="/springerlink-static/632953562/css/recommendations.css"/>
+        </div>
+    </div>
+</div>
+                                <div id="doubleclick-native-ad" data-component="SpringerLink.GoogleAds" data-namespace="native"></div>
+
+                        
+
+            <div class="sticky-banner u-interface u-hide" data-component="SpringerLink.StickyBanner" data-namespace="hasButton">
+                <div class="sticky-banner__container">
+                        <div class="citations" data-component="SV.Dropdown" data-namespace="citationsSticky">
+        <h3 class="u-h4" data-role="button-dropdown__title">
+    <span>Cite</span>
+    <span class="hide-text-small">paper</span>
+</h3>
+<ul class="citations__content" data-role="button-dropdown__content">
+    <li>
+        <a href="#citeas" data-track="click" data-track-action="Cite as link" data-track-label="Cite dropdown">How to cite?</a>
+    </li>
+        <li>
+            <a href="//citation-needed.springer.com/v2/references/10.1007/978-3-030-33220-4_13?format&#x3D;refman&amp;flavour&#x3D;citation"
+               title="Download this paper&#39;s citation as a .RIS file" data-track="click" data-track-action="Export citation" data-track-label="RIS">
+                <span class="citations__extension" data-gtmlabel="RIS">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"/></svg>
+                    .RIS
+                </span>
+                <span class="citations__types">
+                        <span>
+                            Papers
+                        </span>
+                        <span>
+                            Reference Manager
+                        </span>
+                        <span>
+                            RefWorks
+                        </span>
+                        <span>
+                            Zotero
+                        </span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="//citation-needed.springer.com/v2/references/10.1007/978-3-030-33220-4_13?format&#x3D;endnote&amp;flavour&#x3D;citation"
+               title="Download this paper&#39;s citation as a .ENW file" data-track="click" data-track-action="Export citation" data-track-label="ENW">
+                <span class="citations__extension" data-gtmlabel="ENW">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"/></svg>
+                    .ENW
+                </span>
+                <span class="citations__types">
+                        <span>
+                            EndNote
+                        </span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="//citation-needed.springer.com/v2/references/10.1007/978-3-030-33220-4_13?format&#x3D;bibtex&amp;flavour&#x3D;citation"
+               title="Download this paper&#39;s citation as a .BIB file" data-track="click" data-track-action="Export citation" data-track-label="BIB">
+                <span class="citations__extension" data-gtmlabel="BIB">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"/></svg>
+                    .BIB
+                </span>
+                <span class="citations__types">
+                        <span>
+                            BibTeX
+                        </span>
+                        <span>
+                            JabRef
+                        </span>
+                        <span>
+                            Mendeley
+                        </span>
+                </span>
+            </a>
+        </li>
+</ul>
+    </div>
+
+                            <div>
+        <a class="c-button share-this test-shareby-sharelink-link" data-test="shareable-link" target="_blank" rel="noopener" href="/sharelink/10.1007/978-3-030-33220-4_13" data-track="click" data-track-action="Share via" data-track-label="ShareLink">
+            <span>Share</span>
+            <span class="hide-text-small">paper</span>
+        </a>
+    </div>
+
+
+
+
+                        <div class="c-button-dropdown--blue download-book-options test-download-book-options u-interface" data-component="SV.Dropdown" data-namespace="downloadsSticky">
+        <h3 class="u-h4" data-role="button-dropdown__title">
+    <span>Download</span>
+    <span class="hide-text-small">book</span>
+</h3>
+<ul class="download-book-options__content" data-role="button-dropdown__content">
+        <li>
+            <a href="/content/pdf/10.1007%2F978-3-030-33220-4.pdf" title="Download this book in PDF format" target="_blank" rel="noopener" class="test-bookpdf-link" data-track="click" data-track-action="Book download - pdf" data-track-label="">
+                <span class="download-book-options__types" data-track="click" data-track-action="Book download - pdf" data-track-label="">
+                    <svg width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"/></svg>
+                    <span>PDF</span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="/download/epub/10.1007%2F978-3-030-33220-4.epub" title="Download this book in EPUB format" target="_blank" rel="noopener" class="test-bookepub-link" data-track="click" data-track-action="Book download - ePub" data-track-label="">
+                <span class="download-book-options__types" data-track="click" data-track-action="Book download - ePub" data-track-label="">
+                    <svg width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"/></svg>
+                    <span>EPUB</span>
+                </span>
+            </a>
+        </li>
+</ul>
+
+    </div>
+
+                </div>
+            </div>
+
+
+
+
+                    </div>
+                    <aside class="main-sidebar-right u-interface">
+                        <div data-role="sticky-wrapper">
+                            <div class="main-sidebar-right__content u-composite-layer" data-component="SpringerLink.StickySidebar">
+                                <div class="article-actions" id="article-actions">
+                                    <h2 class="u-screenreader-only" aria-hidden="true">Actions</h2>
+
+
+                                    <div class="u-js-hide u-js-show-two-col">
+                                        
+            <div class="c-button-dropdown--blue download-book-options test-download-book-options u-interface" data-component="SpringerLink.DownloadOptions">
+        <h3 class="u-h4" data-role="button-dropdown__title">
+    <span>Download</span>
+    <span class="hide-text-small">book</span>
+</h3>
+<ul class="download-book-options__content" data-role="button-dropdown__content">
+        <li>
+            <a href="/content/pdf/10.1007%2F978-3-030-33220-4.pdf" title="Download this book in PDF format" target="_blank" rel="noopener" class="test-bookpdf-link" data-track="click" data-track-action="Book download - pdf" data-track-label="">
+                <span class="download-book-options__types" data-track="click" data-track-action="Book download - pdf" data-track-label="">
+                    <svg width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"/></svg>
+                    <span>PDF</span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="/download/epub/10.1007%2F978-3-030-33220-4.epub" title="Download this book in EPUB format" target="_blank" rel="noopener" class="test-bookepub-link" data-track="click" data-track-action="Book download - ePub" data-track-label="">
+                <span class="download-book-options__types" data-track="click" data-track-action="Book download - ePub" data-track-label="">
+                    <svg width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"/></svg>
+                    <span>EPUB</span>
+                </span>
+            </a>
+        </li>
+</ul>
+
+    </div>
+
+
+
+
+
+                                            <div class="citations" data-component="SV.Dropdown" data-namespace="citations">
+        <h3 class="u-h4" data-role="button-dropdown__title">
+    <span>Cite</span>
+    <span class="hide-text-small">paper</span>
+</h3>
+<ul class="citations__content" data-role="button-dropdown__content">
+    <li>
+        <a href="#citeas" data-track="click" data-track-action="Cite as link" data-track-label="Cite dropdown">How to cite?</a>
+    </li>
+        <li>
+            <a href="//citation-needed.springer.com/v2/references/10.1007/978-3-030-33220-4_13?format&#x3D;refman&amp;flavour&#x3D;citation"
+               title="Download this paper&#39;s citation as a .RIS file" data-track="click" data-track-action="Export citation" data-track-label="RIS">
+                <span class="citations__extension" data-gtmlabel="RIS">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"/></svg>
+                    .RIS
+                </span>
+                <span class="citations__types">
+                        <span>
+                            Papers
+                        </span>
+                        <span>
+                            Reference Manager
+                        </span>
+                        <span>
+                            RefWorks
+                        </span>
+                        <span>
+                            Zotero
+                        </span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="//citation-needed.springer.com/v2/references/10.1007/978-3-030-33220-4_13?format&#x3D;endnote&amp;flavour&#x3D;citation"
+               title="Download this paper&#39;s citation as a .ENW file" data-track="click" data-track-action="Export citation" data-track-label="ENW">
+                <span class="citations__extension" data-gtmlabel="ENW">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"/></svg>
+                    .ENW
+                </span>
+                <span class="citations__types">
+                        <span>
+                            EndNote
+                        </span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="//citation-needed.springer.com/v2/references/10.1007/978-3-030-33220-4_13?format&#x3D;bibtex&amp;flavour&#x3D;citation"
+               title="Download this paper&#39;s citation as a .BIB file" data-track="click" data-track-action="Export citation" data-track-label="BIB">
+                <span class="citations__extension" data-gtmlabel="BIB">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#004aa7"/></svg>
+                    .BIB
+                </span>
+                <span class="citations__types">
+                        <span>
+                            BibTeX
+                        </span>
+                        <span>
+                            JabRef
+                        </span>
+                        <span>
+                            Mendeley
+                        </span>
+                </span>
+            </a>
+        </li>
+</ul>
+    </div>
+
+                                                <div>
+        <a class="c-button share-this test-shareby-sharelink-link" data-test="shareable-link" target="_blank" rel="noopener" href="/sharelink/10.1007/978-3-030-33220-4_13" data-track="click" data-track-action="Share via" data-track-label="ShareLink">
+            <span>Share</span>
+            <span class="hide-text-small">paper</span>
+        </a>
+    </div>
+
+
+
+
+                                    </div>
+                                </div>
+                                <nav class="toc" aria-label="article contents">
+    <h2 class="u-screenreader-only" aria-hidden="true">Table of contents</h2>
+    <ul id="article-contents" class="article-contents" tabindex="-1">
+            <li>
+                <a title="Conference paper" href="#enumeration"><span class="u-overflow-ellipsis">Conference paper</span></a>
+            </li>
+            <li>
+                <a title="Abstract" href="#Abs1"><span class="u-overflow-ellipsis">Abstract</span></a>
+            </li>
+            <li>
+                <a title="1 Introduction" href="#Sec1"><span class="u-overflow-ellipsis">1 Introduction</span></a>
+            </li>
+            <li>
+                <a title="2 Related Work" href="#Sec2"><span class="u-overflow-ellipsis">2 Related Work</span></a>
+            </li>
+            <li>
+                <a title="3 Task Definition" href="#Sec3"><span class="u-overflow-ellipsis">3 Task Definition</span></a>
+            </li>
+            <li>
+                <a title="4 Automatic Term Recognition" href="#Sec4"><span class="u-overflow-ellipsis">4 Automatic Term Recognition</span></a>
+            </li>
+            <li>
+                <a title="5 Taxonomy Construction" href="#Sec5"><span class="u-overflow-ellipsis">5 Taxonomy Construction</span></a>
+            </li>
+            <li>
+                <a title="6 Experiments" href="#Sec8"><span class="u-overflow-ellipsis">6 Experiments</span></a>
+            </li>
+            <li>
+                <a title="7 Conclusion and Future Work" href="#Sec11"><span class="u-overflow-ellipsis">7 Conclusion and Future Work</span></a>
+            </li>
+            <li>
+                <a title="Footnotes" href="#Footnotes"><span class="u-overflow-ellipsis">Footnotes</span></a>
+            </li>
+            <li>
+                <a title="References" href="#Bib1"><span class="u-overflow-ellipsis">References</span></a>
+            </li>
+            <li>
+                <a title="Copyright information" href="#copyrightInformation"><span class="u-overflow-ellipsis">Copyright information</span></a>
+            </li>
+            <li>
+                <a title="Authors and Affiliations" href="#authorsandaffiliations"><span class="u-overflow-ellipsis">Authors and Affiliations</span></a>
+            </li>
+            <li>
+                <a title="About this paper" href="#aboutcontent"><span class="u-overflow-ellipsis">About this paper</span></a>
+            </li>
+    </ul>
+</nav>
+
+                            </div>
+                                <div class="skyscraper-ad u-hide" data-component="SpringerLink.GoogleAds" data-namespace="skyscraper">
+        <div class="skyscraper-ad__wrapper">
+            <p class="skyscraper-ad__label">Advertisement</p>
+            <button class="skyscraper-ad__hide" title="Hide this advertisement" data-track="click" data-track-action="Hide advertisement" data-track-label="">Hide</button>
+            <div id="doubleclick-ad" class="skyscraper-ad__ad"></div>
+        </div>
+    </div>
+
+                        </div>
+                    </aside>
+                </div>
+            </main>
+                <footer class="footer u-interface">
+        <div class="footer__aside-wrapper">
+            <div class="footer__content">
+                <div class="footer__aside">
+                    <p class="footer__strapline">Over 10 million scientific documents at your fingertips</p>
+                                <div class="footer__edition" data-component="SV.EditionSwitcher">
+                                    <h3 class="u-hide" data-role="button-dropdown__title" data-btn-text="Switch between Academic &#38; Corporate Edition">Switch Edition</h3>
+                                    <ul data-role="button-dropdown__content">
+                                        <li  class="selected"><a href="/siteEdition/link?previousUrl=/chapter/10.1007/978-3-030-33220-4_13&id=siteedition-academic-link" id="siteedition-academic-link">Academic Edition</a></li>
+                                        <li ><a href="/siteEdition/rd?previousUrl=/chapter/10.1007/978-3-030-33220-4_13&id=siteedition-corporate-link" id="siteedition-corporate-link">Corporate Edition</a></li>
+                                    </ul>
+                                </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__content">
+            <ul class="footer__nav">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/impressum">Impressum</a>
+                </li>
+                <li>
+                    <a href="/termsandconditions">Legal information</a>
+                </li>
+                <li>
+                    <a href="/privacystatement">Privacy statement</a>
+                </li>
+                <li>
+                    <a href="/cookiepolicy">How we use cookies</a>
+                </li>
+                <li>
+                    <a class="optanon-toggle-display" href="javascript:void(0);">Cookie settings</a>
+                </li>
+                <li>
+                    <a href="/accessibility">Accessibility</a>
+                </li>
+                <li>
+                    <a id="contactus-footer-link" href="/contactus">Contact us</a>
+                </li>
+            </ul>
+            <a class="parent-logo"
+               target="_blank" rel="noopener"
+               href="//www.springernature.com"
+               title="Go to Springer Nature">
+                <span class="u-screenreader-only">Springer Nature</span>
+                <svg width="125" height="12" focusable="false" aria-hidden="true">
+                    <image width="125" height="12"
+                           src="/springerlink-static/632953562/images/png/springernature.png"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xlink:href="/springerlink-static/632953562/images/svg/springernature.svg">
+                    </image>
+                </svg>
+            </a>
+
+            <p class="footer__copyright">&copy; 2019 Springer Nature Switzerland AG. Part of <a target="_blank" rel="noopener" href="//www.springernature.com">Springer Nature</a>.</p>
+                <p class="footer__user-access-info">
+                    <span>Not logged in</span>
+                    <span>National University of Ireland Galway, James Hardiman Lib (3000081220) - IRIS - LNCS (3000178775) - IReL Consortium c/o Maynooth University c/o The Library Maynooth University (3000215760) - 1255 IRIS Ireland (3000240761)</span>
+                    <span>140.203.154.12</span>
+                </p>
+        </div>
+    </footer>
+
+        </div>
+        <script type="text/javascript">
+    (function() {
+        var linkEl = document.querySelector('.js-ctm');
+        var scriptsList = [];
+        var polyfillFeatures = '';
+
+        window.SpringerLink = window.SpringerLink || {};
+        window.SpringerLink.staticLocation = '/springerlink-static/632953562';
+        window.eventTrackerInstance = null;
+
+        if (window.matchMedia && window.matchMedia(linkEl.media).matches) {
+            (function(h){h.className = h.className.replace('no-js', 'js')})(document.documentElement);
+
+            polyfillFeatures = 'default,fetch,Promise,Object.setPrototypeOf,Object.entries,Number.isInteger,MutationObserver,startsWith,Array.prototype.includes,Array.from,IntersectionObserver';
+
+            scriptsList = [
+                'https://cdn.polyfill.io/v2/polyfill.min.js?features=' + polyfillFeatures + '&flags=gated',
+                window.SpringerLink.staticLocation + '/js/main.js'
+            ];
+
+            scriptsList.forEach(function(script) {
+                var tag = document.createElement('script');
+                tag.async = false;
+                tag.src = script;
+
+                document.body.appendChild(tag);
+            });
+        }
+    })();
+</script>
+
+    <script>
+    (function() {
+        var linkEl = document.querySelector('.js-ctm');
+        if (window.matchMedia && window.matchMedia(linkEl.media).matches) {
+            var scriptMathJax = document.createElement('script');
+            scriptMathJax.async = false;
+            scriptMathJax.src = '/springerlink-static/632953562/js/mathJax.js';
+            var s0 = document.getElementsByTagName('script')[0];
+            s0.parentNode.insertBefore(scriptMathJax, s0);
+        }
+    })();
+</script>
+
+
+    <script type="text/javascript" id="googletag-push">
+        
+            var adSlot = '270604982/springerlink/book/chapter';
+        
+
+        var definedSlots = [
+                {slot: [728, 90], containerName: 'doubleclick-leaderboard-ad'},
+                {slot: [160, 600], containerName: 'doubleclick-ad'},
+            {slot: [2, 2], containerName: 'doubleclick-native-ad'}
+        ];
+    </script>
+
+
+        
+        <span id="chat-widget" class="u-hide"></span>
+                    <noscript>
+                <img aria-hidden="true" role="presentation" src="https://ssl-springer.met.vgwort.de/na/vgzm.415900-10.1007-978-3-030-33220-4_13" width='1' height='1' alt='' />
+            </noscript>
+
+        
+    </body>
+</html>

@@ -13,6 +13,7 @@
 <a href="#" style="padding-left:5px;" class="arttype selMisc" onclick="showonly(event,'Misc')">Reports</a>
 </div><div style="text-align:right;padding-bottom:10px;">By Year:&nbsp;&nbsp;
 <a href="#" class="year all" onclick="showall(event)" style="color:black;">All</a>
+<a href="#" class="year sely2020" onclick="showonly(event,'y2020')" style="padding-left:5px;">2020</a>
 <a href="#" class="year sely2019" onclick="showonly(event,'y2019')" style="padding-left:5px;">2019</a>
 <a href="#" class="year sely2018" onclick="showonly(event,'y2018')" style="padding-left:5px;">2018</a>
 <a href="#" class="year sely2017" onclick="showonly(event,'y2017')" style="padding-left:5px;">2017</a>
@@ -25,7 +26,11 @@
 <a href="#" class="year sely2010" onclick="showonly(event,'y2010')" style="padding-left:5px;">2010</a>
 <a href="#" class="year sely2009" onclick="showonly(event,'y2009')" style="padding-left:5px;">2009</a>
 <a href="#" class="year sely2008" onclick="showonly(event,'y2008')" style="padding-left:5px;">2008</a>
-</div><p class="pub y2020 hop ChristianChiarcos MaximIonov JessedeDoes KatrienDepuydt AnasFahadKhan SanderStolk ThierryDeclerck JohnPhilipMcCrae"><b>Modelling Frequency and Attestations for OntoLex-Lemon</a></b>. Christian Chiarcos, Maxim Ionov, Jesse de Does, Katrien Depuydt, Anas Fahad Khan, Sander Stolk, Thierry Declerck and John Philip McCrae, <i>Proceedings of the Globalex Workshop on Linked Lexicography (@LREC 2020)</i>, (2020 (Accepted)).</p>
+</div><p class="pub y2020 hop GeorgRehm DimitrisGalanis PennyLabropoulou SteliosPiperidis MartinWelß RicardoUsbeck JoachimKöhler MiltosDeligiannis KaterinaGkirtzou JohannesFischer ChristianChiarcos NilsFeldhus JulianMorenoSchneider FlorianKintzel ElenaMontielPonsoda VíctorRodriguezDoncel JohnPhilipMcCrae DavidLaqua IrinaPatriciaTheile ChristianDittmar KalinaBontcheva IanRoberts AndrejsVasiļjevs AndisLagzdins"><b>Towards an Interoperable Ecosystem of AI and LT Platforms: A Roadmap for the Implementation of Different Levels of Interoperability</a></b>. Georg Rehm, Dimitris Galanis, Penny Labropoulou, Stelios Piperidis, Martin Welß, Ricardo Usbeck, Joachim Köhler, Miltos Deligiannis, Katerina Gkirtzou, Johannes Fischer, Christian Chiarcos, Nils Feldhus, Julian Moreno-Schneider, Florian Kintzel, Elena Montiel-Ponsoda, Víctor Rodriguez-Doncel, John Philip McCrae, David Laqua, Irina Patricia Theile, Christian Dittmar, Kalina Bontcheva, Ian Roberts, Andrejs Vasiļjevs and Andis Lagzdins, <i>Proceedings of the 1st International Workshop on Language Technology Platforms at LREC 2020</i>, (2020 (Accepted)).</p>
+
+<p class="pub y2020 hop ShardulSuryawanshi BharathiRajaChakravarthi PranavVerma MihaelArcan JohnPhilipMcCrae PaulBuitelaar"><b>A Dataset for Classificaiton of Tamil Memes</a></b>. Shardul Suryawanshi, Bharathi Raja Chakravarthi, Pranav Verma, Mihael Arcan, John Philip McCrae  and Paul Buitelaar, <i>Proceedings of the 5th Workshop on Indian Language Data: Resources and Evaluation (WILDRE-5) at LREC-2020</i>, (2020 (Accepted)).</p>
+
+<p class="pub y2020 hop ChristianChiarcos MaximIonov JessedeDoes KatrienDepuydt AnasFahadKhan SanderStolk ThierryDeclerck JohnPhilipMcCrae"><b>Modelling Frequency and Attestations for OntoLex-Lemon</a></b>. Christian Chiarcos, Maxim Ionov, Jesse de Does, Katrien Depuydt, Anas Fahad Khan, Sander Stolk, Thierry Declerck and John Philip McCrae, <i>Proceedings of the Globalex Workshop on Linked Lexicography (@LREC 2020)</i>, (2020 (Accepted)).</p>
 
 <p class="pub y2020 hop AnaSalgado SinaAhmadi AlbertoSimões JohnPhilipMcCrae RuteCosta"><b>Challenges of Word Sense Alignment: Portuguese Language Resources</a></b>. Ana Salgado, Sina Ahmadi, Alberto Simões, John Philip McCrae and Rute Costa, <i>Proceedings of the 7th Workshop on Linked Data in Linguistics: Building tools and infrastructure at LREC 2020</i>, (2020 (Accepted)).</p>
 

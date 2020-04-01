@@ -18,6 +18,24 @@
     },
     "@graph": [ 
         {
+            "@id": "rehm2020towards",
+            "@type": "Workshop",
+            "title": "Towards an Interoperable Ecosystem of AI and LT Platforms: A Roadmap for the Implementation of Different Levels of Interoperability",
+            "author": ["Georg Rehm", "Dimitris Galanis", "Penny Labropoulou", "Stelios Piperidis", "Martin Welß", "Ricardo Usbeck", "Joachim Köhler", "Miltos Deligiannis", "Katerina Gkirtzou", "Johannes Fischer", "Christian Chiarcos", "Nils Feldhus", "Julian Moreno-Schneider", "Florian Kintzel", "Elena Montiel-Ponsoda", "Víctor Rodriguez-Doncel", "John Philip McCrae", "David Laqua", "Irina Patricia Theile", "Christian Dittmar", "Kalina Bontcheva", "Ian Roberts", "Andrejs Vasiļjevs", "Andis Lagzdins"],
+            "affiliation": [],
+            "date": "2020-05-11",
+            "booktitle": "Proceedings of the 1st International Workshop on Language Technology Platforms at LREC 2020",
+            "year": "2020 (Accepted)"
+        },{
+            "@id": "suryawanshi2020dataset",
+            "@type": "Workshop",
+            "title": "A Dataset for Classificaiton of Tamil Memes",
+            "author": ["Shardul Suryawanshi", "Bharathi Raja Chakravarthi", "Pranav Verma", "Mihael Arcan", "John Philip McCrae ", "Paul Buitelaar"],
+            "affiliation": ["NUIG", "NUIG", "NUIG", "NUIG", "NUIG", "NUIG"],
+            "date": "2020-05-11",
+            "booktitle": "Proceedings of the 5th Workshop on Indian Language Data: Resources and Evaluation (WILDRE-5) at LREC-2020",
+            "year": "2020 (Accepted)"
+        },{
             "@id": "chiarcos2020modelling",
             "@type": "Workshop",
             "title": "Modelling Frequency and Attestations for OntoLex-Lemon",

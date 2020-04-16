@@ -708,14 +708,6 @@
             "year": 2018,
             "author": ["John P. McCrae","Ian Wood","Amanda Hicks"],
             "title": "Towards a Crowd-Sourced WordNet for Colloquial English"
-        },
-        {
-            "@id": "chakravarthi2018improving",
-            "@type": "Conference",
-            "booktitle": "Proceedings of the 9th Global WordNet Conference",
-            "year": 2018,
-            "author": ["Bharathi Raja Chakravarthi", "Mihael Arcan", "John P. McCrae"],
-            "title": "Improving Wordnets for Under-Resourced Languages Using Machine Translation information"
         },{
             "@id": "pedersen2018elexis",
             "@type": "Conference",

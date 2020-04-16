@@ -1,7 +1,7 @@
 import json
 import sys
 import re
-
+from pylatexenc.latexencode import unicode_to_latex
 
 def fix(string):
     return re.sub("&", "\\&", string)
@@ -40,7 +40,7 @@ for paper in data["@graph"]:
             else:
                 first = False
             if key == "author":
-                sys.stdout.write("author=\"%s\"" % " and ".join(value))
+                sys.stdout.write("author=\"%s\"" % " and ".join([unicode_to_latex(v) for v in value]))
             elif key == "editor":
                 sys.stdout.write("editor=\"%s\"" % " and ".join(value))
             elif key == "title":

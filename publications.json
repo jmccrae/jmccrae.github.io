@@ -18,6 +18,23 @@
     },
     "@graph": [ 
         {
+            "@id": "declerck2020linguistic",
+            "@type": "Workshop",
+            "title": "On the Linguistic Linked Open Data Infrastructure",
+            "author": ["Christian Chiarcos", "Bettina Klimek", "Christian Fäth", "Thierry Declerck", "John P. McCrae"],
+            "affiliation": ["Goethe-Universität Frankfurt am Main", "Universität Leipzig", "Goethe-Universität Frankfurt am Main", "DFKI GmbH", "NUIG"],
+            "date": "2020-05-11",
+            "booktitle": "Proceedings of the 1st International Workshop on Language Technology Platforms at LREC 2020",
+            "year": "2020 (Accepted)"
+        },{
+            "@id": "mccrae2020nuig",
+            "@type": "Workshop",
+            "title": "NUIG at TIAD: Combining Unsupervised NLP and Graph Metrics for Translation Inference",
+            "author": ["John P. McCrae", "Mihael Arcan"],
+            "date": "2020-05-11",
+            "booktitle": "Proceedings of the Globalex Workshop on Linked Lexicography (@LREC 2020)",
+            "year": "2020 (Submitted)"
+        },{
             "@id": "rehm2020towards",
             "@type": "Workshop",
             "title": "Towards an Interoperable Ecosystem of AI and LT Platforms: A Roadmap for the Implementation of Different Levels of Interoperability",

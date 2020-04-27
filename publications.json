@@ -35,6 +35,15 @@
             "booktitle": "Proceedings of the Globalex Workshop on Linked Lexicography (@LREC 2020)",
             "year": "2020 (Submitted)"
         },{
+            "@id": "rani2020comparative",
+            "@type": "Workshop",
+            "title": "A Comparative Study of Different State-of-the-Art Hate Speech Detection Methods in Hindi-English Code-Mixed Data",
+            "author": ["Priya Rani", "Shardul Suryawanshi", "Koustava Goswami", "Bharathi Raja Chakravarthi", "Theodorus Fransen", "John Philip McCrae"],
+            "affiliation": ["NUIG", "NUIG", "NUIG", "NUIG", "NUIG", "NUIG"],
+            "date": "2020-05-11",
+            "booktitle": "Proceedings of the Second Workshop on Trolling, Aggression and Cyberbullying at LREC 2020",
+            "year": "2020 (Accepted)"
+        },{
             "@id": "rehm2020towards",
             "@type": "Workshop",
             "title": "Towards an Interoperable Ecosystem of AI and LT Platforms: A Roadmap for the Implementation of Different Levels of Interoperability",

@@ -46,7 +46,13 @@
             "year": "2020",
             "booktitle": "ICACCS 2020: International Conference on Advanced Computing & Communication Systems (ICACCS)",
             "date": "2020-03-06",
-            "affiliation": ["", "NUIG", "NUIG", "", "NUIG"]
+            "affiliation": ["Indian Institute of Information Technology and Management-Kerala", "NUIG", "NUIG", "Indian Institute of Information Technology and Management-Kerala", "NUIG"],
+            "open": false,
+            "grants": [],
+            "url": "https://ieeexplore.ieee.org/abstract/document/9074205",
+            "pages": "136-141",
+            "doi": "10.1109/ICACCS48705.2020.9074205",
+            "description": "Code switching is a prevalent phenomenon in the multilingual community and social media interaction. In the past ten years, we have witnessed an explosion of code switched data in the social media that brings together languages from low resourced languages to high resourced languages in the same text, sometimes written in a non-native script. This increases the demand for processing code-switched data to assist users in various natural language processing tasks such as part-of-speech tagging, named entity recognition, sentiment analysis, conversational systems, and machine translation, etc. The available corpora for code switching research played a major role in advancing this area of research. In this paper, we propose a set of quality metrics to evaluate the dataset and categorize them accordingly."
         },{
             "@id": "priyadharshini2020named",
             "@type": "Conference",
@@ -54,7 +60,14 @@
             "title": "Named Entity Recognition for Code-Mixed Indian Corpus using Meta Embedding",
             "booktitle":"ICACCS 2020: International Conference on Advanced Computing & Communication Systems (ICACCS)",
             "date": "2020-03-06",
-            "year": "2020"
+            "year": "2020",
+            "affiliation": ["Saraswathi Narayanan College,Department of Mathematics", "NUIG", "NUIG",  "NUIG"],
+            "open": false,
+            "grants": [],
+            "url": "https://ieeexplore.ieee.org/abstract/document/9074379",
+            "pages": "68-72",
+            "doi": "10.1109/ICACCS48705.2020.9074379",
+            "description": "In this paper, we utilize the pre-trained embedding, sub-word embedding and closely related languages of languages in the code mixed corpus to create a meta-embedding. We then use the Transformer to encode the code mixed sentence and use Conditional Random Field to predict the Named Entities in the code-mixed text. In contrast to classical Named Entity recognition where the text is monolingual, our approach can predict the Named Entities in code-mixed corpus written both in the native script as well as Roman script. Our method is a novel method to combine the embeddings of closely related languages to identify Named Entity from Code-Mixed Indian text written using native script and Roman script in social media."
         },{
             "@id": "declerck2020linguistic",
             "@type": "Workshop",

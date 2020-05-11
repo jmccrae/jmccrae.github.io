@@ -18,6 +18,44 @@
     },
     "@graph": [ 
         {
+            "@id": "ionov2020linked",
+            "@type": "swrc:Proceedings",
+            "title": "7th Workshop on Linked Data in Linguistics (LDL-2020)",
+            "editor": ["Maxim Ionov", "John P. McCrae", "Christian Chiarcos", "Thierry Declerck", "Julia Bosque-Gil", "Jorge Gracia"],
+            "year": "2020",
+            "isbn": "979-10-95546-36-8",
+            "publisher": "European Language Resources Association (ELRA)",
+            "address": "9 rue des Cordelières, 75013, Paris, France",
+            "series": "LREC 2020 Workshop Language Resources and Evaluation Conference"
+        },{
+            "@id": "kernerman2020globalex",
+            "@type": "swrc:Proceedings",
+            "title": "Globalex Workshop on Linked Lexicography",
+            "editor": ["Ilan Kernerman", "Simon Krek", "John P. McCrae", "Jorge Gracia", "Sina Ahmadi", "Besim Kabashi"],
+            "year": "2020",
+            "isbn": "979-10-95546-46-7",
+            "publisher": "European Language Resources Association (ELRA)",
+            "address": "9 rue des Cordelières, 75013, Paris, France",
+            "series": "LREC 2020 Workshop Language Resources and Evaluation Conference"
+
+        },{
+            "@id": "navya2020survey",
+            "@type": "Conference",
+            "title": "A Survey of Current Datasets for Code-Switching Research",
+            "author": ["Navya Jose", "Bharathi Raja Chakravarthi", "Shardul Suryawanshi", "Elizabeth Sherly", "John P.McCrae"],
+            "year": "2020",
+            "booktitle": "ICACCS 2020: International Conference on Advanced Computing & Communication Systems (ICACCS)",
+            "date": "2020-03-06",
+            "affiliation": ["", "NUIG", "NUIG", "", "NUIG"]
+        },{
+            "@id": "priyadharshini2020named",
+            "@type": "Conference",
+            "author": ["Ruba Priyadharshini, Bharathi Raja Chakravarthi, Mani Vegupatti and John P.Mccrae"],
+            "title": "Named Entity Recognition for Code-Mixed Indian Corpus using Meta Embedding",
+            "booktitle":"ICACCS 2020: International Conference on Advanced Computing & Communication Systems (ICACCS)",
+            "date": "2020-03-06",
+            "year": "2020"
+        },{
             "@id": "declerck2020linguistic",
             "@type": "Workshop",
             "title": "On the Linguistic Linked Open Data Infrastructure",

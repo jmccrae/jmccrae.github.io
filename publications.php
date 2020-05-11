@@ -26,7 +26,15 @@
 <a href="#" class="year sely2010" onclick="showonly(event,'y2010')" style="padding-left:5px;">2010</a>
 <a href="#" class="year sely2009" onclick="showonly(event,'y2009')" style="padding-left:5px;">2009</a>
 <a href="#" class="year sely2008" onclick="showonly(event,'y2008')" style="padding-left:5px;">2008</a>
-</div><p class="pub y2020 hop ChristianChiarcos BettinaKlimek ChristianFäth ThierryDeclerck JohnPMcCrae"><b>On the Linguistic Linked Open Data Infrastructure</a></b>. Christian Chiarcos, Bettina Klimek, Christian Fäth, Thierry Declerck and John P. McCrae, <i>Proceedings of the 1st International Workshop on Language Technology Platforms at LREC 2020</i>, (2020 (Accepted)).</p>
+</div><p class="pub y2020 Proceedings"><b><a class="publication" href="papers/ionov2020linked.pdf">7th Workshop on Linked Data in Linguistics (LDL-2020)</a></b>. <i>Maxim Ionov, John P. McCrae, Christian Chiarcos, Thierry Declerck, Julia Bosque-Gil and Jorge Gracia (eds)</i>, <i>European Language Resources Association (ELRA) - LREC 2020 Workshop Language Resources and Evaluation Conference</i>, (2020).</p>
+
+<p class="pub y2020 Proceedings"><b><a class="publication" href="papers/kernerman2020globalex.pdf">Globalex Workshop on Linked Lexicography</a></b>. <i>Ilan Kernerman, Simon Krek, John P. McCrae, Jorge Gracia, Sina Ahmadi and Besim Kabashi (eds)</i>, <i>European Language Resources Association (ELRA) - LREC 2020 Workshop Language Resources and Evaluation Conference</i>, (2020).</p>
+
+<p class="pub y2020 rence NavyaJose BharathiRajaChakravarthi ShardulSuryawanshi ElizabethSherly JohnPMcCrae"><b><a class="publication" href="papers/navya2020survey.pdf">A Survey of Current Datasets for Code-Switching Research</a></b>. Navya Jose, Bharathi Raja Chakravarthi, Shardul Suryawanshi, Elizabeth Sherly and John P.McCrae, <i>ICACCS 2020: International Conference on Advanced Computing & Communication Systems (ICACCS)</i>, (2020).</p>
+
+<p class="pub y2020 rence RubaPriyadharshiniBharathiRajaChakravarthiManiVegupattiandJohnPMccrae"><b><a class="publication" href="papers/priyadharshini2020named.pdf">Named Entity Recognition for Code-Mixed Indian Corpus using Meta Embedding</a></b>. Ruba Priyadharshini, Bharathi Raja Chakravarthi, Mani Vegupatti and John P.Mccrae, <i>ICACCS 2020: International Conference on Advanced Computing & Communication Systems (ICACCS)</i>, (2020).</p>
+
+<p class="pub y2020 hop ChristianChiarcos BettinaKlimek ChristianFäth ThierryDeclerck JohnPMcCrae"><b>On the Linguistic Linked Open Data Infrastructure</a></b>. Christian Chiarcos, Bettina Klimek, Christian Fäth, Thierry Declerck and John P. McCrae, <i>Proceedings of the 1st International Workshop on Language Technology Platforms at LREC 2020</i>, (2020 (Accepted)).</p>
 
 <p class="pub y2020 hop JohnPMcCrae MihaelArcan"><b><a class="publication" href="papers/mccrae2020nuig.pdf">NUIG at TIAD: Combining Unsupervised NLP and Graph Metrics for Translation Inference</a></b>. John P. McCrae and Mihael Arcan, <i>Proceedings of the Globalex Workshop on Linked Lexicography (@LREC 2020)</i>, (2020 (Submitted)).</p>
 

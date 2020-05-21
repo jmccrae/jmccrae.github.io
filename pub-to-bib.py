@@ -4,7 +4,7 @@ import re
 from pylatexenc.latexencode import unicode_to_latex
 
 def fix(string):
-    return re.sub("&", "\\&", string)
+    return unicode_to_latex(re.sub("&", "\\&", string))
 
 
 data = json.loads(open("publications.json").read())
@@ -32,7 +32,7 @@ for paper in data["@graph"]:
         print("@misc{%s," % paper["@id"])
     first = True
     for key, value in paper.items():
-        if key.startswith("@"):
+        if key.startswith("@") or key == "grants" or key == "open" or key == "license":
             pass
         else:
             if not first:

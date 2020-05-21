@@ -26,7 +26,11 @@
             "isbn": "979-10-95546-36-8",
             "publisher": "European Language Resources Association (ELRA)",
             "address": "9 rue des Cordelières, 75013, Paris, France",
-            "series": "LREC 2020 Workshop Language Resources and Evaluation Conference"
+            "series": "LREC 2020 Workshop Language Resources and Evaluation Conference",
+            "url": "https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/LDL2020book.pdf",
+            "open": true,
+            "grants": [{"id":"731015"},{"id":"825182"}],
+            "license": "cc-by-nc"
         },{
             "@id": "kernerman2020globalex",
             "@type": "swrc:Proceedings",
@@ -36,8 +40,11 @@
             "isbn": "979-10-95546-46-7",
             "publisher": "European Language Resources Association (ELRA)",
             "address": "9 rue des Cordelières, 75013, Paris, France",
-            "series": "LREC 2020 Workshop Language Resources and Evaluation Conference"
-
+            "series": "LREC 2020 Workshop Language Resources and Evaluation Conference",
+            "url": "https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/GLOBALEX2020book.pdf",
+            "open": true,
+            "grants": [{"id":"731015"},{"id":"825182"}],
+            "license": "cc-by-nc"
         },{
             "@id": "navya2020survey",
             "@type": "Conference",
@@ -76,15 +83,28 @@
             "affiliation": ["Goethe-Universität Frankfurt am Main", "Universität Leipzig", "Goethe-Universität Frankfurt am Main", "DFKI GmbH", "NUIG"],
             "date": "2020-05-11",
             "booktitle": "Proceedings of the 1st International Workshop on Language Technology Platforms at LREC 2020",
-            "year": "2020 (Accepted)"
+            "year": "2020",
+            "url": "https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/IWLTP2020book.pdf#page=14",
+            "grants": [{"id":"731015"},{"id":"825182"}],
+            "open": true,
+            "license": "cc-by-nc",
+            "pages": "8-15",
+            "description": "In this paper we describe the current state of development of the Linguistic Linked Open Data (LLOD) infrastructure, an LOD (sub-)cloud of linguistic resources, which covers various linguistic data bases, lexicons, corpora, terminology and metadata repositories.  We give in some details an overview of the contributions made by the European H2020 projects “Prêt-à-LLOD” (‘Ready-to-use Multilingual Linked Language Data for Knowledge Services across Sectors’) and “ELEXIS” (‘European Lexicographic Infrastructure’) to the further development of the LLOD"
         },{
             "@id": "mccrae2020nuig",
             "@type": "Workshop",
             "title": "NUIG at TIAD: Combining Unsupervised NLP and Graph Metrics for Translation Inference",
             "author": ["John P. McCrae", "Mihael Arcan"],
+            "affiliation": ["NUIG", "NUIG"],
             "date": "2020-05-11",
             "booktitle": "Proceedings of the Globalex Workshop on Linked Lexicography (@LREC 2020)",
-            "year": "2020 (Submitted)"
+            "year": "2020",
+            "url": "https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/GLOBALEX2020book.pdf#page=110",
+            "pages": "92-97",
+            "open": true,
+            "license": "cc-by-nc",
+            "grants": [{"id":"825182"}],
+            "description": "In this paper, we present the NUIG system at the TIAD shared task. This system includes graph-based metrics calculated using novel algorithms, with an unsupervised document embedding tool called ONETA and an unsupervised multi-way neural machine translation method. The results are an improvement over our previous system and produce the highest precision among all systems in the task as well as very competitive F-Measure results. Incorporating features from other systems should be easy in the framework we describe in this paper, suggesting this could very easily be extended to an even stronger result."
         },{
             "@id": "rani2020comparative",
             "@type": "Workshop",
@@ -93,16 +113,30 @@
             "affiliation": ["NUIG", "NUIG", "NUIG", "NUIG", "NUIG", "NUIG"],
             "date": "2020-05-11",
             "booktitle": "Proceedings of the Second Workshop on Trolling, Aggression and Cyberbullying at LREC 2020",
-            "year": "2020 (Accepted)"
+            "year": "2020",
+            "url": "https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/TRAC2book.pdf#page=55",
+            "pages": "42-48",
+            "open": true,
+            "license": "cc-by-nc",
+            "grants": [{"id":"731015"},{"id":"825182"}],
+            "description": "Hate speech detection in social media communication has become one of the primary concerns to avoid conflicts and curb undesired activities. In an environment where multilingual speakers switch among multiple languages, hate speech detection becomes a challenging task using methods that are designed for monolingual corpora. In our work, we attempt to analyze, detect and provide a comparative study of hate speech in a code-mixed social media text. We also provide a Hindi-English code-mixed data set consisting of Facebook and Twitter posts and comments. Our experiments show that deep learning models trained on this code-mixed corpus perform better."
         },{
             "@id": "rehm2020towards",
             "@type": "Workshop",
             "title": "Towards an Interoperable Ecosystem of AI and LT Platforms: A Roadmap for the Implementation of Different Levels of Interoperability",
             "author": ["Georg Rehm", "Dimitris Galanis", "Penny Labropoulou", "Stelios Piperidis", "Martin Welß", "Ricardo Usbeck", "Joachim Köhler", "Miltos Deligiannis", "Katerina Gkirtzou", "Johannes Fischer", "Christian Chiarcos", "Nils Feldhus", "Julian Moreno-Schneider", "Florian Kintzel", "Elena Montiel-Ponsoda", "Víctor Rodriguez-Doncel", "John Philip McCrae", "David Laqua", "Irina Patricia Theile", "Christian Dittmar", "Kalina Bontcheva", "Ian Roberts", "Andrejs Vasiļjevs", "Andis Lagzdins"],
-            "affiliation": [],
+            "affiliation": ["DFKI GmbH", "ILSP/Athena RC", "ILSP/Athena RC", "ILSP/Athena RC", "Fraunhofer IAIS", "Fraunhofer IAIS", "Fraunhofer IAIS","ILSP/Athena RC","ILSP/Athena RC", "Fraunhofer IIS",
+                "Goethe University Frankfurt", "DFKI GmbH", "DFKI GmbH", "DFKI GmbH", "Universidad Politécnica de Madrid", "Universidad Politécnica de Madrid", "NUIG", "Fraunhofer IAIS", "Fraunhofer IAIS", 
+                "Fraunhofer IIS", "University of Sheffield", "University of Sheffield", "Tilde", "Tilde"],
             "date": "2020-05-11",
             "booktitle": "Proceedings of the 1st International Workshop on Language Technology Platforms at LREC 2020",
-            "year": "2020 (Accepted)"
+            "year": "2020",
+            "url": "https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/IWLTP2020book.pdf#page=102",
+            "pages": "96-107",
+            "open": true,
+            "license": "cc-by-nc",
+            "grants": [{"id": "825182"},{"id":"825627"},{"id":"825619"},{"id":"780602"}],
+            "description": "With regard to the wider area of AI/LT platform interoperability, we concentrate on two core aspects: (1) cross-platform search and discovery of resources and services; (2) composition of cross-platform service workflows. We devise five different levels (of increasing complexity) of platform interoperability that we suggest to implement in a wider federation of AI/LT platforms. We illustrate the approach using the five emerging AI/LT platforms AI4EU, ELG, Lynx, QURATOR and SPEAKER."
         },{
             "@id": "suryawanshi2020dataset",
             "@type": "Workshop",
@@ -111,52 +145,88 @@
             "affiliation": ["NUIG", "NUIG", "NUIG", "NUIG", "NUIG", "NUIG"],
             "date": "2020-05-11",
             "booktitle": "Proceedings of the 5th Workshop on Indian Language Data: Resources and Evaluation (WILDRE-5) at LREC-2020",
-            "year": "2020 (Accepted)"
+            "year": "2020",
+            "url": "https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/WILDRE-5book.pdf#page=17",
+            "pages": "7-13",
+            "open": true,
+            "license": "cc-by-nc",
+            "grants": [{"id":"825182"}],
+            "description": "Social media are interactive platforms that facilitate the creation or sharing of information, ideas or other forms of expression among people. This exchange is not free from offensive, trolling or malicious contents targeting users or communities. One way of trolling is by making memes, which in most cases combines an image with a concept or catchphrase. The challenge of dealing with memes is that they are region-specific and their meaning is often obscured in humour or sarcasm. To facilitate the computational modelling of trolling in the memes for Indian languages, we created a meme dataset for Tamil (TamilMemes). We annotated and released the dataset containing suspected trolls and not-troll memes. In this paper, we use the a image classification to address the difficulties involved in the classification of troll memes with the existing methods. We found that the identification of a troll meme with such an image classifier is not feasible which has been corroborated with precision, recall and F1-score"
         },{
             "@id": "chiarcos2020modelling",
             "@type": "Workshop",
             "title": "Modelling Frequency and Attestations for OntoLex-Lemon",
             "author": ["Christian Chiarcos", "Maxim Ionov", "Jesse de Does", "Katrien Depuydt", "Anas Fahad Khan", "Sander Stolk", "Thierry Declerck", "John Philip McCrae"],
-            "affiliation": ["", "", "", "", "", "", "", "", "NUIG"],
+            "affiliation": ["Goethe-Universität Frankfurt am Main", "Goethe-Universität Frankfurt am Main", "Instituut voor de Nederlandse Taal", "Instituut voor de Nederlandse Taal", "Istituto di Linguistica Computazionale “A. Zampolli” (ILC-CNR) Pisa", "Leiden University", "DFKI GmbH", "NUIG"],
             "date": "2020-05-11",
             "booktitle": "Proceedings of the Globalex Workshop on Linked Lexicography (@LREC 2020)",
-            "year": "2020 (Accepted)"
+            "year": "2020",
+            "url": "https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/GLOBALEX2020book.pdf#page=19",
+            "pages": "1-9",
+            "open": true,
+            "license": "cc-by-nc",
+            "grants": [{"id":"731015"},{"id":"825182"}],
+            "description": "The OntoLex vocabulary enjoys increasing popularity as a means of publishing lexical resources with RDF and as Linked Data. The recent publication of a new OntoLex module for lexicography, lexicog, reflects its increasing importance for digital lexicography.  However, not all aspects of digital lexicography have been covered to the same extent. In particular, supplementary information drawn from corpora such as frequency information, links to attestations, and collocation data were considered to be beyond the scope of lexicog. Therefore, the OntoLex community has put forward the proposal for a novel module for frequency, attestation and corpus information (FrAC), that not only covers the requirements of digital lexicography, but also accommodates essential data structures for lexical information in natural language processing. This paper introduces the current state of the OntoLex-FrAC vocabulary, describes its structure, some selected use cases, elementary concepts and fundamental definitions, with a focus on frequency and attestations."
         },{
             "@id": "salgado2020challenges",
             "@type": "Workshop",
             "title": "Challenges of Word Sense Alignment: Portuguese Language Resources",
             "author": ["Ana Salgado", "Sina Ahmadi", "Alberto Simões", "John Philip McCrae", "Rute Costa"],
-            "affiliation": ["", "NUIG", "", "NUIG", ""],
+            "affiliation": ["Academia das Ciencias de Lisboa, Instituto de Lexicologia e Lexicografia da Língua Portuguesa", "NUIG", "2Ai – School of Technology", "NUIG", "NOVA CLUNL, Universidade NOVA de Lisboa"],
             "date": "2020-05-11",
             "booktitle": "Proceedings of the 7th Workshop on Linked Data in Linguistics: Building tools and infrastructure at LREC 2020",
-            "year": "2020 (Accepted)"
+            "year": "2020",
+            "url": "https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/LDL2020book.pdf#page=52",
+            "pages": "45-51",
+            "open": true,
+            "license": "cc-by-nc",
+            "grants": [{"id":"731015"}],
+            "description": "This paper reports on an ongoing task of monolingual word sense alignment in which a comparative study between the Portuguese Academy of Sciences Dictionary and the Dicionario Aberto ´ is carried out in the context of the ELEXIS (European Lexicographic Infrastructure) project. Word sense alignment involves searching for matching senses within dictionary entries of different lexical resources and linking them, which poses significant challenges. The lexicographic criteria are not always entirely consistent within individual dictionaries and even less so across different projects where different options may have been assumed in terms of structure and especially wording techniques of lexicographic glosses. This hinders the task of matching senses. We aim to present our annotation workflow in Portuguese using the Semantic Web standards. The results obtained are useful for the discussion within the community"
         },{
             "@id": "mccrae2020english",
             "@type": "Workshop",
             "title": "English WordNet 2020: Improving and Extending a WordNet for English using an Open-Source Methodology",
             "author": ["John Philip McCrae", "Alexandre Rademaker", "Ewa Rudnicka", "Francis Bond"],
-            "affiliation": ["NUIG", "", "", ""],
+            "affiliation": ["NUIG", "IBM Research and FGV/EMAp", "Wroclaw University of Science and Technology", "Nanyang Technological University"],
             "date": "2020-05-11",
             "booktitle": "Proceedings of the Multimodal Wordnets Workshop at LREC 2020",
-            "year": "2020 (Accepted)"
+            "year": "2020",
+            "url": "https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/MMW2020book.pdf#page=20",
+            "pages": "14-19",
+            "open": true,
+            "license": "cc-by-nc",
+            "grants": [{"id":"731015"}],
+            "description": "The Princeton WordNet, while one of the most widely used resources for NLP, has not been updated for a long time, and as such a new project English WordNet has arisen to continue the development of the model under an open-source paradigm. In this paper, we detail the second release of this resource entitled “English WordNet 2020”. The work has focused firstly, on the introduction of new synsets and senses and developing guidelines for this and secondly, on the integration of contributions from other projects. We present the changes in this edition, which total over 15,000 changes over the previous release"
         },{
              "@id": "chakravarthi2020sentiment",
             "@type": "Workshop",
             "title": "A Sentiment Analysis Dataset for Code-Mixed Malayalam-English",
             "author": ["Bharathi Raja Chakravarthi", "Navya Jose", "Shardul Suryawanshi", "Elizabeth Sherly", "John Philip McCrae"],
-            "affiliation": ["NUIG", "", "NUIG", "", "NUIG"],
+            "affiliation": ["NUIG", "Indian Institute of Information Technology and Management-Kerala", "NUIG", "Indian Institute of Information Technology and Management-Kerala", "NUIG"],
             "date": "2020-05-11",
             "booktitle": "Proceedings of 1st Joint SLTU (Spoken Language Technologies for Under-resourced languages) and CCURL (Collaboration and Computing for Under-Resourced Languages) Workshop at LREC 2020",
-            "year": "2020 (Accepted)"
+            "year": "2020",
+            "url": "https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/SLTUCCURLbook.pdf#page=186",
+            "pages": "177-184",
+            "open": true,
+            "license": "cc-by-nc",
+            "grants": [{"id":"731015"},{"id":"825182"}],
+            "description": "There is an increasing demand for sentiment analysis of text from social media which are mostly code-mixed. Systems trained on monolingual data fail for code-mixed data due to the complexity of mixing at different levels of the text. However, very few resources are available for code-mixed data to create models specific for this data. Although much research in multilingual and cross-lingual sentiment analysis has used semi-supervised or unsupervised methods, supervised methods still performs better. Only a few datasets for popular languages such as English-Spanish, English-Hindi, and English-Chinese are available. There are no resources available for Malayalam-English code-mixed data. This paper presents a new gold standard corpus for sentiment analysis of code-mixed text in Malayalam-English annotated by voluntary annotators. This gold standard corpus obtained a Krippendorff’s alpha above 0.8 for the dataset. We use this new corpus to provide the benchmark for sentiment analysis in Malayalam-English code-mixed texts."
         },{
-             "@id": "chakravarthi2020corpus",
+            "@id": "chakravarthi2020corpus",
             "@type": "Workshop",
             "title": "Corpus Creation for Sentiment Analysis in Code-Mixed Tamil-English Text",
             "author": ["Bharathi Raja Chakravarthi", "Vigneshwaran Muralidaran", "Ruba Priyadharshini", "John Philip McCrae"],
-            "affiliation": ["NUIG", "", "", "NUIG"],
+            "affiliation": ["NUIG", "School of English, Communication and Philosophy, Cardiff University", "Saraswathi Narayanan College", "NUIG"],
             "date": "2020-05-11",
             "booktitle": "Proceedings of 1st Joint SLTU (Spoken Language Technologies for Under-resourced languages) and CCURL (Collaboration and Computing for Under-Resourced Languages) Workshop at LREC 2020",
-            "year": "2020 (Accepted)"
+            "year": "2020",
+            "url": "https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/SLTUCCURLbook.pdf#page=211",
+            "pages": "202-210",
+            "open": true,
+            "license": "cc-by-nc",
+            "grants": [{"id":"731015"},{"id":"825182"}],
+            "description": "Understanding the sentiment of a comment from a video or an image is an essential task in many applications. Sentiment analysis of a text can be useful for various decision-making processes. One such application is to analyse the popular sentiments of videos on social media based on viewer comments. However, comments from social media do not follow strict rules of grammar, and they contain mixing of more than one language, often written in non-native scripts. Non-availability of annotated code-mixed data for a low-resourced language like Tamil also adds difficulty to this problem. To overcome this, we created a gold standard Tamil-English code-switched, sentiment-annotated corpus containing 15,744 comment posts from YouTube. In this paper, we describe the process of creating the corpus and assigning polarities. We present inter-annotator agreement and show the results of sentiment analysis trained on this corpus as a benchmark."
         },{
             "@id": "ahmadi2020towards",
             "@type": "Conference",
@@ -175,7 +245,13 @@
             "affiliation": ["NUIG", "NUIG", "NUIG"],
             "date": "2020-05-11",
             "booktitle": "Proceedings of the 12th Language Resource and Evaluation Conference (LREC 2020)",
-            "year": "2020 (Accepted)"
+            "year": "2020",
+            "url": "http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.712.pdf",
+            "pages": "5810-5819",
+            "open": true,
+            "license": "cc-by-nc",
+            "grants": [{"id":"825182"}],
+            "description": "Metaphor comprehension and understanding is a complex cognitive task that requires interpreting metaphors by grasping the interaction between the meaning of their target and source concepts. This is very challenging for humans, let alone computers. Thus, automatic metaphor interpretation is understudied in part due to the lack of publicly available datasets. The creation and manual annotation of such datasets is a demanding task which requires huge cognitive effort and time. Moreover, there will always be a question of accuracy and consistency of the annotated data due to the subjective nature of the problem. This work addresses these issues by presenting an annotation scheme to interpret verb-noun metaphoric expressions in text. The proposed approach is designed with the goal of reducing the workload on annotators and maintain consistency. Our methodology employs an automatic retrieval approach which utilises external lexical resources, word embeddings and semantic similarity to generate possible interpretations of identified metaphors in order to enable quick and accurate annotation. We validate our proposed approach by annotating around 1,500 metaphors in tweets which were annotated by six native English speakers. As a result of this work, we publish as linked data the first gold standard dataset for metaphor interpretation which will facilitate research in this area."
         },{
             "@id": "bond2020issues",
             "@type":    "Conference",
@@ -184,7 +260,13 @@
             "affiliation": ["Nanyang Technological University","Nanyang Technological University","Nanyang Technological University","NUIG", "Tallinn University of Technology"],
             "date": "2020-05-11",
             "booktitle": "Proceedings of the 12th Language Resource and Evaluation Conference (LREC 2020)",
-            "year": "2020 (Accepted)"
+            "year": "2020",
+            "url": "http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.390.pdf",
+            "pages": "3189-3197",
+            "open": true,
+            "license": "cc-by-nc",
+            "grants": [{"id":"731015"}],
+            "description": "In this paper we discuss the experience of bringing together over 40 different wordnets. We introduce some extensions to the GWA wordnet LMF format proposed in Vossen et al. (2016) and look at how this new information can be displayed. Notable extensions include: confidence, corpus frequency, orthographic variants, lexicalized and non-lexicalized synsets and lemmas, new parts of speech, and more. Many of these extensions already exist in multiple wordnets – the challenge was to find a compatible representation. To this end, we introduce a new version of the Open Multilingual Wordnet (Bond and Foster, 2013), that integrates a new set of tools that tests the extensions introduced by this new format, while also ensuring the integrity of the Collaborative Interlingual Index (CILI: Bond et al., 2016), avoiding the same new concept to be introduced through multiple projects."
         },{
             "@id": "ahmadi2020multilingual",
             "@type": "Conference",
@@ -193,7 +275,13 @@
             "affiliation": ["NUIG", "NUIG","Society for Danish Language and Literature","Society for Danish Language and Literature","Centre for Language Technology, University of Copenhagen","Centre for Language Technology","University of Copenhagen","Austrian Centre for Digital Humanities","Austrian Centre for Digital Humanities","Istituto di Linguistica Computazionale “A. Zampolli– CNR”","Istituto di Linguistica Computazionale “A. Zampolli– CNR”","Istituto di Linguistica Computazionale “A. Zampolli– CNR”","Università di Pisa","Jožef Stefan Institute","Research Institute for Linguistics","Research Institute for Linguistics","Research Institute for Linguistics","Research Institute for Linguistics","Dutch Language Institute","Dutch Language Institute","K Dictionaries","K Dictionaries","K Dictionaries","K Dictionaries","Institute for Linguistic Studies of the Russian Academy of Sciences","Institute of the Estonian Language","Institute of the Estonian Language","NUIG","NUIG","NUIG","Euskal Herriko Unibertsitatea, Universidad del País Vasco","Euskal Herriko Unibertsitatea, Universidad del País Vasco","Pórtico da Língua Portuguesa","Centro de estudios de la Real Academia Española","Centro de estudios de la Real Academia Española","Bulgarian Academy of Sciences","Bulgarian Academy of Sciences","Bulgarian Academy of Sciences","Bulgarian Academy of Sciences","University of Belgrade","University of Belgrade","University of Belgrade","Institute for Serbian Language SASA","Research Centre of the Slovenian Academy of Sciences and Arts, Fran Ramovš Institute of the Slovenian Language","Research Centre of the Slovenian Academy of Sciences and Arts, Fran Ramovš Institute of the Slovenian Language"],
             "date": "2020-05-11",
             "booktitle": "Proceedings of the 12th Language Resource and Evaluation Conference (LREC 2020)",
-            "year": "2020 (Accepted)"
+            "year": "2020",
+            "url": "http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.395.pdf",
+            "pages": "3232-3242",
+            "open": true,
+            "license": "cc-by-nc",
+            "grants": [{"id":"731015"}],
+            "description": "Aligning senses across resources and languages is a challenging task with beneficial applications in the field of natural language processing and electronic lexicography. In this paper, we describe our efforts in manually aligning monolingual dictionaries. The alignment is carried out at sense-level for various resources in 15 languages. Moreover, senses are annotated with possible semantic relationships such as broadness, narrowness, relatedness, and equivalence. In comparison to previous datasets for this task, this dataset covers a wide range of languages and resources and focuses on the more challenging task of linking general-purpose language. We believe that our data will pave the way for further advances in alignment and evaluation of word senses by creating new solutions, particularly those notoriously requiring data such as neural networks. Our resources are publicly available at https://github.com/elexis-eu/MWSA."
         },{
             "@id": "declerck2020recent",
             "@type": "Conference",
@@ -201,7 +289,13 @@
             "author": ["Thierry Declerck","John Philip McCrae","Christian Chiarcos","Philipp Cimiano","Jorge Gracia","Matthias Hartung","Deirdre Lee","Elena Montiel-Ponsoda","Artem Revenko","Roser Saurí"],
             "date": "2020-05-11",
             "booktitle": "Proceedings of the 12th Language Resource and Evaluation Conference (LREC 2020)",
-            "year": "2020 (Accepted)"
+            "year": "2020",
+            "url": "http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.695.pdf",
+            "pages": "5660-5667",
+            "open": true,
+            "license": "cc-by-nc",
+            "grants": [{"id":"825182"}],
+            "description": "In this paper we describe the contributions made by the European H2020 project “Prêt-à-LLOD” (‘Ready-to-use Multilingual Linked ` Language Data for Knowledge Services across Sectors’) to the further development of the Linguistic Linked Open Data (LLOD) infrastructure. Prêt-à-LLOD aims to develop a new methodology for building data value chains applicable to a wide range of sectors and ` applications and based around language resources and language technologies that can be integrated by means of semantic technologies.  We describe the methods implemented for increasing the number of language data sets in the LLOD. We also present the approach for ensuring interoperability and for porting LLOD data sets and services to other infrastructures, as well as the contribution of the projects to existing standards."
         },{
             "@id": "krishan2019comparative",
             "@type": "Conference",

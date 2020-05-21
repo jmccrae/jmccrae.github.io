@@ -4,7 +4,7 @@ import re
 from pylatexenc.latexencode import unicode_to_latex
 
 def fix(string):
-    return unicode_to_latex(re.sub("&", "\\&", string))
+    return unicode_to_latex(string)
 
 
 data = json.loads(open("publications.json").read())

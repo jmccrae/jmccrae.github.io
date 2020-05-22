@@ -46,7 +46,7 @@
             "grants": [{"id":"731015"},{"id":"825182"}],
             "license": "cc-by-nc"
         },{
-            "@id": "navya2020survey",
+            "@id": "jose2020survey",
             "@type": "Conference",
             "title": "A Survey of Current Datasets for Code-Switching Research",
             "author": ["Navya Jose", "Bharathi Raja Chakravarthi", "Shardul Suryawanshi", "Elizabeth Sherly", "John P.McCrae"],

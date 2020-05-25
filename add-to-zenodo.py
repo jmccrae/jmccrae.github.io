@@ -7,7 +7,7 @@ import urllib.request
 def locate_file(name, pub):
     if os.path.exists("papers/%s.pdf" % name):
         return "papers/%s.pdf" % name
-    elif "url" in pub and "#" not in url:
+    elif "url" in pub and "#" not in pub["url"]:
         urllib.request.urlretrieve(pub["url"], "papers/%s.pdf" % name)
         return "papers/%s.pdf" % name
     else:

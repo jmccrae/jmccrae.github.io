@@ -1,6 +1,7 @@
 import json
 import re
 import sys
+import os
 
 data = json.loads(open("publications.json").read())
 
@@ -46,9 +47,24 @@ def mkclasses(paper):
     else:
         return "pub " + year + " " + arttype
 
+
+def year_as_number(year):
+    if isinstance(year, str):
+        return int(year[:4])
+    else:
+        return year
+
+last_year = ""
+
 for paper in data["@graph"]:
     if "year" not in paper:
         print(paper["@id"])
+
+    if year_as_number(paper["year"]) != last_year:
+        ystr = str(year_as_number(paper["year"]))
+        out.write("<h5 class='y" + ystr + "'>" + ystr + "</h5><hr/>")
+        last_year = year_as_number(paper["year"])
+
     if "ccepted" in str(paper["year"]):
         out.write("<p class=\"" + mkclasses(paper) + "\"><b>")
     else:
@@ -127,9 +143,16 @@ for paper in data["@graph"]:
          
     out.write("(" + str(paper["year"]) + ").")
  
+    if "url" in paper and os.path.exists("papers/%s.pdf" % paper["@id"]):
+        out.write(" <a href='papers/%s.pdf'>PDF</a>" % paper["@id"])
 
 
-    out.write("</p>\n\n")
+
+    if "description" in paper:
+        out.write(" <a onclick='$(\"#abstract-%s\").slideToggle()'>Abstract</a></p>\n\n")
+        out.write("<p class='abstract'>" + paper["description"] + "</p>\n\n")
+    else:
+        out.write("</p>\n\n")
 
 out.write("</div></div>")
 out.write("""<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>""")

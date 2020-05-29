@@ -62,7 +62,7 @@ for paper in data["@graph"]:
 
     if year_as_number(paper["year"]) != last_year:
         ystr = str(year_as_number(paper["year"]))
-        out.write("<h5 class='y" + ystr + "'>" + ystr + "</h5><hr/>")
+        out.write("<h3 class='y" + ystr + "'>" + ystr + "</h3><hr/>")
         last_year = year_as_number(paper["year"])
 
     if "ccepted" in str(paper["year"]):

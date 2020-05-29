@@ -250,9 +250,7 @@
 
 <p class='abstract' id='abstract-pedersen2018elexis'>The paper describes objectives, concept and methodology for ELEXIS, a European infrastructure fostering cooperation and information exchange among lexicographical research communities. The infrastructure is a newly granted project under the Horizon 2020 INFRAIA call, with the topic Integrating Activities for Starting Communities. The project is planned to start in January 2018</p>
 
-<h3 class='header y2017'>2017</h3><hr class='header y2017'/><p class="pub y2017 Proceedings"><b><a class="publication" href="https://www.springer.com/gp/book/9783319687223">Knowledge Graphs and Language Technology - ISWC 2016 International Workshops: KEKI and NLP&DBpedia</a></b>. <i>Marieke van Erp, Sebastian Hellmann, John P. McCrae, Christian Chiarcos, Key-Sun Choi, Jorge Gracia, Yoshihiko Hayashi, Seiji Koide, Pablo Mendes, Heiko Paulheim and Hideaki Takeda (eds)</i>, <i>Springer - Information Systems and Applications, incl. Internet/Web, and HCI</i>, (2017).</p>
-
-<h3 class='header y2018'>2018</h3><hr class='header y2018'/><p class="pub y2018 rence JohnPMcCrae"><b><a class="publication" href="papers/mccrae2018mapping.pdf">Mapping WordNet Instances to Wikipedia</a></b>. John P. McCrae, <i>Proceedings of the 9th Global WordNet Conference</i>, (2018).</p>
+<p class="pub y2018 rence JohnPMcCrae"><b><a class="publication" href="papers/mccrae2018mapping.pdf">Mapping WordNet Instances to Wikipedia</a></b>. John P. McCrae, <i>Proceedings of the 9th Global WordNet Conference</i>, (2018).</p>
 
 <p class="pub y2018 rence JohnPMcCrae IanWood AmandaHicks"><b><a class="publication" href="papers/mccrae2018towards.pdf">Towards a Crowd-Sourced WordNet for Colloquial English</a></b>. John P. McCrae, Ian Wood and Amanda Hicks, <i>Proceedings of the 9th Global WordNet Conference</i>, (2018).</p>
 

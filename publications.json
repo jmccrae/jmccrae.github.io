@@ -856,18 +856,6 @@
             "open": true
         },
         {
-            "@id": "vanerp2017knowledge",
-            "@type": "swrc:Proceedings",
-            "editor": ["Marieke van Erp","Sebastian Hellmann","John P. McCrae","Christian Chiarcos", "Key-Sun Choi", "Jorge Gracia", "Yoshihiko Hayashi", "Seiji Koide", "Pablo Mendes", "Heiko Paulheim", "Hideaki Takeda"],
-            "title": "Knowledge Graphs and Language Technology - ISWC 2016 International Workshops: KEKI and NLP&DBpedia",
-            "volume": "20",
-            "number": "9",
-            "year": "2017",
-            "publisher": "Springer",
-            "url": "https://www.springer.com/gp/book/9783319687223",
-            "series": "Information Systems and Applications, incl. Internet/Web, and HCI"
-        },
-        {
             "@id": "mccrae2018mapping",
             "@type": "Conference",
             "booktitle": "Proceedings of the 9th Global WordNet Conference",

@@ -388,7 +388,9 @@
         function showonly(event,p) {
             event.preventDefault();
             $('.pub:not(.' + p + ')').slideUp();
-            $('.header:not(.' + p + ')').slideUp();
+            if(p.startsWith("y")) {
+                $('.header:not(.' + p + ')').slideUp();
+            }
             $('.' + p).slideDown();
             $('.all').css('color','#00bdff');
             $('.arttype').css('color', '#00bdff');

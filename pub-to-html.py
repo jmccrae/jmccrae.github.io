@@ -62,7 +62,7 @@ for paper in data["@graph"]:
 
     if year_as_number(paper["year"]) != last_year:
         ystr = str(year_as_number(paper["year"]))
-        out.write("<h3 class='y" + ystr + "'>" + ystr + "</h3><hr class='y" + ystr + "'/>")
+        out.write("<h3 class='header y" + ystr + "'>" + ystr + "</h3><hr class='header y" + ystr + "'/>")
         last_year = year_as_number(paper["year"])
 
     if "ccepted" in str(paper["year"]):
@@ -160,6 +160,7 @@ out.write("""<script>
         function showonly(event,p) {
             event.preventDefault();
             $('.pub:not(.' + p + ')').slideUp();
+            $('.header:not(.' + p + ')').slideUp();
             $('.' + p).slideDown();
             $('.all').css('color','#00bdff');
             $('.arttype').css('color', '#00bdff');
@@ -169,6 +170,7 @@ out.write("""<script>
         function showall(event,p) {
             event.preventDefault();
             $('.pub').slideDown();
+            $('.header').slideDown();
             $('.arttyp').css('color', '#00bdff');
             $('.year').css('color', '#00bdff');
             $('.all').css('color','black');

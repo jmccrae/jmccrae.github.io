@@ -26,7 +26,7 @@
 <a href="#" class="year sely2010" onclick="showonly(event,'y2010')" style="padding-left:5px;">2010</a>
 <a href="#" class="year sely2009" onclick="showonly(event,'y2009')" style="padding-left:5px;">2009</a>
 <a href="#" class="year sely2008" onclick="showonly(event,'y2008')" style="padding-left:5px;">2008</a>
-</div><h3 class='y2020'>2020</h3><hr class='y2020'/><p class="pub y2020 Proceedings"><b><a class="publication" href="https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/LDL2020book.pdf">7th Workshop on Linked Data in Linguistics (LDL-2020)</a></b>. <i>Maxim Ionov, John P. McCrae, Christian Chiarcos, Thierry Declerck, Julia Bosque-Gil and Jorge Gracia (eds)</i>, <i>European Language Resources Association (ELRA) - LREC 2020 Workshop Language Resources and Evaluation Conference</i>, (2020). <a href='papers/ionov2020linked.pdf'>PDF</a></p>
+</div><h3 class='header y2020'>2020</h3><hr class='header y2020'/><p class="pub y2020 Proceedings"><b><a class="publication" href="https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/LDL2020book.pdf">7th Workshop on Linked Data in Linguistics (LDL-2020)</a></b>. <i>Maxim Ionov, John P. McCrae, Christian Chiarcos, Thierry Declerck, Julia Bosque-Gil and Jorge Gracia (eds)</i>, <i>European Language Resources Association (ELRA) - LREC 2020 Workshop Language Resources and Evaluation Conference</i>, (2020). <a href='papers/ionov2020linked.pdf'>PDF</a></p>
 
 <p class="pub y2020 Proceedings"><b><a class="publication" href="https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/GLOBALEX2020book.pdf">Globalex Workshop on Linked Lexicography</a></b>. <i>Ilan Kernerman, Simon Krek, John P. McCrae, Jorge Gracia, Sina Ahmadi and Besim Kabashi (eds)</i>, <i>European Language Resources Association (ELRA) - LREC 2020 Workshop Language Resources and Evaluation Conference</i>, (2020).</p>
 
@@ -96,7 +96,7 @@
 
 <p class='abstract' id='abstract-declerck2020recent'>In this paper we describe the contributions made by the European H2020 project “Prêt-à-LLOD” (‘Ready-to-use Multilingual Linked ` Language Data for Knowledge Services across Sectors’) to the further development of the Linguistic Linked Open Data (LLOD) infrastructure. Prêt-à-LLOD aims to develop a new methodology for building data value chains applicable to a wide range of sectors and ` applications and based around language resources and language technologies that can be integrated by means of semantic technologies.  We describe the methods implemented for increasing the number of language data sets in the LLOD. We also present the approach for ensuring interoperability and for porting LLOD data sets and services to other infrastructures, as well as the contribution of the projects to existing standards.</p>
 
-<h3 class='y2019'>2019</h3><hr class='y2019'/><p class="pub y2019 rence SaiKrishnaLakshminarayanan JohnMcCrae"><b><a class="publication" href="http://ceur-ws.org/Vol-2563/aics_41.pdf">A Comparative Study of SVM and LSTM Deep Learning Algorithms for Stock Market Prediction</a></b>. Sai Krishna Lakshminarayanan and John McCrae, <i>Proceedings for the 27th AIAI Irish Conference on Artificial Intelligence and Cognitive Science</i>, (2019). <a onclick='$("#abstract-krishan2019comparative").slideToggle()' class='abstract-link'>Abstract</a></p>
+<h3 class='header y2019'>2019</h3><hr class='header y2019'/><p class="pub y2019 rence SaiKrishnaLakshminarayanan JohnMcCrae"><b><a class="publication" href="http://ceur-ws.org/Vol-2563/aics_41.pdf">A Comparative Study of SVM and LSTM Deep Learning Algorithms for Stock Market Prediction</a></b>. Sai Krishna Lakshminarayanan and John McCrae, <i>Proceedings for the 27th AIAI Irish Conference on Artificial Intelligence and Cognitive Science</i>, (2019). <a onclick='$("#abstract-krishan2019comparative").slideToggle()' class='abstract-link'>Abstract</a></p>
 
 <p class='abstract' id='abstract-krishan2019comparative'>The paper presents a comparative study of the performance of Long Short-Term Memory (LSTM) neural network models with Support Vector Machine (SVM) regression models. The framework built as a part of this study comprises of eight models. In this, 4 models are built using LSTM and 4 models using SVM respectively. Two major datasets are used for this paper. One is the base standard Dow Jones Index (DJI) stock price dataset and another is the combination of this stock price dataset along with external added input parameters of crude oil and gold prices. This comparative study shows the best model in combination with our input dataset. The performance of the models is measured in terms of their Root Mean Squared Error (RMSE), Mean Squared Error (MSE), Mean Absolute Error, Mean Absolute Percentage Error (MAPE) and R squared (R2) score values. The methodologies and the results of the models are discussed and possible enhancements to this work are also provided.</p>
 
@@ -182,7 +182,7 @@
 
 <p class="pub y2019 Proceedings"><b><a class="publication" href="http://drops.dagstuhl.de/portals/oasics/index.php?semnr=16105">2nd Conference on Language, Data and Knowledge (LDK 2019)</a></b>. <i>Maria Eskevich, Gerard de Melo, Christian Fäth, John P. McCrae, Paul Buitelaar, Christian Chiarcos, Bettina Klimek and Milan Dojchinovski (eds)</i>, <i>Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik - OpenAccess Series in Informatics (OASIcs)</i>, (2019).</p>
 
-<h3 class='y2018'>2018</h3><hr class='y2018'/><p class="pub y2018 hop SinaAhmadi MihaelArcan JohnMcCrae"><b><a class="publication" href="https://lexdhai.insight-centre.org/Lex_DH__AI_2018_paper_4.pdf">On Lexicographical Networks</a></b>. Sina Ahmadi, Mihael Arcan and John McCrae, <i>Workshop on eLexicography: Between Digital Humanities and Artificial Intelligence</i>, (2018). <a href='papers/ahmadi2018lexicographical.pdf'>PDF</a> <a onclick='$("#abstract-ahmadi2018lexicographical").slideToggle()' class='abstract-link'>Abstract</a></p>
+<h3 class='header y2018'>2018</h3><hr class='header y2018'/><p class="pub y2018 hop SinaAhmadi MihaelArcan JohnMcCrae"><b><a class="publication" href="https://lexdhai.insight-centre.org/Lex_DH__AI_2018_paper_4.pdf">On Lexicographical Networks</a></b>. Sina Ahmadi, Mihael Arcan and John McCrae, <i>Workshop on eLexicography: Between Digital Humanities and Artificial Intelligence</i>, (2018). <a href='papers/ahmadi2018lexicographical.pdf'>PDF</a> <a onclick='$("#abstract-ahmadi2018lexicographical").slideToggle()' class='abstract-link'>Abstract</a></p>
 
 <p class='abstract' id='abstract-ahmadi2018lexicographical'>Lexical resources are important components of natural language processing (NLP) applications providing machine-readable knowledge for various tasks. One of the most popular examples of lexical resources are lexicons. Lexicons provide linguistic information about the vocabulary of a language and the semantic relationships between the words in a pair of languages. In addition to the lexicons, there are various other types of lexical resources, particularly those which are made by experts such as WordNet, VerbNet and FrameNet and, those which are collaboratively curated such as Wikipedia and Wiktionary.</p>
 
@@ -250,15 +250,15 @@
 
 <p class='abstract' id='abstract-pedersen2018elexis'>The paper describes objectives, concept and methodology for ELEXIS, a European infrastructure fostering cooperation and information exchange among lexicographical research communities. The infrastructure is a newly granted project under the Horizon 2020 INFRAIA call, with the topic Integrating Activities for Starting Communities. The project is planned to start in January 2018</p>
 
-<h3 class='y2017'>2017</h3><hr class='y2017'/><p class="pub y2017 Proceedings"><b><a class="publication" href="https://www.springer.com/gp/book/9783319687223">Knowledge Graphs and Language Technology - ISWC 2016 International Workshops: KEKI and NLP&DBpedia</a></b>. <i>Marieke van Erp, Sebastian Hellmann, John P. McCrae, Christian Chiarcos, Key-Sun Choi, Jorge Gracia, Yoshihiko Hayashi, Seiji Koide, Pablo Mendes, Heiko Paulheim and Hideaki Takeda (eds)</i>, <i>Springer - Information Systems and Applications, incl. Internet/Web, and HCI</i>, (2017).</p>
+<h3 class='header y2017'>2017</h3><hr class='header y2017'/><p class="pub y2017 Proceedings"><b><a class="publication" href="https://www.springer.com/gp/book/9783319687223">Knowledge Graphs and Language Technology - ISWC 2016 International Workshops: KEKI and NLP&DBpedia</a></b>. <i>Marieke van Erp, Sebastian Hellmann, John P. McCrae, Christian Chiarcos, Key-Sun Choi, Jorge Gracia, Yoshihiko Hayashi, Seiji Koide, Pablo Mendes, Heiko Paulheim and Hideaki Takeda (eds)</i>, <i>Springer - Information Systems and Applications, incl. Internet/Web, and HCI</i>, (2017).</p>
 
-<h3 class='y2018'>2018</h3><hr class='y2018'/><p class="pub y2018 rence JohnPMcCrae"><b><a class="publication" href="papers/mccrae2018mapping.pdf">Mapping WordNet Instances to Wikipedia</a></b>. John P. McCrae, <i>Proceedings of the 9th Global WordNet Conference</i>, (2018).</p>
+<h3 class='header y2018'>2018</h3><hr class='header y2018'/><p class="pub y2018 rence JohnPMcCrae"><b><a class="publication" href="papers/mccrae2018mapping.pdf">Mapping WordNet Instances to Wikipedia</a></b>. John P. McCrae, <i>Proceedings of the 9th Global WordNet Conference</i>, (2018).</p>
 
 <p class="pub y2018 rence JohnPMcCrae IanWood AmandaHicks"><b><a class="publication" href="papers/mccrae2018towards.pdf">Towards a Crowd-Sourced WordNet for Colloquial English</a></b>. John P. McCrae, Ian Wood and Amanda Hicks, <i>Proceedings of the 9th Global WordNet Conference</i>, (2018).</p>
 
 <p class="pub y2018 rence BolettePedersen JohnMcCrae CaroleTiberius SimonKrek"><b><a class="publication" href="papers/pedersen2018elexis.pdf">ELEXIS - a European infrastructure fostering cooperation and infor-mation exchange among lexicographical research communities</a></b>. Bolette Pedersen, John McCrae, Carole Tiberius and Simon Krek, <i>Proceedings of the 9th Global WordNet Conference</i>, (2018).</p>
 
-<h3 class='y2017'>2017</h3><hr class='y2017'/><p class="pub y2017 Proceedings"><b><a class="publication" href="http://www.springer.com/gp/book/9783319687223">Knowledge Graphs and Language Technology - ISWC 2016 International Workshops: KEKI and NLP&DBpedia</a></b>. <i>Marieke van Erp, Sebastian Hellmann, John P. McCrae, Christian Chiarcos, Key-Sun Choi, Jorge Gracia, Yoshihiko Hayashi, Seiji Koide, Pablo Mendes, Heiko Paulheim and Hideaki Takeda (eds)</i>, <i>Springer - Lecture Notes in Computer Science</i>, (2017).</p>
+<h3 class='header y2017'>2017</h3><hr class='header y2017'/><p class="pub y2017 Proceedings"><b><a class="publication" href="http://www.springer.com/gp/book/9783319687223">Knowledge Graphs and Language Technology - ISWC 2016 International Workshops: KEKI and NLP&DBpedia</a></b>. <i>Marieke van Erp, Sebastian Hellmann, John P. McCrae, Christian Chiarcos, Key-Sun Choi, Jorge Gracia, Yoshihiko Hayashi, Seiji Koide, Pablo Mendes, Heiko Paulheim and Hideaki Takeda (eds)</i>, <i>Springer - Lecture Notes in Computer Science</i>, (2017).</p>
 
 <p class="pub y2017 Proceedings"><b><a class="publication" href="http://www.springer.com/gp/book/9783319598871">Language, Data, and Knowledge</a></b>. <i>Jorge Gracia, Francis Bond, John P. McCrae, Paul Buitelaar, Christian Chiarcos and Sebastian Hellmann (eds)</i>, <i>Springer - Lecture Notes in Artificial Intelligence</i>, (2017).</p>
 
@@ -272,7 +272,7 @@
 
 <p class="pub y2017 rence AndrejsAbele JohnPMcCrae PaulBuitelaar"><b><a class="publication" href="papers/abele2017evaluation.pdf">An Evaluation Dataset for Linked Data Profiling</a></b>. Andrejs Abele, John P. McCrae and Paul Buitelaar, <i>Proceedings of the First Conference on Language, Data and Knowledge (LDK2017)</i>, pp 1-9, (2017).</p>
 
-<h3 class='y2016'>2016</h3><hr class='y2016'/><p class="pub y2016 Misc PhilippCimiano JohnPMcCrae PaulBuitelaar"><b><a class="publication" href="https://www.w3.org/2016/05/ontolex/">Lexicon Model for Ontologies: Community Report</a></b>. Philipp Cimiano, John P. McCrae and Paul Buitelaar, Technical Report: W3C(2016).</p>
+<h3 class='header y2016'>2016</h3><hr class='header y2016'/><p class="pub y2016 Misc PhilippCimiano JohnPMcCrae PaulBuitelaar"><b><a class="publication" href="https://www.w3.org/2016/05/ontolex/">Lexicon Model for Ontologies: Community Report</a></b>. Philipp Cimiano, John P. McCrae and Paul Buitelaar, Technical Report: W3C(2016).</p>
 
 <p class="pub y2016 rence MihaelArcan JohnPMcCrae PaulBuitelaar"><b><a class="publication" href="https://www.aclweb.org/anthology/C/C16/C16-1010.pdf">Expanding wordnets to new languages with multilingual sense disambiguation</a></b>. Mihael Arcan, John P. McCrae and Paul Buitelaar, <i>Proceedings of The 26th International Conference on Computational Linguistics</i>, (2016).</p>
 
@@ -296,7 +296,7 @@
 
 <p class="pub y2016 rence PiekVossen FrancisBond JohnPMcCrae"><b><a class="publication" href="https://www.overleaf.com/read/fwhzzvrrwrmw">Toward a truly multilingual Global Wordnet Grid</a></b>. Piek Vossen, Francis Bond and John P. McCrae, <i>Proceedings of the Global WordNet Conference 2016</i>, (2016).</p>
 
-<h3 class='y2015'>2015</h3><hr class='y2015'/><p class="pub y2015 Article JohnPMcCrae StevenMoran SebastianHellmann MartinBrümmer"><b><a class="publication" href="http://semantic-web-journal.net/content/multilingual-linked-data">Multilingual Linked Data (editorial)</a></b>. John P. McCrae, Steven Moran, Sebastian Hellmann and Martin Brümmer, <i>Semantic Web</i>, 6(4), pp 315-317, (2015).</p>
+<h3 class='header y2015'>2015</h3><hr class='header y2015'/><p class="pub y2015 Article JohnPMcCrae StevenMoran SebastianHellmann MartinBrümmer"><b><a class="publication" href="http://semantic-web-journal.net/content/multilingual-linked-data">Multilingual Linked Data (editorial)</a></b>. John P. McCrae, Steven Moran, Sebastian Hellmann and Martin Brümmer, <i>Semantic Web</i>, 6(4), pp 315-317, (2015).</p>
 
 <p class="pub y2015 Article JudithEckleKohler JohnMcCrae ChristianChiarcos"><b><a class="publication" href="http://www.semantic-web-journal.net/content/lemonuby-large-interlinked-syntactically-rich-lexical-resource-ontologies-1">lemonUby - a large, interlinked, syntactically-rich lexical resource for ontologies</a></b>. Judith Eckle-Kohler, John McCrae and Christian Chiarcos, <i>Semantic Web</i>, 6(4), pp 371-378, (2015).</p>
 
@@ -314,7 +314,7 @@
 
 <p class="pub y2015 InCollection JorgeGracia DanielVilaSuero JohnPMcCrae TizianoFlati CiroBaron MilanDojchinovski"><b><a class="publication" href="http://link.springer.com/chapter/10.1007/978-3-319-17966-7_1">Language Resources and Linked Data: A Practical Perspective</a></b>. Jorge Gracia, Daniel Vila-Suero, John P. McCrae, Tiziano Flati, Ciro Baron and Milan Dojchinovski, In: <i>Knowledge Engineering and Knowledge Management</i>, (2015).</p>
 
-<h3 class='y2014'>2014</h3><hr class='y2014'/><p class="pub y2014 InCollection JohnPMcCrae ChristinaUnger"><b><a class="publication" href="http://link.springer.com/chapter/10.1007%2F978-3-662-43585-4_2#page-1">Design Patterns for Engineering the Ontology-Lexicon Interface</a></b>. John P. McCrae and Christina Unger, <i>Paul Buitelaar and Philipp Cimiano (eds)</i>, In: <i>Towards the Multilingual Semantic Web, eds. Paul Buitelaar, Philipp Cimiano</i>, pp 15-30, (2014).</p>
+<h3 class='header y2014'>2014</h3><hr class='header y2014'/><p class="pub y2014 InCollection JohnPMcCrae ChristinaUnger"><b><a class="publication" href="http://link.springer.com/chapter/10.1007%2F978-3-662-43585-4_2#page-1">Design Patterns for Engineering the Ontology-Lexicon Interface</a></b>. John P. McCrae and Christina Unger, <i>Paul Buitelaar and Philipp Cimiano (eds)</i>, In: <i>Towards the Multilingual Semantic Web, eds. Paul Buitelaar, Philipp Cimiano</i>, pp 15-30, (2014).</p>
 
 <p class="pub y2014 hop LarsBorin DanaDannells MarkusForsberg JohnPMcCrae"><b><a class="publication" href="http://ceur-ws.org/Vol-1272/paper_82.pdf">Representing Swedish Lexical Resources in RDF with lemon</a></b>. Lars Borin, Dana Dannells, Markus Forsberg and John P. McCrae, <i>Proceedings of the ISWC 2014 Posters & Demonstrations Track - a track within the 13th International Semantic Web Conference</i>, pp 329-332, (2014).</p>
 
@@ -336,7 +336,7 @@
 
 <p class="pub y2014 Book PhilippCimiano ChristinaUnger JohnMcCrae"><b><a class="publication" href="http://www.morganclaypool.com/doi/abs/10.2200/S00561ED1V01Y201401HLT024">Ontology-based interpretation of natural language</a></b>. Philipp Cimiano, Christina Unger and John McCrae, <i>Morgan & Claypool</i>, (2014).</p>
 
-<h3 class='y2013'>2013</h3><hr class='y2013'/><p class="pub y2013 rence JohnMcCrae PhilippCimiano RomanKlinger"><b><a class="publication" href="https://www.aclweb.org/anthology/D/D13/D13-1179.pdf">Orthonormal explicit topic analysis for cross-lingual document matching</a></b>. John McCrae, Philipp Cimiano and Roman Klinger, <i>Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing</i>, pp 1732-1742, (2013).</p>
+<h3 class='header y2013'>2013</h3><hr class='header y2013'/><p class="pub y2013 rence JohnMcCrae PhilippCimiano RomanKlinger"><b><a class="publication" href="https://www.aclweb.org/anthology/D/D13/D13-1179.pdf">Orthonormal explicit topic analysis for cross-lingual document matching</a></b>. John McCrae, Philipp Cimiano and Roman Klinger, <i>Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing</i>, pp 1732-1742, (2013).</p>
 
 <p class="pub y2013 hop ChristinaUnger JohnMcCrae SebastianWalter SaraWinter PhilippCimiano"><b><a class="publication" href="http://ceur-ws.org/Vol-1064/Unger_lemon.pdf">A lemon lexicon for DBpedia</a></b>. Christina Unger, John McCrae, Sebastian Walter, Sara Winter and Philipp Cimiano, <i>Proceedings of 1st International Workshop on NLP and DBpedia</i>, (2013).</p>
 
@@ -350,7 +350,7 @@
 
 <p class="pub y2013 InCollection PhilippCimiano JohnMcCrae PaulBuitelaar ElenaMontielPonsoda"><b><a class="publication" href="papers/cimiano2013role.pdf">On the role of senses in the Ontology-Lexicon</a></b>. Philipp Cimiano, John McCrae, Paul Buitelaar and Elena Montiel-Ponsoda, In: <i>New Trends of Research in Ontologies and Lexical Resources</i>, pp 43-62, (2013).</p>
 
-<h3 class='y2012'>2012</h3><hr class='y2012'/><p class="pub y2012 hop DennisSpohr PhilippCimiano JohnMcCrae SeanORiain"><b><a class="publication" href="http://nadir.uc3m.es/feosw2012/proceedings/FEOSWp1.pdf">Using SPIN to formalize accounting regulation on the Semantic Web</a></b>. Dennis Spohr, Philipp Cimiano, John McCrae and Sean O'Riain, <i>First International Workshop on Finance and Economics on the Semantic Web in conjunction with 9th Extended Semantic Web Conference</i>, pp 1-15, (2012).</p>
+<h3 class='header y2012'>2012</h3><hr class='header y2012'/><p class="pub y2012 hop DennisSpohr PhilippCimiano JohnMcCrae SeanORiain"><b><a class="publication" href="http://nadir.uc3m.es/feosw2012/proceedings/FEOSWp1.pdf">Using SPIN to formalize accounting regulation on the Semantic Web</a></b>. Dennis Spohr, Philipp Cimiano, John McCrae and Sean O'Riain, <i>First International Workshop on Finance and Economics on the Semantic Web in conjunction with 9th Extended Semantic Web Conference</i>, pp 1-15, (2012).</p>
 
 <p class="pub y2012 rence JohnMcCrae ElenaMontielPonsoda PhilippCimiano"><b><a class="publication" href="http://www.lrec-conf.org/proceedings/lrec2012/pdf/544_Paper.pdf">Collaborative semantic editing of linked data lexica</a></b>. John McCrae, Elena Montiel-Ponsoda and Philipp Cimiano, <i>Proc. of the 2012 International Conference on Language Resource and Evaluation</i>, pp 2619-2625, (2012).</p>
 
@@ -360,7 +360,7 @@
 
 <p class="pub y2012 Article JohnMcCrae GuadalupeAguadodeCea PaulBuitelaar PhilippCimiano ThierryDeclerck AsunciónGómezPérez JorgeGracia LauraHollink ElenaMontielPonsoda DennisSpohr TobiasWunner"><b><a class="publication" href="papers/mccrae2012interchanging.pdf">Interchanging lexical resources on the Semantic Web</a></b>. John McCrae, Guadalupe Aguado-de-Cea, Paul Buitelaar, Philipp Cimiano, Thierry Declerck, Asunción Gómez-Pérez, Jorge Gracia, Laura Hollink, Elena Montiel-Ponsoda, Dennis Spohr and Tobias Wunner, <i>Language Resources and Evaluation</i>, 46(6), pp 701-709, (2012).</p>
 
-<h3 class='y2011'>2011</h3><hr class='y2011'/><p class="pub y2011 Article PhilippCimiano PaulBuitelaar JohnMcCrae MichaelSintek"><b><a class="publication" href="papers/cimiano2011lexinfo.pdf">LexInfo: A declarative model for the lexicon-ontology interface</a></b>. Philipp Cimiano, Paul Buitelaar, John McCrae and Michael Sintek, <i>Web Semantics: Science, Services and Agents on the World Wide Web</i>, 9(1), pp 29-51, (2011).</p>
+<h3 class='header y2011'>2011</h3><hr class='header y2011'/><p class="pub y2011 Article PhilippCimiano PaulBuitelaar JohnMcCrae MichaelSintek"><b><a class="publication" href="papers/cimiano2011lexinfo.pdf">LexInfo: A declarative model for the lexicon-ontology interface</a></b>. Philipp Cimiano, Paul Buitelaar, John McCrae and Michael Sintek, <i>Web Semantics: Science, Services and Agents on the World Wide Web</i>, 9(1), pp 29-51, (2011).</p>
 
 <p class="pub y2011 Article JorgeGracia ElenaMontielPonsoda PhilippCimiano AsunciónGómezPérez PaulBuitelaar JohnMcCrae"><b><a class="publication" href="http://oa.upm.es/8848/1/Multiling.pdf">Challenges for the Multilingual Web of Data</a></b>. Jorge Gracia, Elena Montiel-Ponsoda, Philipp Cimiano, Asunción Gómez-Pérez, Paul Buitelaar and John McCrae, <i>Web Semantics: Science, Services and Agents on the World Wide Web</i>, pp 63-71, (2011).</p>
 
@@ -372,7 +372,7 @@
 
 <p class="pub y2011 rence ElenaMontielPonsoda GuadalupeAguadodeCea JohnMcCrae"><b><a class="publication" href="papers/montiel2011representing.pdf">Representing Term Variation in lemon</a></b>. Elena Montiel-Ponsoda, Guadalupe Aguado-de-Cea and John McCrae, <i>Proc. of 9th International Conference on Terminology and Articial Intelligence</i>, (2011).</p>
 
-<h3 class='y2010'>2010</h3><hr class='y2010'/><p class="pub y2010 hop JohnMcCrae JesusRCampaña PhilippCimiano"><b><a class="publication" href="http://ceur-ws.org/Vol-571/571-complete.pdf#page=10">CLOVA: An architecture for cross-language semantic data querying</a></b>. John McCrae, Jesus R. Campaña and Philipp Cimiano, <i>Proceedings of the 1st Workshop on the Multilingual Semantic Web</i>, pp 5-12, (2010).</p>
+<h3 class='header y2010'>2010</h3><hr class='header y2010'/><p class="pub y2010 hop JohnMcCrae JesusRCampaña PhilippCimiano"><b><a class="publication" href="http://ceur-ws.org/Vol-571/571-complete.pdf#page=10">CLOVA: An architecture for cross-language semantic data querying</a></b>. John McCrae, Jesus R. Campaña and Philipp Cimiano, <i>Proceedings of the 1st Workshop on the Multilingual Semantic Web</i>, pp 5-12, (2010).</p>
 
 <p class="pub y2010 InCollection NigelCollier SonDoan ReikoMatsudaGoodwin JohnMcCrae MikeConway MikaShigematsu AiKawazoe"><b><a class="publication" href="https://www.crcpress.com/Biosurveillance-Methods-and-Case-Studies/KassHout-Zhang/9781439800461">Navigating the Information Storm: Web-based global health surveillance in BioCaster</a></b>. Nigel Collier, Son Doan, Reiko Matsuda Goodwin, John McCrae, Mike Conway, Mika Shigematsu and Ai Kawazoe, <i>Taha Kass-Hout and Xiaohui Zhang (eds)</i>, In: <i>Biosurveillance: Methods and Case Studies, eds. Taha Kass-Hout, Xiaohui Zhang</i>, pp 291-312, (2010).</p>
 
@@ -380,16 +380,17 @@
 
 <p class="pub y2010 rence NigelCollier ReikoMatsudaGoodwin JohnMcCrae SonDoan AiKawazoe MikeConway AsaneeKawtrakul KTakeuchi DDien"><b><a class="publication" href="papers/collier2010ontology.pdf">An ontology-driven system for detecting global health events</a></b>. Nigel Collier, Reiko Matsuda Goodwin, John McCrae, Son Doan, Ai Kawazoe, Mike Conway, Asanee Kawtrakul, K. Takeuchi and D. Dien, <i>In Proc. of the 23rd International Conference on Computational Linguistics</i>, pp 215-222, (2010).</p>
 
-<h3 class='y2009'>2009</h3><hr class='y2009'/><p class="pub y2009 PhDThesis JohnMcCrae"><b><a class="publication" href="papers/mccrae2009automatic.pdf">Automatic extraction of logically consistent ontologies from text corpora</a></b>. John McCrae, PhD Thesis for Graduate University of Advanced Studies (SoKenDai), (2009).</p>
+<h3 class='header y2009'>2009</h3><hr class='header y2009'/><p class="pub y2009 PhDThesis JohnMcCrae"><b><a class="publication" href="papers/mccrae2009automatic.pdf">Automatic extraction of logically consistent ontologies from text corpora</a></b>. John McCrae, PhD Thesis for Graduate University of Advanced Studies (SoKenDai), (2009).</p>
 
 <p class="pub y2009 hop JohnMcCrae NigelCollier"><b><a class="publication" href="http://srl-editor.googlecode.com/files/saakm.pdf">SRL Editor: A rule development tool for text mining</a></b>. John McCrae and Nigel Collier, <i>Proc. of Workshop on Semantic Authoring, Annotation and Knowledge Markup in conjunction with the 5th International Conference on Knowledge Capture</i>, (2009).</p>
 
-<h3 class='y2008'>2008</h3><hr class='y2008'/><p class="pub y2008 Article JohnMcCrae NigelCollier"><b><a class="publication" href="http://www.biomedcentral.com/1471-2105/9/159">Synonym set extraction from the biomedical literature by lexical pattern discovery</a></b>. John McCrae and Nigel Collier, <i>BMC Bioinformatics</i>, 9(156), (2008).</p>
+<h3 class='header y2008'>2008</h3><hr class='header y2008'/><p class="pub y2008 Article JohnMcCrae NigelCollier"><b><a class="publication" href="http://www.biomedcentral.com/1471-2105/9/159">Synonym set extraction from the biomedical literature by lexical pattern discovery</a></b>. John McCrae and Nigel Collier, <i>BMC Bioinformatics</i>, 9(156), (2008).</p>
 
 </div></div><script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script><script>
         function showonly(event,p) {
             event.preventDefault();
             $('.pub:not(.' + p + ')').slideUp();
+            $('.header:not(.' + p + ')').slideUp();
             $('.' + p).slideDown();
             $('.all').css('color','#00bdff');
             $('.arttype').css('color', '#00bdff');
@@ -399,6 +400,7 @@
         function showall(event,p) {
             event.preventDefault();
             $('.pub').slideDown();
+            $('.header').slideDown();
             $('.arttyp').css('color', '#00bdff');
             $('.year').css('color', '#00bdff');
             $('.all').css('color','black');

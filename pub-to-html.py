@@ -149,7 +149,7 @@ for paper in data["@graph"]:
 
 
     if "description" in paper:
-        out.write(" <a onclick='$(\"#abstract-%s\").slideToggle()'>Abstract</a></p>\n\n")
+        out.write(" <a onclick='$(\"#abstract-%s\").slideToggle()' class='abstract-link'>Abstract</a></p>\n\n" % paper["@id"])
         out.write("<p class='abstract'>" + paper["description"] + "</p>\n\n")
     else:
         out.write("</p>\n\n")

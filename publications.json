@@ -18,6 +18,15 @@
     },
     "@graph": [ 
         {
+            "@id": "cimiano2020linguistic",
+            "@type":     "swrc:Book",
+            "title": "Linguistic Linked Data: Representation, Generation and Applications",
+            "author": ["Philipp Cimiano", "Christian Chiarcos", "John P. McCrae", "Jorge Gracia"],
+            "year": "2020",
+            "isbn": "978-3-030-30225-2",
+            "publisher": "Springer",
+            "url": "https://www.springer.com/gp/book/9783030302245"
+        },{
             "@id": "ionov2020linked",
             "@type": "swrc:Proceedings",
             "title": "7th Workshop on Linked Data in Linguistics (LDL-2020)",

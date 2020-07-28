@@ -18,6 +18,19 @@
     },
     "@graph": [ 
         {
+            "@id": "mccrae2020english2",
+            "@type": "swrc:Article",
+            "title": "English WordNet: A new open-source WordNet for English",
+            "author": ["John P. McCrae", "Ewa Rudnicka", "Francis Bond"],
+            "year": "2020",
+            "journal": "K Lexical News",
+            "number": 28,
+            "pages": "37-44",
+            "affiliation": ["NUIG", "Wroclaw University of Science and Technology", "Nanyang Technological University"],
+            "open": true,
+            "license": "cc-by",
+            "grants": [{"id":"731015"}]
+        },{
             "@id": "cimiano2020linguistic",
             "@type":     "swrc:Book",
             "title": "Linguistic Linked Data: Representation, Generation and Applications",

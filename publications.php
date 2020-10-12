@@ -26,7 +26,23 @@
 <a href="#" class="year sely2010" onclick="showonly(event,'y2010')" style="padding-left:5px;">2010</a>
 <a href="#" class="year sely2009" onclick="showonly(event,'y2009')" style="padding-left:5px;">2009</a>
 <a href="#" class="year sely2008" onclick="showonly(event,'y2008')" style="padding-left:5px;">2008</a>
-</div><h3 class='header y2020'>2020</h3><hr class='header y2020'/><p class="pub y2020 Book PhilippCimiano ChristianChiarcos JohnPMcCrae JorgeGracia"><b><a class="publication" href="https://www.springer.com/gp/book/9783030302245">Linguistic Linked Data: Representation, Generation and Applications</a></b>. Philipp Cimiano, Christian Chiarcos, John P. McCrae and Jorge Gracia, <i>Springer</i>, (2020).</p>
+</div><h3 class='header y2020'>2020</h3><hr class='header y2020'/><p class="pub y2020 hop AtulKrOjha PriyaRani AkankshaBansal BharathiRajaChakravarthi RiteshKumar JohnPMcCrae"><b>NUIG-Panlingua-KMI Hindi↔Marathi MT Systems for SimilarLanguage Translation Task @ WMT 2020</a></b>. Atul Kr. Ojha, Priya Rani, Akanksha Bansal, Bharathi Raja Chakravarthi, Ritesh Kumar and John P. McCrae, <i>Proceedings of the Fifth Conference on Machine Translation (WMT20)</i>, (2020 (Accepted)).</p>
+
+<p class="pub y2020 rence OmniaZayed JohnPMcCrae PaulBuitelaar"><b>Contextual Modulation for Relation-Level Metaphor Identification</a></b>. Omnia Zayed, John P. McCrae and Paul Buitelaar, <i>EMNLP Frontiers</i>, (2020 (Accepted)).</p>
+
+<p class="pub y2020 rence KoustavaGoswami RajdeepSarkar BharathiRajaChakravarthi TheodorusFransen JohnPMcCrae"><b>Unsupervised Deep Language and Dialect Identification for Short Texts</a></b>. Koustava Goswami, Rajdeep Sarkar, Bharathi Raja Chakravarthi, Theodorus Fransen and John P. McCrae, <i>Proceedings of the 28th International Conference on Computational Linguistics (COLING'2020)</i>, (2020 (Accepted)).</p>
+
+<p class="pub y2020 rence RajdeepSarkar KoustavaGoswami MihaelArcan JohnPMcCrae"><b>“Suggest me a movie for tonight”: Leveraging Knowledge Graphs forConversational Recommendation</a></b>. Rajdeep Sarkar, Koustava Goswami, Mihael Arcan and John P. McCrae, <i>Proceedings of the 28th International Conference on Computational Linguistics (COLING'2020)</i>, (2020 (Accepted)).</p>
+
+<p class="pub y2020 hop BharathiRajaChakravarthi NavaneethanRajasekaran MihaelArcan KevinMcGuinness NoelEOConnor JohnPMcCrae"><b>Bilingual Lexicon Induction across Orthographically-distinctUnder-Resourced Dravidian Languages</a></b>. Bharathi Raja Chakravarthi, Navaneethan Rajasekaran, Mihael Arcan, Kevin McGuinness, Noel E. O’Connor and John P. McCrae, <i>Proceedings of the Seventh Workshop on NLP for Similar Languages, Varieties and Dialects (VarDial 2020)</i>, (2020 (Accepted)).</p>
+
+<p class="pub y2020 hop JamalANasir JohnPMcCrae"><b>iLOD: InterPlanetary File System based Linked Open Data Cloud</a></b>. Jamal A. Nasir and John P. McCrae, <i>Proceedings of MEPDaW'20 - Managing the Evolution and Preservation of the Data Web at ISWC 2020</i>, (2020 (Accepted)).</p>
+
+<p class="pub y2020 rence ThierryDeclerck JorgeGracia JohnPMcCrae"><b><a class="publication" href="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6281/3717">COST Action “European network for Web-centred linguistic data science” (NexusLinguarum)</a></b>. Thierry Declerck, Jorge Gracia and John P. McCrae, <i>Procesamiento del Lenguaje Natural</i>, pp 93-96, (2020).</p>
+
+<p class="pub y2020 Article JohnPMcCrae EwaRudnicka FrancisBond"><b><a class="publication" href="papers/mccrae2020english2.pdf">English WordNet: A new open-source WordNet for English</a></b>. John P. McCrae, Ewa Rudnicka and Francis Bond, <i>K Lexical News</i>, pp 37-44, (2020).</p>
+
+<p class="pub y2020 Book PhilippCimiano ChristianChiarcos JohnPMcCrae JorgeGracia"><b><a class="publication" href="https://www.springer.com/gp/book/9783030302245">Linguistic Linked Data: Representation, Generation and Applications</a></b>. Philipp Cimiano, Christian Chiarcos, John P. McCrae and Jorge Gracia, <i>Springer</i>, (2020).</p>
 
 <p class="pub y2020 Proceedings"><b><a class="publication" href="https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/LDL2020book.pdf">7th Workshop on Linked Data in Linguistics (LDL-2020)</a></b>. <i>Maxim Ionov, John P. McCrae, Christian Chiarcos, Thierry Declerck, Julia Bosque-Gil and Jorge Gracia (eds)</i>, <i>European Language Resources Association (ELRA) - LREC 2020 Workshop Language Resources and Evaluation Conference</i>, (2020). <a href='papers/ionov2020linked.pdf'>PDF</a></p>
 

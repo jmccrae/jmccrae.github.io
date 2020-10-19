@@ -26,7 +26,11 @@
 <a href="#" class="year sely2010" onclick="showonly(event,'y2010')" style="padding-left:5px;">2010</a>
 <a href="#" class="year sely2009" onclick="showonly(event,'y2009')" style="padding-left:5px;">2009</a>
 <a href="#" class="year sely2008" onclick="showonly(event,'y2008')" style="padding-left:5px;">2008</a>
-</div><h3 class='header y2020'>2020</h3><hr class='header y2020'/><p class="pub y2020 hop AtulKrOjha PriyaRani AkankshaBansal BharathiRajaChakravarthi RiteshKumar JohnPMcCrae"><b>NUIG-Panlingua-KMI Hindi↔Marathi MT Systems for SimilarLanguage Translation Task @ WMT 2020</a></b>. Atul Kr. Ojha, Priya Rani, Akanksha Bansal, Bharathi Raja Chakravarthi, Ritesh Kumar and John P. McCrae, <i>Proceedings of the Fifth Conference on Machine Translation (WMT20)</i>, (2020 (Accepted)).</p>
+</div><h3 class='header y2020'>2020</h3><hr class='header y2020'/><p class="pub y2020 rence MdRezaulKarim BharathiRajaChakravarthi JohnPMcCrae MichaelCochez"><b>Classification Benchmarks for Under-resourced Bengali Language based on Multichannel Convolutional-LSTM Network</a></b>. Md. Rezaul Karim, Bharathi Raja Chakravarthi, John P. McCrae and Michael Cochez, <i>IEEE DSAA 2020 The 7th IEEE International Conference on Data Science and Advanced Analytics</i>, (2020 (Accepted)).</p>
+
+<p class="pub y2020 hop BharathiRajaChakravarth RubaPriyadharshini VigneshwaranMuralidaran ShardulSuryawanshi NavyaJose ElizabethSherly JohnPMcCrae"><b>Overview of the track on Sentiment Analysis for DravidianLanguages in Code-Mixed Text</a></b>. Bharathi Raja Chakravarth, Ruba Priyadharshini, Vigneshwaran Muralidaran, Shardul Suryawanshi, Navya Jose, Elizabeth Sherly and John P. McCrae, <i>Proceedings of Hate Speech and Offensive Content Identification in Indo-European Languages (HASOC 2020)</i>, (2020 (Accepted)).</p>
+
+<p class="pub y2020 hop AtulKrOjha PriyaRani AkankshaBansal BharathiRajaChakravarthi RiteshKumar JohnPMcCrae"><b>NUIG-Panlingua-KMI Hindi↔Marathi MT Systems for SimilarLanguage Translation Task @ WMT 2020</a></b>. Atul Kr. Ojha, Priya Rani, Akanksha Bansal, Bharathi Raja Chakravarthi, Ritesh Kumar and John P. McCrae, <i>Proceedings of the Fifth Conference on Machine Translation (WMT20)</i>, (2020 (Accepted)).</p>
 
 <p class="pub y2020 rence OmniaZayed JohnPMcCrae PaulBuitelaar"><b>Contextual Modulation for Relation-Level Metaphor Identification</a></b>. Omnia Zayed, John P. McCrae and Paul Buitelaar, <i>EMNLP Frontiers</i>, (2020 (Accepted)).</p>
 

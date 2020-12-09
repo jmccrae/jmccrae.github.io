@@ -18,36 +18,49 @@
     },
     "@graph": [ 
         {
+            "@id": "markantonatou",
+            "@type": "Workshop",
+            "title": "Proceedings of the Joint Workshop on Multiword Expressions and Electronic Lexicons",
+            "author": ["Stella Markantonatou", "John McCrae", "Jelena Mitrović", "Carole Tiberius", "Carlos Ramisch", "Ashwini Vaidya", "Petya Osenova", "Agata Savary"],
+            "affiliation": ["Institute for Language and Speech Processing, R.C. \"Athena\"", "NUIG", "University of Passau", "Dutch Language Institute in Leiden", "Aix Marseille University", "Indian Institute of Technology in Delhi", "Institute of Information and Communication Technologies", "University of Tours"],
+            "year": "2020",
+            "booktitle": "Proceedings of the Joint Workshop on Multiword Expressions and Electronic Lexicons",
+            "open": true,
+            "license": "cc-by",
+            "grants": []
+        },{
             "@id": "goswami2020uld",
             "@type": "Workshop",
             "title": "ULD@NUIG at SemEval-2020 Task 9: Generative Morphemes with an Attention Model for Sentiment Analysis in Code-Mixed Text",
             "author": ["Koustava Goswami", "Priya Rani", "Bharathi Raja Chakravarthi", "Theodorus Fransen", "John P. McCrae"],
             "affiliation": ["NUIG", "NUIG", "NUIG", "NUIG", "NUIG"],
-            "year": "2020 (Accepted)",
+            "year": "2020",
             "booktitle": "Proceedings of the International Workshop on Semantic Evaluation 2020 (SemEval-2020) at COLING 2020",
             "description": "Code mixing is a common phenomena in multilingual societies where people switch from one language to another for various reasons.  Recent advances in public communication over different social media sites have led to an increase in the frequency of code-mixed usage in written language. In this paper, we present the Generative Morphemes with Attention (GenMA) Model sentiment analysis system contributed to SemEval 2020 Task 9 SentiMix. The system aims to predict the sentiments of the given English-Hindi code-mixed tweets without using word-level language tags instead inferring this automatically using a morphological model. The system is based on a novel deep neural network (DNN) architecture, which has outperformed the baseline F1-score on the test data-set as well as the validation data-set. Our results can be found under the user name koustava on the Sentimix Hindi English https://competitions.codalab.org/competitions/20654#learn_the_details-results page.",
             "open": true,
             "license": "cc-by",
-            "grants": []
+            "grants": [],
+            "url": "https://www.aclweb.org/anthology/2020.semeval-1.125.pdf"
         },{
             "@id": "karmakar2020cogalex",
             "@type": "Workshop",
             "title": "CogALex-VI Shared Task: Bidirectional Transformer based Identification of Semantic Relations",
             "author": ["Saurav Karmakar", "John P. McCrae"],
             "affiliaton": ["NUIG", "NUIG"],
-            "year": "2020 (Accepted)",
+            "year": "2020",
             "booktitle": "Proceedings of CogALex - Cognitive Aspects of the Lexicon Workshop at COLING 2020",
             "description": "This paper presents a bidirectional transformer based approach to recognise semantic relationships between a pair of words as proposed by CogALex VI shared task in 2020. The system presented here works through employing BERT embeddings of the words and passing the same over tuned neural network to produce a learning model for the pair of words and their relationships. Afterwards the very same model is used for the relationship between unknown words from test set. CogALex VI provided subtask 1 as the identification of relationship of three specific categories amongst English pair of words and the presented system opts to work on that. The resulted relationships of the unknown words are analysed here , which shows a balanced performance in overall characteristics with some scope of improvement as further challenges to be embarked.",
             "open": true,
             "license": "cc-by",
-            "grants": []
+            "grants": [],
+            "url": "https://www.aclweb.org/anthology/2020.cogalex-1.8.pdf"
         },{
             "@id": "karim2020classification",
             "@type": "Conference",
             "title": "Classification Benchmarks for Under-resourced Bengali Language based on Multichannel Convolutional-LSTM Network",
             "author": ["Md. Rezaul Karim", "Bharathi Raja Chakravarthi", "John P. McCrae", "Michael Cochez"],
             "affiliation": ["Frauenhofer FIT", "NUIG", "NUIG", "Vrije Universiteit Amsterdam"],
-            "year": "2020 (Accepted)",
+            "year": "2020",
             "booktitle": "2020 IEEE 7th International Conference on Data Science and Advanced Analytics (DSAA)",
             "description": "Exponential growths of social media and micro-blogging sites not only provide platforms for empowering freedom of expressions and individual voices, but also enables people to express anti-social behaviour like online harassment, cyberbullying, and hate speech. Numerous works have been proposed to utilize these data for social and anti-social behaviours analysis, document characterization, and sentiment analysis by predicting the contexts mostly for highly resourced languages like English.  However, some languages are under-resources, e.g., South Asian languages like Bengali, Tamil, Assamese, Malayalam that lack of computational resources for natural language processing. In this paper, we provide several classification benchmarks for Bengali, an under-resourced language. We prepared three datasets of expressing hate, commonly used topics, and opinions for hate speech detection, document classification, and sentiment analysis.  We built the largest Bengali word embedding models to date based on 250 million articles, which we call BengFastText.  We perform three experiments, covering document classification, sentiment analysis, and hate speech detection. We incorporate word embeddings into a Multichannel Convolutional-LSTM (MC-LSTM) network for predicting different types of hate speech, document classification, and sentiment analysis. Experiments demonstrate that BengFastText can capture the semantics of words from respective contexts correctly. Evaluations against several baseline embedding models, e.g., Word2Vec and GloVe yield up to 92.30%, 82.25%, and 90.45% F1-scores in case of document classification, sentiment analysis, and hate speech detection, respectively during 5-fold cross-validation tests",
             "open": false,
@@ -56,10 +69,10 @@
         },{
             "@id": "chakravarthi2020overview",
             "@type": "Workshop",
-            "title": "Overview of the track on Sentiment Analysis for DravidianLanguages in Code-Mixed Text",
+            "title": "Overview of the track on Sentiment Analysis for Dravidian Languages in Code-Mixed Text",
             "author": ["Bharathi Raja Chakravarth", "Ruba Priyadharshini", "Vigneshwaran Muralidaran", "Shardul Suryawanshi", "Navya Jose", "Elizabeth Sherly", "John P. McCrae"],
             "affiliation": ["NUIG", "ULTRA Arts and Science College", "Cardiff University", "NUIG", "Indian Institute of Information Technology and Management-Kerala", "Indian Institute of Information Technology and Management-Kerala", "NUIG"],
-            "year": "2020 (Accepted)",
+            "year": "2020",
             "booktitle": "Proceedings of Hate Speech and Offensive Content Identification in Indo-European Languages (HASOC 2020)",
             "description": "Sentiment analysis of Dravidian languages has received attention in recent years. However, most social media text is code-mixed and there is no research available on sentiment analysis of code-mixed Dravidian languages.  The Dravidian-CodeMix-FIRE 2020, a track on Sentiment Analysis for Dravidian Languages in Code-Mixed Text, focused on creating a platform for researchers to come together and investigate the problem.  There were two languages for this track: (i) Tamil, and (ii) Malayalam. The participants were given a dataset of YouTube comments and the goal of the shared task submissions was to recognise the sentiment of each comment by classifying them into positive, negative, neutral, mixed-feeling classes or by recognising whether the comment is not in the intended language. The performance of the systems was evaluated by weighted-F1 score.",
             "open": true,
@@ -70,68 +83,73 @@
             "@type": "Workshop",
             "title": "NUIG-Panlingua-KMI Hindi↔Marathi MT Systems for SimilarLanguage Translation Task @ WMT 2020",
             "author": ["Atul Kr. Ojha", "Priya Rani", "Akanksha Bansal", "Bharathi Raja Chakravarthi", "Ritesh Kumar", "John P. McCrae"],
-            "year": "2020 (Accepted)",
+            "year": "2020",
             "booktitle": "Proceedings of the Fifth Conference on Machine Translation (WMT20)",
             "affiliation": ["NUIG", "NUIG", "Panlingua Language Processing LLP", "NUIG", "Dr. Bhimrao Ambedkar University", "NUIG"],
             "description": "NUIG-Panlingua-KMI submission to WMT 2020 seeks to push the state-of-the-art in Similar Language Translation Task for Hindi <-> Marathi language pair. As part of these efforts, we conducted a series of experiments to address the challenges for translation between similar languages. Among the 4 MT systems prepared under this task, 1 PBSMT systems were prepared for  Hindi <-> Marathi each and 1 NMT systems were developed for Hindi <-> Marathi using Byte Pair En-coding (BPE) into subwords. The results show that different architectures in NMT could be an effective method for developing MT systems for closely related languages. Our Hindi-Marathi NMT system was ranked 8th among the 14 teams that participated and our Marathi-Hindi NMT system was ranked 8th among the 11 teams participated for the task.",
             "open": true,
             "license": "cc-by",
-            "grants": [{"id":"731015"}]
+            "grants": [{"id":"731015"}],
+            "url": "http://www.statmt.org/wmt20/pdf/2020.wmt-1.49.pdf"
         },{
             "@id": "zayed2020contextual",
             "@type": "Conference",
             "title": "Contextual Modulation for Relation-Level Metaphor Identification",
             "author": ["Omnia Zayed", "John P. McCrae", "Paul Buitelaar"],
-            "year": "2020 (Accepted)",
-            "booktitle": "EMNLP Frontiers",
+            "year": "2020",
+            "booktitle": "Findings of the Association for Computational Linguistics: EMNLP 2020",
             "affiliation": ["NUIG", "NUIG", "NUIG"],
             "description": "Identifying metaphors in text is very challenging and requires comprehending the underlying comparison. The automation of this cognitive process has gained wide attention lately. However, the majority of existing approaches concentrate on word-level identification by treating the task as either single-word classification or sequential labelling without explicitly modelling the interaction between the metaphor components. On the other hand, while existing relation-level approaches implicitly model this interaction, they ignore the context where the metaphor occurs. In this work, we address these limitations by introducing a novel architecture for identifying relation-level metaphoric expressions of certain grammatical relations based on contextual modulation. In a methodology inspired by works in visual reasoning, our approach is based on conditioning the neural network computation on the deep contextualised features of the candidate expressions using feature-wise linear modulation. We demonstrate that the proposed architecture achieves state-of-the-art results on benchmark datasets. The proposed methodology is generic and could be applied to other textual classification problems that benefit from contextual interaction.",
             "open": true,
             "license": "cc-by",
-            "grants": []
+            "grants": [],
+            "url": "https://www.aclweb.org/anthology/2020.findings-emnlp.36.pdf"
         },{
             "@id": "goswami2020unsupervised",
             "@type": "Conference",
             "title": "Unsupervised Deep Language and Dialect Identification for Short Texts",
             "author": ["Koustava Goswami", "Rajdeep Sarkar", "Bharathi Raja Chakravarthi", "Theodorus Fransen", "John P. McCrae"],
-            "year": "2020 (Accepted)",
+            "year": "2020",
             "booktitle": "Proceedings of the 28th International Conference on Computational Linguistics (COLING'2020)",
             "affiliation": ["NUIG","NUIG","NUIG","NUIG","NUIG"],
             "description": "Automatic Language Identification (LI) or Dialect Identification (DI) of short texts of closely related languages or dialects, is one of the primary steps in many natural language processing pipelines.  Language identification is considered a solved task in many cases; however, in the case of very closely related languages, or in an unsupervised scenario (where the languages are not known in advance), performance is still poor.  In this paper, we propose the Unsupervised Deep Language and Dialect Identification (UDLDI) method, which can simultaneously learn sentence embeddings and cluster assignments from short texts.  The UDLDI model understands the sentence constructions of languages by applying attention to character relations which helps to optimize the clustering of languages.  We have performed our experiments on three short-text datasets for different language families, each consisting of closely related languages or dialects, with very minimal training sets. Our experimental evaluations on these datasets have shown significant improvement over state-of-the-art unsupervised methods and our model has outperformed state-of-the-art LI and DI systems in supervised settings.",
             "open": true,
             "license": "cc-by",
+            "url": "https://www.aclweb.org/anthology/2020.coling-main.141.pdf",
             "grants": []                    
         },{
             "@id": "sarkar2020suggest",
             "@type": "Conference",
             "title": "“Suggest me a movie for tonight”: Leveraging Knowledge Graphs forConversational Recommendation",
             "author": ["Rajdeep Sarkar", "Koustava Goswami", "Mihael Arcan", "John P. McCrae"],
-            "year": "2020 (Accepted)",
+            "year": "2020",
             "booktitle": "Proceedings of the 28th International Conference on Computational Linguistics (COLING'2020)",
             "affiliation": ["NUIG","NUIG","NUIG","NUIG"],
             "description": "Conversational recommender systems focus on the task of suggesting products to users based on the conversation flow. Recently, the use of external knowledge in the form of knowledge graphs has shown to improve the performance in recommendation and dialogue systems. Information from knowledge graphs aids in enriching those systems by providing additional information such as closely related products and textual descriptions of the items. However, knowledge graphs are incomplete since they do not contain all factual information present on the web. Also, when working on a specific domain, knowledge graphs in its entirety contribute towards extraneous information and noise. In this work, we study several subgraph construction methods and compare their performance across the recommendation task. We incorporate pre-trained embeddings from the subgraphs along with positional embeddings in our models. Extensive experiments show that our method has a relative improvement of at least 5.62% compared to the state-of-the-art on multiple metrics on the recommendation task.",
             "open": true,
             "license": "cc-by",
-            "grants": []
+            "grants": [],
+            "url": "https://www.aclweb.org/anthology/2020.coling-main.369.pdf"
         },{
             "@id": "chakravarthi2020bilingual",
             "@type": "Workshop",
             "title": "Bilingual Lexicon Induction across Orthographically-distinctUnder-Resourced Dravidian Languages",
             "author": ["Bharathi Raja Chakravarthi", "Navaneethan Rajasekaran", "Mihael Arcan", "Kevin McGuinness", "Noel E. O’Connor", "John P. McCrae"],
             "affiliation": ["NUIG", "Dublin City University", "NUIG", "Dublin City University", "Dublin City University", "NUIG"],
-            "year": "2020 (Accepted)",
+            "year": "2020",
             "booktitle": "Proceedings of the Seventh Workshop on NLP for Similar Languages, Varieties and Dialects (VarDial 2020)",
             "description": "Bilingual lexicons are a vital tool for under-resourced languages and recent state-of-the-art approaches to this leverage pretrained monolingual word embeddings using supervised or semi-supervised approaches. However, these approaches require cross-lingual information such as seed dictionaries to train the model and find a linear transformation between the word embedding spaces. Especially in the case of low-resourced languages, seed dictionaries are not readily available, and as such, these methods produce extremely weak results on these languages. In this work, we focus on the Dravidian languages, namely Tamil, Telugu, Kannada, and Malayalam, which are even more challenging as they are written in unique scripts.  To take advantage of orthographic information and cognates in these languages, we bring the related languages into a single script. Previous approaches have used linguistically sub-optimal measures such as the Levenshtein edit distance to detect cognates, whereby we demonstrate that the longest common sub-sequence is linguistically more sound and improves the performance of bilingual lexicon induction. We show that our approach can increase the accuracy of bilingual lexicon induction methods on these languages many times, making bilingual lexicon induction approaches feasible for such under-resourced languages.",
             "open": true,
             "license": "cc-by",
-            "grants": []
+            "grants": [],
+            "url": "https://www.aclweb.org/anthology/2020.vardial-1.6.pdf"
         },{
             "@id": "nasir2020ilod",
             "@type": "Workshop",
             "title": "iLOD: InterPlanetary File System based Linked Open Data Cloud",
             "author": ["Jamal A. Nasir", "John P. McCrae"],
             "affiliation": ["NUIG", "NUIG"],
-            "year": "2020 (Accepted)",
+            "year": "2020",
             "booktitle": "Proceedings of MEPDaW'20 - Managing the Evolution and Preservation of the Data Web at ISWC 2020",
             "description": "The proliferation of the World Wide Web and the Semantic Web applications has led to an increase in distributed services and datasets. This increase has put the infrastructural load in terms of availability, immutability, and security, and these challenges are being failed by the Linked Open Data (LOD) cloud due to the brittleness of its decentralisation. In this work, we present iLOD: a peer-to-peer decentralized storage infrastructure using the InterPlanetary File System (IPFS). iLOD is a dataset sharing system that leverages content-based addressing to support a resilient internet, and can speed up the web by getting nearby copies. In this study, we empirically analyze and evaluate the availability limitations of LOD and propose a distributed system for storing and accessing linked datasets without requiring any centralized server.",
             "open": true,
@@ -165,7 +183,8 @@
             "affiliation": ["NUIG", "Wroclaw University of Science and Technology", "Nanyang Technological University"],
             "open": true,
             "license": "cc-by",
-            "grants": [{"id":"731015"}]
+            "grants": [{"id":"731015"}],
+            "url": "https://kln.lexicala.com/kln28/mccrae-rudnicka-bond-english-wordnet/"
         },{
             "@id": "cimiano2020linguistic",
             "@type":     "swrc:Book",
@@ -395,7 +414,11 @@
             "affiliation": ["NUIG", "Society for Danish Language and Literature", "Society for Danish Language and Literature", "NUIG", "Society for Danish Language and Literature"],
             "date": "2020-09-08",
             "booktitle": "Proceedings of the XIX EURALEX International Congress",
-            "year": "2020 (Accepted)"
+            "year": "2020",
+            "open": true,
+            "license": "cc-by",
+            "grants": [{"id":"731015"}],
+            "url": "https://euralex2020.gr/wp-content/uploads/2020/11/EURALEX2020_ProceedingsBook-p063-072.pdf"
         },
         {
             "@id": "zayed2020figure",

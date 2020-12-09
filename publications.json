@@ -18,7 +18,7 @@
     },
     "@graph": [ 
         {
-            "@id": "markantonatou",
+            "@id": "markantonatou2020proceedings",
             "@type": "Workshop",
             "title": "Proceedings of the Joint Workshop on Multiword Expressions and Electronic Lexicons",
             "author": ["Stella Markantonatou", "John McCrae", "Jelena Mitrović", "Carole Tiberius", "Carlos Ramisch", "Ashwini Vaidya", "Petya Osenova", "Agata Savary"],
@@ -27,7 +27,8 @@
             "booktitle": "Proceedings of the Joint Workshop on Multiword Expressions and Electronic Lexicons",
             "open": true,
             "license": "cc-by",
-            "grants": []
+            "grants": [],
+            "url": "https://www.aclweb.org/anthology/2020.mwe-1.0.pdf"
         },{
             "@id": "goswami2020uld",
             "@type": "Workshop",

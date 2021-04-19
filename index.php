@@ -10,9 +10,10 @@
                 <div class="col-lg-4">
                     <p>
                     I am a lecturer above-the-bar at the 
-<a href="http://datascienceinstitute.ie/">Data Science Institute</a> and
-<a href="http://www.insight-centre.org/">
-Insight Centre for Data Analytics</a> at the <a href="http://www.nuigalway.ie">
+<a href="http://datascienceinstitute.ie/" property="foaf:workplaceHomepage">Data Science Institute</a>,
+<a href="http://www.insight-centre.org/" property="foaf:workplaceHomepage">
+Insight Centre for Data Analytics</a> and <a href="https://www.adaptcentre.ie/" property="foaf:workplaceHomepage">ADAPT centre</a>
+at the <a href="http://www.nuigalway.ie" property="foaf:workplaceHomepage">
 National University of Ireland Galway</a> and the leader of the <b>Unit for Linguistic Data</b>. 
                     I am the coordinator of the <a href="http://pret-a-llod.eu">Pr&ecirc;t-&agrave;-LLOD</a> project
                     and work package leader in the <a href="http://elex.is">ELEXIS</a> infrastructure.
@@ -45,9 +46,9 @@ National University of Ireland Galway</a> and the leader of the <b>Unit for Ling
 			</li>
                     </ul>
                     <p>I obtained my PhD from the <a href="https://www.nii.ac.jp/en/">National Institute of Informatics</a> in
-                    Tokyo under the supervision of <a href="https://www.mml.cam.ac.uk/nhc30">Nigel Collier</a> and 
+                    Tokyo under the supervision of <a href="https://www.mml.cam.ac.uk/nhc30" property="foaf:knows">Nigel Collier</a> and 
                     until 2015 I was a post-doctoral researcher at the <a href="http://www.uni-bielefeld.de/">University of Bielefeld</a> in Bielefeld, Germany in
-                    <a href="http://cimiano.de/doku.php" property="foaf:knows">Prof. Philipp Cimiano's</a> group, <a href="http://www.sc.cit-ec.uni-bielefeld.de/" property="foaf:workplaceHomepage">AG Semantic Computing</a>.
+                    <a href="http://cimiano.de/doku.php" property="foaf:knows">Prof. Philipp Cimiano's</a> group, <a href="http://www.sc.cit-ec.uni-bielefeld.de/">AG Semantic Computing</a>.
 <!--I am currently working with <a href="http://www.paulbuitelaar.net/">Paul Buitelaar</a>
 in the <a href="http://nlp.insight-centre.org/">Unit for Natural Language Processing</a>.</p>-->
                     <p>

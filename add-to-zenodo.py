@@ -60,7 +60,7 @@ def main():
                         'publication_date': pub["date"],
                         'creators': [{'name': n[0], 'affiliation': n[1]} for n in zip(pub["author"], 
                             map_affiliation(pub["affiliation"]))],
-                        'description': pub["description"],
+                        'description': pub.get("description", "No description"),
                         'language': 'eng'
                         }
             if pub["open"]:
@@ -83,7 +83,7 @@ def main():
                 if "journal" in pub:
                     data['journal_title'] = pub["journal"]
                 if "number" in pub:
-                    data['journal_issue'] = pub["number"]
+                    data['journal_issue'] = str(pub["number"])
                 if "volume" in pub:
                     data['journal_volume'] = pub["volume"]
                 if "pages" in pub:

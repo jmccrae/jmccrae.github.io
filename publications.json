@@ -18,12 +18,39 @@
     },
     "@graph": [ 
         {
+	    "@id": "mccrae2021conversation",
+	    "@type": "journal",
+	    "title": "Conversation Concepts: Understanding Topics and Building Taxonomies for Financial Services",
+	    "author": ["John McCrae", "Pranab Mohanty", "Siddharth Narayanan", "Bianca Pereira", "Paul Buitelaar", "Saurav Karmakar", "Rajdeep Sarkar"],
+	    "affiliation": ["NUIG", "FMR LLC", "FMR LLC", "NUIG", "NUIG", "NUIG", "NUIG"],
+	    "year": "2021",
+	    "open": false,
+		"journal": "Information",
+		"volume": 12,
+		"number": 4,
+		"url": "https://www.mdpi.com/2078-2489/12/4/160",
+		"description": "Knowledge graphs are proving to be an increasingly important part of modern enterprises, and new applications of such enterprise knowledge graphs are still being found. In this paper, we report on the experience with the use of an automatic knowledge graph system called Saffron in the context of a large financial enterprise and show how this has found applications within this enterprise as part of the “Conversation Concepts Artificial Intelligence” tool. In particular, we analyse the use cases for knowledge graphs within this enterprise, and this led us to a new extension to the knowledge graph system. We present the results of these adaptations, including the introduction of a semi-supervised taxonomy extraction system, which includes analysts in-the-loop. Further, we extend the kinds of relations extracted by the system and show how the use of the BERTand ELMomodels can produce high-quality results. Thus, we show how this tool can help realize a smart enterprise and how requirements in the financial industry can be realised by state-of-the-art natural language processing technologies.",
+		"doi": "10.3390/info12040160"
+	},{
+	    "@id": "ojha2021uld",
+	    "@type": "Workshop",
+	    "title": "ULD-NUIG at Social Media Mining for Health Applications (#SMM4H) Shared Task 2021",
+	    "author": ["Atul Kr. Ojha", "Priya Rani", "Koustava Goswami", "Bharathi Raja Chakravarthi", "John P. McCrae"],
+	    "affiliation": ["NUIG", "NUIG", "NUIG", "NUIG", "NUIG"],
+	    "year": "2021",
+	    "date": "2021-06-10",
+	    "booktitle": "#SMM4H 2021: 6th Social Media Mining for Health Research and Applications Worskhop and Shared Tasks @ NAACL-HLT 2021",
+	    "open": true,
+	    "license": "cc-by",
+	    "grants": ["todo"]
+	},{
             "@id": "markantonatou2020proceedings",
             "@type": "Workshop",
             "title": "Proceedings of the Joint Workshop on Multiword Expressions and Electronic Lexicons",
             "author": ["Stella Markantonatou", "John McCrae", "Jelena Mitrović", "Carole Tiberius", "Carlos Ramisch", "Ashwini Vaidya", "Petya Osenova", "Agata Savary"],
             "affiliation": ["Institute for Language and Speech Processing, R.C. \"Athena\"", "NUIG", "University of Passau", "Dutch Language Institute in Leiden", "Aix Marseille University", "Indian Institute of Technology in Delhi", "Institute of Information and Communication Technologies", "University of Tours"],
             "year": "2020",
+            "date": "2020-12-13",
             "booktitle": "Proceedings of the Joint Workshop on Multiword Expressions and Electronic Lexicons",
             "open": true,
             "license": "cc-by",
@@ -41,19 +68,21 @@
             "open": true,
             "license": "cc-by",
             "grants": [],
+            "date": "2020-12-12",
             "url": "https://www.aclweb.org/anthology/2020.semeval-1.125.pdf"
         },{
             "@id": "karmakar2020cogalex",
             "@type": "Workshop",
             "title": "CogALex-VI Shared Task: Bidirectional Transformer based Identification of Semantic Relations",
             "author": ["Saurav Karmakar", "John P. McCrae"],
-            "affiliaton": ["NUIG", "NUIG"],
+            "affiliation": ["NUIG", "NUIG"],
             "year": "2020",
             "booktitle": "Proceedings of CogALex - Cognitive Aspects of the Lexicon Workshop at COLING 2020",
             "description": "This paper presents a bidirectional transformer based approach to recognise semantic relationships between a pair of words as proposed by CogALex VI shared task in 2020. The system presented here works through employing BERT embeddings of the words and passing the same over tuned neural network to produce a learning model for the pair of words and their relationships. Afterwards the very same model is used for the relationship between unknown words from test set. CogALex VI provided subtask 1 as the identification of relationship of three specific categories amongst English pair of words and the presented system opts to work on that. The resulted relationships of the unknown words are analysed here , which shows a balanced performance in overall characteristics with some scope of improvement as further challenges to be embarked.",
             "open": true,
             "license": "cc-by",
             "grants": [],
+            "date": "2020-12-12",
             "url": "https://www.aclweb.org/anthology/2020.cogalex-1.8.pdf"
         },{
             "@id": "karim2020classification",
@@ -66,7 +95,8 @@
             "description": "Exponential growths of social media and micro-blogging sites not only provide platforms for empowering freedom of expressions and individual voices, but also enables people to express anti-social behaviour like online harassment, cyberbullying, and hate speech. Numerous works have been proposed to utilize these data for social and anti-social behaviours analysis, document characterization, and sentiment analysis by predicting the contexts mostly for highly resourced languages like English.  However, some languages are under-resources, e.g., South Asian languages like Bengali, Tamil, Assamese, Malayalam that lack of computational resources for natural language processing. In this paper, we provide several classification benchmarks for Bengali, an under-resourced language. We prepared three datasets of expressing hate, commonly used topics, and opinions for hate speech detection, document classification, and sentiment analysis.  We built the largest Bengali word embedding models to date based on 250 million articles, which we call BengFastText.  We perform three experiments, covering document classification, sentiment analysis, and hate speech detection. We incorporate word embeddings into a Multichannel Convolutional-LSTM (MC-LSTM) network for predicting different types of hate speech, document classification, and sentiment analysis. Experiments demonstrate that BengFastText can capture the semantics of words from respective contexts correctly. Evaluations against several baseline embedding models, e.g., Word2Vec and GloVe yield up to 92.30%, 82.25%, and 90.45% F1-scores in case of document classification, sentiment analysis, and hate speech detection, respectively during 5-fold cross-validation tests",
             "open": false,
             "doi": "10.1109/DSAA49011.2020.00053",
-            "url": "https://arxiv.org/pdf/2004.07807.pdf"
+            "url": "https://arxiv.org/pdf/2004.07807.pdf",
+            "date": "2020-10-06"
         },{
             "@id": "chakravarthi2020overview",
             "@type": "Workshop",
@@ -78,7 +108,8 @@
             "description": "Sentiment analysis of Dravidian languages has received attention in recent years. However, most social media text is code-mixed and there is no research available on sentiment analysis of code-mixed Dravidian languages.  The Dravidian-CodeMix-FIRE 2020, a track on Sentiment Analysis for Dravidian Languages in Code-Mixed Text, focused on creating a platform for researchers to come together and investigate the problem.  There were two languages for this track: (i) Tamil, and (ii) Malayalam. The participants were given a dataset of YouTube comments and the goal of the shared task submissions was to recognise the sentiment of each comment by classifying them into positive, negative, neutral, mixed-feeling classes or by recognising whether the comment is not in the intended language. The performance of the systems was evaluated by weighted-F1 score.",
             "open": true,
             "license": "cc-by",
-            "grants": [{"id":"825182"}]
+            "grants": [{"id":"825182"}],
+            "date": "2020-12-12"
         },{
             "@id": "ojha2020nuig",
             "@type": "Workshop",
@@ -91,7 +122,8 @@
             "open": true,
             "license": "cc-by",
             "grants": [{"id":"731015"}],
-            "url": "http://www.statmt.org/wmt20/pdf/2020.wmt-1.49.pdf"
+            "url": "http://www.statmt.org/wmt20/pdf/2020.wmt-1.49.pdf",
+            "date": "2020-11-19"
         },{
             "@id": "zayed2020contextual",
             "@type": "Conference",
@@ -104,7 +136,8 @@
             "open": true,
             "license": "cc-by",
             "grants": [],
-            "url": "https://www.aclweb.org/anthology/2020.findings-emnlp.36.pdf"
+            "url": "https://www.aclweb.org/anthology/2020.findings-emnlp.36.pdf",
+            "date": "2020-11-16"
         },{
             "@id": "goswami2020unsupervised",
             "@type": "Conference",
@@ -117,11 +150,12 @@
             "open": true,
             "license": "cc-by",
             "url": "https://www.aclweb.org/anthology/2020.coling-main.141.pdf",
-            "grants": []                    
+            "grants": [],
+            "date": "2020-12-08"            
         },{
             "@id": "sarkar2020suggest",
             "@type": "Conference",
-            "title": "“Suggest me a movie for tonight”: Leveraging Knowledge Graphs forConversational Recommendation",
+            "title": "“Suggest me a movie for tonight”: Leveraging Knowledge Graphs for Conversational Recommendation",
             "author": ["Rajdeep Sarkar", "Koustava Goswami", "Mihael Arcan", "John P. McCrae"],
             "year": "2020",
             "booktitle": "Proceedings of the 28th International Conference on Computational Linguistics (COLING'2020)",
@@ -130,11 +164,12 @@
             "open": true,
             "license": "cc-by",
             "grants": [],
-            "url": "https://www.aclweb.org/anthology/2020.coling-main.369.pdf"
+            "url": "https://www.aclweb.org/anthology/2020.coling-main.369.pdf",
+            "date": "2020-12-08"
         },{
             "@id": "chakravarthi2020bilingual",
             "@type": "Workshop",
-            "title": "Bilingual Lexicon Induction across Orthographically-distinctUnder-Resourced Dravidian Languages",
+            "title": "Bilingual Lexicon Induction across Orthographically-distinct Under-Resourced Dravidian Languages",
             "author": ["Bharathi Raja Chakravarthi", "Navaneethan Rajasekaran", "Mihael Arcan", "Kevin McGuinness", "Noel E. O’Connor", "John P. McCrae"],
             "affiliation": ["NUIG", "Dublin City University", "NUIG", "Dublin City University", "Dublin City University", "NUIG"],
             "year": "2020",
@@ -143,7 +178,8 @@
             "open": true,
             "license": "cc-by",
             "grants": [],
-            "url": "https://www.aclweb.org/anthology/2020.vardial-1.6.pdf"
+            "url": "https://www.aclweb.org/anthology/2020.vardial-1.6.pdf",
+            "date": "2020-12-13"
         },{
             "@id": "nasir2020ilod",
             "@type": "Workshop",
@@ -155,15 +191,16 @@
             "description": "The proliferation of the World Wide Web and the Semantic Web applications has led to an increase in distributed services and datasets. This increase has put the infrastructural load in terms of availability, immutability, and security, and these challenges are being failed by the Linked Open Data (LOD) cloud due to the brittleness of its decentralisation. In this work, we present iLOD: a peer-to-peer decentralized storage infrastructure using the InterPlanetary File System (IPFS). iLOD is a dataset sharing system that leverages content-based addressing to support a resilient internet, and can speed up the web by getting nearby copies. In this study, we empirically analyze and evaluate the availability limitations of LOD and propose a distributed system for storing and accessing linked datasets without requiring any centralized server.",
             "open": true,
             "license": "cc-by",
-            "grants": [{"id":"825182"}]
+            "grants": [{"id":"825182"}],
+            "date": "2020-11-01"
         },{
             "@id": "declerck2020cost",
-            "@type": "Conference",
+            "@type": "swrc:Article",
             "title": "COST Action “European network for Web-centred linguistic data science” (NexusLinguarum)",
             "author": ["Thierry Declerck", "Jorge Gracia", "John P. McCrae"],
             "affiliation": ["DFKI GmbH", "University of Zaragoza", "NUIG"],
             "year": "2020",
-            "booktitle": "Procesamiento del Lenguaje Natural",
+            "journal": "Procesamiento del Lenguaje Natural",
             "number": "65",
             "pages": "93-96",
             "description": "We present the current state of the large “European network for Web-centred linguistic data science”. In its first phase, the network has put in place several working groups to deal with specific topics. The network also already implemented a first round of Short Term Scientific Missions (STSM)",
@@ -171,7 +208,8 @@
             "license": "cc-by",
             "grants": [],
             "url": "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6281/3717",
-            "doi": "10.26342/2020-65-11"
+            "doi": "10.26342/2020-65-11",
+            "date": "2020-09-01"
         },{
             "@id": "mccrae2020english2",
             "@type": "swrc:Article",
@@ -185,7 +223,8 @@
             "open": true,
             "license": "cc-by",
             "grants": [{"id":"731015"}],
-            "url": "https://kln.lexicala.com/kln28/mccrae-rudnicka-bond-english-wordnet/"
+            "url": "https://kln.lexicala.com/kln28/mccrae-rudnicka-bond-english-wordnet/",
+            "date": "2020-10-01"
         },{
             "@id": "cimiano2020linguistic",
             "@type":     "swrc:Book",
@@ -229,7 +268,7 @@
             "@id": "jose2020survey",
             "@type": "Conference",
             "title": "A Survey of Current Datasets for Code-Switching Research",
-            "author": ["Navya Jose", "Bharathi Raja Chakravarthi", "Shardul Suryawanshi", "Elizabeth Sherly", "John P.McCrae"],
+            "author": ["Navya Jose", "Bharathi Raja Chakravarthi", "Shardul Suryawanshi", "Elizabeth Sherly", "John P. McCrae"],
             "year": "2020",
             "booktitle": "ICACCS 2020: International Conference on Advanced Computing & Communication Systems (ICACCS)",
             "date": "2020-03-06",
@@ -243,7 +282,7 @@
         },{
             "@id": "priyadharshini2020named",
             "@type": "Conference",
-            "author": ["Ruba Priyadharshini, Bharathi Raja Chakravarthi, Mani Vegupatti and John P.Mccrae"],
+            "author": ["Ruba Priyadharshini, Bharathi Raja Chakravarthi, Mani Vegupatti and John P. McCrae"],
             "title": "Named Entity Recognition for Code-Mixed Indian Corpus using Meta Embedding",
             "booktitle":"ICACCS 2020: International Conference on Advanced Computing & Communication Systems (ICACCS)",
             "date": "2020-03-06",

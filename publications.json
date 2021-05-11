@@ -61,7 +61,7 @@
 		"volume": 12,
 		"number": 4,
 		"url": "https://www.mdpi.com/2078-2489/12/4/160",
-		"description": "Knowledge graphs are proving to be an increasingly important part of modern enterprises, and new applications of such enterprise knowledge graphs are still being found. In this paper, we report on the experience with the use of an automatic knowledge graph system called Saffron in the context of a large financial enterprise and show how this has found applications within this enterprise as part of the “Conversation Concepts Artificial Intelligence” tool. In particular, we analyse the use cases for knowledge graphs within this enterprise, and this led us to a new extension to the knowledge graph system. We present the results of these adaptations, including the introduction of a semi-supervised taxonomy extraction system, which includes analysts in-the-loop. Further, we extend the kinds of relations extracted by the system and show how the use of the BERTand ELMomodels can produce high-quality results. Thus, we show how this tool can help realize a smart enterprise and how requirements in the financial industry can be realised by state-of-the-art natural language processing technologies.",
+		"abstract": "Knowledge graphs are proving to be an increasingly important part of modern enterprises, and new applications of such enterprise knowledge graphs are still being found. In this paper, we report on the experience with the use of an automatic knowledge graph system called Saffron in the context of a large financial enterprise and show how this has found applications within this enterprise as part of the “Conversation Concepts Artificial Intelligence” tool. In particular, we analyse the use cases for knowledge graphs within this enterprise, and this led us to a new extension to the knowledge graph system. We present the results of these adaptations, including the introduction of a semi-supervised taxonomy extraction system, which includes analysts in-the-loop. Further, we extend the kinds of relations extracted by the system and show how the use of the BERTand ELMomodels can produce high-quality results. Thus, we show how this tool can help realize a smart enterprise and how requirements in the financial industry can be realised by state-of-the-art natural language processing technologies.",
 		"doi": "10.3390/info12040160"
 	},{
 	    "@id": "ojha2021uld",
@@ -69,7 +69,7 @@
 	    "title": "ULD-NUIG at Social Media Mining for Health Applications (#SMM4H) Shared Task 2021",
 	    "author": ["Atul Kr. Ojha", "Priya Rani", "Koustava Goswami", "Bharathi Raja Chakravarthi", "John P. McCrae"],
 	    "affiliation": ["NUIG", "NUIG", "NUIG", "NUIG", "NUIG"],
-	    "year": "2021",
+	    "year": "2021 (Accepted)",
 	    "date": "2021-06-10",
 	    "booktitle": "#SMM4H 2021: 6th Social Media Mining for Health Research and Applications Worskhop and Shared Tasks @ NAACL-HLT 2021",
 	    "open": true,
@@ -88,7 +88,8 @@
             "open": true,
             "license": "cc-by",
             "grants": ["731015"],
-            "url": "https://www.aclweb.org/anthology/2021.gwc-1.9.pdf"
+            "url": "https://www.aclweb.org/anthology/2021.gwc-1.9.pdf",
+            "abstract": "Words are defined based on their meanings in various ways in different resources. Aligning word senses across monolingual lexicographic resources increases domain coverage and enables integration and incorporation of data. In this paper, we explore the application of classification methods using manually-extracted features along with representation learning techniques in the task of word sense alignment and semantic relationship detection. We demonstrate that the performance of classification methods dramatically varies based on the type of semantic relationships due to the nature of the task but outperforms the previous experiments."
         },{
             "@id": "mccrae2021globalwordnet",
             "@type": "Conference",
@@ -102,7 +103,8 @@
             "open": true,
             "license": "cc-by",
             "grants": ["731015"],
-            "url": "https://www.aclweb.org/anthology/2021.gwc-1.11.pdf"
+            "url": "https://www.aclweb.org/anthology/2021.gwc-1.11.pdf",
+            "abstract": "The Global Wordnet Formats have been introduced to enable wordnets to have a common representation that can be integrated through the Global WordNet Grid. As a result of their adoption, a number of shortcomings of the format were identified, and in this paper we describe the extensions to the formats that address these issues. These include: ordering of senses, dependencies between wordnets, pronunciation, syntactic modelling, relations, sense keys, metadata and RDF support. Furthermore, we provide some perspectives on how these changes help in the integration of wordnets."
         },{
             "@id": "mccrae2021towards",
             "@type": "Conference",
@@ -116,7 +118,8 @@
             "open": true,
             "license": "cc-by",
             "grants": ["731015"],
-            "url": "https://www.aclweb.org/anthology/2021.gwc-1.29.pdf"
+            "url": "https://www.aclweb.org/anthology/2021.gwc-1.29.pdf",
+            "abstract": "WordNet is the most widely used lexical resource for English, while Wikidata is one of the largest knowledge graphs of entity and concepts available.   While, there is a clear difference in the focus of these two resources, there is also a significant overlap and as such a complete linking of these resources would have many uses. We propose the development of such a linking, first by means of the hapax legomenon links and secondly by the use of natural language processing techniques. We show that these can be done with high accuracy but that human validation is still necessary. This has resulted in over 9,000 links being added between these two resources."
         },{
             "@id": "chakravarthi2021edi",
             "@type": "swrc:Proceedings",
@@ -144,7 +147,8 @@
             "open": true,
             "license": "cc-by",
             "grants": [],
-            "url": "https://www.aclweb.org/anthology/2021.dravidianlangtech-1.15.pdf"
+            "url": "https://www.aclweb.org/anthology/2021.dravidianlangtech-1.15.pdf",
+            "abstract": "This paper presents an overview of the shared task on machine translation of Dravidian languages. We presented the shared task results at the EACL 2021 workshop on Speech and Language Technologies for Dravidian Languages. This paper describes the datasets used, the methodology used for the evaluation of participants, and the experiments’ overall results. As a part of this shared task, we organized four sub-tasks corresponding to machine translation of the following language pairs: English to Tamil, English to Malayalam, English to Telugu and Tamil to Telugu which are available at https://competitions.codalab.org/competitions/27650. We provided the participants with training and development datasets to perform experiments, and the results were evaluated on unseen test data. In total, 46 research groups participated in the shared task and 7 experimental runs were sub-mitted for evaluation. We used BLEU scoresfor assessment of the translations."
         },{
             "@id": "chakravarthi2021offensive",
             "@type": "Workshop",
@@ -158,7 +162,8 @@
             "open": true,
             "license": "cc-by",
             "grants": [],
-            "url": "https://www.aclweb.org/anthology/2021.dravidianlangtech-1.17.pdf"
+            "url": "https://www.aclweb.org/anthology/2021.dravidianlangtech-1.17.pdf",
+            "abstract": "Detecting offensive language in social media in local languages is critical for moderating user-generated content. Thus, the field of offensive language identification for under-resourced languages like Tamil, Malayalam and Kannada is of essential importance. As user-generated content is often code-mixed and not well studied for under-resourced languages, it is imperative to create resources and conduct benchmark studies to encourage research in under-resourced Dravidian languages. We created a shared task on offensive language detection in Dravidian languages. We summarize the dataset for this challenge which are openly available at https://competitions.codalab.org/competitions/27654, and present an overview of the methods and the results of the competing systems"
 	},{
             "@id": "markantonatou2020proceedings",
             "@type": "Workshop",
@@ -180,7 +185,7 @@
             "affiliation": ["NUIG", "NUIG", "NUIG", "NUIG", "NUIG"],
             "year": "2020",
             "booktitle": "Proceedings of the International Workshop on Semantic Evaluation 2020 (SemEval-2020) at COLING 2020",
-            "description": "Code mixing is a common phenomena in multilingual societies where people switch from one language to another for various reasons.  Recent advances in public communication over different social media sites have led to an increase in the frequency of code-mixed usage in written language. In this paper, we present the Generative Morphemes with Attention (GenMA) Model sentiment analysis system contributed to SemEval 2020 Task 9 SentiMix. The system aims to predict the sentiments of the given English-Hindi code-mixed tweets without using word-level language tags instead inferring this automatically using a morphological model. The system is based on a novel deep neural network (DNN) architecture, which has outperformed the baseline F1-score on the test data-set as well as the validation data-set. Our results can be found under the user name koustava on the Sentimix Hindi English https://competitions.codalab.org/competitions/20654#learn_the_details-results page.",
+            "abstract": "Code mixing is a common phenomena in multilingual societies where people switch from one language to another for various reasons.  Recent advances in public communication over different social media sites have led to an increase in the frequency of code-mixed usage in written language. In this paper, we present the Generative Morphemes with Attention (GenMA) Model sentiment analysis system contributed to SemEval 2020 Task 9 SentiMix. The system aims to predict the sentiments of the given English-Hindi code-mixed tweets without using word-level language tags instead inferring this automatically using a morphological model. The system is based on a novel deep neural network (DNN) architecture, which has outperformed the baseline F1-score on the test data-set as well as the validation data-set. Our results can be found under the user name koustava on the Sentimix Hindi English https://competitions.codalab.org/competitions/20654#learn_the_details-results page.",
             "open": true,
             "license": "cc-by",
             "grants": [],

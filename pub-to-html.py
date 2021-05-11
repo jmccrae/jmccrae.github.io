@@ -23,6 +23,7 @@ out.write("""<div style="text-align:right;">By Type:&nbsp;&nbsp;
 </div>""")
 out.write("""<div style="text-align:right;padding-bottom:10px;">By Year:&nbsp;&nbsp;
 <a href="#" class="year all" onclick="showall(event)" style="color:black;">All</a>
+<a href="#" class="year sely2021" onclick="showonly(event,'y2021')" style="padding-left:5px;">2021</a>
 <a href="#" class="year sely2020" onclick="showonly(event,'y2020')" style="padding-left:5px;">2020</a>
 <a href="#" class="year sely2019" onclick="showonly(event,'y2019')" style="padding-left:5px;">2019</a>
 <a href="#" class="year sely2018" onclick="showonly(event,'y2018')" style="padding-left:5px;">2018</a>
@@ -130,8 +131,9 @@ for paper in data["@graph"]:
         if "publisher" not in paper:
             print(paper["@id"])
         out.write(paper["publisher"])
-        out.write(" - ")
-        out.write(paper["series"])
+        if "series" in paper:
+            out.write(" - ")
+            out.write(paper["series"])
         out.write("</i>, ")
     elif paper["@type"] == "swrc:PhDThesis":
         out.write("PhD Thesis for Graduate University of Advanced Studies (SoKenDai), ")

@@ -49,6 +49,14 @@
             "affiliation": ["NUIG", "NUIG", "NUIG", "Dublin City University", "Dublin City University", "Translators without Borders",  "Translators without Borders",  "Translators without Borders"],
             "year": "2021 (Accepted)",
             "booktitle": "Proceedings of The Seventh Biennial Conference on Electronic Lexicography, eLex 2021"
+         },{
+            "@id": "bajcetic2021heteronym",
+            "@type": "Conference",
+            "title": "Heteronym Sense Linking",
+            "author": ["Lenka Bajčetić", "Thierry Declerck", "John P. McCrae"],
+            "affiliation": ["Austrian Academy of Sciences", "DFKI GmbH", "NUIG"],
+            "year": "2021 (Accepted)",
+            "booktitle": "Proceedings of The Seventh Biennial Conference on Electronic Lexicography, eLex 2021"
         },{
 	    "@id": "mccrae2021conversation",
 	    "@type": "swrc:Article",

@@ -18,6 +18,24 @@
     },
     "@graph": [ 
         {
+            "@id": "suresh2021meta",
+            "@type": "Conference",
+            "title": "Meta-Learning for Oﬀensive Language Detection in Code-Mixed Texts",
+            "author": ["Gautham Vadakkekara Suresh", "Bharathi Raja Chakravarthi", "John P. McCrae"],
+            "affiliation": ["NUIG", "NUIG", "NUIG"],
+            "year": "2021 (Accepted)",
+            "booktitle": "13th meeting of Forum for Information Retrieval Evaluation 2021",
+            "description": "This research investigates the application of Model-Agnostic Meta-Learning (MAML) and ProtoMAML to identify offensive code-mixed text content on social media in Tamil-English and Malayalam-English code-mixed texts. We follow a two-step strategy: The XLM-RoBERTa (XLM-R) model is trained using the meta-learning algorithms on a variety of tasks having code-mixed data, monolingual data in the same language as the target language and related tasks in other languages. The model is then fine-tuned on target tasks to identify offensive language in Malayalam-English and Tamil-English code-mixed texts. Our results show that meta-learning improves the performance of models significantly in low-resource (few-shot learning) tasks. We also introduce a weighted data sampling approach which helps the model converge better in the meta-training phase compared to traditional methods."
+        },{
+            "@id": "sarkar2021few",
+            "@type": "Workshop",
+            "title": "Few-shot and Zero-shot Approaches to Legal Text Classification: A Case Study in the Financial Sector",
+            "author": ["Rajdeep Sarkar", "Atul Kr. Ojha", "Jay Megaro", "John Mariano", "Vall Herard", "John P. McCrae"],
+            "affiliation": ["NUIG", "NUIG", "FMR LLC", "FMR LLC", "FMR LLC", "NUIG"],
+            "year": "2021 (Accepted)",
+            "booktitle": "NLLP 2021 @ EMNLP 2021",
+            "description": "The application of predictive coding techniques to legal texts has the potential to greatly reduce the cost of legal review of documents, however, there is such a wide array of legal tasks and continuously evolving legislation that it is hard to construct sufficient training data to cover all cases. In this paper, we investigate few-shot and zero-shot approaches that require substantially less training data and introduce a triplet architecture, which for promissory statements produces performance close to that of a supervised system. This method allows predictive coding methods to be rapidly developed for new regulations and markets."
+        },{
             "@id": "mccrae2021how",
             "@type": "swrc:Article",
             "title": "How Computers Can Future-Proof Minority Languages",
@@ -141,8 +159,8 @@
 	    "booktitle": "Proceedings of the Sixth Social Media Mining for Health (#SMM4H) Workshop and Shared Task",
 	    "open": true,
 	    "license": "cc-by",
-	    "grants": ["731015"],
-            "url": "https://aclanthology.org/volumes/2021.smm4h-1/",
+	    "grants": [{"id":"731015"}],
+            "url": "https://aclanthology.org/2021.smm4h-1.33.pdf",
             "pages": "149–152"
         },{
             "@id": "ahmadi2021monolingual",
@@ -156,8 +174,8 @@
             "pages": "73-80",
             "open": true,
             "license": "cc-by",
-            "grants": ["731015"],
-            "url": "https://www.aclweb.org/anthology/2021.gwc-1.9.pdf",
+            "grants": [{"id":"731015"}],
+            "url": "https://aclanthology.org/2021.gwc-1.9.pdf",
             "description": "Words are defined based on their meanings in various ways in different resources. Aligning word senses across monolingual lexicographic resources increases domain coverage and enables integration and incorporation of data. In this paper, we explore the application of classification methods using manually-extracted features along with representation learning techniques in the task of word sense alignment and semantic relationship detection. We demonstrate that the performance of classification methods dramatically varies based on the type of semantic relationships due to the nature of the task but outperforms the previous experiments."
         },{
             "@id": "mccrae2021globalwordnet",
@@ -171,8 +189,8 @@
             "pages": "91-99",
             "open": true,
             "license": "cc-by",
-            "grants": ["731015"],
-            "url": "https://www.aclweb.org/anthology/2021.gwc-1.11.pdf",
+            "grants": [{"id":"731015"}],
+            "url": "https://aclanthology.org/2021.gwc-1.11.pdf",
             "description": "The Global Wordnet Formats have been introduced to enable wordnets to have a common representation that can be integrated through the Global WordNet Grid. As a result of their adoption, a number of shortcomings of the format were identified, and in this paper we describe the extensions to the formats that address these issues. These include: ordering of senses, dependencies between wordnets, pronunciation, syntactic modelling, relations, sense keys, metadata and RDF support. Furthermore, we provide some perspectives on how these changes help in the integration of wordnets."
         },{
             "@id": "mccrae2021towards",
@@ -186,8 +204,8 @@
             "pages": "252-257",
             "open": true,
             "license": "cc-by",
-            "grants": ["731015"],
-            "url": "https://www.aclweb.org/anthology/2021.gwc-1.29.pdf",
+            "grants": [{"id":"731015"}],
+            "url": "https://aclanthology.org/2021.gwc-1.29.pdf",
             "description": "WordNet is the most widely used lexical resource for English, while Wikidata is one of the largest knowledge graphs of entity and concepts available.   While, there is a clear difference in the focus of these two resources, there is also a significant overlap and as such a complete linking of these resources would have many uses. We propose the development of such a linking, first by means of the hapax legomenon links and secondly by the use of natural language processing techniques. We show that these can be done with high accuracy but that human validation is still necessary. This has resulted in over 9,000 links being added between these two resources."
         },{
             "@id": "chakravarthi2021edi",

@@ -43,7 +43,9 @@
 
 <p class='abstract' id='abstract-mccrae2021how'>Dr. Theodorus Fransen & Dr. John McCrae explore how digital language tools can potentially resolve the underrepresentation of minority languages in terms of digital technology and the Web.</p>
 
-<p class="pub y2021 rence KoustavaGoswami SouravDutta HaythamAssem TheodorusFransen JohnPMcCrae"><b><a class="publication" href="https://aclanthology.org/W19-4330.pdf">Cross-lingual Sentence Embedding using Multi-Task Learning</a></b>. Koustava Goswami, Sourav Dutta, Haytham Assem, Theodorus Fransen and John P. McCrae, <i>EMNLP 2021</i>, (2021).</p>
+<p class="pub y2021 rence KoustavaGoswami SouravDutta HaythamAssem TheodorusFransen JohnPMcCrae"><b><a class="publication" href="https://aclanthology.org/W19-4330.pdf">Cross-lingual Sentence Embedding using Multi-Task Learning</a></b>. Koustava Goswami, Sourav Dutta, Haytham Assem, Theodorus Fransen and John P. McCrae, <i>EMNLP 2021</i>, (2021). <a onclick='$("#abstract-goswami2021crosslingual").slideToggle()' class='abstract-link'>Abstract</a></p>
+
+<p class='abstract' id='abstract-goswami2021crosslingual'>The scarcity of labeled training data across many languages is a significant roadblock for multilingual neural language processing. We approach the lack of in-language training data using sentence embeddings that map text written in different lan- guages, but with similar meanings, to nearby embedding space representations.  The representations are produced using a dual-encoder based model trained to maximize the representational similarity between sentence pairs drawn from parallel data. The representations are enhanced using multitask training and unsupervised monolingual corpora. The effectiveness of our multilingual sentence embeddings are assessed on a comprehensive collection of monolingual, cross-lingual, and zero- shot/few-shot learning tasks.</p>
 
 <p class="pub y2021 hop SinaAhmadi AtulKrOjha ShubhankerBanerjee JohnPMcCrae"><b>NUIG at TIAD 2021: Cross-lingual Word Embeddings for Translation Inference</a></b>. Sina Ahmadi, Atul Kr. Ojha, Shubhanker Banerjee and John P. McCrae, <i>TIAD 2021</i>, (2021 (Accepted)).</p>
 

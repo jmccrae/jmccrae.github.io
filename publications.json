@@ -73,7 +73,8 @@
             "url": "https://aclanthology.org/W19-4330.pdf",
             "open": true,
             "license": "cc-by",
-            "grants": []
+            "grants": [],
+            "description": "The scarcity of labeled training data across many languages is a significant roadblock for multilingual neural language processing. We approach the lack of in-language training data using sentence embeddings that map text written in different lan- guages, but with similar meanings, to nearby embedding space representations.  The representations are produced using a dual-encoder based model trained to maximize the representational similarity between sentence pairs drawn from parallel data. The representations are enhanced using multitask training and unsupervised monolingual corpora. The effectiveness of our multilingual sentence embeddings are assessed on a comprehensive collection of monolingual, cross-lingual, and zero- shot/few-shot learning tasks."
 
         },{
             "@id": "ahmadi2021nuig",

@@ -18,6 +18,19 @@
     },
     "@graph": [ 
         {
+            "@id": "ahmadi2021convertir",
+            "@type": "Conference",
+            "title": "Convertir le Trésor de la Langue Française en Ontolex-Lemon : un zeste de données liées",
+            "author": ["Sina Ahmadi", "Mathieu Constant", "Karën Fort", "Bruno Guillaume", "John P. McCrae"],
+            "affiliation": ["NUIG", "ATILF, Université de Lorraine & CNRS", "Sorbonne Université", "Université de Lorraine, CNRS, Inria, LORIA", "NUIG"],
+            "year": "2021",
+            "booktitle": "LIFT 2021 : Journées scientifiques \"Linguistique informatique, formelle & de terrain\"",
+            "open": true,
+	    "license": "cc-by",
+	    "grants": [{"id":"731015"}],
+            "url": "https://sinaahmadi.github.io/docs/articles/ahmadi2021lift.pdf",
+            "description": "In this paper, we report our efforts to convert one of the most comprehensive lexicographic resources of French, the Trésor de la Langue Française, into the Ontolex-Lemon model. Despite the widespread usage of this resource, the original XML format seems to impede its integration in language technology tools. In order to breathe new life into this resource, we examine the usage and the conversion to more interoperable formats, primarily those based on the linguistic linked data, to provide this resource to a broader range of applications and users."
+        },{
             "@id": "suresh2021meta",
             "@type": "Conference",
             "title": "Meta-Learning for Oﬀensive Language Detection in Code-Mixed Texts",
@@ -32,9 +45,13 @@
             "title": "Few-shot and Zero-shot Approaches to Legal Text Classification: A Case Study in the Financial Sector",
             "author": ["Rajdeep Sarkar", "Atul Kr. Ojha", "Jay Megaro", "John Mariano", "Vall Herard", "John P. McCrae"],
             "affiliation": ["NUIG", "NUIG", "FMR LLC", "FMR LLC", "FMR LLC", "NUIG"],
-            "year": "2021 (Accepted)",
+            "year": "2021",
             "booktitle": "NLLP 2021 @ EMNLP 2021",
-            "description": "The application of predictive coding techniques to legal texts has the potential to greatly reduce the cost of legal review of documents, however, there is such a wide array of legal tasks and continuously evolving legislation that it is hard to construct sufficient training data to cover all cases. In this paper, we investigate few-shot and zero-shot approaches that require substantially less training data and introduce a triplet architecture, which for promissory statements produces performance close to that of a supervised system. This method allows predictive coding methods to be rapidly developed for new regulations and markets."
+            "description": "The application of predictive coding techniques to legal texts has the potential to greatly reduce the cost of legal review of documents, however, there is such a wide array of legal tasks and continuously evolving legislation that it is hard to construct sufficient training data to cover all cases. In this paper, we investigate few-shot and zero-shot approaches that require substantially less training data and introduce a triplet architecture, which for promissory statements produces performance close to that of a supervised system. This method allows predictive coding methods to be rapidly developed for new regulations and markets.",
+            "url": "https://aclanthology.org/2021.nllp-1.10.pdf",
+            "open": true,
+            "license": "cc-by",
+            "grants": []
         },{
             "@id": "mccrae2021how",
             "@type": "swrc:Article",
@@ -51,8 +68,13 @@
             "title": "Cross-lingual Sentence Embedding using Multi-Task Learning",
             "author": ["Koustava Goswami", "Sourav Dutta", "Haytham Assem", "Theodorus Fransen", "John P. McCrae"],
             "affiliation": ["NUIG", "Huawei", "Huawei", "NUIG", "NUIG"],
-            "year": "2021 (Accepted)",
-            "booktitle": "EMNLP 2021"
+            "year": "2021",
+            "booktitle": "EMNLP 2021",
+            "url": "https://aclanthology.org/W19-4330.pdf",
+            "open": true,
+            "license": "cc-by",
+            "grants": []
+
         },{
             "@id": "ahmadi2021nuig",
             "@type": "Workshop",

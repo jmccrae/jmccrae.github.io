@@ -63,6 +63,8 @@ def main():
                         'description': pub.get("description", "No description"),
                         'language': 'eng'
                         }
+            if "open" not in pub:
+                print("%s needs an open element" % name)
             if pub["open"]:
                 data['access_right'] = "open"
                 data['license'] = pub["license"]

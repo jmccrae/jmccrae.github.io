@@ -18,6 +18,13 @@
     },
     "@graph": [ 
         {
+            "@id": "khan2022when",
+            "@type": "swrc:Article",
+            "title": "When Linguistics Meets Web Technologies. Recent advances in Modelling Linguistic Linked Open Data",
+            "author": ["Fahad Khan", "Christian Chiarcos", "Thierry Declerck", "Daniela Gifu", "Elena González-Blanco García", "Jorge Gracia", "Max Ionov", "Penny Labropoulou", "Francesco Mambrini", "John McCrae", "Émilie Pagé-Perron", "Marco Passarotti", "Salvador Ros", "Ciprian-Octavian Truica"],
+            "year": "2022 (accepted)",
+            "journal": "Semantic Web Journal"
+        },{
             "@id": "ahmadi2021convertir",
             "@type": "Conference",
             "title": "Convertir le Trésor de la Langue Française en Ontolex-Lemon : un zeste de données liées",

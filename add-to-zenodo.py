@@ -87,7 +87,7 @@ def main():
                 if "number" in pub:
                     data['journal_issue'] = str(pub["number"])
                 if "volume" in pub:
-                    data['journal_volume'] = pub["volume"]
+                    data['journal_volume'] = str(pub["volume"])
                 if "pages" in pub:
                     data['journal_pages'] = pub["pages"]
             if "grants" in pub:

@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es-ES" xml:lang="es-ES">
+<head>
+	<title>COST Action “European network for Web centred linguistic data science” (NexusLinguarum) | Declerck | Procesamiento del Lenguaje Natural</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="COST Action “European network for Web centred linguistic data science” (NexusLinguarum)" />
+	
+	<link rel="icon" href="http://journal.sepln.org/sepln/ojs/ojs/public/journals/1/journalFavicon_es_ES.ico" type="" />
+	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+
+	<meta name="DC.Creator.PersonalName" content="Thierry Declerck"/>
+	<meta name="DC.Creator.PersonalName" content="Jorge Gracia"/>
+	<meta name="DC.Creator.PersonalName" content="John P. McCrae"/>
+	<meta name="DC.Date.created" scheme="ISO8601" content="2020-09-01"/>
+	<meta name="DC.Date.dateSubmitted" scheme="ISO8601" content="2020-09-15"/>
+	<meta name="DC.Date.issued" scheme="ISO8601" content="2020-09-01"/>
+	<meta name="DC.Date.modified" scheme="ISO8601" content="2020-09-15"/>
+	<meta name="DC.Description" xml:lang="es" content="We present the current state of the large “European network for Web-centred linguistic data science”. In its first phase, the network has put in place several working groups to deal with specific topics. The network also already implemented a first round of Short Term Scientific Missions (STSM), which was unfortunately hindered by the Covid-19 outbreak."/>
+	<meta name="DC.Format" scheme="IMT" content="application/pdf"/>
+	<meta name="DC.Identifier" content="6281"/>
+	<meta name="DC.Identifier.pageNumber" content="93-96"/>
+						<meta name="DC.Identifier.URI" content="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6281"/>
+	<meta name="DC.Language" scheme="ISO639-1" content="es_ES"/>
+	<meta name="DC.Rights" content="Copyright (c) 2020 Procesamiento del Lenguaje Natural" />
+	<meta name="DC.Rights" content=""/>
+	<meta name="DC.Source" content="Procesamiento del Lenguaje Natural"/>
+	<meta name="DC.Source.ISSN" content="1989-7553"/>
+	<meta name="DC.Source.Issue" content="0"/>	<meta name="DC.Source.URI" content="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln"/>
+	<meta name="DC.Source.Volume" content="65"/>	<meta name="DC.Title" content="COST Action “European network for Web centred linguistic data science” (NexusLinguarum)"/>
+		<meta name="DC.Type" content="Text.Serial.Journal"/>
+	<meta name="DC.Type.articleType" content="Proyectos"/>
+		<meta name="gs_meta_revision" content="1.1" />
+	<meta name="citation_journal_title" content="Procesamiento del Lenguaje Natural"/>
+	<meta name="citation_issn" content="1989-7553"/>
+        <meta name="citation_author" content="Thierry Declerck"/>
+        <meta name="citation_author" content="Jorge Gracia"/>
+        <meta name="citation_author" content="John P. McCrae"/>
+<meta name="citation_title" content="COST Action “European network for Web centred linguistic data science” (NexusLinguarum)"/>
+
+	<meta name="citation_date" content="2020/09/01"/>
+
+	<meta name="citation_volume" content="65"/>
+	<meta name="citation_issue" content="0"/>
+
+			<meta name="citation_firstpage" content="93"/>
+				<meta name="citation_lastpage" content="96"/>
+							<meta name="citation_abstract_html_url" content="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6281"/>
+	<meta name="citation_language" content="es_ES"/>
+						<meta name="citation_pdf_url" content="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/download/6281/3717"/>
+				
+
+	<link rel="stylesheet" href="http://journal.sepln.org/sepln/ojs/ojs/lib/pkp/styles/pkp.css" type="text/css" />
+	<link rel="stylesheet" href="http://journal.sepln.org/sepln/ojs/ojs/lib/pkp/styles/common.css" type="text/css" />
+	<link rel="stylesheet" href="http://journal.sepln.org/sepln/ojs/ojs/styles/common.css" type="text/css" />
+	<link rel="stylesheet" href="http://journal.sepln.org/sepln/ojs/ojs/styles/compiled.css" type="text/css" />
+	<link rel="stylesheet" href="http://journal.sepln.org/sepln/ojs/ojs/styles/articleView.css" type="text/css" />
+			<link rel="stylesheet" href="http://journal.sepln.org/sepln/ojs/ojs/lib/pkp/styles/rtEmbedded.css" type="text/css" />
+	
+	
+	
+	<link rel="stylesheet" href="http://journal.sepln.org/sepln/ojs/ojs/styles/sidebar.css" type="text/css" />		<link rel="stylesheet" href="http://journal.sepln.org/sepln/ojs/ojs/styles/rightSidebar.css" type="text/css" />	
+			<link rel="stylesheet" href="http://journal.sepln.org/sepln/ojs/ojs/public/journals/1/journalStyleSheet.css" type="text/css" />
+			<link rel="stylesheet" href="http://journal.sepln.org/sepln/ojs/ojs/plugins/blocks/languageToggle/styles/languageToggle.css" type="text/css" />
+	
+	<!-- Base Jquery -->
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	<script type="text/javascript">
+		// Provide a local fallback if the CDN cannot be reached
+		if (typeof google == 'undefined') {
+			document.write(unescape("%3Cscript src='http://journal.sepln.org/sepln/ojs/ojs/lib/pkp/js/lib/jquery/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+			document.write(unescape("%3Cscript src='http://journal.sepln.org/sepln/ojs/ojs/lib/pkp/js/lib/jquery/plugins/jqueryUi.min.js' type='text/javascript'%3E%3C/script%3E"));
+		} else {
+			google.load("jquery", "1.4.4");
+			google.load("jqueryui", "1.8.6");
+		}
+	</script>
+	
+	<!-- Compiled scripts -->
+			
+<script type="text/javascript" src="http://journal.sepln.org/sepln/ojs/ojs/lib/pkp/js/lib/jquery/plugins/jquery.tag-it.js"></script>
+<script type="text/javascript" src="http://journal.sepln.org/sepln/ojs/ojs/lib/pkp/js/lib/jquery/plugins/jquery.cookie.js"></script>
+
+<script type="text/javascript" src="http://journal.sepln.org/sepln/ojs/ojs/lib/pkp/js/functions/fontController.js"></script>
+<script type="text/javascript" src="http://journal.sepln.org/sepln/ojs/ojs/lib/pkp/js/functions/general.js"></script>
+<script type="text/javascript" src="http://journal.sepln.org/sepln/ojs/ojs/lib/pkp/js/functions/jqueryValidatorI18n.js"></script>
+
+<script type="text/javascript" src="http://journal.sepln.org/sepln/ojs/ojs/lib/pkp/js/classes/Helper.js"></script>
+<script type="text/javascript" src="http://journal.sepln.org/sepln/ojs/ojs/lib/pkp/js/classes/ObjectProxy.js"></script>
+<script type="text/javascript" src="http://journal.sepln.org/sepln/ojs/ojs/lib/pkp/js/classes/Handler.js"></script>
+<script type="text/javascript" src="http://journal.sepln.org/sepln/ojs/ojs/lib/pkp/js/classes/linkAction/LinkActionRequest.js"></script>
+<script type="text/javascript" src="http://journal.sepln.org/sepln/ojs/ojs/lib/pkp/js/classes/features/Feature.js"></script>
+
+<script type="text/javascript" src="http://journal.sepln.org/sepln/ojs/ojs/lib/pkp/js/controllers/SiteHandler.js"></script><!-- Included only for namespace definition -->
+<script type="text/javascript" src="http://journal.sepln.org/sepln/ojs/ojs/lib/pkp/js/controllers/UrlInDivHandler.js"></script>
+<script type="text/javascript" src="http://journal.sepln.org/sepln/ojs/ojs/lib/pkp/js/controllers/AutocompleteHandler.js"></script>
+<script type="text/javascript" src="http://journal.sepln.org/sepln/ojs/ojs/lib/pkp/js/controllers/ExtrasOnDemandHandler.js"></script>
+<script type="text/javascript" src="http://journal.sepln.org/sepln/ojs/ojs/lib/pkp/js/controllers/form/FormHandler.js"></script>
+<script type="text/javascript" src="http://journal.sepln.org/sepln/ojs/ojs/lib/pkp/js/controllers/form/AjaxFormHandler.js"></script>
+<script type="text/javascript" src="http://journal.sepln.org/sepln/ojs/ojs/lib/pkp/js/controllers/form/ClientFormHandler.js"></script>
+<script type="text/javascript" src="http://journal.sepln.org/sepln/ojs/ojs/lib/pkp/js/controllers/grid/GridHandler.js"></script>
+<script type="text/javascript" src="http://journal.sepln.org/sepln/ojs/ojs/lib/pkp/js/controllers/linkAction/LinkActionHandler.js"></script>
+
+<script type="text/javascript" src="http://journal.sepln.org/sepln/ojs/ojs/js/pages/search/SearchFormHandler.js"></script>
+<script type="text/javascript" src="http://journal.sepln.org/sepln/ojs/ojs/js/statistics/ReportGeneratorFormHandler.js"></script>
+<script type="text/javascript" src="http://journal.sepln.org/sepln/ojs/ojs/plugins/generic/lucene/js/LuceneAutocompleteHandler.js"></script>
+
+<script type="text/javascript" src="http://journal.sepln.org/sepln/ojs/ojs/lib/pkp/js/lib/jquery/plugins/jquery.pkp.js"></script>	
+	
+	<link rel="alternate" type="application/atom+xml" title="Procesamiento del Lenguaje Natural (atom+xml)" href="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/gateway/plugin/WebFeedGatewayPlugin/atom" />
+	<link rel="alternate" type="application/rdf+xml" title="Procesamiento del Lenguaje Natural (rdf+xml)" href="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/gateway/plugin/WebFeedGatewayPlugin/rss" />
+	<link rel="alternate" type="application/rss+xml" title="Procesamiento del Lenguaje Natural (rss+xml)" href="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/gateway/plugin/WebFeedGatewayPlugin/rss2" />
+	<script type="text/javascript" src="http://journal.sepln.org/sepln/ojs/ojs/js/relatedItems.js"></script>
+	<script type="text/javascript" src="http://journal.sepln.org/sepln/ojs/ojs/js/inlinePdf.js"></script>
+	<script type="text/javascript" src="http://journal.sepln.org/sepln/ojs/ojs/js/pdfobject.js"></script>
+
+</head>
+<body id="pkp-common-openJournalSystems">
+
+<div id="container">
+
+<div id="header">
+<div id="headerTitle">
+<h1>
+	<img src="http://journal.sepln.org/sepln/ojs/ojs/public/journals/1/pageHeaderTitleImage_es_ES.png" width="251" height="154" alt="Revista de Procesamiento de Lenguaje Natural" />
+</h1>
+</div>
+</div>
+
+<div id="body">
+
+	<div id="sidebar">
+							<div id="rightSidebar">
+				
+
+<div class="block" id="sidebarRTArticleTools">
+
+	<span class="blockTitle">Herramientas del artículo</span>
+			<div class="articleToolItem">
+			<img src="http://journal.sepln.org/sepln/ojs/ojs/plugins/blocks/readingTools/icons/abstract.png" class="articleToolIcon" alt="" /> <a href="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6281" target="_parent">Resumen</a><br />
+		</div>
+				<div class="articleToolItem">
+			<img src="http://journal.sepln.org/sepln/ojs/ojs/plugins/blocks/readingTools/icons/printArticle.png" class="articleToolIcon" alt="" /> <a href="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/download/6281/3717">Imprima este artículo</a>
+		</div>
+				<div class="articleToolItem">
+			<img src="http://journal.sepln.org/sepln/ojs/ojs/plugins/blocks/readingTools/icons/metadata.png" class="articleToolIcon" alt=""/> <a href="javascript:openRTWindow('http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/rt/metadata/6281/3717');">Metadatos de indexación</a><br />
+		</div>
+				<div class="articleToolItem">
+			<img src="http://journal.sepln.org/sepln/ojs/ojs/plugins/blocks/readingTools/icons/citeArticle.png" class="articleToolIcon" alt=""/> <a href="javascript:openRTWindow('http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/rt/captureCite/6281/3717');">Cómo citar un elemento</a><br />
+		</div>
+					<div class="articleToolItem">
+			<img src="http://journal.sepln.org/sepln/ojs/ojs/plugins/blocks/readingTools/icons/findingReferences.png" class="articleToolIcon" alt=""/> <a href="javascript:openRTWindow('http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/rt/findingReferences/6281/3717');">Referencias de búsqueda</a>
+		</div>
+					<div class="articleToolItem">
+			<img src="http://journal.sepln.org/sepln/ojs/ojs/plugins/blocks/readingTools/icons/emailArticle.png" class="articleToolIcon" alt=""/>
+			Envíe este artículo por correo electrónico <span style="font-size: 0.8em">(Inicie sesión)</span>		</div>
+				<div class="articleToolItem">
+			<img src="http://journal.sepln.org/sepln/ojs/ojs/plugins/blocks/readingTools/icons/emailArticle.png" class="articleToolIcon" alt=""/>
+			Enviar un correo electrónico al autor/a <span style="font-size: 0.8em">(Inicie sesión)</span>		</div>
+		</div>
+<div class="block" id="sidebarNavigation">
+	<span class="blockTitle">Contenido de la revista</span>
+
+	<form id="simpleSearchForm" method="post" action="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/search/search">
+		<table id="simpleSearchInput">
+			<tr>
+				<td>
+													<label for="simpleQuery">Buscar <br />
+					<input type="text" id="simpleQuery" name="simpleQuery" size="15" maxlength="255" value="" class="textField" /></label>
+								</td>
+			</tr>
+			<tr>
+				<td><label for="searchField">
+				Ámbito de la búsqueda
+				<br />
+				<select id="searchField" name="searchField" size="1" class="selectMenu">
+					<option label="Todo" value="query">Todo</option>
+<option label="Autores/as" value="authors">Autores/as</option>
+<option label="Título" value="title">Título</option>
+<option label="Resumen" value="abstract">Resumen</option>
+<option label="Términos de la indexación" value="indexTerms">Términos de la indexación</option>
+<option label="Texto completo" value="galleyFullText">Texto completo</option>
+
+				</select></label>
+				</td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Buscar" class="button" /></td>
+			</tr>
+		</table>
+	</form>
+
+	<br />
+
+		<span class="blockSubtitle">Examinar</span>
+	<ul>
+		<li><a href="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/issue/archive">Por número</a></li>
+		<li><a href="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/search/authors">Por autor/a</a></li>
+		<li><a href="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/search/titles">Por título</a></li>
+		
+			</ul>
+	</div>
+
+<div class="block" id="sidebarLanguageToggle">
+	<script type="text/javascript">
+		<!--
+		function changeLanguage() {
+			var e = document.getElementById('languageSelect');
+			var new_locale = e.options[e.selectedIndex].value;
+
+			var redirect_url = 'http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/user/setLocale/NEW_LOCALE?source=%2Fsepln%2Fojs%2Fojs%2Fsepln%2Fojs%2Fojs%2Findex.php%2Fpln%2Farticle%2Fview%2F6281%2F3717';
+			redirect_url = redirect_url.replace("NEW_LOCALE", new_locale);
+
+			window.location.href = redirect_url;
+		}
+		//-->
+	</script>
+	<span class="blockTitle">Idioma</span>
+	<form action="#">
+		<label for="languageSelect">Escoge idioma</label>
+		<select id="languageSelect" size="1" name="locale" class="selectMenu"><option label="English" value="en_US">English</option>
+<option label="Español" value="es_ES" selected="selected">Español</option>
+</select>
+		<input type="submit" class="button" value="Entregar" onclick="changeLanguage(); return false;" />
+	</form>
+</div>
+
+<!-- Add javascript required for font sizer -->
+<script type="text/javascript">
+	<!--
+	$(function(){
+		fontSize("#sizer", "body", 9, 16, 32, "/sepln/ojs/ojs"); // Initialize the font sizer
+	});
+	// -->
+</script>
+
+<div class="block" id="sidebarFontSize" style="margin-bottom: 4px;">
+	<span class="blockTitle">Tamaño de fuente</span>
+	<div id="sizer"></div>
+</div>
+<br /><div class="block" id="sidebarUser">
+			<span class="blockTitle">Usuario/a</span>
+	
+						<form method="post" action="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/login/signIn">
+				<table>
+					<tr>
+						<td><label for="sidebar-username">Nombre de usuario/a</label></td>
+						<td><input type="text" id="sidebar-username" name="username" value="" size="12" maxlength="32" class="textField" /></td>
+					</tr>
+					<tr>
+						<td><label for="sidebar-password">Contraseña</label></td>
+						<td><input type="password" id="sidebar-password" name="password" value="" size="12" class="textField" /></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input type="checkbox" id="remember" name="remember" value="1" /> <label for="remember">No cerrar sesión</label></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input type="submit" value="Iniciar sesión" class="button" /></td>
+					</tr>
+				</table>
+			</form>
+			</div><div class="block" id="sidebarInformation">
+	<span class="blockTitle">Información</span>
+	<ul>
+		<li><a href="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/information/readers">Para lectores/as</a></li>		<li><a href="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/information/authors">Para autores/as</a></li>		<li><a href="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/information/librarians">Para bibliotecarios/as</a></li>	</ul>
+</div>
+<div class="block" id="sidebarWebFeed">
+	<span class="blockTitle">Número actual</span>
+	<a href="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/gateway/plugin/WebFeedGatewayPlugin/atom">
+	<img src="http://journal.sepln.org/sepln/ojs/ojs/plugins/generic/webFeed/templates/images/atom10_logo.gif" alt="Logotipo de Atom" border="0" /></a>
+	<br/>
+	<a href="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/gateway/plugin/WebFeedGatewayPlugin/rss2">
+	<img src="http://journal.sepln.org/sepln/ojs/ojs/plugins/generic/webFeed/templates/images/rss20_logo.gif" alt="Logotipo de RSS2" border="0" /></a>
+	<br/>
+	<a href="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/gateway/plugin/WebFeedGatewayPlugin/rss">
+	<img src="http://journal.sepln.org/sepln/ojs/ojs/plugins/generic/webFeed/templates/images/rss10_logo.gif" alt="Logotipo de RSS1" border="0" /></a>
+</div>
+			</div>
+			</div>
+
+<div id="main">
+
+<div id="navbar">
+	<ul class="menu">
+		<li id="home"><a href="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/index">Inicio</a></li>
+		<li id="about"><a href="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/about">Acerca de</a></li>
+
+					<li id="login"><a href="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/login">Iniciar sesión</a></li>
+												<li id="search"><a href="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/search">Buscar</a></li>
+		
+					<li id="current"><a href="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/issue/current">Actual</a></li>
+			<li id="archives"><a href="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/issue/archive">Archivos</a></li>
+		
+				
+
+									<li class="navItem" id="navItem-0"><a href="http://www.sepln.org">SEPLN</a></li>
+												<li class="navItem" id="navItem-1"><a href="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/pages/view/calidad">Calidad</a></li>
+						</ul>
+</div>
+<div id="breadcrumb">
+	<a href="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/index" target="_parent">Inicio</a> &gt;
+	<a href="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/issue/view/280" target="_parent">Vol. 65 (2020)</a> &gt;	<a href="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6281/3717" class="current" target="_parent">Declerck</a>
+</div>
+
+<div id="content">
+
+
+			
+<div id="pdfDownloadLinkContainer">
+	<a class="action pdf" id="pdfDownloadLink" target="_parent" href="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/download/6281/3717">Descargar el archivo PDF</a>
+</div>
+
+
+
+<script type="text/javascript"><!--
+	$(document).ready(function(){
+		if ($.browser.webkit) { // PDFObject does not correctly work with safari's built-in PDF viewer
+			var embedCode = "<object id='pdfObject' type='application/pdf' data='http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/viewFile/6281/3717' width='99%' height='99%'><div id='pluginMissing'><p>El archivo PDF seleccionado se debe cargar aquí si su navegador tiene instalado un módulo de lectura de PDF (por ejemplo, una versión reciente de <a href=\"http://www.adobe.com/products/acrobat/readstep2.html\">Adobe Acrobat Reader<\/a>).<\/p> <p>Si desea más información sobre cómo imprimir, guardar y trabajar con PDFs, Highwire Press le proporciona una guía útil de <a href=\"http://highwire.stanford.edu/help/pdf-faq.dtl\">Preguntas frecuentes sobre PDFs<\/a>.<\/p> <p>Por otro lado, puede descargar el PDF directamente a su ordenador donde podrá abrirlo con un lector de PDF. Para descargar el PDF, haga clic en el enlace anterior.<\/p></div></object>";
+			$("#inlinePdf").html(embedCode);
+			if($("#pluginMissing").is(":hidden")) {
+				$('#fullscreenShow').show();
+				$("#inlinePdf").resizable({ containment: 'parent', handles: 'se' });
+			} else { // Chrome Mac hides the embed object, obscuring the text.  Reinsert.
+				$("#inlinePdf").html('<div id="pluginMissing"><p>El archivo PDF seleccionado se debe cargar aquí si su navegador tiene instalado un módulo de lectura de PDF (por ejemplo, una versión reciente de <a href=\"http://www.adobe.com/products/acrobat/readstep2.html\">Adobe Acrobat Reader<\/a>).<\/p> <p>Si desea más información sobre cómo imprimir, guardar y trabajar con PDFs, Highwire Press le proporciona una guía útil de <a href=\"http://highwire.stanford.edu/help/pdf-faq.dtl\">Preguntas frecuentes sobre PDFs<\/a>.<\/p> <p>Por otro lado, puede descargar el PDF directamente a su ordenador donde podrá abrirlo con un lector de PDF. Para descargar el PDF, haga clic en el enlace anterior.<\/p></div>');
+			}
+		} else {
+			var success = new PDFObject({ url: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/viewFile/6281/3717" }).embed("inlinePdf");
+			if (success) {
+				// PDF was embedded; enbale fullscreen mode and the resizable widget
+				$('#fullscreenShow').show();
+				$("#inlinePdfResizer").resizable({ containment: 'parent', handles: 'se' });
+			}
+		}
+	});
+
+// -->
+</script>
+<div id="inlinePdfResizer">
+	<div id="inlinePdf" class="ui-widget-content">
+		<div id='pluginMissing'><p>El archivo PDF seleccionado se debe cargar aquí si su navegador tiene instalado un módulo de lectura de PDF (por ejemplo, una versión reciente de <a href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe Acrobat Reader</a>).</p> <p>Si desea más información sobre cómo imprimir, guardar y trabajar con PDFs, Highwire Press le proporciona una guía útil de <a href="http://highwire.stanford.edu/help/pdf-faq.dtl">Preguntas frecuentes sobre PDFs</a>.</p> <p>Por otro lado, puede descargar el PDF directamente a su ordenador donde podrá abrirlo con un lector de PDF. Para descargar el PDF, haga clic en el enlace anterior.</p></div>
+	</div>
+</div>
+<p>
+	<a class="action" href="#" id="fullscreenShow">Pantalla completa</a>
+	<a class="action" href="#" id="fullscreenHide">Pantalla completa desactivada</a>
+</p>
+<div style="clear: both;"></div>	
+					
+
+
+<!-- start AddThis -->
+						<script type="text/javascript">
+				var addthis_pub = 'emcamara@ujaen.es';
+			</script>
+				<br />
+		<br />
+		<div class="addthis_container">
+			<a href="http://www.addthis.com/bookmark.php"
+				onmouseover="return addthis_open(this, '', '', 'COST Action “European network for Web centred linguistic data science” (NexusLinguarum)')"
+				onmouseout="addthis_close()" onclick="return addthis_sendto()">
+					<img src="http://s7.addthis.com/static/btn/sm-share-es.gif" width="83" height="16" border="0" alt="Bookmark and Share" style="border:0;padding:0" />
+			</a>
+			<script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>
+		</div>
+	<!-- end AddThis -->
+
+		
+<!-- Google Analytics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-34457323-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<!-- /Google Analytics -->
+
+<br /><br />
+<div id="footer"><div id="footer_last"><p id="text">© Sociedad Española para el Procesamiento del Lenguaje Natural</p></div></div>
+</div><!-- content -->
+</div><!-- main -->
+</div><!-- body -->
+
+<script type="text/javascript">
+
+<!--
+	// Open "Define Terms" context when double-clicking any text
+	function openSearchTermWindow(url) {
+		var term;
+		if (window.getSelection) {
+			term = window.getSelection();
+		} else if (document.getSelection) {
+			term = document.getSelection();
+		} else if(document.selection && document.selection.createRange && document.selection.type.toLowerCase() == 'text') {
+			var range = document.selection.createRange();
+			term = range.text;
+		}
+		if (term != ""){
+			if (url.indexOf('?') > -1) openRTWindowWithToolbar(url + '&defineTerm=' + term);
+			else openRTWindowWithToolbar(url + '?defineTerm=' + term);
+		}
+	}
+
+	if(document.captureEvents) {
+		document.captureEvents(Event.DBLCLICK);
+	}
+
+	// Make sure to only open the reading tools when double clicking within the galley	
+	if (document.getElementById('inlinePdfResizer')) {
+		context = document.getElementById('inlinePdfResizer');	
+	}
+	else if (document.getElementById('content')) {
+		context = document.getElementById('content');	
+	}
+	else {
+		context = document;
+	}
+
+	context.ondblclick = new Function("openSearchTermWindow('http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/rt/context/6281/3717/14')");
+// -->
+
+</script>
+
+
+</div> <!-- container -->
+</body>
+</html>

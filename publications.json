@@ -18,6 +18,20 @@
     },
     "@graph": [ 
         {
+            "@id": "chakravarthi2022dravidiancodemix",
+            "@type": "swrc:Article",
+            "title": "DravidianCodeMix: Sentiment Analysis and Offensive Language Identification Dataset for Dravidian Languages in Code-Mixed Text",
+            "author": ["Bharathi Raja Chakravarthi", "Ruba Priyadharshini","Vigneshwaran Muralidaran", "Navya Jose", "Shardul Suryawanshi", "Elizabeth Sherly", "John Phillip McCrae"],
+            "year": "2022 (accepted)",
+            "journal": "Language Resource and Evaluation"
+        },{
+            "@id": "mccrae2022toward",
+            "@type": "swrc:Article",
+            "title": "Toward an Integrative Approach for Making Sense Distinction",
+            "author": ["John P. McCrae", "Theodorus Fransen", "Sina Ahmadi", "Paul Buitelaar", "Koustava Goswami"],
+            "year": "2022 (accepted)",
+            "journal": "Frontiers in Artificial Intelligence"
+        },{
             "@id": "khan2022when",
             "@type": "swrc:Article",
             "title": "When Linguistics Meets Web Technologies. Recent advances in Modelling Linguistic Linked Open Data",

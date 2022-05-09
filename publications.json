@@ -18,6 +18,49 @@
     },
     "@graph": [ 
         {
+            "@id": "majumdar2022bengali",
+            "@type": "Workshop",
+            "title": "Bengali and Magahi PUD Treebank and Parser",
+            "author": ["Pritha Majumdar", "Deepak Alok", "Akanksha Bansal", "Atul Kr. Ojha", "John P. McCrae"],
+            "booktitle": "6th Workshop on Indian Language Data Resource and Evaluation @ LREC 2022",
+            "year": "2022 (accepted)"
+        },{
+            "@id": "auti2022towards",
+            "@type": "Workshop",
+            "title": "Towards Classification of Legal Pharmaceutical Text using GAN-BERT",
+            "author": ["Tapan Auti", "Rajdeep Sarkar", "Bernardo Stearns", "Atul Kr. Ojha", "Arindam Paul", "Michaela Comerford", "Jay Megaro", "John Mariano", "Vall Herard", "John P. McCrae"],
+            "booktitle": "1st Computing Social Responsibility Workshop-NLP Approaches to Corporate Social Responsibilities @ LREC 2022",
+            "year": "2022 (accepted)"
+        },{
+            "@id": "khan2022towards",
+            "@type": "Conference",
+            "title": "Towards the Construction of a WordNet for Old English",
+            "author": ["Fahad Khan", "Francisco J. Minaya Gómez", "Rafael Cruz González", "Harry Diakoff", "Javier E. Diaz Vera", "John P. McCrae", "Ciara O'Loughlin", "William Michael Short", "Sander Stolk"],
+            "booktitle": "13th International Conference on Language Resources and Evaluation",
+            "year": "2022 (accepted)"
+        },{
+            "@id": "robin2022linghub2",
+            "@type": "Conference",
+            "title": "Linghub2: Language Resource Discovery Tool for Language Technologies",
+            "author": ["Cécile Robin", "Gautham Vadakkekara Suresh", "Víctor Rodriguez-Doncel", "John P. McCrae", "Paul Buitelaar"],
+            "booktitle":  "13th International Conference on Language Resources and Evaluation",
+            "year": "2022 (accepted)"
+        },{
+            "@id": "rani2022mhe",
+            "@type": "Conference",
+            "title": "MHE: Code-Mixed Corpora for Similar Language Identification",
+            "author": ["Priya Rani", "John P. McCrae", "Theodorus Fransen"],
+            "booktitle":  "13th International Conference on Language Resources and Evaluation",
+            "year": "2022 (accepted)"
+        },{
+            "@id": "sarkar2022kg",
+            "@type": "Workshop",
+            "title": "KG-CRuSE: Recurrent Walks over Knowledge Graph for Explainable Conversation Reasoning using Semantic Embeddings",
+            "author": ["Rajdeep Sarkar", "Mihael Arcan", "John Philip McCrae"],
+            "booktitle": "4th Workshop on NLP for Conversational AI, Co-located with ACL 2022",
+            "year": "2022 (accepted)",
+            "description": "Knowledge-grounded dialogue systems utilise external knowledge such as knowledge graphs to generate informative and appropriate responses. A crucial challenge of such systems is to select facts from a knowledge graph pertinent to the dialogue context for response generation. This fact selection can be formulated as path traversal over a knowledge graph conditioned on the dialogue context. Such paths can originate from facts mentioned in the dialogue history and terminate at the facts to be mentioned in the response. These walks, in turn, provide an explanation of the flow of the conversation. This work proposes KG-CRUSE, a simple, yet effective LSTM based decoder that utilises the semantic information in the dialogue history and the knowledge graph elements to generate such paths for effective conversation explanation. Extensive evaluations showed that our model outperforms the state-of-the-art models on the OpenDialKG dataset on multiple metrics"
+        },{
             "@id": "chakravarthi2022dravidiancodemix",
             "@type": "swrc:Article",
             "title": "DravidianCodeMix: Sentiment Analysis and Offensive Language Identification Dataset for Dravidian Languages in Code-Mixed Text",
@@ -29,8 +72,16 @@
             "@type": "swrc:Article",
             "title": "Toward an Integrative Approach for Making Sense Distinction",
             "author": ["John P. McCrae", "Theodorus Fransen", "Sina Ahmadi", "Paul Buitelaar", "Koustava Goswami"],
-            "year": "2022 (accepted)",
-            "journal": "Frontiers in Artificial Intelligence"
+            "year": "2022",
+            "journal": "Frontiers in Artificial Intelligence",
+            "volume": "5",
+            "url": "https://www.frontiersin.org/article/10.3389/frai.2022.745626",
+            "doi": "10.3389/frai.2022.745626",
+            "description": "Word senses are the fundamental unit of description in lexicography, yet it is rarely the case that different dictionaries reach any agreement on the number and definition of senses in a language. With the recent rise in natural language processing and other computational approaches there is an increasing demand for quantitatively validated sense catalogues of words, yet no consensus methodology exists. In this paper, we look at four main approaches to making sense distinctions: formal, cognitive, distributional, and intercultural and examine the strengths and weaknesses of each approach. We then consider how these may be combined into a single sound methodology. We illustrate this by examining two English words, “wing” and “fish,” using existing resources for each of these four approaches and illustrate the weaknesses of each. We then look at the impact of such an integrated method and provide some future perspectives on the research that is necessary to reach a principled method for making sense distinctions.",
+            "open": true,
+	    "license": "cc-by",
+	    "grants": [{"id":"731015"}],
+            "date": "2022-02-07"
         },{
             "@id": "khan2022when",
             "@type": "swrc:Article",
@@ -68,7 +119,7 @@
             "isbn": "9781450395960",
             "publisher": "Association for Computing Machinery",
             "address": "New York, NY, USA",
-            "url": "https://doi.org/10.1145/3503162.3503167",
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3503162.3503167",
             "doi": "10.1145/3503162.3503167",
             "pages": "58-66"
         },{
@@ -81,7 +132,7 @@
             "isbn": "9781450395960",
             "publisher": "Association for Computing Machinery",
             "address": "New York, NY, USA",
-            "url": "https://doi.org/10.1145/3503162.3503179",
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3503162.3503179",
             "doi": "10.1145/3503162.3503179",
             "description": "We present the results of HASOC-Dravidian-CodeMix shared task1 held at FIRE 2021, a track on offensive language identification for Dravidian languages in Code-Mixed Text in this paper. This paper will detail the task, its organisation, and the submitted systems. The identification of offensive language was viewed as a classification task. For this, 16 teams participated in identifying offensive language from Tamil-English code mixed data, 11 teams for Malayalam-English code mixed data and 14 teams for Tamil data. The teams detected offensive language using various machine learning and deep learning classification models. This paper has analysed those benchmark systems to find out how well they accommodate a code-mixed scenario in Dravidian languages, focusing on Tamil and Malayalam.",
             "booktitle": "Forum for Information Retrieval Evaluation",
@@ -139,8 +190,13 @@
             "title": "NUIG at TIAD 2021: Cross-lingual Word Embeddings for Translation Inference",
             "author": ["Sina Ahmadi", "Atul Kr. Ojha", "Shubhanker Banerjee", "John P. McCrae"],
             "affiliation": ["NUIG", "NUIG", "NUIG", "NUIG"],
-            "year": "2021 (Accepted)",
-            "booktitle": "TIAD 2021",
+            "year": "2021",
+            "booktitle": "Proceedings of the Workshops and Tutorials held at LDK 2021 co-located with the 3rd Language, Data and Knowledge Conference (LDK 2021)",
+            "url": "http://ceur-ws.org/Vol-3064/tiad1.pdf",
+            "open": true,
+            "license": "cc-by",
+            "grants": [{"id":"731015"}],
+            "description": "Inducing new translation pairs across dictionaries is an important task that facilitates processing and maintaining lexicographical data. This paper describes our submissions to the Translation Inference Across Dictionaries (TIAD) shared task of 2021. Our systems mainly rely on the MUSE and VecMap cross-lingual word embedding mapping to create new translation pairs between English, French and Portuguese data. We also create two regression models based on the graph analysis features. Our systems perform above the baseline systems",
             "date": "2021-09-01"
         },{
             "@id": "rajachakravarthi2021survey",

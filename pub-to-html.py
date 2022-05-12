@@ -16,11 +16,11 @@ out.write("""<div style="text-align:right;">By Type:&nbsp;&nbsp;
 <a href="#" style="padding-left:5px;" class="arttype selBook" onclick="showonly(event,'Book')">Books</a>
 <a href="#" style="padding-left:5px;" class="arttype selInCollection" onclick="showonly(event,'InCollection')">Book Chapters</a>
 <a href="#" style="padding-left:5px;" class="arttype selProceedings" onclick="showonly(event,'Proceedings')">Proceedings</a>
-<a href="#" style="padding-left:5px;" class="arttype selrence" onclick="showonly(event,'rence')">Conferences</a>
-<a href="#" style="padding-left:5px;" class="arttype selhop" onclick="showonly(event,'hop')">Workshops</a>
+<a href="#" style="padding-left:5px;" class="arttype selrence" onclick="showonly(event,'Conference')">Conferences</a>
+<a href="#" style="padding-left:5px;" class="arttype selhop" onclick="showonly(event,'Workshop')">Workshops</a>
 <a href="#" style="padding-left:5px;" class="arttype selPhDThesis" onclick="showonly(event,'PhDThesis')">Thesis</a>
 <a href="#" style="padding-left:5px;" class="arttype selMisc" onclick="showonly(event,'Misc')">Reports</a>
-<a href="#" style="padding-left:5px;" class="arttype selPatent" onclick="showonly(event,'Patent')">Reports</a>
+<a href="#" style="padding-left:5px;" class="arttype selPatent" onclick="showonly(event,'Patent')">Patents</a>
 </div>""")
 out.write("""<div style="text-align:right;padding-bottom:10px;">By Year:&nbsp;&nbsp;
 <a href="#" class="year all" onclick="showall(event)" style="color:black;">All</a>

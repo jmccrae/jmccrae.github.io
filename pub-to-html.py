@@ -20,6 +20,7 @@ out.write("""<div style="text-align:right;">By Type:&nbsp;&nbsp;
 <a href="#" style="padding-left:5px;" class="arttype selhop" onclick="showonly(event,'hop')">Workshops</a>
 <a href="#" style="padding-left:5px;" class="arttype selPhDThesis" onclick="showonly(event,'PhDThesis')">Thesis</a>
 <a href="#" style="padding-left:5px;" class="arttype selMisc" onclick="showonly(event,'Misc')">Reports</a>
+<a href="#" style="padding-left:5px;" class="arttype selPatent" onclick="showonly(event,'Patent')">Reports</a>
 </div>""")
 out.write("""<div style="text-align:right;padding-bottom:10px;">By Year:&nbsp;&nbsp;
 <a href="#" class="year all" onclick="showall(event)" style="color:black;">All</a>
@@ -57,7 +58,7 @@ def year_as_number(year):
 
 last_year = ""
 
-for paper in data["@graph"]:
+for paper in data:
     if "year" not in paper:
         print(paper["@id"])
 
@@ -97,13 +98,13 @@ for paper in data["@graph"]:
             out.write(" and ")
             out.write(paper["editor"][-1])
         out.write(" (eds)</i>, ")
-    if paper["@type"] == "swrc:InProceedings" or paper["@type"] == "Conference" or paper["@type"] == "Workshop":
+    if paper["@type"] == "InProceedings" or paper["@type"] == "Conference" or paper["@type"] == "Workshop":
         out.write("<i>")
         out.write(paper["booktitle"])
         out.write("</i>, ")
         if "pages" in paper:
             out.write("pp " + paper["pages"] + ", ")
-    elif paper["@type"] == "swrc:Article":
+    elif paper["@type"] == "Article":
         out.write("<i>")
         out.write(paper["journal"])
         out.write("</i>, ")
@@ -113,7 +114,7 @@ for paper in data["@graph"]:
                 out.write("(" + str(paper["number"]) + "), ")
         if "pages" in paper:
             out.write("pp " + paper["pages"] + ", ")
-    elif paper["@type"] == "swrc:InCollection":
+    elif paper["@type"] == "InCollection":
         out.write("In: <i>")
         out.write(paper["booktitle"])
         if "editor" in paper:
@@ -122,11 +123,11 @@ for paper in data["@graph"]:
         out.write("</i>, ")
         if "pages" in paper:
             out.write("pp " + paper["pages"] + ", ")
-    elif paper["@type"] == "swrc:Book":
+    elif paper["@type"] == "Book":
         out.write("<i>")
         out.write(paper["publisher"])
         out.write("</i>, ")
-    elif paper["@type"] == "swrc:Proceedings":
+    elif paper["@type"] == "Proceedings":
         out.write("<i>")
         if "publisher" not in paper:
             print(paper["@id"])
@@ -135,10 +136,12 @@ for paper in data["@graph"]:
             out.write(" - ")
             out.write(paper["series"])
         out.write("</i>, ")
-    elif paper["@type"] == "swrc:PhDThesis":
+    elif paper["@type"] == "PhDThesis":
         out.write("PhD Thesis for Graduate University of Advanced Studies (SoKenDai), ")
-    elif paper["@type"] == "swrc:Misc":
+    elif paper["@type"] == "Misc":
         out.write("Technical Report: " + paper["organization"])
+    elif paper["@type"] == "Patent":
+        out.write("Patent: " + paper["note"])
     else:
         sys.stderr.write("unknown type" + paper["@type"])
 

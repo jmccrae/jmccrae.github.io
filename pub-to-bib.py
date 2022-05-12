@@ -14,21 +14,23 @@ data = json.loads(open("publications.json").read())
 #out.write("\\documentclass[a4paper]{article}\n")
 #out.write("\\begin{document}\n")
 
-for paper in data["@graph"]:
+for paper in data:
     #out.write("\\cite{%s}\n" % paper["@id"])
-    if paper["@type"] == "swrc:InProceedings" or paper["@type"] == "Conference" or paper["@type"] == "Workshop":
+    if paper["@type"] == "InProceedings" or paper["@type"] == "Conference" or paper["@type"] == "Workshop":
         print("@inproceedings{%s," % paper["@id"])
-    elif paper["@type"] == "swrc:Proceedings":
+    elif paper["@type"] == "Proceedings":
         print("@proceedings{%s," % paper["@id"])
-    elif paper["@type"] == "swrc:Book":
+    elif paper["@type"] == "Book":
         print("@book{%s," % paper["@id"])
-    elif paper["@type"] == "swrc:Article":
+    elif paper["@type"] == "Article":
         print("@article{%s," % paper["@id"])
-    elif paper["@type"] == "swrc:InCollection":
+    elif paper["@type"] == "InCollection":
         print("@incollection{%s," % paper["@id"])
-    elif paper["@type"] == "swrc:PhDThesis":
+    elif paper["@type"] == "PhDThesis":
         print("@phdthesis{%s," % paper["@id"])
-    elif paper["@type"] == "swrc:Misc":
+    elif paper["@type"] == "Misc":
+        print("@misc{%s," % paper["@id"])
+    elif paper["@type"] == "Patent":
         print("@misc{%s," % paper["@id"])
     first = True
     for key, value in paper.items():

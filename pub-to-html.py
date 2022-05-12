@@ -42,7 +42,7 @@ out.write("""<div style="text-align:right;padding-bottom:10px;">By Year:&nbsp;&n
 
 def mkclasses(paper):
     year = "y" + re.sub('\W+', '', str(paper["year"]))[:4]
-    arttype = paper["@type"][5:]
+    arttype = paper["@type"]
     if "author" in paper:
         coauthors = ' '.join([re.sub('\W+', '', a) for a in paper["author"]])
         return "pub " + year + " " + arttype + " " + coauthors

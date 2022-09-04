@@ -480,7 +480,7 @@
     },{
         "@id": "ojha2020nuig",
         "@type": "Workshop",
-        "title": "NUIG-Panlingua-KMI Hindi↔Marathi MT Systems for SimilarLanguage Translation Task @ WMT 2020",
+        "title": "NUIG-Panlingua-KMI Hindi↔Marathi MT Systems for Similar Language Translation Task @ WMT 2020",
         "author": ["Atul Kr. Ojha", "Priya Rani", "Akanksha Bansal", "Bharathi Raja Chakravarthi", "Ritesh Kumar", "John P. McCrae"],
         "year": "2020",
         "booktitle": "Proceedings of the Fifth Conference on Machine Translation (WMT20)",

@@ -1,5 +1,12 @@
 [
     {
+        "@id": "yim2022edi",
+        "@type": "Workshop",
+        "title": "EDIE - Elexis DIctionary Evaluation Tool",
+        "author": ["Seung-Bin Yim", "Lenka Bajcetic", "Thierry Declerck", "John McCrae"],
+        "booktitle": "Proceedings of the Workshop on PROfiling LINGuistic KNOWledgE gRaphs (ProLingKNOWER)",
+        "year": "2022 (accepted)"
+    },{
         "@id": "banerjee2022dataset",
         "@type": "Workshop",
         "title": "A Dataset for Term Extraction in Hindi",

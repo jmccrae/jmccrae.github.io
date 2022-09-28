@@ -141,7 +141,7 @@ for paper in data:
     elif paper["@type"] == "Misc":
         out.write("Technical Report: " + paper["organization"])
     elif paper["@type"] == "Patent":
-        out.write("Patent: " + paper["note"])
+        out.write("Patent: " + paper["note"] + " ")
     else:
         sys.stderr.write("unknown type" + paper["@type"])
 

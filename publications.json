@@ -1689,7 +1689,7 @@
     }, {
         "@id":       "bond2016cili",
         "@type":     "Conference",
-        "url":       "https://www.overleaf.com/read/rsnvsbdghybg",
+        "url":       "https://aclanthology.org/2016.gwc-1.9.pdf",
         "title":     "CILI: the Collaborative Interlingual Index",
         "author":    ["Francis Bond", "Piek Vossen", "John P. McCrae", "Christiane Fellbaum"],
         "booktitle": "Proceedings of the Global WordNet Conference 2016",
@@ -1697,7 +1697,7 @@
     },{
         "@id":       "vossen2016toward",
         "@type":     "Conference",
-        "url":       "https://www.overleaf.com/read/fwhzzvrrwrmw",
+        "url":       "https://aclanthology.org/2016.gwc-1.59.pdf",
         "title":     "Toward a truly multilingual Global Wordnet Grid",
         "author":    ["Piek Vossen", "Francis Bond", "John P. McCrae"],
         "booktitle": "Proceedings of the Global WordNet Conference 2016",

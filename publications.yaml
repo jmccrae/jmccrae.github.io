@@ -1,3 +1,84 @@
+- '@id': banerjee2023mg2p
+  '@type': Conference
+  author:  
+  - Shubhanker Banerjee
+  - Bharathi Raja Asoka Chakravarthi
+  - John Philip McCrae
+  title: "MG2P: An Empirical Study Of Multilingual Training for Manx G2P"
+  booktitle: LDK 2023 Conference
+  year: "2023 (Accepted)"
+- '@id': doyle2023cardamom
+  '@type': Conference
+  title: The Cardamom Workbench for Historical and Under-Resourced Languages
+  author:
+  - Adrian Doyle
+  - Theodorus Fransen
+  - Bernardo Stearns
+  - John Philip McCrae
+  - Oksana Dereza
+  - Priya Rani
+  booktitle: LDK 2023 Conference
+  year: "2023 (Accepted)"
+- '@id': sarkar2023pickd
+  '@type': Conference
+  title: "PICKD: In-Situ Prompt Tuning for Knowledge-Grounded Dialogue Generation"
+  author:
+  - Rajdeep Sarkar
+  - Koustava Goswami
+  - Mihael Arcan
+  - John McCrae 
+  booktitle: "PAKDD 2023: Advances in Knowledge Discovery and Data Mining"
+  year: 2023
+  pages: "124-136"
+  grants: []
+  open: false
+  url: https://link.springer.com/chapter/10.1007/978-3-031-33383-5_10
+  description: "Generating informative, coherent and fluent responses to user queries is challenging yet critical for a rich user experience and the eventual success of dialogue systems. Knowledge-grounded dialogue systems leverage external knowledge to induce relevant facts in a dialogue. These systems need to understand the semantic relatedness between the dialogue context and the available knowledge, thereby utilising this information for response generation. Although various innovative models have been proposed, they neither utilise the semantic entailment between the dialogue history and the knowledge nor effectively process knowledge from both structured and unstructured sources. In this work, we propose PICKD, a two-stage framework for knowledgeable dialogue. The first stage involves the Knowledge Selector choosing knowledge pertinent to the dialogue context from both structured and unstructured knowledge sources. PICKD leverages novel In-Situ prompt tuning for knowledge selection, wherein prompt tokens are injected into the dialogue-knowledge text tokens during knowledge retrieval. The second stage employs the Response Generator for generating fluent and factual responses by utilising the retrieved knowledge and the dialogue context. Extensive experiments on three domain-specific datasets exhibit the effectiveness of PICKD over other baseline methodologies for knowledge-grounded dialogue. The source is available at https://github.com/rajbsk/pickd."
+- '@id': dereza2023temporal
+  '@type': Workshop
+  author:
+  - Oksana Dereza
+  - Theodorus Fransen
+  - John P. McCrae
+  booktitle: Tenth Workshop on NLP for Similar Languages, Varieties and Dialects (VarDial 2023)
+  title: Temporal Domain Adaptation for Historical Irish
+  year: 2023
+  grants: []
+  open: true
+  license: cc-by
+  description: The digitisation of historical texts has provided new horizons for NLP research, but such data also presents a set of challenges, including scarcity and inconsistency. The lack of editorial standard during digitisation exacerbates these difficulties.This study explores the potential for temporal domain adaptation in Early Modern Irish and pre-reform Modern Irish data. We describe two experiments carried out on the book subcorpus of the Historical Irish Corpus, which includes Early Modern Irish and pre-reform Modern Irish texts from 1581 to 1926. We also propose a simple orthographic normalisation method for historical Irish that reduces the type-token ratio by 21.43% on average in our data.The results demonstrate that the use of out-of-domain data significantly improves a language model’s performance. Providing a model with additional input from another historical stage of the language improves its quality by 12.49% on average on non-normalised texts and by 27.02% on average on normalised (demutated) texts. Most notably, using only out-of-domain data for both pre-training and training stages allowed for up to 86.81% of the baseline model quality on non-normalised texts and up to 95.68% on normalised texts without any target domain data. Additionally, we investigate the effect of temporal distance between the training and test data. The hypothesis that there is a positive correlation between performance and temporal proximity of training and test data has been validated, which manifests best in normalised data. Expanding this approach even further back, to Middle and Old Irish, and testing it on other languages is a further research direction.
+  url: https://aclanthology.org/2023.vardial-1.6.pdf
+- '@id': dereza2023do
+  '@type': Workshop
+  title: "Do not Trust the Experts: How the Lack of Standard Complicates NLP for Historical Irish"
+  author:
+  - Oksana Dereza
+  - Theodorus Fransen
+  - John P. Mccrae
+  booktitle: The Fourth Workshop on Insights from Negative Results in NLP
+  year: 2023
+  grants: []
+  open: true
+  license: cc-by
+  description: In this paper, we describe how we unearthed some fundamental problems while building an analogy dataset modelled on BATS (Gladkova et al., 2016) to evaluate historical Irish embeddings on their ability to detect orthographic, morphological and semantic similarity.The performance of our models in the analogy task was extremely poor regardless of the architecture, hyperparameters and evaluation metrics, while the qualitative evaluation revealed positive tendencies. We argue that low agreement between field experts on fundamental lexical and orthographic issues, and the lack of a unified editorial standard in available resources make it impossible to build reliable evaluation datasets for computational models and obtain interpretable results. We emphasise the need for such a standard, particularly for NLP applications, and prompt Celticists and historical linguists to engage in further discussion. We would also like to draw NLP scholars’ attention to the role of data and its (extra)linguistic properties in testing new models, technologies and evaluation scenarios.
+  url: https://aclanthology.org/2023.insights-1.10.pdf
+- '@id': rani2023findings
+  '@type': Workshop
+  title: Findings of the SIGTYP 2023 Shared task on Cognate and Derivative Detection For Low-Resourced Languages
+  author:
+  - Priya Rani
+  - Koustava Goswami
+  - Adrian Doyle
+  - Theodorus Fransen
+  - Bernardo Stearns
+  - John P. McCrae
+  booktitle: Proceedings of the 5th Workshop on Research in Computational Linguistic Typology and Multilingual NLP
+  description: This paper describes the structure and findings of the SIGTYP 2023 shared task on cognate and derivative detection for low-resourced languages, broken down into a supervised and unsupervised sub-task. The participants were asked to submit the test data’s final prediction. A total of nine teams registered for the shared task where seven teams registered for both sub-tasks. Only two participants ended up submitting system descriptions, with only one submitting systems for both sub-tasks. While all systems show a rather promising performance, all could be within the baseline score for the supervised sub-task. However, the system submitted for the unsupervised sub-task outperforms the baseline score.
+  year: 2023
+  grants: []
+  open: true
+  license: cc-by
+  url: https://aclanthology.org/2023.sigtyp-1.13.pdf
 - '@id': khan2023considerations
   '@type': Conference
   author:
@@ -9,6 +90,80 @@
   booktitle: Proceedings of the Global WordNet Conference 2023
   title: Some Considerations in the Construction of a Historical Language WordNet
   year: 2023 (accepted)
+- '@id': raja2022edi
+  '@type': Proceedings
+  title: Proceedings of the Second Workshop on Language Technology for Equality, Diversity and Inclusion
+  author: 
+  - Bharathi Raja Chakravarthi
+  - B Bharathi
+  - John P McCrae
+  - Manel Zarrouk
+  - Kalika Bali
+  - Paul Buitelaar
+  booktitle: Proceedings of the Second Workshop on Language Technology for Equality, Diversity and Inclusion 
+  year: 2022
+  grants: []
+  open: true
+  license: cc-by
+  url: https://aclanthology.org/2022.ltedi-1.0.pdf
+  publisher: Association for Computational Linguistics
+- '@id': raja2022homophobia
+  '@type': Workshop
+  title: Overview of The Shared Task on Homophobia and Transphobia Detection in Social Media Comments
+  author:
+  - Bharathi Raja Chakravarthi
+  - Ruba Priyadharshini
+  - Thenmozhi Durairaj
+  - John McCrae
+  - Paul Buitelaar
+  - Prasanna Kumaresan
+  - Rahul Ponnusamy
+  booktitle: Proceedings of the Second Workshop on Language Technology for Equality, Diversity and Inclusion
+  year: 2023
+  grants: []
+  open: true
+  license: cc-by
+  description: Homophobia and Transphobia Detection is the task of identifying homophobia, transphobia, and non-anti-LGBT+ content from the given corpus. Homophobia and transphobia are both toxic languages directed at LGBTQ+ individuals that are described as hate speech. This paper summarizes our findings on the “Homophobia and Transphobia Detection in social media comments” shared task held at LT-EDI 2022 - ACL 2022 1. This shared taskfocused on three sub-tasks for Tamil, English, and Tamil-English (code-mixed) languages. It received 10 systems for Tamil, 13 systems for English, and 11 systems for Tamil-English. The best systems for Tamil, English, and Tamil-English scored 0.570, 0.870, and 0.610, respectively, on average macro F1-score.
+  url: https://aclanthology.org/2022.ltedi-1.57.pdf
+- '@id': raja2022hope
+  '@type': Workshop
+  title: Overview of the Shared Task on Hope Speech Detection for Equality, Diversity, and Inclusion
+  author: 
+  - Bharathi Raja Chakravarthi
+  - Vigneshwaran Muralidaran
+  - Ruba Priyadharshini
+  - Subalalitha Cn
+  - John McCrae
+  - Miguel Ángel García
+  - Salud María Jiménez-Zafra
+  - Rafael Valencia-García
+  - Prasanna Kumaresan
+  - Rahul Ponnusamy
+  - Daniel García-Baena
+  - José García-Díaz
+  booktitle: Proceedings of the Second Workshop on Language Technology for Equality, Diversity and Inclusion
+  year: 2023
+  grants: []
+  open: true
+  license: cc-by
+  description: Hope Speech detection is the task of classifying a sentence as hope speech or non-hope speech given a corpus of sentences. Hope speech is any message or content that is positive, encouraging, reassuring, inclusive and supportive that inspires and engenders optimism in the minds of people. In contrast to identifying and censoring negative speech patterns, hope speech detection is focussed on recognising and promoting positive speech patterns online. In this paper, we report an overview of the findings and results from the shared task on hope speech detection for Tamil, Malayalam, Kannada, English and Spanish languages conducted in the second workshop on Language Technology for Equality, Diversity and Inclusion (LT-EDI-2022) organised as a part of ACL 2022. The participants were provided with annotated training & development datasets and unlabelled test datasets in all the five languages. The goal of the shared task is to classify the given sentences into one of the two hope speech classes. The performances of the systems submitted by the participants were evaluated in terms of micro-F1 score and weighted-F1 score. The datasets for this challenge are openly available
+  url: https://aclanthology.org/2022.ltedi-1.58.pdf
+- '@id': declerck2022ldl
+  '@type': Proceedings
+  title: Proceedings of the 8th Workshop on Linked Data in Linguistics within the 13th Language Resources and Evaluation Conference
+  author: 
+  - Thierry Declerck
+  - John P. McCrae
+  - Elena Montiel
+  - Christian Chiarcos
+  - Maxim Ionov
+  booktitle: Proceedings of the 8th Workshop on Linked Data in Linguistics within the 13th Language Resources and Evaluation Conference
+  year: 2023
+  grants: []
+  open: true
+  license: cc-by
+  url: https://aclanthology.org/2022.ldl-1.0.pdf
+  publisher: Association for Computational Linguistics
 - '@id': yim2022edi
   '@type': Workshop
   author:
@@ -93,6 +248,25 @@
   title: A Dataset for Term Extraction in Hindi
   url: https://aclanthology.org/2022.term-1.4.pdf
   year: '2022'
+- '@id': madasamy2022dravidian
+  '@type': Workshop
+  title: Overview of the Shared Task on Machine Translation in Dravidian Languages
+  author: 
+  - Anand Kumar Madasamy
+  - Asha Hegde
+  - Shubhanker Banerjee
+  - Bharathi Raja Chakravarthi
+  - Ruba Priyadharshini
+  - Hosahalli Shashirekha
+  - John McCrae
+  booktitle: Proceedings of the Second Workshop on Speech and Language Technologies for Dravidian Languages
+  year: 2022
+  grants: []
+  license: cc-by
+  open: true
+  pages: 271-278
+  description: "This paper presents an outline of the shared task on translation of under-resourced Dravidian languages at DravidianLangTech-2022 workshop to be held jointly with ACL 2022. A description of the datasets used, approach taken for analysis of submissions and the results have been illustrated in this paper. Five sub-tasks organized as a part of the shared task include the following translation pairs: Kannada to Tamil, Kannada to Telugu, Kannada to Sanskrit, Kannada to Malayalam and Kannada to Tulu. Training, development and test datasets were provided to all participants and results were evaluated on the gold standard datasets. A total of 16 research groups participated in the shared task and a total of 12 submission runs were made for evaluation. Bilingual Evaluation Understudy (BLEU) score was used for evaluation of the translations."
+  url: https://aclanthology.org/2022.dravidianlangtech-1.41.pdf
 - '@id': mohanty2022building
   '@type': Patent
   author:

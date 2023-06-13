@@ -1,15 +1,17 @@
-import json
+#import json
+import yaml
 import re
 import sys
 import os
 
-data = json.loads(open("publications.json").read())
+#data = json.loads(open("publications.json").read())
+data = yaml.safe_load(open("publications.yaml"))
 
 out = open("publications.php", "w")
 
 out.write("<?php include 'header.html'; ?>\n")
 out.write("<div class=\"row col-lg-6 col-lg-offset-3\">\n\n")
-out.write("<div style=\"text-align:right;\">Download as: <a href=\"publications.bib\">BibTeX</a>&nbsp;&nbsp;<a href=\"publications.json\">JSON-LD</a></div>")
+out.write("<div style=\"text-align:right;\">Download as: <a href=\"publications.bib\">BibTeX</a></div>")
 out.write("""<div style="text-align:right;">By Type:&nbsp;&nbsp;
 <a href="#" class="arttype all" onclick="showall(event)" style="color:black;">All</a>&nbsp;&nbsp;
 <a href="#" style="padding-left:5px;" class="arttype selArticle" onclick="showonly(event,'Article')">Journal Articles</a>

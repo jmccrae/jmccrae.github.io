@@ -1,5 +1,12 @@
 [
     {
+        "@id": "khan2023considerations",
+        "@type": "Conference",
+        "title": "Some Considerations in the Construction of a Historical Language WordNet",
+        "author": ["Fahad Khan", "John P. McCrae", "Francisco Javier Minaya Gómez", "Rafael Cruz González", "Javier E. Díaz-Vera"],
+        "booktitle": "Proceedings of the Global WordNet Conference 2023",
+        "year": "2023 (accepted)"
+    },{
         "@id": "yim2022edi",
         "@type": "Workshop",
         "title": "EDIE - Elexis DIctionary Evaluation Tool",

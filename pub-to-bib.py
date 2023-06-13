@@ -1,4 +1,5 @@
-import json
+#import json
+import yaml
 import sys
 import re
 from pylatexenc.latexencode import unicode_to_latex
@@ -7,7 +8,8 @@ def fix(string):
     return unicode_to_latex(string)
 
 
-data = json.loads(open("publications.json").read())
+#data = json.loads(open("publications.json").read())
+data = yaml.safe_load(open("publications.yaml"))
 
 #out = open("test/test.tex", "w")
 #

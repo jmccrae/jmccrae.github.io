@@ -1,3 +1,17 @@
+- '@id': verma2023empowering
+  '@type': 'Workshop'
+  author:
+  - Ghanshyam Verma
+  - Simon Simanta
+  - Huan Chen
+  - Devishree Pillai
+  - John P. McCrae
+  - János A. Perge
+  - Shovon Sengupta
+  - Paul Buitelaar
+  title: "Empowering recommender systems using automatically generated Knowledge Graphs and Reinforcement Learning"
+  booktitle: OARS-KDD 2023
+  year: "2023 (Accepted)"
 - '@id': banerjee2023mg2p
   '@type': Conference
   author:  

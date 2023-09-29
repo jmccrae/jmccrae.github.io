@@ -28,7 +28,9 @@
 <a href="#" class="year sely2010" onclick="showonly(event,'y2010')" style="padding-left:5px;">2010</a>
 <a href="#" class="year sely2009" onclick="showonly(event,'y2009')" style="padding-left:5px;">2009</a>
 <a href="#" class="year sely2008" onclick="showonly(event,'y2008')" style="padding-left:5px;">2008</a>
-</div><h3 class='header y2023'>2023</h3><hr class='header y2023'/><p class="pub y2023 Conference ShubhankerBanerjee BharathiRajaAsokaChakravarthi JohnPhilipMcCrae"><b>MG2P: An Empirical Study Of Multilingual Training for Manx G2P</a></b>. Shubhanker Banerjee, Bharathi Raja Asoka Chakravarthi and John Philip McCrae, <i>LDK 2023 Conference</i>, (2023 (Accepted)).</p>
+</div><h3 class='header y2023'>2023</h3><hr class='header y2023'/><p class="pub y2023 Workshop GhanshyamVerma SimonSimanta HuanChen DevishreePillai JohnPMcCrae JánosAPerge ShovonSengupta PaulBuitelaar"><b>Empowering recommender systems using automatically generated Knowledge Graphs and Reinforcement Learning</a></b>. Ghanshyam Verma, Simon Simanta, Huan Chen, Devishree Pillai, John P. McCrae, János A. Perge, Shovon Sengupta and Paul Buitelaar, <i>OARS-KDD 2023</i>, (2023 (Accepted)).</p>
+
+<p class="pub y2023 Conference ShubhankerBanerjee BharathiRajaAsokaChakravarthi JohnPhilipMcCrae"><b>MG2P: An Empirical Study Of Multilingual Training for Manx G2P</a></b>. Shubhanker Banerjee, Bharathi Raja Asoka Chakravarthi and John Philip McCrae, <i>LDK 2023 Conference</i>, (2023 (Accepted)).</p>
 
 <p class="pub y2023 Conference AdrianDoyle TheodorusFransen BernardoStearns JohnPhilipMcCrae OksanaDereza PriyaRani"><b>The Cardamom Workbench for Historical and Under-Resourced Languages</a></b>. Adrian Doyle, Theodorus Fransen, Bernardo Stearns, John Philip McCrae, Oksana Dereza and Priya Rani, <i>LDK 2023 Conference</i>, (2023 (Accepted)).</p>
 

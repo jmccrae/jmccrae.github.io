@@ -1,0 +1,139 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>John P. McCrae - Lecturer at Data Science Institute, NUI Galway</title>
+        <link href='//fonts.googleapis.com/css?family=Lora:400,400italic,700' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap@3.3.1/dist/css/bootstrap.min.css">
+<!-- Google tag (gtag.js) -->
+<script async src="//www.googletagmanager.com/gtag/js?id=G-DZEFKMW8HL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DZEFKMW8HL');
+</script>
+        <style type="text/css">
+            * {
+				font-family: Lora, Verdana, Geneva, Arial, Helvetica, sans-serif;
+                font-size: 16px;
+            }
+            p {
+                font-size: 16px;
+            }
+            a {
+                color: #00bdff;
+            }
+            .my_nav {
+                float:left;
+                list-style-type: none;
+                padding-left: 0px;
+                border-bottom: 1px dotted #d8dde0;
+                width: 100%;
+            }
+            .my_nav li {
+                display: inline;
+                padding-right: 15px;
+                padding-top: 30px;
+            }
+            .my_nav a {
+                font-family: 'Yanone Kaffeesatz', sans-serif;
+                letter-spacing: 0.05em;
+                color: #000;
+                font-size: 18px;
+            }
+            .my_active {
+                font-weight: bold;
+            }
+            a:hover {
+                color: #f25f60;
+                text-decoration: none;
+            } 
+            h2 {
+                font-size: 24px;
+                font-family: 'Yanone Kaffeesatz', sans-serif;
+                letter-spacing: 0.05em;
+                padding-top: 5px;
+                padding-bottom: 25px;
+            }
+            h1 span {
+                font-size: 50px;
+                line-height: 144px;
+                font-family: 'Yanone Kaffeesatz', sans-serif;
+                letter-spacing: 0.2em;
+            }
+            h1 sup {
+                font-family: 'Yanone Kaffeesatz', sans-serif;
+            }
+            .nav_row {
+                padding-bottom: 50px;
+            } 
+            body {
+                padding-bottom: 100px;
+            }
+            .circle-crop {
+                width: 180px;
+                height: 180px;
+                position: relative;
+                overflow: hidden;
+                border-radius: 50%;
+            }
+
+            .circle-crop img {
+                display: inline;
+                margin: 0 auto;
+                height: 100%;
+                width: auto;
+            }
+            .project-img {
+                width:100%;
+                max-width: 300px;
+            }
+            .project {
+                padding-bottom: 30px;
+            }
+            .project i {
+                font-family: 'Yanone Kaffeesatz', sans-serif;
+                font-size: 150%;
+            }
+            .project b {
+                font-family: 'Yanone Kaffeesatz', sans-serif;
+                font-size: 150%;
+            }
+            .abstract {
+                display: none;
+                font-style: italic;
+                padding-left: 20px;
+                padding-right: 50px;
+                text-align: justify;
+            }
+            .abstract-link {
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body xmlns:foaf="http://xmlns.com/foaf/0.1/">
+        <div class="container">
+            <div class="row name_row">
+                <h1><span property="foaf:name">John Philip M<sup>c</sup>Crae</span></h1>
+            </div>
+            <div class="row col-lg-6 col-lg-offset-3 nav_row">
+                <ul class="my_nav">
+                    <?php if($_SERVER['SCRIPT_NAME'] == "/index.php") { ?><li class="my_active"><?php } else { ?><li><?php } ?>
+                        <a href="/index">About</a></li>
+                    <?php if($_SERVER['SCRIPT_NAME'] == "/edu_employ.php") { ?><li class="my_active"><?php } else { ?><li><?php } ?>
+                        <a href="/edu_employ">CV</a></li>
+                    <?php if($_SERVER['SCRIPT_NAME'] == "/publications.php") { ?><li class="my_active"><?php } else { ?><li><?php } ?>
+                        <a href="/publications">Publications</a></li>
+                    <?php if($_SERVER['SCRIPT_NAME'] == "/activities.php") { ?><li class="my_active"><?php } else { ?><li><?php } ?>
+                        <a href="/activities">Activities</a></li>
+                    <li><img src="/uld.png" height="25px" style="padding-bottom: 6px;"/></li>
+                    <?php if($_SERVER['SCRIPT_NAME'] == "/projects.php") { ?><li class="my_active"><?php } else { ?><li><?php } ?>
+                        <a href="/projects">Projects</a></li>
+                    <li><a href="https://github.com/jmccrae">GitHub</a></li>
+                </ul>
+            </div>
+

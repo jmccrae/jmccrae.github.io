@@ -72,7 +72,10 @@ last_year = ""
     {% if paper.year contains "ccepted" %}
     <p class="pub y{{ paper_year }} {{ paper.type }}"><b>
     {% else %}
-    <p class="pub y{{ paper_year }} {{ paper.type }}"><b><a class="publication" href="{{ paper.url }}">
+    <p class="pub y{{ paper_year }} {{ paper.type }}"><b><a class="publication" 
+                                                            {% if paper.url %} href="{{ paper.url }}"{% else %} href="papers/{{ paper.id }}"{% endif %}>
+    {% endif %}
+    {{ paper.title }}
 
 <!--    if "ccepted" in str(paper["year"]):
         out.write("<p class=\"" + mkclasses(paper) + "\"><b>")

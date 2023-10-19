@@ -36,133 +36,57 @@
 <a href="#" class="year sely2009" onclick="showonly(event,'y2009')" style="padding-left:5px;">2009</a>
 <a href="#" class="year sely2008" onclick="showonly(event,'y2008')" style="padding-left:5px;">2008</a>
 </div>
-
-<!--
-def mkclasses(paper):
-    year = "y" + re.sub('\W+', '', str(paper["year"]))[:4]
-    arttype = paper["@type"]
-    if "author" in paper:
-        coauthors = ' '.join([re.sub('\W+', '', a) for a in paper["author"]])
-        return "pub " + year + " " + arttype + " " + coauthors
-    else:
-        return "pub " + year + " " + arttype
-
-
-def year_as_number(year):
-    if isinstance(year, str):
-        return int(year[:4])
-    else:
-        return year
-
-last_year = ""
--->
 {% assign last_year = "" %}
-
 {% for paper in site.data.publications %}
     {% unless paper.year %}
     {{ paper.title }} does not have a year
     {% endunless %}
-
-    {% assign paper_year = paper.year | slice: 4 %}
-    {% if paper_year != last_year %}
-    <h3 class="header y{{ paper_year }}">{{ paper_year }}</h3><hr class="header y{{ paper_year }}"/>
-    {% assign last_year = paper_year %}
+    {% if paper.year != last_year %}
+    <h3 class="header y{{ paper.year }}">{{ paper.year }}</h3><hr class="header y{{ paper.year }}"/>
+    {% assign last_year = paper.year %}
     {% endif %}
-
-    {% if paper.year contains "ccepted" %}
-    <p class="pub y{{ paper_year }} {{ paper.type }}"><b>
+    {% if paper.accepted %}
+    <p class="pub y{{ paper.year }} {{ paper.type }}"><b>
     {% else %}
-    <p class="pub y{{ paper_year }} {{ paper.type }}"><b><a class="publication" 
-                                                            {% if paper.url %} href="{{ paper.url }}"{% else %} href="papers/{{ paper.id }}"{% endif %}>
+    <p class="pub y{{ paper.year }} {{ paper.type }}"><b><a class="publication" {% if paper.url %} href="{{ paper.url }}"{% else %} href="papers/{{ paper.id }}"{% endif %}>
     {% endif %}
-    {{ paper.year }}
     {{ paper.title }}</a></b>.
-
     {% if paper.author %}
-        {% if paper.author.size == 1 %}
-            {{ paper.author | first }}
-        {% else %}
-            {{ paper.author | reverse | remove_first | reverse | join ", " }} and {{ paper.author | last }}
-        {% endif %}
+    {% for author in paper.author %}{% if forloop.last %} and {% elsif forloop.first %}{% else %}, {% endif %}{{ author }}{% endfor %}
     {% endif %}
-        
-    <!--if "author" in paper:
-        if len(paper["author"]) == 1:
-            out.write(paper["author"][0])
-        else:
-            out.write(", ".join(paper["author"][:-1]))
-            out.write(" and ")
-            out.write(paper["author"][-1])
-        out.write(", ")
-    if "editor" in paper:
-        out.write("<i>")
-        if len(paper["editor"]) == 1:
-            out.write(paper["editor"][0])
-        else:
-            out.write(", ".join(paper["editor"][:-1]))
-            out.write(" and ")
-            out.write(paper["editor"][-1])
-        out.write(" (eds)</i>, ")
-    if paper["@type"] == "InProceedings" or paper["@type"] == "Conference" or paper["@type"] == "Workshop":
-        out.write("<i>")
-        out.write(paper["booktitle"])
-        out.write("</i>, ")
-        if "pages" in paper:
-            out.write("pp " + paper["pages"] + ", ")
-    elif paper["@type"] == "Article":
-        out.write("<i>")
-        out.write(paper["journal"])
-        out.write("</i>, ")
-        if "volume" in paper:
-            out.write(str(paper["volume"]))
-            if "number" in paper:
-                out.write("(" + str(paper["number"]) + "), ")
-        if "pages" in paper:
-            out.write("pp " + paper["pages"] + ", ")
-    elif paper["@type"] == "InCollection":
-        out.write("In: <i>")
-        out.write(paper["booktitle"])
-        if "editor" in paper:
-            out.write(", eds. ")
-            out.write(", ".join(paper["editor"]))
-        out.write("</i>, ")
-        if "pages" in paper:
-            out.write("pp " + paper["pages"] + ", ")
-    elif paper["@type"] == "Book":
-        out.write("<i>")
-        out.write(paper["publisher"])
-        out.write("</i>, ")
-    elif paper["@type"] == "Proceedings":
-        out.write("<i>")
-        if "publisher" not in paper:
-            print(paper["@id"])
-        out.write(paper["publisher"])
-        if "series" in paper:
-            out.write(" - ")
-            out.write(paper["series"])
-        out.write("</i>, ")
-    elif paper["@type"] == "PhDThesis":
-        out.write("PhD Thesis for Graduate University of Advanced Studies (SoKenDai), ")
-    elif paper["@type"] == "Misc":
-        out.write("Technical Report: " + paper["organization"])
-    elif paper["@type"] == "Patent":
-        out.write("Patent: " + paper["note"] + " ")
-    else:
-        sys.stderr.write("unknown type" + paper["@type"])
-
+    {% if paper.editor %}    
+    <i>{% for editor in paper.editor %}{% if forloop.last %} and {% elsif forloop.first %}{% else %}, {% endif %}{{ editor }}{% endfor %} (eds)</i>
+    {% endif %}
+    {% if paper.type == "InProceedings" or paper.type == "Conference" or paper.type == "Workshop" %}
+    <i>{{ paper.booktitle }}</i>, {% if paper.pages %}pp {{ paper.pages }}, {% endif %}
+    {% elsif paper.type == "Article" %}
+    <i>{{ paper.journal }}</i>, {% if paper.volume %}{{ paper.volume }}{% if paper.number %}({{ paper.number }}){% endif %}{% endif %}{% if paper.pages %}pp {{ paper.pages }}, {% endif %}
+    {% elsif paper.type == "InCollection" %}
+    In: <i>{{ paper.booktitle }}</i>{% if paper.editor %}{% for editor in paper.editor %}{% if forloop.last %} and {% elsif forloop.first %}{% else %}, {% endif %}{{ editor }}{% endfor %} (eds){% endif %}{% if paper.pages %}pp {{ paper.pages }}, {% endif %}
+    {% elsif paper.type == "Book" %}
+    <i>{{ paper.publisher }}</i>, 
+    {% elsif paper.type == "Proceedings" %}
+    <i>{{ paper.publisher }}{% if paper.series %} - {{ paper.series }}{% endif %}</i>, 
+    {% elsif paper.type == "PhDThesis" %}
+    PhD Thesis for Graduate University of Advanced Studies (SoKenDai),
+    {% elsif paper.type == "Misc" %}
+    Technical Report: {{ paper.organization }}
+    {% elsif paper.type == "Patent" %}
+    Patent: {{ paper.note }}
+    {% endif %}
          
-    out.write("(" + str(paper["year"]) + ").")
+    ({{ paper.year }}{% if paper.accepted %} Accepted{% endif %})
  
-    if "url" in paper and os.path.exists("papers/%s.pdf" % paper["@id"]):
-        out.write(" <a href='papers/%s.pdf'>PDF</a>" % paper["@id"])
+    {% if paper.url %}
+    <a href='papers/{{ paper.id }}.pdf'>PDF</a>
+    {% endif %}
 
+    {%if paper.description %}
 
-
-    if "description" in paper:
-        out.write(" <a onclick='$(\"#abstract-%s\").slideToggle()' class='abstract-link'>Abstract</a></p>\n\n" % paper["@id"])
-        out.write("<p class='abstract' id='abstract-" + paper["@id"] + "'>" + paper["description"] + "</p>\n\n")
-    else:
-    out.write("</p>\n\n")-->
+    <a onclick='$("#abstract-{{ paper.id }}").slideToggle()' class='abstract-link'>Abstract</a></p>
+    <p class='abstract' id='abstract-{{ paper.id }}'>{{ paper.description }}</p>
+    {% endif %}
+    </p>
 {% endfor %}
 </div></div>
 <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>

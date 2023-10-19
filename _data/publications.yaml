@@ -1,5 +1,5 @@
-- '@id': verma2023empowering
-  '@type': 'Workshop'
+- id: verma2023empowering
+  type: 'Workshop'
   author:
   - Ghanshyam Verma
   - Simon Simanta
@@ -11,18 +11,20 @@
   - Paul Buitelaar
   title: "Empowering recommender systems using automatically generated Knowledge Graphs and Reinforcement Learning"
   booktitle: OARS-KDD 2023
-  year: "2023 (Accepted)"
-- '@id': banerjee2023mg2p
-  '@type': Conference
+  year: "2023"
+  äccepted: true
+- id: banerjee2023mg2p
+  type: Conference
   author:  
   - Shubhanker Banerjee
   - Bharathi Raja Asoka Chakravarthi
   - John Philip McCrae
   title: "MG2P: An Empirical Study Of Multilingual Training for Manx G2P"
   booktitle: LDK 2023 Conference
-  year: "2023 (Accepted)"
-- '@id': doyle2023cardamom
-  '@type': Conference
+  year: "2023"
+  accepted: true
+- id: doyle2023cardamom
+  type: Conference
   title: The Cardamom Workbench for Historical and Under-Resourced Languages
   author:
   - Adrian Doyle
@@ -32,9 +34,10 @@
   - Oksana Dereza
   - Priya Rani
   booktitle: LDK 2023 Conference
-  year: "2023 (Accepted)"
-- '@id': sarkar2023pickd
-  '@type': Conference
+  year: "2023"
+  accepted: true
+- id: sarkar2023pickd
+  type: Conference
   title: "PICKD: In-Situ Prompt Tuning for Knowledge-Grounded Dialogue Generation"
   author:
   - Rajdeep Sarkar
@@ -48,8 +51,8 @@
   open: false
   url: https://link.springer.com/chapter/10.1007/978-3-031-33383-5_10
   description: "Generating informative, coherent and fluent responses to user queries is challenging yet critical for a rich user experience and the eventual success of dialogue systems. Knowledge-grounded dialogue systems leverage external knowledge to induce relevant facts in a dialogue. These systems need to understand the semantic relatedness between the dialogue context and the available knowledge, thereby utilising this information for response generation. Although various innovative models have been proposed, they neither utilise the semantic entailment between the dialogue history and the knowledge nor effectively process knowledge from both structured and unstructured sources. In this work, we propose PICKD, a two-stage framework for knowledgeable dialogue. The first stage involves the Knowledge Selector choosing knowledge pertinent to the dialogue context from both structured and unstructured knowledge sources. PICKD leverages novel In-Situ prompt tuning for knowledge selection, wherein prompt tokens are injected into the dialogue-knowledge text tokens during knowledge retrieval. The second stage employs the Response Generator for generating fluent and factual responses by utilising the retrieved knowledge and the dialogue context. Extensive experiments on three domain-specific datasets exhibit the effectiveness of PICKD over other baseline methodologies for knowledge-grounded dialogue. The source is available at https://github.com/rajbsk/pickd."
-- '@id': dereza2023temporal
-  '@type': Workshop
+- id: dereza2023temporal
+  type: Workshop
   author:
   - Oksana Dereza
   - Theodorus Fransen
@@ -62,8 +65,8 @@
   license: cc-by
   description: The digitisation of historical texts has provided new horizons for NLP research, but such data also presents a set of challenges, including scarcity and inconsistency. The lack of editorial standard during digitisation exacerbates these difficulties.This study explores the potential for temporal domain adaptation in Early Modern Irish and pre-reform Modern Irish data. We describe two experiments carried out on the book subcorpus of the Historical Irish Corpus, which includes Early Modern Irish and pre-reform Modern Irish texts from 1581 to 1926. We also propose a simple orthographic normalisation method for historical Irish that reduces the type-token ratio by 21.43% on average in our data.The results demonstrate that the use of out-of-domain data significantly improves a language model’s performance. Providing a model with additional input from another historical stage of the language improves its quality by 12.49% on average on non-normalised texts and by 27.02% on average on normalised (demutated) texts. Most notably, using only out-of-domain data for both pre-training and training stages allowed for up to 86.81% of the baseline model quality on non-normalised texts and up to 95.68% on normalised texts without any target domain data. Additionally, we investigate the effect of temporal distance between the training and test data. The hypothesis that there is a positive correlation between performance and temporal proximity of training and test data has been validated, which manifests best in normalised data. Expanding this approach even further back, to Middle and Old Irish, and testing it on other languages is a further research direction.
   url: https://aclanthology.org/2023.vardial-1.6.pdf
-- '@id': dereza2023do
-  '@type': Workshop
+- id: dereza2023do
+  type: Workshop
   title: "Do not Trust the Experts: How the Lack of Standard Complicates NLP for Historical Irish"
   author:
   - Oksana Dereza
@@ -76,8 +79,8 @@
   license: cc-by
   description: In this paper, we describe how we unearthed some fundamental problems while building an analogy dataset modelled on BATS (Gladkova et al., 2016) to evaluate historical Irish embeddings on their ability to detect orthographic, morphological and semantic similarity.The performance of our models in the analogy task was extremely poor regardless of the architecture, hyperparameters and evaluation metrics, while the qualitative evaluation revealed positive tendencies. We argue that low agreement between field experts on fundamental lexical and orthographic issues, and the lack of a unified editorial standard in available resources make it impossible to build reliable evaluation datasets for computational models and obtain interpretable results. We emphasise the need for such a standard, particularly for NLP applications, and prompt Celticists and historical linguists to engage in further discussion. We would also like to draw NLP scholars’ attention to the role of data and its (extra)linguistic properties in testing new models, technologies and evaluation scenarios.
   url: https://aclanthology.org/2023.insights-1.10.pdf
-- '@id': rani2023findings
-  '@type': Workshop
+- id: rani2023findings
+  type: Workshop
   title: Findings of the SIGTYP 2023 Shared task on Cognate and Derivative Detection For Low-Resourced Languages
   author:
   - Priya Rani
@@ -93,8 +96,8 @@
   open: true
   license: cc-by
   url: https://aclanthology.org/2023.sigtyp-1.13.pdf
-- '@id': khan2023considerations
-  '@type': Conference
+- id: khan2023considerations
+  type: Conference
   author:
   - Fahad Khan
   - John P. McCrae
@@ -104,8 +107,8 @@
   booktitle: Proceedings of the Global WordNet Conference 2023
   title: Some Considerations in the Construction of a Historical Language WordNet
   year: 2023 (accepted)
-- '@id': raja2022edi
-  '@type': Proceedings
+- id: raja2022edi
+  type: Proceedings
   title: Proceedings of the Second Workshop on Language Technology for Equality, Diversity and Inclusion
   author: 
   - Bharathi Raja Chakravarthi
@@ -121,8 +124,8 @@
   license: cc-by
   url: https://aclanthology.org/2022.ltedi-1.0.pdf
   publisher: Association for Computational Linguistics
-- '@id': raja2022homophobia
-  '@type': Workshop
+- id: raja2022homophobia
+  type: Workshop
   title: Overview of The Shared Task on Homophobia and Transphobia Detection in Social Media Comments
   author:
   - Bharathi Raja Chakravarthi
@@ -139,8 +142,8 @@
   license: cc-by
   description: Homophobia and Transphobia Detection is the task of identifying homophobia, transphobia, and non-anti-LGBT+ content from the given corpus. Homophobia and transphobia are both toxic languages directed at LGBTQ+ individuals that are described as hate speech. This paper summarizes our findings on the “Homophobia and Transphobia Detection in social media comments” shared task held at LT-EDI 2022 - ACL 2022 1. This shared taskfocused on three sub-tasks for Tamil, English, and Tamil-English (code-mixed) languages. It received 10 systems for Tamil, 13 systems for English, and 11 systems for Tamil-English. The best systems for Tamil, English, and Tamil-English scored 0.570, 0.870, and 0.610, respectively, on average macro F1-score.
   url: https://aclanthology.org/2022.ltedi-1.57.pdf
-- '@id': raja2022hope
-  '@type': Workshop
+- id: raja2022hope
+  type: Workshop
   title: Overview of the Shared Task on Hope Speech Detection for Equality, Diversity, and Inclusion
   author: 
   - Bharathi Raja Chakravarthi
@@ -162,8 +165,8 @@
   license: cc-by
   description: Hope Speech detection is the task of classifying a sentence as hope speech or non-hope speech given a corpus of sentences. Hope speech is any message or content that is positive, encouraging, reassuring, inclusive and supportive that inspires and engenders optimism in the minds of people. In contrast to identifying and censoring negative speech patterns, hope speech detection is focussed on recognising and promoting positive speech patterns online. In this paper, we report an overview of the findings and results from the shared task on hope speech detection for Tamil, Malayalam, Kannada, English and Spanish languages conducted in the second workshop on Language Technology for Equality, Diversity and Inclusion (LT-EDI-2022) organised as a part of ACL 2022. The participants were provided with annotated training & development datasets and unlabelled test datasets in all the five languages. The goal of the shared task is to classify the given sentences into one of the two hope speech classes. The performances of the systems submitted by the participants were evaluated in terms of micro-F1 score and weighted-F1 score. The datasets for this challenge are openly available
   url: https://aclanthology.org/2022.ltedi-1.58.pdf
-- '@id': declerck2022ldl
-  '@type': Proceedings
+- id: declerck2022ldl
+  type: Proceedings
   title: Proceedings of the 8th Workshop on Linked Data in Linguistics within the 13th Language Resources and Evaluation Conference
   author: 
   - Thierry Declerck
@@ -178,8 +181,8 @@
   license: cc-by
   url: https://aclanthology.org/2022.ldl-1.0.pdf
   publisher: Association for Computational Linguistics
-- '@id': yim2022edi
-  '@type': Workshop
+- id: yim2022edi
+  type: Workshop
   author:
   - Seung-Bin Yim
   - Lenka Bajcetic
@@ -189,8 +192,8 @@
     (ProLingKNOWER)
   title: EDIE - Elexis DIctionary Evaluation Tool
   year: 2022 (accepted)
-- '@id': ojha2022proceedings
-  '@type': Proceedings
+- id: ojha2022proceedings
+  type: Proceedings
   author:
   - Atul Kr. Ojha
   - Sina Ahmadi
@@ -235,8 +238,8 @@
     Resources and Evaluation Conference
   url: https://aclanthology.org/2022.eurali-1.0.pdf
   year: '2022'
-- '@id': banerjee2022dataset
-  '@type': Workshop
+- id: banerjee2022dataset
+  type: Workshop
   author:
   - Shubhanker Banerjee
   - Bharathi Raja Chakravarthi
@@ -262,8 +265,8 @@
   title: A Dataset for Term Extraction in Hindi
   url: https://aclanthology.org/2022.term-1.4.pdf
   year: '2022'
-- '@id': madasamy2022dravidian
-  '@type': Workshop
+- id: madasamy2022dravidian
+  type: Workshop
   title: Overview of the Shared Task on Machine Translation in Dravidian Languages
   author: 
   - Anand Kumar Madasamy
@@ -281,8 +284,8 @@
   pages: 271-278
   description: "This paper presents an outline of the shared task on translation of under-resourced Dravidian languages at DravidianLangTech-2022 workshop to be held jointly with ACL 2022. A description of the datasets used, approach taken for analysis of submissions and the results have been illustrated in this paper. Five sub-tasks organized as a part of the shared task include the following translation pairs: Kannada to Tamil, Kannada to Telugu, Kannada to Sanskrit, Kannada to Malayalam and Kannada to Tulu. Training, development and test datasets were provided to all participants and results were evaluated on the gold standard datasets. A total of 16 research groups participated in the shared task and a total of 12 submission runs were made for evaluation. Bilingual Evaluation Understudy (BLEU) score was used for evaluation of the translations."
   url: https://aclanthology.org/2022.dravidianlangtech-1.41.pdf
-- '@id': mohanty2022building
-  '@type': Patent
+- id: mohanty2022building
+  type: Patent
   author:
   - Pranab Mohanty
   - Bianca De Oliveira Pereira
@@ -295,8 +298,8 @@
     Text for Use in Automated User Interaction
   url: https://www.freepatentsonline.com/11328707.pdf
   year: '2022'
-- '@id': majumdar2022bengali
-  '@type': Workshop
+- id: majumdar2022bengali
+  type: Workshop
   author:
   - Pritha Majumdar
   - Deepak Alok
@@ -329,8 +332,8 @@
   title: Bengali and Magahi PUD Treebank and Parser
   url: https://aclanthology.org/2022.wildre-1.11.pdf
   year: '2022'
-- '@id': auti2022towards
-  '@type': Workshop
+- id: auti2022towards
+  type: Workshop
   author:
   - Tapan Auti
   - Rajdeep Sarkar
@@ -362,8 +365,8 @@
   title: Towards Classification of Legal Pharmaceutical Text using GAN-BERT
   url: https://aclanthology.org/2022.csrnlp-1.8.pdf
   year: '2022'
-- '@id': khan2022towards
-  '@type': Conference
+- id: khan2022towards
+  type: Conference
   author:
   - Fahad Khan
   - Francisco J. Minaya Gómez
@@ -393,8 +396,8 @@
   title: Towards the Construction of a WordNet for Old English
   url: https://aclanthology.org/2022.lrec-1.418.pdf
   year: '2022'
-- '@id': robin2022linghub2
-  '@type': Conference
+- id: robin2022linghub2
+  type: Conference
   author:
   - Cécile Robin
   - Gautham Vadakkekara Suresh
@@ -423,8 +426,8 @@
   title: 'Linghub2: Language Resource Discovery Tool for Language Technologies'
   url: https://aclanthology.org/2022.lrec-1.682.pdf
   year: '2022'
-- '@id': rani2022mhe
-  '@type': Conference
+- id: rani2022mhe
+  type: Conference
   author:
   - Priya Rani
   - John P. McCrae
@@ -445,8 +448,8 @@
   title: 'MHE: Code-Mixed Corpora for Similar Language Identification'
   url: https://aclanthology.org/2022.lrec-1.366.pdf
   year: '2022'
-- '@id': sarkar2022kg
-  '@type': Workshop
+- id: sarkar2022kg
+  type: Workshop
   author:
   - Rajdeep Sarkar
   - Mihael Arcan
@@ -473,8 +476,8 @@
     Reasoning using Semantic Embeddings'
   url: https://aclanthology.org/2022.nlp4convai-1.9.pdf
   year: '2022'
-- '@id': chakravarthi2022dravidiancodemix
-  '@type': Article
+- id: chakravarthi2022dravidiancodemix
+  type: Article
   author:
   - Bharathi Raja Chakravarthi
   - Ruba Priyadharshini
@@ -501,8 +504,8 @@
     Dataset for Dravidian Languages in Code-Mixed Text'
   url: https://link.springer.com/content/pdf/10.1007/s10579-022-09583-7.pdf
   year: '2022'
-- '@id': mccrae2022toward
-  '@type': Article
+- id: mccrae2022toward
+  type: Article
   author:
   - John P. McCrae
   - Theodorus Fransen
@@ -533,8 +536,8 @@
   url: https://www.frontiersin.org/article/10.3389/frai.2022.745626
   volume: '5'
   year: '2022'
-- '@id': khan2022when
-  '@type': Article
+- id: khan2022when
+  type: Article
   author:
   - Fahad Khan
   - Christian Chiarcos
@@ -554,8 +557,8 @@
   title: When Linguistics Meets Web Technologies. Recent advances in Modelling Linguistic
     Linked Open Data
   year: 2022 (accepted)
-- '@id': ahmadi2021convertir
-  '@type': Conference
+- id: ahmadi2021convertir
+  type: Conference
   affiliation:
   - NUIG
   - ATILF, Université de Lorraine & CNRS
@@ -586,8 +589,8 @@
     données liées'
   url: https://sinaahmadi.github.io/docs/articles/ahmadi2021lift.pdf
   year: '2021'
-- '@id': suresh2021meta
-  '@type': Conference
+- id: suresh2021meta
+  type: Conference
   address: New York, NY, USA
   affiliation:
   - NUIG
@@ -620,8 +623,8 @@
   title: Meta-Learning for Oﬀensive Language Detection in Code-Mixed Texts
   url: https://dl.acm.org/doi/pdf/10.1145/3503162.3503167
   year: '2021'
-- '@id': kumaresan2021findings
-  '@type': Conference
+- id: kumaresan2021findings
+  type: Conference
   address: New York, NY, USA
   affiliation:
   - 'Indian Institute of Information Technology and Management '
@@ -663,8 +666,8 @@
     Malayalam
   url: https://dl.acm.org/doi/pdf/10.1145/3503162.3503179
   year: '2021'
-- '@id': sarkar2021few
-  '@type': Workshop
+- id: sarkar2021few
+  type: Workshop
   affiliation:
   - NUIG
   - NUIG
@@ -697,8 +700,8 @@
     in the Financial Sector'
   url: https://aclanthology.org/2021.nllp-1.10.pdf
   year: '2021'
-- '@id': mccrae2021how
-  '@type': Article
+- id: mccrae2021how
+  type: Article
   affiliation:
   - NUIG
   - NUIG
@@ -716,8 +719,8 @@
   title: How Computers Can Future-Proof Minority Languages
   url: https://impact.nuigalway.ie/arts/how-computers-can-future-proof-minority-languages/
   year: '2021'
-- '@id': goswami2021crosslingual
-  '@type': Conference
+- id: goswami2021crosslingual
+  type: Conference
   affiliation:
   - NUIG
   - Huawei
@@ -748,8 +751,8 @@
   title: Cross-lingual Sentence Embedding using Multi-Task Learning
   url: https://aclanthology.org/W19-4330.pdf
   year: '2021'
-- '@id': ahmadi2021nuig
-  '@type': Workshop
+- id: ahmadi2021nuig
+  type: Workshop
   affiliation:
   - NUIG
   - NUIG
@@ -777,8 +780,8 @@
   title: 'NUIG at TIAD 2021: Cross-lingual Word Embeddings for Translation Inference'
   url: http://ceur-ws.org/Vol-3064/tiad1.pdf
   year: '2021'
-- '@id': rajachakravarthi2021survey
-  '@type': Article
+- id: rajachakravarthi2021survey
+  type: Article
   affiliation:
   - NUIG
   - NUIG
@@ -823,8 +826,8 @@
   url: https://link.springer.com/article/10.1007%2Fs42979-021-00723-4
   volume: 2
   year: '2021'
-- '@id': manjunath2021encoder
-  '@type': Conference
+- id: manjunath2021encoder
+  type: Conference
   affiliation:
   - NUIG
   - NUIG
@@ -868,8 +871,8 @@
   title: Encoder-Attention based Automatic Term Recognition (EA-ATR)
   url: https://drops.dagstuhl.de/opus/volltexte/2021/14559/pdf/OASIcs-LDK-2021-23.pdf
   year: '2021'
-- '@id': masoud2021automatic
-  '@type': Conference
+- id: masoud2021automatic
+  type: Conference
   affiliation:
   - NUIG
   - NUIG
@@ -915,8 +918,8 @@
     A preliminary literature review'
   url: https://drops.dagstuhl.de/opus/volltexte/2021/14555/pdf/OASIcs-LDK-2021-19.pdf
   year: '2021'
-- '@id': mccrae2021elexis
-  '@type': Conference
+- id: mccrae2021elexis
+  type: Conference
   affiliation:
   - NUIG
   - NUIG
@@ -938,8 +941,8 @@
   title: The ELEXIS system for monolingual sense linking in dictionaries
   url: https://elex.link/elex2021/wp-content/uploads/2021/08/eLex_2021_35_pp542-559.pdf
   year: '2021'
-- '@id': mccrae2021enriching
-  '@type': Conference
+- id: mccrae2021enriching
+  type: Conference
   affiliation:
   - NUIG
   - NUIG
@@ -968,8 +971,8 @@
   title: Enriching a terminology for under-resourced languages using knowledge graphs
   url: https://elex.link/elex2021/wp-content/uploads/2021/08/eLex_2021_36_pp560-571.pdf
   year: '2021'
-- '@id': bajcetic2021heteronym
-  '@type': Conference
+- id: bajcetic2021heteronym
+  type: Conference
   affiliation:
   - Austrian Academy of Sciences
   - DFKI GmbH
@@ -989,8 +992,8 @@
   title: Heteronym Sense Linking
   url: https://elex.link/elex2021/wp-content/uploads/2021/08/eLex_2021_32_pp503-513.pdf
   year: '2021'
-- '@id': mccrae2021conversation
-  '@type': Article
+- id: mccrae2021conversation
+  type: Article
   affiliation:
   - NUIG
   - FMR LLC
@@ -1033,8 +1036,8 @@
   url: https://www.mdpi.com/2078-2489/12/4/160
   volume: 12
   year: '2021'
-- '@id': ojha2021uld
-  '@type': Workshop
+- id: ojha2021uld
+  type: Workshop
   affiliation:
   - NUIG
   - NUIG
@@ -1059,8 +1062,8 @@
     2021
   url: https://aclanthology.org/2021.smm4h-1.33.pdf
   year: '2021'
-- '@id': ahmadi2021monolingual
-  '@type': Conference
+- id: ahmadi2021monolingual
+  type: Conference
   affiliation:
   - NUIG
   - NUIG
@@ -1085,8 +1088,8 @@
   title: Monolingual Word Sense Alignment as a Classification Problem
   url: https://aclanthology.org/2021.gwc-1.9.pdf
   year: '2021'
-- '@id': mccrae2021globalwordnet
-  '@type': Conference
+- id: mccrae2021globalwordnet
+  type: Conference
   affiliation:
   - NUIG
   - Nanyang Technological University
@@ -1119,8 +1122,8 @@
   title: 'The GlobalWordNet Formats: Updates for 2020'
   url: https://aclanthology.org/2021.gwc-1.11.pdf
   year: '2021'
-- '@id': mccrae2021towards
-  '@type': Conference
+- id: mccrae2021towards
+  type: Conference
   affiliation:
   - NUIG
   - NUIG
@@ -1146,8 +1149,8 @@
   title: Towards a Linking between WordNet and Wikidata
   url: https://aclanthology.org/2021.gwc-1.29.pdf
   year: '2021'
-- '@id': chakravarthi2021edi
-  '@type': Proceedings
+- id: chakravarthi2021edi
+  type: Proceedings
   affiliation:
   - NUIG
   - NUIG
@@ -1169,8 +1172,8 @@
     and Inclusion
   url: https://www.aclweb.org/anthology/2021.ltedi-1.0.pdf
   year: '2021'
-- '@id': charavarthi2021dravidian
-  '@type': Workshop
+- id: charavarthi2021dravidian
+  type: Workshop
   affiliation:
   - NUIG
   - Madurai Kamaraj University
@@ -1211,8 +1214,8 @@
   title: Findings of the Shared Task on Machine Translation in Dravidian languages
   url: https://www.aclweb.org/anthology/2021.dravidianlangtech-1.15.pdf
   year: '2021'
-- '@id': chakravarthi2021offensive
-  '@type': Workshop
+- id: chakravarthi2021offensive
+  type: Workshop
   affiliation:
   - NUIG
   - Madurai Kamaraj University
@@ -1256,8 +1259,8 @@
     Malayalam, and Kannada
   url: https://www.aclweb.org/anthology/2021.dravidianlangtech-1.17.pdf
   year: '2021'
-- '@id': markantonatou2020proceedings
-  '@type': Workshop
+- id: markantonatou2020proceedings
+  type: Workshop
   affiliation:
   - Institute for Language and Speech Processing, R.C. "Athena"
   - NUIG
@@ -1286,8 +1289,8 @@
     Lexicons
   url: https://www.aclweb.org/anthology/2020.mwe-1.0.pdf
   year: '2020'
-- '@id': goswami2020uld
-  '@type': Workshop
+- id: goswami2020uld
+  type: Workshop
   affiliation:
   - NUIG
   - NUIG
@@ -1323,8 +1326,8 @@
     Model for Sentiment Analysis in Code-Mixed Text'
   url: https://www.aclweb.org/anthology/2020.semeval-1.125.pdf
   year: '2020'
-- '@id': karmakar2020cogalex
-  '@type': Workshop
+- id: karmakar2020cogalex
+  type: Workshop
   affiliation:
   - NUIG
   - NUIG
@@ -1352,8 +1355,8 @@
     Semantic Relations'
   url: https://www.aclweb.org/anthology/2020.cogalex-1.8.pdf
   year: '2020'
-- '@id': karim2020classification
-  '@type': Conference
+- id: karim2020classification
+  type: Conference
   affiliation:
   - Frauenhofer FIT
   - NUIG
@@ -1395,8 +1398,8 @@
     Convolutional-LSTM Network
   url: https://arxiv.org/pdf/2004.07807.pdf
   year: '2020'
-- '@id': chakravarthi2020overview
-  '@type': Workshop
+- id: chakravarthi2020overview
+  type: Workshop
   affiliation:
   - NUIG
   - ULTRA Arts and Science College
@@ -1434,8 +1437,8 @@
   title: Overview of the track on Sentiment Analysis for Dravidian Languages in Code-Mixed
     Text
   year: '2020'
-- '@id': ojha2020nuig
-  '@type': Workshop
+- id: ojha2020nuig
+  type: Workshop
   affiliation:
   - NUIG
   - NUIG
@@ -1470,8 +1473,8 @@
     Task @ WMT 2020
   url: http://www.statmt.org/wmt20/pdf/2020.wmt-1.49.pdf
   year: '2020'
-- '@id': zayed2020contextual
-  '@type': Conference
+- id: zayed2020contextual
+  type: Conference
   affiliation:
   - NUIG
   - NUIG
@@ -1504,8 +1507,8 @@
   title: Contextual Modulation for Relation-Level Metaphor Identification
   url: https://www.aclweb.org/anthology/2020.findings-emnlp.36.pdf
   year: '2020'
-- '@id': goswami2020unsupervised
-  '@type': Conference
+- id: goswami2020unsupervised
+  type: Conference
   affiliation:
   - NUIG
   - NUIG
@@ -1542,8 +1545,8 @@
   title: Unsupervised Deep Language and Dialect Identification for Short Texts
   url: https://www.aclweb.org/anthology/2020.coling-main.141.pdf
   year: '2020'
-- '@id': sarkar2020suggest
-  '@type': Conference
+- id: sarkar2020suggest
+  type: Conference
   affiliation:
   - NUIG
   - NUIG
@@ -1578,8 +1581,8 @@
     Recommendation'
   url: https://www.aclweb.org/anthology/2020.coling-main.369.pdf
   year: '2020'
-- '@id': chakravarthi2020bilingual
-  '@type': Workshop
+- id: chakravarthi2020bilingual
+  type: Workshop
   affiliation:
   - NUIG
   - Dublin City University
@@ -1621,8 +1624,8 @@
     Dravidian Languages
   url: https://www.aclweb.org/anthology/2020.vardial-1.6.pdf
   year: '2020'
-- '@id': nasir2020ilod
-  '@type': Workshop
+- id: nasir2020ilod
+  type: Workshop
   affiliation:
   - NUIG
   - NUIG
@@ -1649,8 +1652,8 @@
   open: true
   title: 'iLOD: InterPlanetary File System based Linked Open Data Cloud'
   year: '2020'
-- '@id': declerck2020cost
-  '@type': Article
+- id: declerck2020cost
+  type: Article
   affiliation:
   - DFKI GmbH
   - University of Zaragoza
@@ -1674,8 +1677,8 @@
   title: COST Action “European network for Web-centred linguistic data science” (NexusLinguarum)
   url: http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6281/3717
   year: '2020'
-- '@id': mccrae2020english2
-  '@type': Article
+- id: mccrae2020english2
+  type: Article
   affiliation:
   - NUIG
   - Wroclaw University of Science and Technology
@@ -1695,8 +1698,8 @@
   title: 'English WordNet: A new open-source WordNet for English'
   url: https://kln.lexicala.com/kln28/mccrae-rudnicka-bond-english-wordnet/
   year: '2020'
-- '@id': cimiano2020linguistic
-  '@type': Book
+- id: cimiano2020linguistic
+  type: Book
   author:
   - Philipp Cimiano
   - Christian Chiarcos
@@ -1707,8 +1710,8 @@
   title: 'Linguistic Linked Data: Representation, Generation and Applications'
   url: https://www.springer.com/gp/book/9783030302245
   year: '2020'
-- '@id': ionov2020linked
-  '@type': Proceedings
+- id: ionov2020linked
+  type: Proceedings
   address: 9 rue des Cordelières, 75013, Paris, France
   date: '2020-05-11'
   editor:
@@ -1729,8 +1732,8 @@
   title: 7th Workshop on Linked Data in Linguistics (LDL-2020)
   url: https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/LDL2020book.pdf
   year: '2020'
-- '@id': kernerman2020globalex
-  '@type': Proceedings
+- id: kernerman2020globalex
+  type: Proceedings
   address: 9 rue des Cordelières, 75013, Paris, France
   date: '2020-05-11'
   editor:
@@ -1751,8 +1754,8 @@
   title: Globalex Workshop on Linked Lexicography
   url: https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/GLOBALEX2020book.pdf
   year: '2020'
-- '@id': jose2020survey
-  '@type': Conference
+- id: jose2020survey
+  type: Conference
   affiliation:
   - Indian Institute of Information Technology and Management-Kerala
   - NUIG
@@ -1785,8 +1788,8 @@
   title: A Survey of Current Datasets for Code-Switching Research
   url: https://ieeexplore.ieee.org/abstract/document/9074205
   year: '2020'
-- '@id': priyadharshini2020named
-  '@type': Conference
+- id: priyadharshini2020named
+  type: Conference
   affiliation:
   - Saraswathi Narayanan College,Department of Mathematics
   - NUIG
@@ -1814,8 +1817,8 @@
   title: Named Entity Recognition for Code-Mixed Indian Corpus using Meta Embedding
   url: https://ieeexplore.ieee.org/abstract/document/9074379
   year: '2020'
-- '@id': declerck2020linguistic
-  '@type': Workshop
+- id: declerck2020linguistic
+  type: Workshop
   affiliation:
   - Goethe-Universität Frankfurt am Main
   - Universität Leipzig
@@ -1847,8 +1850,8 @@
   title: On the Linguistic Linked Open Data Infrastructure
   url: https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/IWLTP2020book.pdf#page=14
   year: '2020'
-- '@id': mccrae2020nuig
-  '@type': Workshop
+- id: mccrae2020nuig
+  type: Workshop
   affiliation:
   - NUIG
   - NUIG
@@ -1874,8 +1877,8 @@
     Inference'
   url: https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/GLOBALEX2020book.pdf#page=110
   year: '2020'
-- '@id': rani2020comparative
-  '@type': Workshop
+- id: rani2020comparative
+  type: Workshop
   affiliation:
   - NUIG
   - NUIG
@@ -1912,8 +1915,8 @@
     in Hindi-English Code-Mixed Data
   url: https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/TRAC2book.pdf#page=55
   year: '2020'
-- '@id': rehm2020towards
-  '@type': Workshop
+- id: rehm2020towards
+  type: Workshop
   affiliation:
   - DFKI GmbH
   - ILSP/Athena RC
@@ -1986,8 +1989,8 @@
     the Implementation of Different Levels of Interoperability'
   url: https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/IWLTP2020book.pdf#page=102
   year: '2020'
-- '@id': suryawanshi2020dataset
-  '@type': Workshop
+- id: suryawanshi2020dataset
+  type: Workshop
   affiliation:
   - NUIG
   - NUIG
@@ -2026,8 +2029,8 @@
   title: A Dataset for Classification of Tamil Memes
   url: https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/WILDRE-5book.pdf#page=17
   year: '2020'
-- '@id': chiarcos2020modelling
-  '@type': Workshop
+- id: chiarcos2020modelling
+  type: Workshop
   affiliation:
   - Goethe-Universität Frankfurt am Main
   - Goethe-Universität Frankfurt am Main
@@ -2070,8 +2073,8 @@
   title: Modelling Frequency and Attestations for OntoLex-Lemon
   url: https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/GLOBALEX2020book.pdf#page=19
   year: '2020'
-- '@id': salgado2020challenges
-  '@type': Workshop
+- id: salgado2020challenges
+  type: Workshop
   affiliation:
   - Academia das Ciencias de Lisboa, Instituto de Lexicologia e Lexicografia da Língua
     Portuguesa
@@ -2108,8 +2111,8 @@
   title: 'Challenges of Word Sense Alignment: Portuguese Language Resources'
   url: https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/LDL2020book.pdf#page=52
   year: '2020'
-- '@id': mccrae2020english
-  '@type': Workshop
+- id: mccrae2020english
+  type: Workshop
   affiliation:
   - NUIG
   - IBM Research and FGV/EMAp
@@ -2139,8 +2142,8 @@
     an Open-Source Methodology'
   url: https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/MMW2020book.pdf#page=20
   year: '2020'
-- '@id': chakravarthi2020sentiment
-  '@type': Workshop
+- id: chakravarthi2020sentiment
+  type: Workshop
   affiliation:
   - NUIG
   - Indian Institute of Information Technology and Management-Kerala
@@ -2179,8 +2182,8 @@
   title: A Sentiment Analysis Dataset for Code-Mixed Malayalam-English
   url: https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/SLTUCCURLbook.pdf#page=186
   year: '2020'
-- '@id': chakravarthi2020corpus
-  '@type': Workshop
+- id: chakravarthi2020corpus
+  type: Workshop
   affiliation:
   - NUIG
   - School of English, Communication and Philosophy, Cardiff University
@@ -2216,8 +2219,8 @@
   title: Corpus Creation for Sentiment Analysis in Code-Mixed Tamil-English Text
   url: https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/SLTUCCURLbook.pdf#page=211
   year: '2020'
-- '@id': ahmadi2020towards
-  '@type': Conference
+- id: ahmadi2020towards
+  type: Conference
   affiliation:
   - NUIG
   - Society for Danish Language and Literature
@@ -2240,8 +2243,8 @@
     and a modern Danish dictionary'
   url: https://euralex2020.gr/wp-content/uploads/2020/11/EURALEX2020_ProceedingsBook-p063-072.pdf
   year: '2020'
-- '@id': zayed2020figure
-  '@type': Conference
+- id: zayed2020figure
+  type: Conference
   affiliation:
   - NUIG
   - NUIG
@@ -2279,8 +2282,8 @@
   title: 'Figure Me Out: A Gold Standard Dataset for Metaphor Interpretation'
   url: http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.712.pdf
   year: '2020'
-- '@id': bond2020issues
-  '@type': Conference
+- id: bond2020issues
+  type: Conference
   affiliation:
   - Nanyang Technological University
   - Nanyang Technological University
@@ -2315,8 +2318,8 @@
   title: Some Issues with Building a Multilingual Wordnet
   url: http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.390.pdf
   year: '2020'
-- '@id': ahmadi2020multilingual
-  '@type': Conference
+- id: ahmadi2020multilingual
+  type: Conference
   affiliation:
   - NUIG
   - NUIG
@@ -2433,8 +2436,8 @@
   title: A Multilingual Evaluation Dataset for Monolingual Word Sense Alignment
   url: http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.395.pdf
   year: '2020'
-- '@id': declerck2020recent
-  '@type': Conference
+- id: declerck2020recent
+  type: Conference
   affiliation:
   - DFKI GmbH
   - NUIG
@@ -2478,8 +2481,8 @@
   title: Recent Developments for the Linguistic Linked Open Data Infrastructure
   url: http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.695.pdf
   year: '2020'
-- '@id': krishan2019comparative
-  '@type': Conference
+- id: krishan2019comparative
+  type: Conference
   affiliation:
   - National University of Ireland Galway
   - National University of Ireland Galway
@@ -2508,8 +2511,8 @@
     Prediction
   url: http://ceur-ws.org/Vol-2563/aics_41.pdf
   year: '2019'
-- '@id': mccrae2019linguistic
-  '@type': Conference
+- id: mccrae2019linguistic
+  type: Conference
   affiliation:
   - National University of Ireland Galway
   - DFKI GmbH
@@ -2535,8 +2538,8 @@
   title: Linguistic Linked Open Data for All
   url: https://lt4all.org/media/papers/O5/179.pdf
   year: '2019'
-- '@id': krek2019towards
-  '@type': Conference
+- id: krek2019towards
+  type: Conference
   affiliation:
   - Jožef Stefan Institute
   - DFKI GmbH
@@ -2565,8 +2568,8 @@
   title: Towards a Global Lexicographic Infrastructure
   url: https://lt4all.org/media/papers/O7/173.pdf
   year: '2019'
-- '@id': mccrae2019cardamom
-  '@type': Conference
+- id: mccrae2019cardamom
+  type: Conference
   affiliation:
   - National University of Ireland Galway
   - National University of Ireland Galway
@@ -2588,8 +2591,8 @@
   title: 'Cardamom: Comparative Deep Models for Minority and Historical Languages'
   url: https://lt4all.org/media/papers/O9/159.pdf
   year: '2019'
-- '@id': klimek2019challenges
-  '@type': Conference
+- id: klimek2019challenges
+  type: Conference
   affiliation:
   - Leipzig University
   - National University of Ireland Galway
@@ -2631,8 +2634,8 @@
   title: Challenges for the Representations for Morphology in Ontology Lexicons
   url: https://elex.link/elex2019/wp-content/uploads/2019/09/eLex_2019_33.pdf
   year: '2019'
-- '@id': mccrae2019elexis
-  '@type': Conference
+- id: mccrae2019elexis
+  type: Conference
   affiliation:
   - National University of Ireland Galway
   - Instituut voor de Nederlandse Taal
@@ -2668,8 +2671,8 @@
   title: The ELEXIS Interface for Interoperable Lexical Resources
   url: https://elex.link/elex2019/wp-content/uploads/2019/09/eLex_2019_37.pdf
   year: '2019'
-- '@id': ahmadi2019towards
-  '@type': Conference
+- id: ahmadi2019towards
+  type: Conference
   affiliation:
   - National University of Ireland Galway
   - University of Kurdistan Hewler
@@ -2701,8 +2704,8 @@
   title: Towards Electronic Lexicography for the Kurdish Language
   url: https://elex.link/elex2019/wp-content/uploads/2019/09/eLex_2019_50.pdf
   year: '2019'
-- '@id': pereira2019taxonomy
-  '@type': Conference
+- id: pereira2019taxonomy
+  type: Conference
   affiliation:
   - National University of Ireland Galway
   - National University of Ireland Galway
@@ -2733,8 +2736,8 @@
   title: Taxonomy Extraction for Customer Service Knowledge Base Construction
   url: https://link.springer.com/chapter/10.1007/978-3-030-33220-4_13
   year: '2019'
-- '@id': doyle2019character
-  '@type': Workshop
+- id: doyle2019character
+  type: Workshop
   affiliation:
   - National University of Ireland Galway
   - National University of Ireland Galway
@@ -2764,8 +2767,8 @@
     the Würzburg Glosses on the Pauline Epistles
   url: https://www.aclweb.org/anthology/W19-6910.pdf
   year: '2019'
-- '@id': mccrae2019adapting
-  '@type': Workshop
+- id: mccrae2019adapting
+  type: Workshop
   affiliation:
   - National University of Ireland Galway
   - National University of Ireland Galway
@@ -2792,8 +2795,8 @@
   title: 'Adapting Term Recognition to an Under-Resourced Language: the Case of Irish'
   url: https://www.aclweb.org/anthology/W19-6907.pdf
   year: '2019'
-- '@id': chakravarthi2019wordnet
-  '@type': Workshop
+- id: chakravarthi2019wordnet
+  type: Workshop
   affiliation:
   - National University of Ireland Galway
   - National University of Ireland Galway
@@ -2825,8 +2828,8 @@
     Neural Machine Translation
   url: https://www.aclweb.org/anthology/W19-7101.pdf
   year: '2019'
-- '@id': chakravarthi2019multilingual
-  '@type': Workshop
+- id: chakravarthi2019multilingual
+  type: Workshop
   affiliation:
   - National University of Ireland Galway
   - Saraswathi Narayanan College
@@ -2870,8 +2873,8 @@
     Phonetic Transcription
   url: https://www.aclweb.org/anthology/W19-6809.pdf
   year: '2019'
-- '@id': mccrae2019english
-  '@type': Conference
+- id: mccrae2019english
+  type: Conference
   affiliation:
   - National University of Ireland Galway
   - IBM Research and FGV/EMAp
@@ -2899,8 +2902,8 @@
   open: true
   title: English WordNet 2019 -- An Open-Source WordNet for English
   year: '2019'
-- '@id': mccrae2019identification
-  '@type': Workshop
+- id: mccrae2019identification
+  type: Workshop
   affiliation:
   - National University of Ireland Galway
   author:
@@ -2924,8 +2927,8 @@
   title: Identification of Adjective-Noun Neologisms using Pretrained Language Models
   url: https://www.aclweb.org/anthology/W19-5116.pdf
   year: '2019'
-- '@id': arcan2019inferring
-  '@type': Workshop
+- id: arcan2019inferring
+  type: Workshop
   affiliation:
   - National University of Ireland Galway
   - National University of Ireland Galway
@@ -2958,8 +2961,8 @@
   title: Inferring translation candidates for multilingual dictionary generation
   url: http://ceur-ws.org/Vol-2493/regular1.pdf
   year: '2019'
-- '@id': torregrosa2019tiad
-  '@type': Workshop
+- id: torregrosa2019tiad
+  type: Workshop
   affiliation:
   - National University of Ireland Galway
   - National University of Ireland Galway
@@ -2986,8 +2989,8 @@
     for Automatic Multilingual Dictionary Generation'
   url: http://ceur-ws.org/Vol-2493/regular1.pdf
   year: '2019'
-- '@id': mccrae2019tiad
-  '@type': Workshop
+- id: mccrae2019tiad
+  type: Workshop
   affiliation:
   - National University of Ireland Galway
   author:
@@ -3010,8 +3013,8 @@
     Inference across Dictionaries'
   url: http://ceur-ws.org/Vol-2493/system4.pdf
   year: '2019'
-- '@id': ahmadi2019lexical
-  '@type': Conference
+- id: ahmadi2019lexical
+  type: Conference
   affiliation:
   - National University of Ireland Galway
   - National University of Ireland Galway
@@ -3042,8 +3045,8 @@
   title: Lexical Sense Alignment using Weighted Bipartite b-Matching
   url: http://ceur-ws.org/Vol-2402/paper3.pdf
   year: '2019'
-- '@id': jarrar2019representing
-  '@type': Conference
+- id: jarrar2019representing
+  type: Conference
   affiliation:
   - Birzeit University
   - Birzeit University
@@ -3068,8 +3071,8 @@
   title: Representing Arabic Lexicons in Lemon - a Preliminary Study
   url: http://ceur-ws.org/Vol-2402/paper6.pdf
   year: '2019'
-- '@id': zayed2019crowd
-  '@type': Conference
+- id: zayed2019crowd
+  type: Conference
   affiliation:
   - National University of Ireland Galway
   - National University of Ireland Galway
@@ -3107,8 +3110,8 @@
   title: Crowd-sourcing A High-Quality Dataset for Metaphor Identification in Tweets
   url: http://drops.dagstuhl.de/opus/volltexte/2019/10374/pdf/OASIcs-LDK-2019-10.pdf
   year: '2019'
-- '@id': chakravarthi2019comparison
-  '@type': Conference
+- id: chakravarthi2019comparison
+  type: Conference
   ISBN: 978-3-95977-105-4
   ISSN: 2190-6807
   URN: urn:nbn:de:0030-drops-103700
@@ -3160,8 +3163,8 @@
   url: http://drops.dagstuhl.de/opus/volltexte/2019/10370
   volume: '70'
   year: '2019'
-- '@id': eskevich2019ldk
-  '@type': Proceedings
+- id: eskevich2019ldk
+  type: Proceedings
   ISBN: 978-3-95977-105-4
   address: Dagstuhl, Germany
   doi: 10.4230/OASIcs.LDK.2019.0
@@ -3180,8 +3183,8 @@
   url: http://drops.dagstuhl.de/portals/oasics/index.php?semnr=16105
   volume: '70'
   year: '2019'
-- '@id': ahmadi2018lexicographical
-  '@type': Workshop
+- id: ahmadi2018lexicographical
+  type: Workshop
   affiliation:
   - National University of Ireland Galway
   - National University of Ireland Galway
@@ -3209,8 +3212,8 @@
   title: On Lexicographical Networks
   url: https://lexdhai.insight-centre.org/Lex_DH__AI_2018_paper_4.pdf
   year: '2018'
-- '@id': mccrae2018ldl
-  '@type': Proceedings
+- id: mccrae2018ldl
+  type: Proceedings
   affiliation:
   - National University of Ireland, Galway
   - Goethe University Frankfurt
@@ -3255,8 +3258,8 @@
   title: '6th Workshop on Linked Data in Linguistics: Towards Linguistic Data Science'
   url: http://lrec-conf.org/workshops/lrec2018/W23/pdf/book_of_proceedings.pdf
   year: '2018'
-- '@id': krek2018european
-  '@type': Conference
+- id: krek2018european
+  type: Conference
   affiliation:
   - Jožef Stefan Institute
   - Insight Centre for Data Analytics, National University of Ireland Galway
@@ -3292,8 +3295,8 @@
   title: European Lexicographic Infrastructure (ELEXIS)
   url: http://euralex.org/wp-content/themes/euralex/proceedings/Euralex%202018/118-4-2986-1-10-20180820.pdf
   year: '2018'
-- '@id': walsh2018constructing
-  '@type': Workshop
+- id: walsh2018constructing
+  type: Workshop
   affiliation:
   - ADAPT Centre, Dublin City University
   - U.S. Army Research Laboratory
@@ -3322,8 +3325,8 @@
   open: true
   title: Constructing an Annotated Corpus of Verbal MWEs for English
   year: '2018'
-- '@id': zayed2018phrase
-  '@type': Workshop
+- id: zayed2018phrase
+  type: Workshop
   affiliation:
   - Insight Centre for Data Analytics, Data Science Institute, National University
     of Ireland Galway
@@ -3353,8 +3356,8 @@
   title: Phrase-Level Metaphor Identification using Distributed Representations of
     Word Meaning
   year: '2018'
-- '@id': mccrae2018linking
-  '@type': Article
+- id: mccrae2018linking
+  type: Article
   affiliation:
   - Insight Centre for Data Analytics, National University of Ireland Galway
   - Insight Centre for Data Analytics, National University of Ireland Galway
@@ -3380,8 +3383,8 @@
   url: http://www.cit.iit.bas.bg/CIT_2018/v-18-1/10_paper.pdf
   volume: '18'
   year: '2018'
-- '@id': doyle2018preservation
-  '@type': Workshop
+- id: doyle2018preservation
+  type: Workshop
   affiliation:
   - National University of Ireland Galway
   - National University of Ireland Galway
@@ -3410,8 +3413,8 @@
     Corpus
   url: http://lrec-conf.org/workshops/lrec2018/W26/pdf/20_W26.pdf
   year: '2018'
-- '@id': declerck2018elexis
-  '@type': Workshop
+- id: declerck2018elexis
+  type: Workshop
   affiliation:
   - Austrian Centre for Digital Humanities at the Austrian Academy of Sciences and
     DFKI GmbH, Multilingual Technologies Lab
@@ -3441,8 +3444,8 @@
   title: 'ELEXIS - European Lexicographic Infrastructure: Contributions to and from
     the Linguistic Linked Open Data'
   year: '2018'
-- '@id': sarkar2018supervised
-  '@type': Conference
+- id: sarkar2018supervised
+  type: Conference
   affiliation:
   - Indian Institute of Technology Kharagpur
   - Insight Centre for Data Analytics, National University of Ireland Galway
@@ -3468,8 +3471,8 @@
   title: A supervised approach to taxonomy extraction using word embeddings
   url: http://www.lrec-conf.org/proceedings/lrec2018/pdf/601.pdf
   year: '2018'
-- '@id': wood2018comparison
-  '@type': Conference
+- id: wood2018comparison
+  type: Conference
   affiliation:
   - Insight Centre for Data Analytics, National University of Ireland Galway
   - Insight Centre for Data Analytics, National University of Ireland Galway
@@ -3501,8 +3504,8 @@
   title: A Comparison Of Emotion Annotation Schemes And A New Annotated Data Set
   url: http://www.lrec-conf.org/proceedings/lrec2018/pdf/61.pdf
   year: '2018'
-- '@id': ziad2018linked
-  '@type': Conference
+- id: ziad2018linked
+  type: Conference
   affiliation:
   - Insight Centre for Data Analytics, National University of Ireland, Galway
   - Insight Centre for Data Analytics, National University of Ireland, Galway
@@ -3525,8 +3528,8 @@
   title: 'Teanga: A Linked Data based platform for Natural Language Processing'
   url: http://www.lrec-conf.org/proceedings/lrec2018/pdf/106.pdf
   year: '2018'
-- '@id': arcan2018automatic
-  '@type': Conference
+- id: arcan2018automatic
+  type: Conference
   affiliation:
   - Insight Centre for Data Analytics, National University of Ireland Galway
   - Ontology Engineering Group, Universidad Politecnica de Madrid
@@ -3555,8 +3558,8 @@
   title: 'Automatic Enrichment of Terminological Resources: the IATE RDF Example'
   url: http://www.lrec-conf.org/proceedings/lrec2018/summaries/541.html
   year: '2018'
-- '@id': buitelaar2018mixedemotions
-  '@type': Article
+- id: buitelaar2018mixedemotions
+  type: Article
   affiliation:
   - National University of Ireland Galway
   - National University of Ireland Galway
@@ -3634,8 +3637,8 @@
   url: http://ieeexplore.ieee.org/document/8269329/
   volume: '20'
   year: 2018
-- '@id': mccrae2018mapping
-  '@type': Conference
+- id: mccrae2018mapping
+  type: Conference
   affiliation:
   - Insight Centre for Data Analytics, National University of Ireland Galway
   author:
@@ -3658,8 +3661,8 @@
   open: true
   title: Mapping WordNet Instances to Wikipedia
   year: 2018
-- '@id': mccrae2018towards
-  '@type': Conference
+- id: mccrae2018towards
+  type: Conference
   affiliation:
   - Insight Centre for Data Analytics, National University of Ireland Galway
   - Insight Centre for Data Analytics, National University of Ireland Galway
@@ -3683,8 +3686,8 @@
   open: true
   title: Towards a Crowd-Sourced WordNet for Colloquial English
   year: 2018
-- '@id': chakravarthi2018improving
-  '@type': Conference
+- id: chakravarthi2018improving
+  type: Conference
   affiliation:
   - Insight Centre for Data Analytics, National University of Ireland Galway
   - Insight Centre for Data Analytics, National University of Ireland Galway
@@ -3712,8 +3715,8 @@
   title: Improving Wordnets for Under-Resourced Languages Using Machine Translation
     information
   year: 2018
-- '@id': pedersen2018elexis
-  '@type': Conference
+- id: pedersen2018elexis
+  type: Conference
   affiliation:
   - University of Copenhagen
   - National University of Ireland Galway
@@ -3735,15 +3738,15 @@
   title: ELEXIS - a European infrastructure fostering cooperation and infor-mation
     exchange among lexicographical research communities
   year: 2018
-- '@id': mccrae2018mapping
-  '@type': Conference
+- id: mccrae2018mapping
+  type: Conference
   author:
   - John P. McCrae
   booktitle: Proceedings of the 9th Global WordNet Conference
   title: Mapping WordNet Instances to Wikipedia
   year: 2018
-- '@id': mccrae2018towards
-  '@type': Conference
+- id: mccrae2018towards
+  type: Conference
   author:
   - John P. McCrae
   - Ian Wood
@@ -3751,8 +3754,8 @@
   booktitle: Proceedings of the 9th Global WordNet Conference
   title: Towards a Crowd-Sourced WordNet for Colloquial English
   year: 2018
-- '@id': pedersen2018elexis
-  '@type': Conference
+- id: pedersen2018elexis
+  type: Conference
   author:
   - Bolette Pedersen
   - John McCrae
@@ -3762,8 +3765,8 @@
   title: ELEXIS - a European infrastructure fostering cooperation and infor-mation
     exchange among lexicographical research communities
   year: 2018
-- '@id': vanerp2017knowledge
-  '@type': Proceedings
+- id: vanerp2017knowledge
+  type: Proceedings
   editor:
   - Marieke van Erp
   - Sebastian Hellmann
@@ -3782,8 +3785,8 @@
     KEKI and NLP&DBpedia'
   url: http://www.springer.com/gp/book/9783319687223
   year: 2017
-- '@id': gracia2017language
-  '@type': Proceedings
+- id: gracia2017language
+  type: Proceedings
   editor:
   - Jorge Gracia
   - Francis Bond
@@ -3796,8 +3799,8 @@
   title: Language, Data, and Knowledge
   url: http://www.springer.com/gp/book/9783319598871
   year: 2017
-- '@id': mccrae2017linking
-  '@type': Workshop
+- id: mccrae2017linking
+  type: Workshop
   author:
   - John P. McCrae
   - Mihael Arcan
@@ -3807,8 +3810,8 @@
   title: Linking Knowledge Graphs across Languages with Semantic Similarity and Machine
     Translation
   year: '2017'
-- '@id': mccrae2017ontolex
-  '@type': Conference
+- id: mccrae2017ontolex
+  type: Conference
   author:
   - John P. McCrae
   - Julia Bosque-Gil
@@ -3820,8 +3823,8 @@
   title: 'The OntoLex-Lemon Model: development and applications'
   url: https://elex.link/elex2017/wp-content/uploads/2017/09/paper36.pdf
   year: '2017'
-- '@id': klimek2017onlit
-  '@type': Conference
+- id: klimek2017onlit
+  type: Conference
   author:
   - Bettina Klimek
   - John P. McCrae
@@ -3832,8 +3835,8 @@
   pages: 42-57
   title: 'OnLiT: An Ontology for Linguistic Terminology'
   year: '2017'
-- '@id': mccrae2017colloquial
-  '@type': Conference
+- id: mccrae2017colloquial
+  type: Conference
   author:
   - John P. McCrae
   - Ian Wood
@@ -3843,8 +3846,8 @@
   pages: 194-202
   title: 'The Colloquial WordNet: Extending Princeton WordNet with Neologisms'
   year: '2017'
-- '@id': abele2017evaluation
-  '@type': Conference
+- id: abele2017evaluation
+  type: Conference
   author:
   - Andrejs Abele
   - John P. McCrae
@@ -3854,8 +3857,8 @@
   pages: 1-9
   title: An Evaluation Dataset for Linked Data Profiling
   year: '2017'
-- '@id': cimiano2016lexicon
-  '@type': Misc
+- id: cimiano2016lexicon
+  type: Misc
   author:
   - Philipp Cimiano
   - John P. McCrae
@@ -3864,8 +3867,8 @@
   title: 'Lexicon Model for Ontologies: Community Report'
   url: https://www.w3.org/2016/05/ontolex/
   year: '2016'
-- '@id': arcan2016expanding
-  '@type': Conference
+- id: arcan2016expanding
+  type: Conference
   author:
   - Mihael Arcan
   - John P. McCrae
@@ -3874,8 +3877,8 @@
   title: Expanding wordnets to new languages with multilingual sense disambiguation
   url: https://www.aclweb.org/anthology/C/C16/C16-1010.pdf
   year: 2016
-- '@id': mccrae2016identifying
-  '@type': Workshop
+- id: mccrae2016identifying
+  type: Workshop
   author:
   - John P. McCrae
   - Narumol Prangnawarat
@@ -3884,23 +3887,23 @@
   doi: 10.1007/978-3-319-68723-0_6
   title: Identifying Poorly-Defined Concepts in WordNet with Graph Metrics
   year: 2016
-- '@id': mccrae2016lixr
-  '@type': Workshop
+- id: mccrae2016lixr
+  type: Workshop
   author:
   - John P. McCrae
   - Philipp Cimiano
   booktitle: Proceedings of the ISWC 2016 Posters and Demo Track
   title: 'LIXR: Quick, succinct conversion of XML to RDF'
   year: 2016
-- '@id': mccrae2016yuzu
-  '@type': Workshop
+- id: mccrae2016yuzu
+  type: Workshop
   author:
   - John P. McCrae
   booktitle: Proceedings of the ISWC 2016 Posters and Demo Track
   title: 'Yuzu: Publishing Any Data as Linked Data'
   year: 2016
-- '@id': mccrae2016nuig
-  '@type': Workshop
+- id: mccrae2016nuig
+  type: Workshop
   author:
   - John P. McCrae
   - Kartik Asooja
@@ -3912,8 +3915,8 @@
     Textual Similarity'
   url: https://aclweb.org/anthology/S/S16/S16-1110.pdf
   year: 2016
-- '@id': mccrae2016linked
-  '@type': Workshop
+- id: mccrae2016linked
+  type: Workshop
   author:
   - John P. McCrae
   - Georgeta Bordea
@@ -3923,8 +3926,8 @@
   title: Linked Data and Text Mining as an Enabler for Reproducible Research
   url: http://interop2016.github.io/pdf/INTEROP-7.pdf
   year: 2016
-- '@id': mccrae2016domain
-  '@type': Article
+- id: mccrae2016domain
+  type: Article
   author:
   - John P. McCrae
   - Mihael Arcan
@@ -3939,8 +3942,8 @@
   url: http://www.sciencedirect.com/science/article/pii/S1570826815001420
   volume: 36
   year: 2016
-- '@id': mccrae2016representing
-  '@type': Workshop
+- id: mccrae2016representing
+  type: Workshop
   author:
   - John P. McCrae
   - Philipp Cimiano
@@ -3950,8 +3953,8 @@
   title: Representing Multiword Expressions on the Web with the OntoLex-Lemon model
   url: http://typo.uni-konstanz.de/parseme/images/Meeting/2016-04-07-Struga-meeting/WG1-MCCRAE-ETAL-abstract.pdf
   year: 2016
-- '@id': mccrae2016open
-  '@type': Conference
+- id: mccrae2016open
+  type: Conference
   author:
   - John P. McCrae
   - Christian Chiarcos
@@ -3972,8 +3975,8 @@
     Data Cloud'
   url: http://www.lrec-conf.org/proceedings/lrec2016/pdf/851_Paper.pdf
   year: 2016
-- '@id': bond2016cili
-  '@type': Conference
+- id: bond2016cili
+  type: Conference
   author:
   - Francis Bond
   - Piek Vossen
@@ -3983,8 +3986,8 @@
   title: 'CILI: the Collaborative Interlingual Index'
   url: https://aclanthology.org/2016.gwc-1.9.pdf
   year: 2016
-- '@id': vossen2016toward
-  '@type': Conference
+- id: vossen2016toward
+  type: Conference
   author:
   - Piek Vossen
   - Francis Bond
@@ -3993,8 +3996,8 @@
   title: Toward a truly multilingual Global Wordnet Grid
   url: https://aclanthology.org/2016.gwc-1.59.pdf
   year: 2016
-- '@id': mccrae2015multilingual
-  '@type': Article
+- id: mccrae2015multilingual
+  type: Article
   author:
   - John P. McCrae
   - Steven Moran
@@ -4008,8 +4011,8 @@
   url: http://semantic-web-journal.net/content/multilingual-linked-data
   volume: 6
   year: 2015
-- '@id': ecklekohler2015
-  '@type': Article
+- id: ecklekohler2015
+  type: Article
   author:
   - Judith Eckle-Kohler
   - John McCrae
@@ -4023,8 +4026,8 @@
   url: http://www.semantic-web-journal.net/content/lemonuby-large-interlinked-syntactically-rich-lexical-resource-ontologies-1
   volume: 6
   year: 2015
-- '@id': mccrae2015linghub
-  '@type': Conference
+- id: mccrae2015linghub
+  type: Conference
   author:
   - John P. McCrae
   - Philipp Cimiano
@@ -4033,8 +4036,8 @@
   title: 'Linghub: a Linked Data based portal supporting the discovery of language
     resources'
   year: '2015'
-- '@id': siemoneit2015linking
-  '@type': Workshop
+- id: siemoneit2015linking
+  type: Workshop
   author:
   - Benjamin Siemoneit
   - John P. McCrae
@@ -4045,8 +4048,8 @@
   title: Linking Four Heterogeneous Language Resources as Linked Data
   url: http://www.aclweb.org/anthology/W15-4207
   year: '2015'
-- '@id': mccrae2015reconciling
-  '@type': Workshop
+- id: mccrae2015reconciling
+  type: Workshop
   author:
   - John P. McCrae
   - Philipp Cimiano
@@ -4064,8 +4067,8 @@
   title: Reconciling Heterogeneous Descriptions of Language Resources
   url: http://www.aclweb.org/anthology/W/W15/W15-4205.pdf
   year: '2015'
-- '@id': cimiano2015linked
-  '@type': Conference
+- id: cimiano2015linked
+  type: Conference
   author:
   - Philipp Cimiano
   - John P. McCrae
@@ -4079,8 +4082,8 @@
   title: 'Linked Terminology: Applying Linked Data Principles to Terminological Resources'
   url: https://elex.link/elex2015/proceedings/eLex_2015_34_Cimiano+etal.pdf
   year: 2015
-- '@id': mccrae2015metashare
-  '@type': Workshop
+- id: mccrae2015metashare
+  type: Workshop
   author:
   - John P. McCrae
   - Penny Labropoulou
@@ -4094,8 +4097,8 @@
     of linguistic datasets on the Web'
   url: http://ceur-ws.org/Vol-1532/paper4.pdf
   year: '2015'
-- '@id': fiorelli2015lime
-  '@type': Conference
+- id: fiorelli2015lime
+  type: Conference
   author:
   - Manuel Fiorelli
   - Armando Stellato
@@ -4107,8 +4110,8 @@
   title: 'LIME: the Metadata Module for OntoLex'
   url: http://link.springer.com/chapter/10.1007/978-3-319-18818-8_20#page-1
   year: 2015
-- '@id': gracia2015language
-  '@type': InCollection
+- id: gracia2015language
+  type: InCollection
   author:
   - Jorge Gracia
   - Daniel Vila-Suero
@@ -4121,8 +4124,8 @@
   title: 'Language Resources and Linked Data: A Practical Perspective'
   url: http://link.springer.com/chapter/10.1007/978-3-319-17966-7_1
   year: 2015
-- '@id': mccrae2014design
-  '@type': InCollection
+- id: mccrae2014design
+  type: InCollection
   author:
   - John P. McCrae
   - Christina Unger
@@ -4136,8 +4139,8 @@
   title: Design Patterns for Engineering the Ontology-Lexicon Interface
   url: http://link.springer.com/chapter/10.1007%2F978-3-662-43585-4_2#page-1
   year: 2014
-- '@id': borin2014representing
-  '@type': Workshop
+- id: borin2014representing
+  type: Workshop
   author:
   - Lars Borin
   - Dana Dannells
@@ -4149,8 +4152,8 @@
   title: Representing Swedish Lexical Resources in RDF with lemon
   url: http://ceur-ws.org/Vol-1272/paper_82.pdf
   year: 2014
-- '@id': mccrae2014towards
-  '@type': Workshop
+- id: mccrae2014towards
+  type: Workshop
   author:
   - John P. McCrae
   - Cord Wiljes
@@ -4159,8 +4162,8 @@
   title: Towards assured data quality and validation by data certification
   url: http://ceur-ws.org/Vol-1215/paper-05.pdf
   year: 2014
-- '@id': mccrae2014bielefeld
-  '@type': Workshop
+- id: mccrae2014bielefeld
+  type: Workshop
   author:
   - John P. McCrae
   - Philipp Cimiano
@@ -4169,8 +4172,8 @@
   title: 'Bielefeld SC: Orthonormal Topic Modelling for Grammar Induction'
   url: http://alt.qcri.org/semeval2014/cdrom/pdf/SemEval016.pdf
   year: 2014
-- '@id': quattri2014default
-  '@type': Workshop
+- id: quattri2014default
+  type: Workshop
   author:
   - Francesca Quattri
   - Adam Pease
@@ -4180,8 +4183,8 @@
   title: Default Physical Measurements in SUMO
   url: http://www.aclweb.org/anthology/W/W14/W14-47.pdf#page=152
   year: 2014
-- '@id': mccrae2014modelling
-  '@type': Workshop
+- id: mccrae2014modelling
+  type: Workshop
   author:
   - John P. McCrae
   - Christina Unger
@@ -4192,8 +4195,8 @@
   title: Modelling the Semantics of Adjectives in the Ontology-Lexicon Interface
   url: http://anthology.aclweb.org/W/W14/W14-47.pdf#page=212
   year: 2014
-- '@id': mccrae2014publishing
-  '@type': Workshop
+- id: mccrae2014publishing
+  type: Workshop
   author:
   - John P. McCrae
   - Christiane Fellbaum
@@ -4202,8 +4205,8 @@
   title: Publishing and Linking WordNet using lemon and RDF
   url: https://github.com/jmccrae/wn-rdf-paper/raw/master/rdf-wordnet.pdf
   year: 2014
-- '@id': ehrmann2014multilingual
-  '@type': Workshop
+- id: ehrmann2014multilingual
+  type: Workshop
   author:
   - Maud Ehrmann
   - Francesco Ceconi
@@ -4214,8 +4217,8 @@
   booktitle: Proceedings of the 3rd Workshop on Linked Data in Linguistics
   title: 'A Multilingual Semantic Network as Linked Data: lemon-BabelNet'
   year: 2014
-- '@id': ehrmann2014representing
-  '@type': Conference
+- id: ehrmann2014representing
+  type: Conference
   author:
   - Maud Ehrmann
   - Francesco Ceconi
@@ -4227,8 +4230,8 @@
   pages: 401-408
   title: 'Representing Multilingual Data as Linked Data: the Case of BabelNet 2.0'
   year: 2014
-- '@id': vilasuero20143ld
-  '@type': Workshop
+- id: vilasuero20143ld
+  type: Workshop
   author:
   - Daniel Vila-Suero
   - Victor Rodriguez-Doncel
@@ -4239,8 +4242,8 @@
   booktitle: European Data Forum 2014
   title: '3LD: Towards high quality, industry-ready Linguistic Linked Linguistic Data'
   year: 2014
-- '@id': cimiano2014ontology
-  '@type': Book
+- id: cimiano2014ontology
+  type: Book
   author:
   - Philipp Cimiano
   - Christina Unger
@@ -4250,8 +4253,8 @@
   title: Ontology-based interpretation of natural language
   url: http://www.morganclaypool.com/doi/abs/10.2200/S00561ED1V01Y201401HLT024
   year: 2014
-- '@id': mccrae2013orthonormal
-  '@type': Conference
+- id: mccrae2013orthonormal
+  type: Conference
   author:
   - John McCrae
   - Philipp Cimiano
@@ -4262,8 +4265,8 @@
   title: Orthonormal explicit topic analysis for cross-lingual document matching
   url: https://www.aclweb.org/anthology/D/D13/D13-1179.pdf
   year: 2013
-- '@id': unger2013lemon
-  '@type': Workshop
+- id: unger2013lemon
+  type: Workshop
   author:
   - Christina Unger
   - John McCrae
@@ -4274,8 +4277,8 @@
   title: A lemon lexicon for DBpedia
   url: http://ceur-ws.org/Vol-1064/Unger_lemon.pdf
   year: 2013
-- '@id': montiel2013multilingual
-  '@type': Conference
+- id: montiel2013multilingual
+  type: Conference
   author:
   - Elena Montiel-Ponsoda
   - John McCrae
@@ -4287,8 +4290,8 @@
   title: Multilingual variation in the context of linked data
   url: https://lipn.univ-paris13.fr/tia2013/Proceedings/actesTIA2013.pdf
   year: 2013
-- '@id': mccrae2013mining
-  '@type': Workshop
+- id: mccrae2013mining
+  type: Workshop
   author:
   - John P. McCrae
   - Philipp Cimiano
@@ -4298,8 +4301,8 @@
   title: Mining translations from the web of open linked data
   url: http://www.aclweb.org/anthology/W/W13/W13-52.pdf#page=20
   year: 2013
-- '@id': menke2013releasing
-  '@type': Workshop
+- id: menke2013releasing
+  type: Workshop
   author:
   - Peter Menke
   - John P. McCrae
@@ -4310,8 +4313,8 @@
     report'
   url: http://anthology.aclweb.org/W/W13/W13-5507.pdf
   year: '2013'
-- '@id': chiarcos2013towards
-  '@type': InCollection
+- id: chiarcos2013towards
+  type: InCollection
   author:
   - Christian Chiarcos
   - John McCrae
@@ -4323,8 +4326,8 @@
   publisher: Springer
   title: 'Towards open data for linguistics: Lexical Linked Data'
   year: 2013
-- '@id': cimiano2013role
-  '@type': InCollection
+- id: cimiano2013role
+  type: InCollection
   author:
   - Philipp Cimiano
   - John McCrae
@@ -4336,8 +4339,8 @@
   publisher: Springer
   title: On the role of senses in the Ontology-Lexicon
   year: 2013
-- '@id': spohr2012using
-  '@type': Workshop
+- id: spohr2012using
+  type: Workshop
   author:
   - Dennis Spohr
   - Philipp Cimiano
@@ -4350,8 +4353,8 @@
   title: Using SPIN to formalize accounting regulation on the Semantic Web
   url: http://nadir.uc3m.es/feosw2012/proceedings/FEOSWp1.pdf
   year: 2012
-- '@id': mccrae2012collaborative
-  '@type': Conference
+- id: mccrae2012collaborative
+  type: Conference
   author:
   - John McCrae
   - Elena Montiel-Ponsoda
@@ -4361,8 +4364,8 @@
   title: Collaborative semantic editing of linked data lexica
   url: http://www.lrec-conf.org/proceedings/lrec2012/pdf/544_Paper.pdf
   year: 2012
-- '@id': mccrae2012three
-  '@type': Workshop
+- id: mccrae2012three
+  type: Workshop
   author:
   - John McCrae
   - Philipp Cimiano
@@ -4370,8 +4373,8 @@
     at the 2012 International Conference on Language Resource and Evaluation
   title: Three steps for creating high quality ontology-lexica
   year: 2012
-- '@id': mccrae2013integrating
-  '@type': InCollection
+- id: mccrae2013integrating
+  type: InCollection
   author:
   - John McCrae
   - Philipp Cimiano
@@ -4386,8 +4389,8 @@
   publisher: Springer
   title: Integrating WordNet and Wiktionary with lemon
   year: 2012
-- '@id': mccrae2012interchanging
-  '@type': Article
+- id: mccrae2012interchanging
+  type: Article
   author:
   - John McCrae
   - Guadalupe Aguado-de-Cea
@@ -4407,8 +4410,8 @@
   title: Interchanging lexical resources on the Semantic Web
   volume: 46
   year: 2012
-- '@id': cimiano2011lexinfo
-  '@type': Article
+- id: cimiano2011lexinfo
+  type: Article
   author:
   - Philipp Cimiano
   - Paul Buitelaar
@@ -4421,8 +4424,8 @@
   title: 'LexInfo: A declarative model for the lexicon-ontology interface'
   volume: 9
   year: 2011
-- '@id': gracia2011challenges
-  '@type': Article
+- id: gracia2011challenges
+  type: Article
   author:
   - Jorge Gracia
   - Elena Montiel-Ponsoda
@@ -4437,8 +4440,8 @@
   title: Challenges for the Multilingual Web of Data
   url: http://oa.upm.es/8848/1/Multiling.pdf
   year: 2011
-- '@id': mccrae2011combining
-  '@type': Workshop
+- id: mccrae2011combining
+  type: Workshop
   author:
   - John McCrae
   - Mauricio Espinoza
@@ -4451,8 +4454,8 @@
   title: Combining statistical and semantic approaches to the translation of ontologies
     and taxonomies
   year: 2011
-- '@id': mccrae2011linking
-  '@type': Conference
+- id: mccrae2011linking
+  type: Conference
   author:
   - John McCrae
   - Dennis Spohr
@@ -4462,8 +4465,8 @@
   pages: 245-249
   title: Linking Lexical Resources and Ontologies on the Semantic Web with lemon
   year: 2011
-- '@id': buitelaar2011ontology
-  '@type': Conference
+- id: buitelaar2011ontology
+  type: Conference
   author:
   - Paul Buitelaar
   - Philipp Cimiano
@@ -4473,8 +4476,8 @@
   booktitle: Proc. of 9th International Conference on Terminology and Articial Intelligence
   title: 'Ontology Lexicalization: The lemon perspective'
   year: 2011
-- '@id': montiel2011representing
-  '@type': Conference
+- id: montiel2011representing
+  type: Conference
   author:
   - Elena Montiel-Ponsoda
   - Guadalupe Aguado-de-Cea
@@ -4482,8 +4485,8 @@
   booktitle: Proc. of 9th International Conference on Terminology and Articial Intelligence
   title: Representing Term Variation in lemon
   year: 2011
-- '@id': mccrae2010clova
-  '@type': Workshop
+- id: mccrae2010clova
+  type: Workshop
   author:
   - John McCrae
   - Jesus R. Campaña
@@ -4493,8 +4496,8 @@
   title: 'CLOVA: An architecture for cross-language semantic data querying'
   url: http://ceur-ws.org/Vol-571/571-complete.pdf#page=10
   year: 2010
-- '@id': collier2010navigating
-  '@type': InCollection
+- id: collier2010navigating
+  type: InCollection
   author:
   - Nigel Collier
   - Son Doan
@@ -4514,8 +4517,8 @@
     BioCaster'
   url: https://www.crcpress.com/Biosurveillance-Methods-and-Case-Studies/KassHout-Zhang/9781439800461
   year: 2010
-- '@id': declerck2010ontology
-  '@type': InCollection
+- id: declerck2010ontology
+  type: InCollection
   author:
   - Thierry Declerck
   - Hans-Ulrich Krieger
@@ -4534,8 +4537,8 @@
   title: Ontology-based multilingual access to financial reports for sharing business
     knowledge across Europe
   year: 2010
-- '@id': collier2010ontology
-  '@type': Conference
+- id: collier2010ontology
+  type: Conference
   author:
   - Nigel Collier
   - Reiko Matsuda Goodwin
@@ -4550,15 +4553,15 @@
   pages: 215-222
   title: An ontology-driven system for detecting global health events
   year: 2010
-- '@id': mccrae2009automatic
-  '@type': PhDThesis
+- id: mccrae2009automatic
+  type: PhDThesis
   author:
   - John McCrae
   school: PhD Thesis for Graduate University of Advanced Studies (SoKenDai)
   title: Automatic extraction of logically consistent ontologies from text corpora
   year: 2009
-- '@id': mccrae2009srl
-  '@type': Workshop
+- id: mccrae2009srl
+  type: Workshop
   author:
   - John McCrae
   - Nigel Collier
@@ -4567,8 +4570,8 @@
   title: 'SRL Editor: A rule development tool for text mining'
   url: http://srl-editor.googlecode.com/files/saakm.pdf
   year: 2009
-- '@id': mccrae2009synonym
-  '@type': Article
+- id: mccrae2009synonym
+  type: Article
   author:
   - John McCrae
   - Nigel Collier

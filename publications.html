@@ -1,0 +1,193 @@
+---
+---
+{% include header.html %}
+<div class="row col-lg-6 col-lg-offset-3">
+
+
+<div style="text-align:right;">Download as: <a href="publications.bib">BibTeX</a></div>
+<div style="text-align:right;">By Type:&nbsp;&nbsp;
+<a href="#" class="arttype all" onclick="showall(event)" style="color:black;">All</a>&nbsp;&nbsp;
+<a href="#" style="padding-left:5px;" class="arttype selArticle" onclick="showonly(event,'Article')">Journal Articles</a>
+<a href="#" style="padding-left:5px;" class="arttype selBook" onclick="showonly(event,'Book')">Books</a>
+<a href="#" style="padding-left:5px;" class="arttype selInCollection" onclick="showonly(event,'InCollection')">Book Chapters</a>
+<a href="#" style="padding-left:5px;" class="arttype selProceedings" onclick="showonly(event,'Proceedings')">Proceedings</a>
+<a href="#" style="padding-left:5px;" class="arttype selrence" onclick="showonly(event,'Conference')">Conferences</a>
+<a href="#" style="padding-left:5px;" class="arttype selhop" onclick="showonly(event,'Workshop')">Workshops</a>
+<a href="#" style="padding-left:5px;" class="arttype selPhDThesis" onclick="showonly(event,'PhDThesis')">Thesis</a>
+<a href="#" style="padding-left:5px;" class="arttype selMisc" onclick="showonly(event,'Misc')">Reports</a>
+<a href="#" style="padding-left:5px;" class="arttype selPatent" onclick="showonly(event,'Patent')">Patents</a>
+</div>
+<div style="text-align:right;padding-bottom:10px;">By Year:&nbsp;&nbsp;
+<a href="#" class="year all" onclick="showall(event)" style="color:black;">All</a>
+<a href="#" class="year sely2023" onclick="showonly(event,'y2023')" style="padding-left:5px;">2023</a>
+<a href="#" class="year sely2022" onclick="showonly(event,'y2022')" style="padding-left:5px;">2022</a>
+<a href="#" class="year sely2021" onclick="showonly(event,'y2021')" style="padding-left:5px;">2021</a>
+<a href="#" class="year sely2020" onclick="showonly(event,'y2020')" style="padding-left:5px;">2020</a>
+<a href="#" class="year sely2019" onclick="showonly(event,'y2019')" style="padding-left:5px;">2019</a>
+<a href="#" class="year sely2018" onclick="showonly(event,'y2018')" style="padding-left:5px;">2018</a>
+<a href="#" class="year sely2017" onclick="showonly(event,'y2017')" style="padding-left:5px;">2017</a>
+<a href="#" class="year sely2016" onclick="showonly(event,'y2016')" style="padding-left:5px;">2016</a>
+<a href="#" class="year sely2015" onclick="showonly(event,'y2015')" style="padding-left:5px;">2015</a>
+<a href="#" class="year sely2014" onclick="showonly(event,'y2014')" style="padding-left:5px;">2014</a>
+<a href="#" class="year sely2013" onclick="showonly(event,'y2013')" style="padding-left:5px;">2013</a>
+<a href="#" class="year sely2012" onclick="showonly(event,'y2012')" style="padding-left:5px;">2012</a>
+<a href="#" class="year sely2011" onclick="showonly(event,'y2011')" style="padding-left:5px;">2011</a>
+<a href="#" class="year sely2010" onclick="showonly(event,'y2010')" style="padding-left:5px;">2010</a>
+<a href="#" class="year sely2009" onclick="showonly(event,'y2009')" style="padding-left:5px;">2009</a>
+<a href="#" class="year sely2008" onclick="showonly(event,'y2008')" style="padding-left:5px;">2008</a>
+</div>
+
+<!--
+def mkclasses(paper):
+    year = "y" + re.sub('\W+', '', str(paper["year"]))[:4]
+    arttype = paper["@type"]
+    if "author" in paper:
+        coauthors = ' '.join([re.sub('\W+', '', a) for a in paper["author"]])
+        return "pub " + year + " " + arttype + " " + coauthors
+    else:
+        return "pub " + year + " " + arttype
+
+
+def year_as_number(year):
+    if isinstance(year, str):
+        return int(year[:4])
+    else:
+        return year
+
+last_year = ""
+-->
+{% assign last_year = "" %}
+
+{% for paper in site.data.publications %}
+    {% unless paper.year %}
+    {{ paper.title }} does not have a year
+    {% endunless %}
+
+    {% assign paper_year = paper.year | slice: 4 %}
+    {% if paper_year != last_year %}
+    <h3 class="header y{{paper_year}}">{{paper_year}}</h3><hr class="header y{{paper_year}}"/>
+    {% assign last_year = paper_year %}
+    {% endif %}
+{% endfor %}
+<!--    if "ccepted" in str(paper["year"]):
+        out.write("<p class=\"" + mkclasses(paper) + "\"><b>")
+    else:
+        out.write("<p class=\"" + mkclasses(paper) + "\"><b><a class=\"publication\"")
+        if "url" in paper:
+            out.write(" href=\"" + paper["url"] + "\">")
+        else:
+            out.write(" href=\"papers/" + paper["@id"] + ".pdf\">")
+    out.write(paper["title"])
+    if "ccepted" in str(paper["year"]):
+        out.write("</a></b>. ")
+    else:
+        out.write("</a></b>. ")
+
+    if "author" in paper:
+        if len(paper["author"]) == 1:
+            out.write(paper["author"][0])
+        else:
+            out.write(", ".join(paper["author"][:-1]))
+            out.write(" and ")
+            out.write(paper["author"][-1])
+        out.write(", ")
+    if "editor" in paper:
+        out.write("<i>")
+        if len(paper["editor"]) == 1:
+            out.write(paper["editor"][0])
+        else:
+            out.write(", ".join(paper["editor"][:-1]))
+            out.write(" and ")
+            out.write(paper["editor"][-1])
+        out.write(" (eds)</i>, ")
+    if paper["@type"] == "InProceedings" or paper["@type"] == "Conference" or paper["@type"] == "Workshop":
+        out.write("<i>")
+        out.write(paper["booktitle"])
+        out.write("</i>, ")
+        if "pages" in paper:
+            out.write("pp " + paper["pages"] + ", ")
+    elif paper["@type"] == "Article":
+        out.write("<i>")
+        out.write(paper["journal"])
+        out.write("</i>, ")
+        if "volume" in paper:
+            out.write(str(paper["volume"]))
+            if "number" in paper:
+                out.write("(" + str(paper["number"]) + "), ")
+        if "pages" in paper:
+            out.write("pp " + paper["pages"] + ", ")
+    elif paper["@type"] == "InCollection":
+        out.write("In: <i>")
+        out.write(paper["booktitle"])
+        if "editor" in paper:
+            out.write(", eds. ")
+            out.write(", ".join(paper["editor"]))
+        out.write("</i>, ")
+        if "pages" in paper:
+            out.write("pp " + paper["pages"] + ", ")
+    elif paper["@type"] == "Book":
+        out.write("<i>")
+        out.write(paper["publisher"])
+        out.write("</i>, ")
+    elif paper["@type"] == "Proceedings":
+        out.write("<i>")
+        if "publisher" not in paper:
+            print(paper["@id"])
+        out.write(paper["publisher"])
+        if "series" in paper:
+            out.write(" - ")
+            out.write(paper["series"])
+        out.write("</i>, ")
+    elif paper["@type"] == "PhDThesis":
+        out.write("PhD Thesis for Graduate University of Advanced Studies (SoKenDai), ")
+    elif paper["@type"] == "Misc":
+        out.write("Technical Report: " + paper["organization"])
+    elif paper["@type"] == "Patent":
+        out.write("Patent: " + paper["note"] + " ")
+    else:
+        sys.stderr.write("unknown type" + paper["@type"])
+
+         
+    out.write("(" + str(paper["year"]) + ").")
+ 
+    if "url" in paper and os.path.exists("papers/%s.pdf" % paper["@id"]):
+        out.write(" <a href='papers/%s.pdf'>PDF</a>" % paper["@id"])
+
+
+
+    if "description" in paper:
+        out.write(" <a onclick='$(\"#abstract-%s\").slideToggle()' class='abstract-link'>Abstract</a></p>\n\n" % paper["@id"])
+        out.write("<p class='abstract' id='abstract-" + paper["@id"] + "'>" + paper["description"] + "</p>\n\n")
+    else:
+        out.write("</p>\n\n")
+
+out.write("</div></div>")
+out.write("""<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>""")
+out.write("""<script>
+        function showonly(event,p) {
+            event.preventDefault();
+            $('.pub:not(.' + p + ')').slideUp();
+            if(p.startsWith("y")) {
+                $('.header:not(.' + p + ')').slideUp();
+            }
+            $('.' + p).slideDown();
+            $('.all').css('color','#00bdff');
+            $('.arttype').css('color', '#00bdff');
+            $('.year').css('color', '#00bdff');
+            $('.sel' + p).css('color', 'black');
+            }
+        function showall(event,p) {
+            event.preventDefault();
+            $('.pub').slideDown();
+            $('.header').slideDown();
+            $('.arttyp').css('color', '#00bdff');
+            $('.year').css('color', '#00bdff');
+            $('.all').css('color','black');
+            }
+            </script>""")
+
+out.write("<?php include 'footer.html'; ?>")
+
+out.flush
+out.close
+-->

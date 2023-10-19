@@ -75,23 +75,18 @@ last_year = ""
     <p class="pub y{{ paper_year }} {{ paper.type }}"><b><a class="publication" 
                                                             {% if paper.url %} href="{{ paper.url }}"{% else %} href="papers/{{ paper.id }}"{% endif %}>
     {% endif %}
-    {{ paper.title }}
+    {{ paper.year }}
+    {{ paper.title }}</a></b>.
 
-<!--    if "ccepted" in str(paper["year"]):
-        out.write("<p class=\"" + mkclasses(paper) + "\"><b>")
-    else:
-        out.write("<p class=\"" + mkclasses(paper) + "\"><b><a class=\"publication\"")
-        if "url" in paper:
-            out.write(" href=\"" + paper["url"] + "\">")
-        else:
-            out.write(" href=\"papers/" + paper["@id"] + ".pdf\">")
-    out.write(paper["title"])
-    if "ccepted" in str(paper["year"]):
-        out.write("</a></b>. ")
-    else:
-        out.write("</a></b>. ")
-
-    if "author" in paper:
+    {% if paper.author %}
+        {% if paper.author.size == 1 %}
+            {{ paper.author | first }}
+        {% else %}
+            {{ paper.author | reverse | remove_first | reverse | join ", " }} and {{ paper.author | last }}
+        {% endif %}
+    {% endif %}
+        
+    <!--if "author" in paper:
         if len(paper["author"]) == 1:
             out.write(paper["author"][0])
         else:

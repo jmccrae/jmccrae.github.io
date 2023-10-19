@@ -65,10 +65,15 @@ last_year = ""
 
     {% assign paper_year = paper.year | slice: 4 %}
     {% if paper_year != last_year %}
-    <h3 class="header y{{paper_year}}">{{paper_year}}</h3><hr class="header y{{paper_year}}"/>
+    <h3 class="header y{{ paper_year }}">{{ paper_year }}</h3><hr class="header y{{ paper_year }}"/>
     {% assign last_year = paper_year %}
     {% endif %}
-{% endfor %}
+
+    {% if paper.year contains "ccepted" %}
+    <p class="pub y{{ paper_year }} {{ paper.type }}"><b>
+    {% else %}
+    <p class="pub y{{ paper_year }} {{ paper.type }}"><b><a class="publication" href="{{ paper.url }}">
+
 <!--    if "ccepted" in str(paper["year"]):
         out.write("<p class=\"" + mkclasses(paper) + "\"><b>")
     else:
@@ -159,11 +164,11 @@ last_year = ""
         out.write(" <a onclick='$(\"#abstract-%s\").slideToggle()' class='abstract-link'>Abstract</a></p>\n\n" % paper["@id"])
         out.write("<p class='abstract' id='abstract-" + paper["@id"] + "'>" + paper["description"] + "</p>\n\n")
     else:
-        out.write("</p>\n\n")
-
-out.write("</div></div>")
-out.write("""<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>""")
-out.write("""<script>
+    out.write("</p>\n\n")-->
+{% endfor %}
+</div></div>
+<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script>
         function showonly(event,p) {
             event.preventDefault();
             $('.pub:not(.' + p + ')').slideUp();
@@ -184,10 +189,6 @@ out.write("""<script>
             $('.year').css('color', '#00bdff');
             $('.all').css('color','black');
             }
-            </script>""")
+            </script>
 
-out.write("<?php include 'footer.html'; ?>")
-
-out.flush
-out.close
--->
+{% include footer.html %}

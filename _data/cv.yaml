@@ -1,0 +1,415 @@
+email: john@mccr.ae
+date_of_birth: 17th April 1984
+gender: Male
+citizenship: United Kingdom
+languages: 
+    - name: English
+    - name: German
+      level: C2
+    - name: Japanese 
+      level: LPT Level 2
+    - name: Irish
+      level: B2
+website: http://john.mccr.ae/
+github: http://github.com/jmccrae/
+orcid: 0000-0002-7227-1331
+education:
+    - date: Sept 2020 to 2021
+      institute: National University of Ireland, Galway
+      url: https://www.universityofgalway.ie/
+      address: University Rd, Galway
+      degree: Postgraduate Certificate in Teaching and Learning in Higher Education
+    - date: Sept 2017 to 2019
+      institute: National University of Ireland, Galway
+      url: https://www.universityofgalway.ie/
+      address: University Rd, Galway
+      degree: Diploma in Irish (B2)
+    - date: Oct 2006 to Sept 2009
+      institute: National Institute of Informatics
+      url: http://nii.ac.jp/
+      address: Hitotsubashi 2-1-2, Chiyoda-ku, Tokyo-to, 101-8430, Japan
+      degree: Three-year PhD course
+      title: "Automatic extraction of logically consistent ontologies from text corpora"
+      supervisor: Nigel Collier
+    - date: Oct 2002 to June 2006
+      institute: Imperial College London
+      url: httpL//www.imperial.ac.uk/
+      address: South Kensington Campus, London, SW7 2AZ, UK
+      degree: MSci Maths and Computer Science (First Class with Honours)
+    - date: Sept 1995 to July 2002
+      institute: The Judd School
+      url: http://www.judd.online/
+      address: Brook Street, Tonbridge, Kent, TN9 2PN, UK
+      degree: "4 A-Levels: Maths(A), Further Maths(A), German(A), Physics(A) 10 GCSEs (Grade A or A*)"
+employment:
+    - date: Jan 2017-
+      institute: University of Galway
+      url: https://www.universityofgalway.ie/
+      address: IDA Business Park, Lower Dangan, Galway, Ireland
+      jobtitle: Assistant Professor
+    - date: Aug 2015-Dec 2016
+      institute: National University of Ireland, Galway
+      url: https://www.universityofgalway.ie/
+      address: IDA Business Park, Lower Dangan, Galway, Ireland
+      jobtitle: Research Fellow
+    - date: Oct 2009- Aug 2015
+      institute: Cognitive Interaction Technology Excellence Cluster, University Bielefeld
+      url: https://www.cit-ec.de
+      address: Bielefeld 33615, Germany
+      jobtitle: Postdoctoral Research Associate (“Wissenschaftlicher Mitarbeiter”)
+    - date: Oct 2008- Sept 2009
+      institute: National Institute of Informatics
+      url: https://nii.ac.jp/
+      address: Hitotsubashi 2-1-2, Chiyoda-ku, Tokyo-to, 101-8430, Japan
+      jobtitle: Research Assistant
+teaching:
+    - AY: 21/22-23/24
+      title: Knowledge Graphs 
+      code: CT5166
+      level: MSc
+      institute: NUIG
+      role: Developed course and lecturer.
+    - AY: 20/21
+      title: Linked Data 
+      code: DER5101
+      level: MSc
+      institute: NUIG
+      role: Lecturer
+    - AY: 19/20 - 23/24
+      title: Advanced Natural Language Processing 
+      code: CT5121
+      level: MSc
+      institute: NUIG
+      role: Developed course and co-lecturer.
+    - AY: 15/16 - 23/24
+      title: Introduction to Natural Language Processing 
+      code: CT5120
+      level: MSc 
+      institute: NUIG
+      role: Developed course and co-lecturer.
+    - AY: 12/13 - 14/15
+      title: Statistical Natural Language Processing
+      leveL: MSc
+      institute: UNIBI
+      role: Co-lecturer
+    - AY: 13/14 - 14/15
+      title: Seminar on Statistical Natural Language Processing
+      role: Instructor
+    - AY: 10/11 - 11/12
+      title: Introduction to the Semantic Web
+      role: Tutor
+students:
+    - name: Bharathi Raja Chakravathi 
+      degree: PhD 
+      year: 2016-2020
+      title: Leveraging orthographic information to improve machine translation of under-resourced languages
+      completed: true
+    - name: Omnia Zayed 
+      degree: PhD 
+      year: 2016-2021
+      title: Metaphor processing in tweets
+      completed: true
+      secondary: true
+    - name: Sina Ahmadi
+      degree: PhD 
+      year: 2018-2022
+      title: Monolingual Alignment of Word Senses and Definitions in Lexicographical Resources
+      completed: true
+    - name: Koustava Goswami
+      degree: PhD
+      year: 2019-2022 
+      title: Unsupervised Deep Representation Learning for Low-Resourced Languages and Applications
+      completed: true
+    - name: Rajdeep Sarkar
+      degree: PhD
+      year: 2019-2023
+      title: Exploring structured and unstructured knowledge sources for developing domain-specific chatbots
+      completed: true
+    - name: Priya Rani
+      degree: PhD 
+      year: 2019-2023
+      title: Analysis of Low-resourced Closely-related Code-mixed Languages from User-generated Text
+      completed: false
+    - name: Adrian Doyle
+      degree: PhD 
+      year: 2016-2023
+      title: Development of Natural Language Processing Techniques and Resources for Old Irish
+      completed: false
+    - name: Oksana Dereza
+      degree: PhD 
+      year: 2019-2023
+      completed: false
+    - name: Shubhanker Banerjee
+      degree: PhD 
+      year: 2021-2025
+      completed: false
+    - name: Bernardo Stearns
+      degree: PhD
+      year: 2021-2027
+      completed: false
+    - name: Al Waskow
+      degree: PhD
+      year: 2023-2029
+      completed: false
+funding:
+    - name: SFI Insight Centre for Data Analytics
+      funder: SFI
+      date: 7/13-6/25
+      total: 150000000
+      assigned: 603840
+    - name: ADAPT
+      funder: SFI
+      date: 1/21-1/27
+      total: 42000000
+      assigned: 118867
+    - name: IRC Cardamom Laureate
+      funder: IRC
+      date: 7/19-7/23
+      total: 600000
+      assigned: 600000
+    - name: Fidelity-Insight Collaborative Project
+      funder: Fidelity Investments/SFI co-fund
+      date: 6/18-7/23 (five phases)
+      total: 681000
+      assigned: 340000
+    - name: Fidelity Labs-Insight Collaborative Project
+      funder: Fidelity Investments/SFI co-fund
+      date: 10/20-9/23 (three phases)
+      total: 200000
+      assigned: 200000
+    - name: "Commercialization Feasibility Study: OncDB"
+      funder: Enterprise Ireland
+      date: 5/23-8/23
+      total: 12500
+      assigned: 12500
+    - name: Translators with Borders-ADAPT Collaborative Project
+      funder: TWB/SFI co-fund
+      date: 9/20-3/21
+      total: 51000
+      assigned: 25500
+    - name: Huawei-Insight Collaborative Project
+      funder: Huawei
+      date: 6/20-6/22
+      total: 10400000
+      assigned: 260000
+    - name: Prêt-à-LLOD
+      funder: EU H2020
+      date: 1/19-6/22
+      total: 3000000
+      assigned: 492188
+    - name: ELEXIS
+      funder: EU H2020
+      date: 1/18-7/22
+      total: 5000000
+      assigned: 473000
+    - name: NexusLinguarum (Vice-chair)
+      funder: COST
+      date: 10/19-10/23
+      total: 452300.10
+    - name: Distributed Knowledge Graphs (Grant Holder)
+      funder: COST
+      date: 9/20-9/24
+      total: 229322.50
+    - name: IRC Postgraduate Scholarship (Rajdeep Sarkar)
+      funder: IRC
+      date: 9/19-8/23
+      total: 105334
+      assigned: 105334
+    - name: IRC Postgraduate Scholarship (Adrian Doyle)
+      funder: IRC
+      date: 9/19-8/21
+      total: 55000
+      assigned: 55000
+    - name: EI Proposal Preparation Support
+      funder: Enterprise Ireland
+      date: 1/21, 7/21
+      total: 29390
+      assigned: 29390
+activities:
+    - Lead ATHENA Swan Bronze application of School of Computer Science and Data Science Institute at the University of Galway
+    - Chair of 	First Workshop on Language Technology for Equality, Diversity and Inclusion (LT-EDI-2021) at EACL 2021
+    - Chair of Joint Workshop on Multiword Expressions and Electronic Lexicons (MWE-LEX 2020) at COLING 2020
+    - "Chair of 7th Workshop on Linked Data for Linguistics: Building tools and infrastructure, Marseille, France."
+    - Chair of GLOBALEX 2020 – Linked Lexicography, Marseille, France.
+    - NUI Galway President’s Award for Research Excellence
+    - Chair of 2nd Conference on Language Data and Knowledge (LDK-2019), Leipzig, Germany.
+    - Organizer of 3nd Spring Datathon on Linguistic Linked Open Data, Schloss Dagstuhl, Germany.
+    - "Chair of Workshop on  eLexicography: Between DH & AI, Galway, Ireland."
+    - "Chair of 6th Workshop on Linked Data in Linguistics: Towards Linguistic Data Science, Miyazaki, Japan,"
+    - Chair of 1st Conference on Language, Data and Knowledge (LDK-2017), Galway, Ireland.
+    - Organizer of 2nd Summer Datathon on Linguistic Linked Open Data, Madrid, Spain.
+    - Chair of 1st Workshop on Knowledge Extraction and Knowledge Integration (KĒKI) at ISWC 2016, Kobe, Japan.
+    - Organizer of 1st Summer Datathon on Linguistic Linked Open Data, Madrid, Spain.
+    - Chair of 5th Workshop on Linked Data in Linguistics (LDL-2016) at LREC 2016, Portoroz, Slovenia.
+    - Chair of 4th Workshop on Linked Data in Linguistics (LDL-2015) at ACL-2015, Beijing, China.
+    - Organizer of tutorial on Language Resources and Linked Data at EKAW 2014.
+    - Organizer of tutorial on Building the Multilingual Web of Data at ISWC 2014,
+    - Guest editor of a special issue of the Semantic Web Journal on “Multilingual Linked Data”.
+    - Chair of 3rd Workshop on Linked Data in Linguistics (LDL-2014) at LREC-2014, Reykjavik, Iceland.
+    - Organizer of Tutorial on Linked Data for Language Technologies at LREC-2014, Reykjavik, Iceland.
+    - Chair of 2nd Workshop on Linked Data in Linguistics (LDL-2013) at GLCON-2013, Pisa, Italy.
+    - Chair of 2nd Workshop on the Multilingual Semantic Web at ISWC-2011.
+    - Organizer of tutorials on “Enriching the Semantic Web with Linguistic Information” at ESWC-2011 and “Enriching the Web with Ontology-lexica” at LREC-2012.
+    - Lead developer of lemon (Lexicon Model for Ontologies).
+    - Chair of W3C Best Practices for Multilingual Linked Open Data Community Group
+    - Chair  of W3C OntoLex community group
+    - Research Visit to Princeton University, November-December 2013.
+    - Research Visit to Technical University of Delft, September 2010.
+    - "Invited Talk on “Future-proofing under-resourced languages through NLP”. Invited talk at Ukrainian NLP Workshop at ICTERI-2021: 17th International Conference on ICT in Education, Research, and Industrial Applications"
+    - Invited Talk on "Building Multilingual Lexical Resources: the Global WordNet Grid and the ELEXIS infrastructure". Invited talk at The Second Workshop on Multi-Language Processing in a Globalising World and The First Workshop on Multilingualism at the intersection of Knowledge Bases and Machine Translation – co-located with LREC 2018, Miyazaki, Japan
+    - "Invited Talk on “Putting ontologies to work in NLP: The lemon model and its applications”. Invited talk at  Joint Second Workshop on Language and Ontology & Terminology and Knowledge Structures (LangOnto2 + TermiKS), at the 10th edition of the Language Resources and Evaluation Conference, 23rd May 2016, Portorož (Slovenia)."
+    - Seminar at the Ontology Engineering Group, Polytechnic University of Madrid
+    - Keynote speaker at 5th Meeting of MUMIA project, June 2013.
+    - CLT Seminar at Språkbanken, University of Gothenburg, February 2013.
+    - Keynote speaker at workshop on “Standardized Data Categories in ISOcat” at TKE-2010, August 2010.
+    - External Evaluator for TU Dublin of internal research grants 2020
+    - External Examiner for PhD of Filip Klubicka at TU Dublin - “Probing With Noise: Extracting Idiomatic Knowledge From Meaning Representations”
+    - External Examiner for PhD of Gary Munnelly at Trinity College Dublin - “Entity Linking for Text Based Digital Cultural Heritage Collections”, September 2019.
+    - Internal Examiner for Jan Taubert, “ONDEX – A data integration framework for the life sciences,” awarded on 25th January 2011, Bielefeld University.
+    - Internal Examiner for Daniela Dos Santos Oliveira, “Data Model Extraction from a Background Knowledge Graph”, examined 29th October 2020, NUI Galway.
+journal_reviews:
+    - Editorial Board of MDPI Information.
+    - EPSRC Associate Reviewer
+    - PLOS ONE
+    - Semantic Web Journal (IOS Press)
+    - Language Resources and Evaluation (Springer)
+    - Journal of Metadata, Semantics and Ontologies (InderScience)
+    - Journal of Engineering Research (Kuwait University Press)
+    - Artificial Intelligence (Elsevier)
+    - Journal of Web Semantics (Elsevier)
+    - Information Processing & Management (Elsevier)
+    - Journal of Artificial Intelligence Research
+    - Information Retrieval Journal (Springer)
+    - International Journal on Artificial Intelligence Tools (World Scientific)
+    - Computational Linguistics (MIT Press)
+    - Natural Language Engineering (Cambridge)
+    - Journal of Geographical Systems (Elsevier)
+    - Journal of Data and Information Quality (ACM)
+    - Reviewer for Science Fund of the Republic of Serbia
+    - External Evaluator for TU Dublin Research Scholarships (2020)
+    - Journal of Multilingual and Multicultural Development
+    - External Reviewer of Research Proposals for University of Luxembourg.
+    - Leibniz Association
+program_committees:
+    - TheWebConf 2022
+    - Thirty-Sixth AAAI Conference on Artificial Intelligence
+    - ACL-IJCNLP 2021 (Area chair)
+    - EURALEX 2021
+    - Hypertext ‘21
+    - EMNLP 2021
+    - 15th TOTh International Conference
+    - "*SEM 2021: The Tenth Joint Conference on Lexical and Computational Semantics"
+    - eLex 2021
+    - The 2021 Conference of the North American Chapter of the Association for Computational Linguistics - Human Language Technologies (NAACL-HLT 2021)
+    - CogALex 2020
+    - AACL-IJCNLP 2020
+    - The WebConf 2021
+    - EMNLP 2020
+    - MTSR 2020
+    - CIKM 2020 (Senior PC member)
+    - 1st Joint SLTU (Spoken Language Technologies for Under-resourced languages) and CCURL (Collaboration and Computing for Under-Resourced Languages) Workshop
+    - COLING 2020
+    - Thirty-Fourth AAAI Conference on Artificial Intelligence.
+    - The WebConf 2020
+    - EMNLP-IJCNLP 2019
+    - 2nd MomenT Workshop on "Multilingualism at the intersection of Knowledge Bases and Machine Translation"
+    - Biographical Data in a Digital World 2019
+    - The 57th Annual Meeting of the Association for Computational Linguistics (ACL 2019)
+    - Joint Workshop on Multiword Expressions and WordNet (MWE-WN 2019)
+    - 33rd AAAI Conference on Artificial Intelligence (AAAI 2019)
+    - TheWebConf 2019
+    - Scalable Question Answering Challenge (SQA 2018)
+    - CNL 2018
+    - MLP 2018
+    - Scalable Question Answering (SQA) challenge @ ESWC 2018
+    - ACL 2018
+    - Knowledge Extraction for the Web of Things (KE4WoT) 2018
+    - 27th International World Wide Web Conference (WWW 2018)
+    - EURALEX 2018
+    - 11th International Conference on Language Resources and Evaluation (LREC-2018)
+    - NLDB 2018
+    - 1st Moment Workshop
+    - IWCS 2017 (12th International Conference on Computational Semantics)
+    - Workshop on Language, Ontology, Terminology and Knowledge Structures (LOTKS 2017)
+    - Knowledge Resources for the Socio-Economic Sciences and Humanities  Workshop (KnowRSH)
+    - International Semantic Web Conference (ISWC) 2017
+    - ISWC 2017 - Posters and Demos
+    - 9th Global Wordnet Conference (GWC 2018)
+    - 1st Workshop on Semantic Deep Learning (SemDeep) at ESWC 2017
+    - 1st Workshop on Hybrid Statistical Semantic Understanding and Emerging Semantics (HSSUES) at ISWC 2017
+    - 1st Workshop on Linked Enterprise Data Services, Provenance, Linking and QualitY (LEDSPLaY) co-located with the INFORMATIK 2017
+    - Question Answering over Linked Data (QALD) challenge at ESWC 2017.
+    - 14th Extended Semantic Web Conference (ESWC 2017)
+    - 39th European Conference on Information Retrieval (ECIR 2017)
+    - 15th International Semantic Web Conference (ISWC 2016)
+    - RUMOUR 2016: Workshop on Social Media and the Web of Linked Data
+    - CLARIN in the Low Countries: a Research Infrastructure for the Humanities (CLNLBK16)
+    - NLP&DBpedia 2016 Workshop
+    - 12th International Conference on Semantic Systems (SEMANTICS 2016)
+    - GLOBALEX 2016: Lexicographic Resources for Human Language Technology
+    - 25th International Joint Conference on Artificial Intelligence (IJCAI-16)
+    - 13th Extended Semantic Web Conference (ESWC 2016)
+    - 1st Workshop on Cross-Platform Text Mining and Natural Language Processing Interoperability.
+    - 21st International Conference on Applications of Natural Language to Information Systems (NLDB 2016)
+    - 10th International Conference on Language Resources and Evaluation (LREC 2016)
+    - Conference on Empirical Methods in Natural Language Processing (EMNLP-2015)
+    - 11th International Conference on Semantic Systems (SEMANTICS 2015)
+    - Vision and Language 2015 Workshop (VL'15)
+    - NLP & DBpedia 2015 Workshop
+    - 2nd Workshop on Linked Data Quality (LDQ2015)
+    - 20th International Conference on Applications of Natural Language to Information Systems (NLDB 2015)
+    - 12th Extended Semantic Web Conference (ESWC 2015)
+    - Seconda Conferenza Italiana di Linguistica Computazionale (CLIC-2015)
+    - 8th International Workshop on Semantic Evaluation (SemEval-2014)
+    - NLP & DBpedia 2014 Workshop
+    - 8th International Conference of Bio-inspired Information and Communications Technologies (BICT 2014)
+    - 11th OWL: Experience and Directions Workshop (OWLED-2014)
+    - 7th International Workshop on Semantic Evaluation (SemEval-2014)
+    - 9th Language Resource and Evaluation Conference (LREC-2014)
+    - 11th Extended Semantic Web Conference (ESWC-2014)
+    - 52nd Annual Meeting of the Association of Computational Linguistics (ACL-2014)
+    - 9th International Workshop on Ontology Content (OntoContent’13)
+    - 2nd Joint Conference on Lexical and Computational Semantics (*SEM 2013)
+    - 51st Annual Meeting of the Association of Computational Linguistics (ACL-2013)
+    - 6th International Joint Conference on Natural Language Processing (IJCNLP-2013)
+    - NLP-DBpedia Workshop co-located with the 2013 International Semantic Web Conference
+    - 3rd Workshop on the Multilingual Semantic Web (MSW-3) co-located with the 2012 International Semantic Web Conference
+    - 25th International Conference on Computational Linguistics (COLING-2012)
+    - 1st Workshop on Linked Data in Linguistics (LDL 2012) co-located with the 34th Annual Conference of the German Linguistic Society
+    - 9th Extended Semantic Web Conference (ESWC-2012)	
+    - 3rd Workshop on the People’s Web meets NLP co-located with ACL-2012
+    - 8th Extended Semantic Web Conference (ESWC-2011)
+taught_students:
+    - name: Thomas Sebastian
+      title: Fake News Detection in Web Platforms –Social Media
+    - name: Alexey Shapovalov
+      title: An adversarial approach towards more factually correct summaries
+    - name: Shubhanker Banerjee
+      title: A Phonetic Transcription System for Manx
+    - name: Gautham Vadakkekara Suresh
+      title: Meta-Learning for Offensive Language Detection in Code-Mixed Texts
+    - name: Akanksha
+      title: Text-based Personality prediction based on MBTI
+    - name: Emmett Lee
+      title: A Multi-task Approach for Named Entity Recognition on Noisy User Generated Data
+    - name: Sampritha Manjunath
+      title: A Deep learning model for Automatic Term Recognition
+    - name: Sargam Gupta
+      title: A Comparative analytical research based on recommendation algorithms using various machine learning and deep learning models
+    - name: Yifei Zhou
+      title: A survey of link prediction combining explicit and latent features over heterogeneous networks
+    - name: Saurabh Shashikant Hebbalkar
+      title: Multimodal Neural Machine Translation for Under Resourced Languages
+    - name: Oliver Moran
+      title: Exploring the use of EEAP framework to predict MedDRA codes based on customer complaints
+    - name: Sai Krishna Lakshminarayanan
+      title: A comparative study of SVN and LSTM deep learning algorithms for stock market prediction
+    - name: Aditya Dhote
+      title: Neologism Detection in Social Media
+    - name: Housam Ziad
+      title: "Teanga: A Linked Data based platform for Natural Language Processing"
+    - name: Mandar Bandodekar
+      title: Semantic Tagging of Complex Tabular Renderings of Financial PDF Documents
+    - name: Vytas Vaicuilis
+      title: Nineteenth-Century Probabilistic Steamship Data Disambiguation
+

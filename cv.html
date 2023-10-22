@@ -9,17 +9,17 @@
              <div class="row col-lg-6 col-lg-offset-3">
                 <div class="pageTop">
                      <ul>
-                         <li><b>Email</b>: <a href="mailto:{{ site.cv.email}}">{{ site.cv.email }}</a></li>
-                         <li><b>Gender</b>: {{ site.cv.gender }} </li>
-                         <li><b>Citizenship</b>: {{ site.cv.citizenship }}</li>
-                         <li><b>Languages spoken</b>: {% for lang in site.cv.languages %}{% unless forloop.first%}, {% endunless %}{{lang.name}}{% if lang.level %} ({{lang.level}}){% endif %}{% endfor %}</li>
-                         <li><b>GitHub</b>: <a href="{{site.cv.github}}">{{site.cv.github}}</a></li>
-                         <li><b>ORCID</b>: <a href="https://orcid.org/{{orcid}}">{{site.cv.orcid}}</a></li>
+                         <li><b>Email</b>: <a href="mailto:{{ site.data.cv.email}}">{{ site.data.cv.email }}</a></li>
+                         <li><b>Gender</b>: {{ site.data.cv.gender }} </li>
+                         <li><b>Citizenship</b>: {{ site.data.cv.citizenship }}</li>
+                         <li><b>Languages spoken</b>: {% for lang in site.data.cv.languages %}{% unless forloop.first%}, {% endunless %}{{lang.name}}{% if lang.level %} ({{lang.level}}){% endif %}{% endfor %}</li>
+                         <li><b>GitHub</b>: <a href="{{site.data.cv.github}}">{{site.data.cv.github}}</a></li>
+                         <li><b>ORCID</b>: <a href="https://orcid.org/{{orcid}}">{{site.data.cv.orcid}}</a></li>
                     </ul>
 
                     <h2>Education</h2>
                     <ul>
-                        {% for edu in site.cv.education %}
+                        {% for edu in site.data.cv.education %}
                         <li>
                             <b>{{edu.date}}</b>: <a href="{{edu.url}}" property="foaf:schoolHomepage">{{edu.institute}}</a> {{edu.degree}}{% if edu.title %} (&ldquo;{{edu.title}}&rdquo; - Supervisor: {{edu.supervisor}}){% endif %}
                         </li>
@@ -27,7 +27,7 @@
                     </ul>
                     <h2>Employment</h2>
                     <ul>
-                        {% for emp in site.cv.employment %}<li>
+                        {% for emp in site.data.cv.employment %}<li>
                             <b>{{emp.date}}</b>: <a href="{{emp.url}}">{{emp.institute}}</a> {{emp.jobtitle}}
                         </li>{% endfor %}
                     </ul>

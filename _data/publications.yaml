@@ -1,3 +1,133 @@
+- id: agarwal2023findings
+  author:
+  - Milind Agarwal
+  - Sweta Agrawal
+  - Antonios Anastasopoulos
+  - Luisa Bentivogli
+  - Ondřej Bojar
+  - Claudia Borg
+  - Marine Carpuat
+  - Roldano Cattoni
+  - Mauro Cettolo
+  - Mingda Chen
+  - William Chen
+  - Khalid Choukri
+  - Alexandra Chronopoulou
+  - Anna Currey
+  - Thierry Declerck
+  - Qianqian Dong
+  - Kevin Duh
+  - Yannick Estève
+  - Marcello Federico
+  - Souhir Gahbiche
+  - Barry Haddow
+  - Benjamin Hsu
+  - Phu Mon Htut
+  - Hirofumi Inaguma
+  - Dávid Javorský
+  - John Judge
+  - Yasumasa Kano
+  - Tom Ko
+  - Rishu Kumar
+  - Pengwei Li
+  - Xutai Ma
+  - Prashant Mathur
+  - Evgeny Matusov
+  - Paul McNamee
+  - John P. McCrae
+  - Kenton Murray
+  - Maria Nadejde
+  - Satoshi Nakamura
+  - Matteo Negri
+  - Ha Nguyen
+  - Jan Niehues
+  - Xing Niu
+  - Atul Kr. Ojha
+  - John E. Ortega
+  - Proyag Pal
+  - Juan Pino
+  - Lonneke van der Plas
+  - Peter Polák
+  - Elijah Rippeth
+  - Elizabeth Salesky
+  - Jiatong Shi
+  - Matthias Sperber
+  - Sebastian Stüker
+  - Katsuhito Sudoh
+  - Yun Tang
+  - Brian Thompson
+  - Kevin Tran
+  - Marco Turchi
+  - Alex Waibel
+  - Mingxuan Wang
+  - Shinji Watanabe
+  - Rodolfo Zevallos
+  title: Findings of the IWSLT 2023 Evaluation Campaign
+  description: This paper reports on the shared tasks organized by the 20th IWSLT Conference. The shared tasks address 9 scientific challenges in spoken language translation: simultaneous and offline translation, automatic subtitling and dubbing, speech-to-speech translation, multilingual, dialect and low-resource speech translation, and formality control. The shared tasks attracted a total of 38 submissions by 31 teams. The growing interest towards spoken language translation is also witnessed by the constantly increasing number of shared task organizers and contributors to the overview paper, almost evenly distributed across industry and academia.
+  year: 2023
+  publisher: Association for Computational Linguistics
+  editor:
+  - Elizabeth Salesky
+  - Marcello Federico
+  - Marine Carpuat
+  pages: 1-61
+  url: https://aclanthology.org/2023.iwslt-1.1
+  booktitle: Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)
+- id: arcan2023intent
+  author:
+  - Mihael Arcan
+  - Sampritha Manjunath
+  - Cécile Robin
+  - Ghanshyam Verma
+  - Devishree Pillai
+  - Simon Sarkar
+  - Sourav Dutta
+  - Haytham Assem
+  - John P.McCrae
+  - Paul Buitelaar
+  title: Intent Classification by the Use of Automatically Generated Knowledge Graphs
+  journal: Information
+  volume: 14
+  year: 2023
+  number: 5
+  url: https://www.mdpi.com/2078-2489/14/5/288
+  issn: 2078-2489
+  abstract: Intent classification is an essential task for goal-oriented dialogue systems for automatically identifying customers&rsquo; goals. Although intent classification performs well in general settings, domain-specific user goals can still present a challenge for this task. To address this challenge, we automatically generate knowledge graphs for targeted data sets to capture domain-specific knowledge and leverage embeddings trained on these knowledge graphs for the intent classification task. As existing knowledge graphs might not be suitable for a targeted domain of interest, our automatic generation of knowledge graphs can extract the semantic information of any domain, which can be incorporated within the classification process. We compare our results with state-of-the-art pre-trained sentence embeddings and our evaluation of three data sets shows improvement in the intent classification task in terms of precision.
+  doi: 10.3390/info14050288
+- id: bond2023documenting
+  type: Conference
+  author:
+  - Francis Bond
+  - Michael Wayne Goodman
+  - Ewa Rudnicka
+  - Luis Morgado da Costa
+  - Alexandre Rademaker
+  - John P. McCrae
+  title: Documenting the Open Multilingual Wordnet
+  booktitle: Proceedings of the 2023 Global WordNet Conference
+  pages: 
+  year: 2023
+  description: "In this project note we describe our work to make better documentation for the Open Multilingual Wordnet (OMW), a platform integrating many open wordnets. This includes the documentation of the OMW website itself as well as of semantic relations used by the component wordnets. Some of this documentation work was done with the support of the Google Season of Docs. The OMW project page, which links both to the actual OMW server and the documentation has been moved to a new location: https://omwn.org."
+  url: https://www.hitz.eus/gwc2023/sites/default/files/aurkezpenak/GWC2023_paper_7981.pdf
+- id: raja2023detecting
+  type: Article
+  author:
+  - Bharathi Raja Chakravarthi
+  - Ruba Priyadharshini
+  - Shubanker Banerjee
+  - Manoj Balaji Jagadeeshan
+  - Prasanna Kumar Kumaresan
+  - Rahul Ponnusamy
+  - Sean Benhur
+  - John Philip McCrae
+  title: Detecting abusive comments at a fine-grained level in a low-resource language
+  journal: Natural Language Processing Journal
+  volume: 3
+  year: 2023
+  doi: https://doi.org/10.1016/j.nlp.2023.100006
+  url: https://www.sciencedirect.com/science/article/pii/S2949719123000031
+  description: "YouTube is a video-sharing and social media platform where users create profiles and share videos for their followers to view, like, and comment on. Abusive comments on videos or replies to other comments may be offensive and detrimental for the mental health of users on the platform. It is observed that often the language used in these comments is informal and does not necessarily adhere to the formal syntactic and lexical structure of the language. Therefore, creating a rule-based system for filtering out abusive comments is challenging. This article introduces four datasets of abusive comments in Tamil and code-mixed Tamil–English extracted from YouTube. Comment-level annotation has been carried out for each dataset by assigning polarities to the comments. We hope these datasets can be used to train effective machine learning-based comment filters for these languages by mitigating the challenges associated with rule-based systems. In order to establish baselines on these datasets, we have carried out experiments with various machine learning classifiers and reported the results using F1-score, precision, and recall. Furthermore, we have employed a t-test to analyze the statistical significance of the results generated by the machine learning classifiers. Furthermore, we have employed SHAP values to analyze and explain the results generated by the machine learning classifiers. The primary contribution of this paper is the construction of a publicly accessible dataset of social media messages annotated with a fine-grained abusive speech in the low-resource Tamil language. Overall, we discovered that MURIL performed well on the binary abusive comment detection task, showing the applicability of multilingual transformers for this work. Nonetheless, a fine-grained annotation for Fine-grained abusive comment detection resulted in a significantly lower number of samples per class, and classical machine learning models outperformed deep learning models, which require extensive training datasets, on this challenge. According to our knowledge, this was the first Tamil-language study on FGACD focused on diverse ethnicities. The methodology for detecting abusive messages described in this work may aid in the creation of comment filters for other under-resourced languages on social media."
+- id:
 - id: verma2023empowering
   type: 'Workshop'
   author:
@@ -106,7 +236,8 @@
   - Javier E. Díaz-Vera
   booktitle: Proceedings of the Global WordNet Conference 2023
   title: Some Considerations in the Construction of a Historical Language WordNet
-  year: 2023 (accepted)
+  year: 2023
+  url: https://www.hitz.eus/gwc2023/sites/default/files/aurkezpenak/GWC2023_paper_3631.pdf
 - id: raja2022edi
   type: Proceedings
   title: Proceedings of the Second Workshop on Language Technology for Equality, Diversity and Inclusion

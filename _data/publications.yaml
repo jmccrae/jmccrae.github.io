@@ -1,3 +1,14 @@
+- id: mukherjee2023text
+  author:
+  - Sourabrata Mukherjee
+  - Akanksha Bansal
+  - Atul Kr. Ojha
+  - John P. McCrae
+  - Ondrej Dusek
+  title: Text Detoxification as Style Transfer in English and Hindi
+  year: 2023
+  booktitle: The 2023 International Conference on Natural Language Processing (ICON)
+  accepted: true
 - id: agarwal2023findings
   author:
   - Milind Agarwal
@@ -142,7 +153,7 @@
   title: "Empowering recommender systems using automatically generated Knowledge Graphs and Reinforcement Learning"
   booktitle: OARS-KDD 2023
   year: "2023"
-  äccepted: true
+  accepted: true
 - id: banerjee2023mg2p
   type: Conference
   author:  

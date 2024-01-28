@@ -1,5 +1,4 @@
----
----
+
 #show heading: set text(font: "Linux Biolinum")
 
 #show link: underline
@@ -21,37 +20,48 @@
 
 #let chiline() = {v(-3pt); line(length: 100%); v(-5pt)}
 
+#let cv = yaml("_data/cv.yaml")
+
+#let publications = yaml("_data/publications.yaml")
+
+#let total_assigned = cv.funding.map(t => t.assigned).sum()
+
 = John P. McCrae
 
 john\@mccr.ae |
 #link("https://github.com/jmccrae")[github.com/jmccrae] | #link("https://john.mccr.ae")[john.mccr.ae] \
-{{ site.data.cv.city }}, {{ site.data.cv.country }}
+#cv.city, #cv.country \ 
+#h(1fr) *Citizenship*: #cv.citizenship \
+#h(1fr) *Date of Birth*: #cv.date_of_birth \
+#h(1fr) *Gender*: #cv.gender 
+
+== Achievements
+#chiline()
+
+- Obtained €#total_assigned in funding, including IRC Consolidator Laureate Award, Co-ordinator of H2020 Project, Collaborative projects with Fidelity Investments, Huawei and Genesys.
+- #publications.len() publications. (#cv.google_scholar.citations Citations; h-Index: #cv.google_scholar.h_index). #link("https://john.mccr.ae/publications")[Full Publication List].
+- Supervised #cv.students.filter(s => s.completed).len() PhD students to completion (#cv.students.filter(s => not s.completed).len() ongoing).
+- Chair and Founder of #link("https://2023.ldk-conf.org")[Language, Data and Knowledge Conference] Series.
+- Led departmental self-assessment team to Athena SWAN Bronze Award (for gender equality).
+- NUI Galway President's Award for Research Excellence.
+- Lectured courses on Natural Language Processing, Knowledge Graphs, Linked Data and Semantic Web and the University of Galway and Bielefeld University.
 
 == Education
 #chiline()
 
-{% for edu in site.data.cv.education %}*#link("{{ edu.url }}")[{{ edu.institute }}]* #h(1fr) {{ edu.date }} \
-{{ edu.degree | replace: "*", "\\*" }}\
-{% if edu.title %} ("{{edu.title}}" - Supervisor: {{edu.supervisor}}){% endif %}
+#for edu in cv.education  [ *#link(edu.url)[#edu.institute]* #h(1fr) #edu.date \
+#edu.address\
+#edu.degree
+#if "title" in edu ["#edu.title" - Supervisor: #edu.supervisor]
 
-{% endfor %} 
+]
 
 
 == Work Experience
 #chiline()
 
-{% for emp in site.data.cv.employment %}
-*{{ emp.institute }}* #h(1fr) {{ emp.date }}\
-{{emp.jobtitle}}
-{% endfor %}
+#for emp in cv.employment [
+*#emp.institute* #h(1fr) #emp.date \
+#emp.jobtitle
 
-== Achievements
-#chiline()
-
-- Obtained €{{ total_assigned }} in funding, including IRC Consolidator Laureate Award, Co-ordinator of H2020 Project, Collaborative projects with Fidelity Investments, Huawei and Genesys.
-- {{ site.data.publications | size }} publications. ({{ site.data.cv.google_scholar.citations}} Citations; h-Index: {{ site.data.cv.google_scholar.h_index }}). #link("https://john.mccr.ae/publications")[Full Publication List].
-- Supervised {{ site.data.cv.students | where: "completed", "true" | size }} PhD students to completion ({{ site.data.cv.students | where: "completed", "false" | size }} ongoing).
-- Chair and Founder of #link("https://2023.ldk-conf.org")[Language, Data and Knowledge Conference] Series.
-- Led departmental self-assessment team to Athena SWAN Bronze Award (for gender equality).
-- NUI Galway President's Award for Research Excellence.
-- Lectured courses on Natural Language Processing, Knowledge Graphs, Linked Data and Semantic Web and the University of Galway and Bielefeld University.
+]

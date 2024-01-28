@@ -9,6 +9,7 @@
   year: "2023"
   booktitle: The 2023 International Conference on Natural Language Processing (ICON)
   accepted: true
+  type: Conference
 - id: agarwal2023findings
   author:
   - Milind Agarwal
@@ -84,6 +85,7 @@
   pages: 1-61
   url: https://aclanthology.org/2023.iwslt-1.1
   booktitle: Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)
+  type: Conference
 - id: arcan2023intent
   author:
   - Mihael Arcan
@@ -105,6 +107,7 @@
   issn: 2078-2489
   abstract: Intent classification is an essential task for goal-oriented dialogue systems for automatically identifying customers&rsquo; goals. Although intent classification performs well in general settings, domain-specific user goals can still present a challenge for this task. To address this challenge, we automatically generate knowledge graphs for targeted data sets to capture domain-specific knowledge and leverage embeddings trained on these knowledge graphs for the intent classification task. As existing knowledge graphs might not be suitable for a targeted domain of interest, our automatic generation of knowledge graphs can extract the semantic information of any domain, which can be incorporated within the classification process. We compare our results with state-of-the-art pre-trained sentence embeddings and our evaluation of three data sets shows improvement in the intent classification task in terms of precision.
   doi: 10.3390/info14050288
+  type: Article
 - id: bond2023documenting
   type: Conference
   author:
@@ -4726,3 +4729,4 @@
   url: http://www.biomedcentral.com/1471-2105/9/159
   volume: 9
   year: "2008"
+

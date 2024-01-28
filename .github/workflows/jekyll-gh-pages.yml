@@ -38,9 +38,9 @@ jobs:
       - name: Setup Typst
         uses: typst-community/setup-typst@v3
       - name: Run Typst (CV)
-        run: typst compile cv.typ _site/cv.pdf
+        run: typst compile cv.typ cv.pdf
       - name: Run Typst (Short CV)
-        run: typst compile cv-short.typ _site/cv-short.pdf
+        run: typst compile cv-short.typ cv-short.pdf
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
 

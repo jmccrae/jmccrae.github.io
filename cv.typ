@@ -27,14 +27,12 @@
 = John P. McCrae
 
 john\@mccr.ae |
-#link("https://github.com/jmccrae")[github.com/jmccrae] | #link("https://john.mccr.ae")[john.mccr.ae] \
+#link("https://github.com/jmccrae")[github.com/jmccrae] | #link("https://john.mccr.ae")[https://john.mccr.ae] \
 #cv.city, #cv.country \ 
 #h(1fr) *Citizenship*: #cv.citizenship \
 #h(1fr) *Date of Birth*: #cv.date_of_birth \
 #h(1fr) *Gender*: #cv.gender \
-#h(1fr) *Languages Spoken:* '#for lang in cv.languages [
-  #lang.name#if "level" in lang [ (#lang.level)],
-]
+#h(1fr) *Languages Spoken:* #cv.languages.map(lang => [ #lang.name#if "level" in lang [ (#lang.level)], ])
 
 == Achievements
 #chiline()

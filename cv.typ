@@ -32,7 +32,7 @@ john\@mccr.ae |
 #h(1fr) *Citizenship*: #cv.citizenship \
 #h(1fr) *Date of Birth*: #cv.date_of_birth \
 #h(1fr) *Gender*: #cv.gender \
-#h(1fr) *Languages Spoken:* #cv.languages.map(lang => #text[ #lang.name#if "level" in lang [ (#lang.level)], ])
+#h(1fr) *Languages Spoken:* #cv.languages.map(lang => lang.name + (if "level" in lang [ (#lang.level) ]) ).join(", ")
 
 == Achievements
 #chiline()

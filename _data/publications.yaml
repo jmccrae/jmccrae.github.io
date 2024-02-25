@@ -7,9 +7,10 @@
   - John P. McCrae
   - Ondrej Dusek
   title: Text Detoxification as Style Transfer in English and Hindi
-  year: 2023
+  year: "2023"
   booktitle: The 2023 International Conference on Natural Language Processing (ICON)
   accepted: true
+  type: Conference
 - id: agarwal2023findings
   author:
   - Milind Agarwal
@@ -77,7 +78,7 @@
   title: Findings of the IWSLT 2023 Evaluation Campaign
   type: Conference
   description: "This paper reports on the shared tasks organized by the 20th IWSLT Conference. The shared tasks address 9 scientific challenges in spoken language translation: simultaneous and offline translation, automatic subtitling and dubbing, speech-to-speech translation, multilingual, dialect and low-resource speech translation, and formality control. The shared tasks attracted a total of 38 submissions by 31 teams. The growing interest towards spoken language translation is also witnessed by the constantly increasing number of shared task organizers and contributors to the overview paper, almost evenly distributed across industry and academia."
-  year: 2023
+  year: "2023"
   publisher: Association for Computational Linguistics
   editor:
   - Elizabeth Salesky
@@ -86,6 +87,7 @@
   pages: 1-61
   url: https://aclanthology.org/2023.iwslt-1.1
   booktitle: Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)
+  type: Conference
 - id: arcan2023intent
   author:
   - Mihael Arcan
@@ -101,12 +103,13 @@
   title: Intent Classification by the Use of Automatically Generated Knowledge Graphs
   journal: Information
   volume: 14
-  year: 2023
+  year: "2023"
   number: 5
   url: https://www.mdpi.com/2078-2489/14/5/288
   issn: 2078-2489
   abstract: Intent classification is an essential task for goal-oriented dialogue systems for automatically identifying customers&rsquo; goals. Although intent classification performs well in general settings, domain-specific user goals can still present a challenge for this task. To address this challenge, we automatically generate knowledge graphs for targeted data sets to capture domain-specific knowledge and leverage embeddings trained on these knowledge graphs for the intent classification task. As existing knowledge graphs might not be suitable for a targeted domain of interest, our automatic generation of knowledge graphs can extract the semantic information of any domain, which can be incorporated within the classification process. We compare our results with state-of-the-art pre-trained sentence embeddings and our evaluation of three data sets shows improvement in the intent classification task in terms of precision.
   doi: 10.3390/info14050288
+  type: Article
 - id: bond2023documenting
   type: Conference
   author:
@@ -119,7 +122,7 @@
   title: Documenting the Open Multilingual Wordnet
   booktitle: Proceedings of the 2023 Global WordNet Conference
   pages: 
-  year: 2023
+  year: "2023"
   description: "In this project note we describe our work to make better documentation for the Open Multilingual Wordnet (OMW), a platform integrating many open wordnets. This includes the documentation of the OMW website itself as well as of semantic relations used by the component wordnets. Some of this documentation work was done with the support of the Google Season of Docs. The OMW project page, which links both to the actual OMW server and the documentation has been moved to a new location: https://omwn.org."
   url: https://www.hitz.eus/gwc2023/sites/default/files/aurkezpenak/GWC2023_paper_7981.pdf
 - id: raja2023detecting
@@ -136,7 +139,7 @@
   title: Detecting abusive comments at a fine-grained level in a low-resource language
   journal: Natural Language Processing Journal
   volume: 3
-  year: 2023
+  year: "2023"
   doi: https://doi.org/10.1016/j.nlp.2023.100006
   url: https://www.sciencedirect.com/science/article/pii/S2949719123000031
   description: "YouTube is a video-sharing and social media platform where users create profiles and share videos for their followers to view, like, and comment on. Abusive comments on videos or replies to other comments may be offensive and detrimental for the mental health of users on the platform. It is observed that often the language used in these comments is informal and does not necessarily adhere to the formal syntactic and lexical structure of the language. Therefore, creating a rule-based system for filtering out abusive comments is challenging. This article introduces four datasets of abusive comments in Tamil and code-mixed Tamil–English extracted from YouTube. Comment-level annotation has been carried out for each dataset by assigning polarities to the comments. We hope these datasets can be used to train effective machine learning-based comment filters for these languages by mitigating the challenges associated with rule-based systems. In order to establish baselines on these datasets, we have carried out experiments with various machine learning classifiers and reported the results using F1-score, precision, and recall. Furthermore, we have employed a t-test to analyze the statistical significance of the results generated by the machine learning classifiers. Furthermore, we have employed SHAP values to analyze and explain the results generated by the machine learning classifiers. The primary contribution of this paper is the construction of a publicly accessible dataset of social media messages annotated with a fine-grained abusive speech in the low-resource Tamil language. Overall, we discovered that MURIL performed well on the binary abusive comment detection task, showing the applicability of multilingual transformers for this work. Nonetheless, a fine-grained annotation for Fine-grained abusive comment detection resulted in a significantly lower number of samples per class, and classical machine learning models outperformed deep learning models, which require extensive training datasets, on this challenge. According to our knowledge, this was the first Tamil-language study on FGACD focused on diverse ethnicities. The methodology for detecting abusive messages described in this work may aid in the creation of comment filters for other under-resourced languages on social media."
@@ -189,7 +192,7 @@
   - Mihael Arcan
   - John McCrae 
   booktitle: "PAKDD 2023: Advances in Knowledge Discovery and Data Mining"
-  year: 2023
+  year: "2023"
   pages: "124-136"
   grants: []
   open: false
@@ -203,7 +206,7 @@
   - John P. McCrae
   booktitle: Tenth Workshop on NLP for Similar Languages, Varieties and Dialects (VarDial 2023)
   title: Temporal Domain Adaptation for Historical Irish
-  year: 2023
+  year: "2023"
   grants: []
   open: true
   license: cc-by
@@ -217,7 +220,7 @@
   - Theodorus Fransen
   - John P. Mccrae
   booktitle: The Fourth Workshop on Insights from Negative Results in NLP
-  year: 2023
+  year: "2023"
   grants: []
   open: true
   license: cc-by
@@ -235,7 +238,7 @@
   - John P. McCrae
   booktitle: Proceedings of the 5th Workshop on Research in Computational Linguistic Typology and Multilingual NLP
   description: This paper describes the structure and findings of the SIGTYP 2023 shared task on cognate and derivative detection for low-resourced languages, broken down into a supervised and unsupervised sub-task. The participants were asked to submit the test data’s final prediction. A total of nine teams registered for the shared task where seven teams registered for both sub-tasks. Only two participants ended up submitting system descriptions, with only one submitting systems for both sub-tasks. While all systems show a rather promising performance, all could be within the baseline score for the supervised sub-task. However, the system submitted for the unsupervised sub-task outperforms the baseline score.
-  year: 2023
+  year: "2023"
   grants: []
   open: true
   license: cc-by
@@ -250,7 +253,7 @@
   - Javier E. Díaz-Vera
   booktitle: Proceedings of the Global WordNet Conference 2023
   title: Some Considerations in the Construction of a Historical Language WordNet
-  year: 2023
+  year: "2023"
   url: https://www.hitz.eus/gwc2023/sites/default/files/aurkezpenak/GWC2023_paper_3631.pdf
 - id: raja2022edi
   type: Proceedings
@@ -263,7 +266,7 @@
   - Kalika Bali
   - Paul Buitelaar
   booktitle: Proceedings of the Second Workshop on Language Technology for Equality, Diversity and Inclusion 
-  year: 2022
+  year: "2022"
   grants: []
   open: true
   license: cc-by
@@ -281,7 +284,7 @@
   - Prasanna Kumaresan
   - Rahul Ponnusamy
   booktitle: Proceedings of the Second Workshop on Language Technology for Equality, Diversity and Inclusion
-  year: 2022
+  year: "2022"
   grants: []
   open: true
   license: cc-by
@@ -304,7 +307,7 @@
   - Daniel García-Baena
   - José García-Díaz
   booktitle: Proceedings of the Second Workshop on Language Technology for Equality, Diversity and Inclusion
-  year: 2022
+  year: "2022"
   grants: []
   open: true
   license: cc-by
@@ -320,7 +323,7 @@
   - Christian Chiarcos
   - Maxim Ionov
   booktitle: Proceedings of the 8th Workshop on Linked Data in Linguistics within the 13th Language Resources and Evaluation Conference
-  year: 2022
+  year: "2022"
   grants: []
   open: true
   license: cc-by
@@ -336,7 +339,8 @@
   booktitle: Proceedings of the Workshop on PROfiling LINGuistic KNOWledgE gRaphs
     (ProLingKNOWER)
   title: EDIE - Elexis DIctionary Evaluation Tool
-  year: 2022 (accepted)
+  year: "2022"
+  accepted: true
 - id: ojha2022proceedings
   type: Proceedings
   author:
@@ -422,7 +426,7 @@
   - Hosahalli Shashirekha
   - John McCrae
   booktitle: Proceedings of the Second Workshop on Speech and Language Technologies for Dravidian Languages
-  year: 2022
+  year: "2022"
   grants: []
   license: cc-by
   open: true
@@ -701,7 +705,8 @@
   journal: Semantic Web Journal
   title: When Linguistics Meets Web Technologies. Recent advances in Modelling Linguistic
     Linked Open Data
-  year: 2022 (accepted)
+  year: "2022"
+  accepted: true
 - id: ahmadi2021convertir
   type: Conference
   affiliation:
@@ -3781,7 +3786,7 @@
   title: 'MixedEmotions: An Open-Source Toolbox for Multi-Modal Emotion Analysis'
   url: http://ieeexplore.ieee.org/document/8269329/
   volume: '20'
-  year: 2018
+  year: "2018"
 - id: mccrae2018mapping
   type: Conference
   affiliation:
@@ -3805,7 +3810,7 @@
     cloud, thus creating a richer, more usable resource for natural language processing.
   open: true
   title: Mapping WordNet Instances to Wikipedia
-  year: 2018
+  year: "2018"
 - id: mccrae2018towards
   type: Conference
   affiliation:
@@ -3830,7 +3835,7 @@
     by this interface
   open: true
   title: Towards a Crowd-Sourced WordNet for Colloquial English
-  year: 2018
+  year: "2018"
 - id: chakravarthi2018improving
   type: Conference
   affiliation:
@@ -3859,7 +3864,7 @@
   open: true
   title: Improving Wordnets for Under-Resourced Languages Using Machine Translation
     information
-  year: 2018
+  year: "2018"
 - id: pedersen2018elexis
   type: Conference
   affiliation:
@@ -3882,14 +3887,14 @@
   open: true
   title: ELEXIS - a European infrastructure fostering cooperation and infor-mation
     exchange among lexicographical research communities
-  year: 2018
+  year: "2018"
 - id: mccrae2018mapping
   type: Conference
   author:
   - John P. McCrae
   booktitle: Proceedings of the 9th Global WordNet Conference
   title: Mapping WordNet Instances to Wikipedia
-  year: 2018
+  year: "2018"
 - id: mccrae2018towards
   type: Conference
   author:
@@ -3898,7 +3903,7 @@
   - Amanda Hicks
   booktitle: Proceedings of the 9th Global WordNet Conference
   title: Towards a Crowd-Sourced WordNet for Colloquial English
-  year: 2018
+  year: "2018"
 - id: pedersen2018elexis
   type: Conference
   author:
@@ -3909,7 +3914,7 @@
   booktitle: Proceedings of the 9th Global WordNet Conference
   title: ELEXIS - a European infrastructure fostering cooperation and infor-mation
     exchange among lexicographical research communities
-  year: 2018
+  year: "2018"
 - id: vanerp2017knowledge
   type: Proceedings
   editor:
@@ -3929,7 +3934,7 @@
   title: 'Knowledge Graphs and Language Technology - ISWC 2016 International Workshops:
     KEKI and NLP&DBpedia'
   url: http://www.springer.com/gp/book/9783319687223
-  year: 2017
+  year: "2017"
 - id: gracia2017language
   type: Proceedings
   editor:
@@ -3943,7 +3948,7 @@
   series: Lecture Notes in Artificial Intelligence
   title: Language, Data, and Knowledge
   url: http://www.springer.com/gp/book/9783319598871
-  year: 2017
+  year: "2017"
 - id: mccrae2017linking
   type: Workshop
   author:
@@ -4021,7 +4026,7 @@
   booktitle: Proceedings of The 26th International Conference on Computational Linguistics
   title: Expanding wordnets to new languages with multilingual sense disambiguation
   url: https://www.aclweb.org/anthology/C/C16/C16-1010.pdf
-  year: 2016
+  year: "2016"
 - id: mccrae2016identifying
   type: Workshop
   author:
@@ -4031,7 +4036,7 @@
     Integration (KEKI-2016)
   doi: 10.1007/978-3-319-68723-0_6
   title: Identifying Poorly-Defined Concepts in WordNet with Graph Metrics
-  year: 2016
+  year: "2016"
 - id: mccrae2016lixr
   type: Workshop
   author:
@@ -4039,14 +4044,14 @@
   - Philipp Cimiano
   booktitle: Proceedings of the ISWC 2016 Posters and Demo Track
   title: 'LIXR: Quick, succinct conversion of XML to RDF'
-  year: 2016
+  year: "2016"
 - id: mccrae2016yuzu
   type: Workshop
   author:
   - John P. McCrae
   booktitle: Proceedings of the ISWC 2016 Posters and Demo Track
   title: 'Yuzu: Publishing Any Data as Linked Data'
-  year: 2016
+  year: "2016"
 - id: mccrae2016nuig
   type: Workshop
   author:
@@ -4059,7 +4064,7 @@
   title: 'NUIG-UNLP at SemEval-2016 Task 1: Soft Alignment and Deep Learning for Semantic
     Textual Similarity'
   url: https://aclweb.org/anthology/S/S16/S16-1110.pdf
-  year: 2016
+  year: "2016"
 - id: mccrae2016linked
   type: Workshop
   author:
@@ -4070,7 +4075,7 @@
     Interoperability
   title: Linked Data and Text Mining as an Enabler for Reproducible Research
   url: http://interop2016.github.io/pdf/INTEROP-7.pdf
-  year: 2016
+  year: "2016"
 - id: mccrae2016domain
   type: Article
   author:
@@ -4086,7 +4091,7 @@
   title: Domain adaptation for ontology localization
   url: http://www.sciencedirect.com/science/article/pii/S1570826815001420
   volume: 36
-  year: 2016
+  year: "2016"
 - id: mccrae2016representing
   type: Workshop
   author:
@@ -4097,7 +4102,7 @@
   booktitle: PARSEME/ENeL workshop on MWE e-lexicons
   title: Representing Multiword Expressions on the Web with the OntoLex-Lemon model
   url: http://typo.uni-konstanz.de/parseme/images/Meeting/2016-04-07-Struga-meeting/WG1-MCCRAE-ETAL-abstract.pdf
-  year: 2016
+  year: "2016"
 - id: mccrae2016open
   type: Conference
   author:
@@ -4119,7 +4124,7 @@
   title: 'The Open Linguistics Working Group: Developing the Linguistic Linked Open
     Data Cloud'
   url: http://www.lrec-conf.org/proceedings/lrec2016/pdf/851_Paper.pdf
-  year: 2016
+  year: "2016"
 - id: bond2016cili
   type: Conference
   author:
@@ -4130,7 +4135,7 @@
   booktitle: Proceedings of the Global WordNet Conference 2016
   title: 'CILI: the Collaborative Interlingual Index'
   url: https://aclanthology.org/2016.gwc-1.9.pdf
-  year: 2016
+  year: "2016"
 - id: vossen2016toward
   type: Conference
   author:
@@ -4140,7 +4145,7 @@
   booktitle: Proceedings of the Global WordNet Conference 2016
   title: Toward a truly multilingual Global Wordnet Grid
   url: https://aclanthology.org/2016.gwc-1.59.pdf
-  year: 2016
+  year: "2016"
 - id: mccrae2015multilingual
   type: Article
   author:
@@ -4155,7 +4160,7 @@
   title: Multilingual Linked Data (editorial)
   url: http://semantic-web-journal.net/content/multilingual-linked-data
   volume: 6
-  year: 2015
+  year: "2015"
 - id: ecklekohler2015
   type: Article
   author:
@@ -4170,7 +4175,7 @@
     ontologies
   url: http://www.semantic-web-journal.net/content/lemonuby-large-interlinked-syntactically-rich-lexical-resource-ontologies-1
   volume: 6
-  year: 2015
+  year: "2015"
 - id: mccrae2015linghub
   type: Conference
   author:
@@ -4226,7 +4231,7 @@
   pages: 504-517
   title: 'Linked Terminology: Applying Linked Data Principles to Terminological Resources'
   url: https://elex.link/elex2015/proceedings/eLex_2015_34_Cimiano+etal.pdf
-  year: 2015
+  year: "2015"
 - id: mccrae2015metashare
   type: Workshop
   author:
@@ -4254,7 +4259,7 @@
   doi: 10.1007/978-3-319-18818-8_20
   title: 'LIME: the Metadata Module for OntoLex'
   url: http://link.springer.com/chapter/10.1007/978-3-319-18818-8_20#page-1
-  year: 2015
+  year: "2015"
 - id: gracia2015language
   type: InCollection
   author:
@@ -4268,7 +4273,7 @@
   publisher: Springer
   title: 'Language Resources and Linked Data: A Practical Perspective'
   url: http://link.springer.com/chapter/10.1007/978-3-319-17966-7_1
-  year: 2015
+  year: "2015"
 - id: mccrae2014design
   type: InCollection
   author:
@@ -4283,7 +4288,7 @@
   publisher: Springer
   title: Design Patterns for Engineering the Ontology-Lexicon Interface
   url: http://link.springer.com/chapter/10.1007%2F978-3-662-43585-4_2#page-1
-  year: 2014
+  year: "2014"
 - id: borin2014representing
   type: Workshop
   author:
@@ -4296,7 +4301,7 @@
   pages: 329-332
   title: Representing Swedish Lexical Resources in RDF with lemon
   url: http://ceur-ws.org/Vol-1272/paper_82.pdf
-  year: 2014
+  year: "2014"
 - id: mccrae2014towards
   type: Workshop
   author:
@@ -4306,7 +4311,7 @@
   booktitle: Proceedings of the 1st Workshop on Linked Data Quality
   title: Towards assured data quality and validation by data certification
   url: http://ceur-ws.org/Vol-1215/paper-05.pdf
-  year: 2014
+  year: "2014"
 - id: mccrae2014bielefeld
   type: Workshop
   author:
@@ -4316,7 +4321,7 @@
   doi: 10.1007/978-3-319-59888-8_17
   title: 'Bielefeld SC: Orthonormal Topic Modelling for Grammar Induction'
   url: http://alt.qcri.org/semeval2014/cdrom/pdf/SemEval016.pdf
-  year: 2014
+  year: "2014"
 - id: quattri2014default
   type: Workshop
   author:
@@ -4327,7 +4332,7 @@
   doi: 10.1007/978-3-319-59888-8_17
   title: Default Physical Measurements in SUMO
   url: http://www.aclweb.org/anthology/W/W14/W14-47.pdf#page=152
-  year: 2014
+  year: "2014"
 - id: mccrae2014modelling
   type: Workshop
   author:
@@ -4339,7 +4344,7 @@
   doi: 10.1007/978-3-319-59888-8_17
   title: Modelling the Semantics of Adjectives in the Ontology-Lexicon Interface
   url: http://anthology.aclweb.org/W/W14/W14-47.pdf#page=212
-  year: 2014
+  year: "2014"
 - id: mccrae2014publishing
   type: Workshop
   author:
@@ -4349,7 +4354,7 @@
   booktitle: Proceedings of the 3rd Workshop on Linked Data in Linguistics
   title: Publishing and Linking WordNet using lemon and RDF
   url: https://github.com/jmccrae/wn-rdf-paper/raw/master/rdf-wordnet.pdf
-  year: 2014
+  year: "2014"
 - id: ehrmann2014multilingual
   type: Workshop
   author:
@@ -4361,7 +4366,7 @@
   - Roberto Navigli
   booktitle: Proceedings of the 3rd Workshop on Linked Data in Linguistics
   title: 'A Multilingual Semantic Network as Linked Data: lemon-BabelNet'
-  year: 2014
+  year: "2014"
 - id: ehrmann2014representing
   type: Conference
   author:
@@ -4374,7 +4379,7 @@
   booktitle: Proceedings of the 9th Language Resource and Evaluation Conference
   pages: 401-408
   title: 'Representing Multilingual Data as Linked Data: the Case of BabelNet 2.0'
-  year: 2014
+  year: "2014"
 - id: vilasuero20143ld
   type: Workshop
   author:
@@ -4386,7 +4391,7 @@
   - Guadalupe Aguado-de-Cea
   booktitle: European Data Forum 2014
   title: '3LD: Towards high quality, industry-ready Linguistic Linked Linguistic Data'
-  year: 2014
+  year: "2014"
 - id: cimiano2014ontology
   type: Book
   author:
@@ -4397,7 +4402,7 @@
   publisher: Morgan & Claypool
   title: Ontology-based interpretation of natural language
   url: http://www.morganclaypool.com/doi/abs/10.2200/S00561ED1V01Y201401HLT024
-  year: 2014
+  year: "2014"
 - id: mccrae2013orthonormal
   type: Conference
   author:
@@ -4409,7 +4414,7 @@
   pages: 1732-1742
   title: Orthonormal explicit topic analysis for cross-lingual document matching
   url: https://www.aclweb.org/anthology/D/D13/D13-1179.pdf
-  year: 2013
+  year: "2013"
 - id: unger2013lemon
   type: Workshop
   author:
@@ -4421,7 +4426,7 @@
   booktitle: Proceedings of 1st International Workshop on NLP and DBpedia
   title: A lemon lexicon for DBpedia
   url: http://ceur-ws.org/Vol-1064/Unger_lemon.pdf
-  year: 2013
+  year: "2013"
 - id: montiel2013multilingual
   type: Conference
   author:
@@ -4434,7 +4439,7 @@
   pages: 19-26
   title: Multilingual variation in the context of linked data
   url: https://lipn.univ-paris13.fr/tia2013/Proceedings/actesTIA2013.pdf
-  year: 2013
+  year: "2013"
 - id: mccrae2013mining
   type: Workshop
   author:
@@ -4445,7 +4450,7 @@
   pages: 9-13
   title: Mining translations from the web of open linked data
   url: http://www.aclweb.org/anthology/W/W13/W13-52.pdf#page=20
-  year: 2013
+  year: "2013"
 - id: menke2013releasing
   type: Workshop
   author:
@@ -4470,7 +4475,7 @@
   pages: 7-25
   publisher: Springer
   title: 'Towards open data for linguistics: Lexical Linked Data'
-  year: 2013
+  year: "2013"
 - id: cimiano2013role
   type: InCollection
   author:
@@ -4483,7 +4488,7 @@
   pages: 43-62
   publisher: Springer
   title: On the role of senses in the Ontology-Lexicon
-  year: 2013
+  year: "2013"
 - id: spohr2012using
   type: Workshop
   author:
@@ -4497,7 +4502,7 @@
   pages: 1-15
   title: Using SPIN to formalize accounting regulation on the Semantic Web
   url: http://nadir.uc3m.es/feosw2012/proceedings/FEOSWp1.pdf
-  year: 2012
+  year: "2012"
 - id: mccrae2012collaborative
   type: Conference
   author:
@@ -4508,7 +4513,7 @@
   pages: 2619-2625
   title: Collaborative semantic editing of linked data lexica
   url: http://www.lrec-conf.org/proceedings/lrec2012/pdf/544_Paper.pdf
-  year: 2012
+  year: "2012"
 - id: mccrae2012three
   type: Workshop
   author:
@@ -4517,7 +4522,7 @@
   booktitle: Proc. of the Workshop on Collaborative Resource Development and Delivery
     at the 2012 International Conference on Language Resource and Evaluation
   title: Three steps for creating high quality ontology-lexica
-  year: 2012
+  year: "2012"
 - id: mccrae2013integrating
   type: InCollection
   author:
@@ -4533,7 +4538,7 @@
   pages: 25-34
   publisher: Springer
   title: Integrating WordNet and Wiktionary with lemon
-  year: 2012
+  year: "2012"
 - id: mccrae2012interchanging
   type: Article
   author:
@@ -4554,7 +4559,7 @@
   pages: 701-709
   title: Interchanging lexical resources on the Semantic Web
   volume: 46
-  year: 2012
+  year: "2012"
 - id: cimiano2011lexinfo
   type: Article
   author:
@@ -4568,7 +4573,7 @@
   pages: 29-51
   title: 'LexInfo: A declarative model for the lexicon-ontology interface'
   volume: 9
-  year: 2011
+  year: "2011"
 - id: gracia2011challenges
   type: Article
   author:
@@ -4584,7 +4589,7 @@
   pages: 63-71
   title: Challenges for the Multilingual Web of Data
   url: http://oa.upm.es/8848/1/Multiling.pdf
-  year: 2011
+  year: "2011"
 - id: mccrae2011combining
   type: Workshop
   author:
@@ -4598,7 +4603,7 @@
     Human Language Technologies'
   title: Combining statistical and semantic approaches to the translation of ontologies
     and taxonomies
-  year: 2011
+  year: "2011"
 - id: mccrae2011linking
   type: Conference
   author:
@@ -4609,7 +4614,7 @@
   doi: 10.1007/978-3-319-59888-8_17
   pages: 245-249
   title: Linking Lexical Resources and Ontologies on the Semantic Web with lemon
-  year: 2011
+  year: "2011"
 - id: buitelaar2011ontology
   type: Conference
   author:
@@ -4620,7 +4625,7 @@
   - Thierry Declerck
   booktitle: Proc. of 9th International Conference on Terminology and Articial Intelligence
   title: 'Ontology Lexicalization: The lemon perspective'
-  year: 2011
+  year: "2011"
 - id: montiel2011representing
   type: Conference
   author:
@@ -4629,7 +4634,7 @@
   - John McCrae
   booktitle: Proc. of 9th International Conference on Terminology and Articial Intelligence
   title: Representing Term Variation in lemon
-  year: 2011
+  year: "2011"
 - id: mccrae2010clova
   type: Workshop
   author:
@@ -4640,7 +4645,7 @@
   pages: 5-12
   title: 'CLOVA: An architecture for cross-language semantic data querying'
   url: http://ceur-ws.org/Vol-571/571-complete.pdf#page=10
-  year: 2010
+  year: "2010"
 - id: collier2010navigating
   type: InCollection
   author:
@@ -4661,7 +4666,7 @@
   title: 'Navigating the Information Storm: Web-based global health surveillance in
     BioCaster'
   url: https://www.crcpress.com/Biosurveillance-Methods-and-Case-Studies/KassHout-Zhang/9781439800461
-  year: 2010
+  year: "2010"
 - id: declerck2010ontology
   type: InCollection
   author:
@@ -4681,7 +4686,7 @@
   publisher: Készült a HVG Press Kft.
   title: Ontology-based multilingual access to financial reports for sharing business
     knowledge across Europe
-  year: 2010
+  year: "2010"
 - id: collier2010ontology
   type: Conference
   author:
@@ -4697,14 +4702,14 @@
   booktitle: In Proc. of the 23rd International Conference on Computational Linguistics
   pages: 215-222
   title: An ontology-driven system for detecting global health events
-  year: 2010
+  year: "2010"
 - id: mccrae2009automatic
   type: PhDThesis
   author:
   - John McCrae
   school: PhD Thesis for Graduate University of Advanced Studies (SoKenDai)
   title: Automatic extraction of logically consistent ontologies from text corpora
-  year: 2009
+  year: "2009"
 - id: mccrae2009srl
   type: Workshop
   author:
@@ -4714,7 +4719,7 @@
     in conjunction with the 5th International Conference on Knowledge Capture
   title: 'SRL Editor: A rule development tool for text mining'
   url: http://srl-editor.googlecode.com/files/saakm.pdf
-  year: 2009
+  year: "2009"
 - id: mccrae2009synonym
   type: Article
   author:
@@ -4727,4 +4732,5 @@
     discovery
   url: http://www.biomedcentral.com/1471-2105/9/159
   volume: 9
-  year: 2008
+  year: "2008"
+

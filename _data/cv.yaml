@@ -91,15 +91,19 @@ teaching:
       role: Developed course and co-lecturer.
     - AY: 12/13 - 14/15
       title: Statistical Natural Language Processing
-      leveL: MSc
+      level: MSc
       institute: UNIBI
       role: Co-lecturer
     - AY: 13/14 - 14/15
       title: Seminar on Statistical Natural Language Processing
       role: Instructor
+      level: MSc
+      institute: UNIBI
     - AY: 10/11 - 11/12
       title: Introduction to the Semantic Web
       role: Tutor
+      level: MSc
+      institute: UNIBI
 students:
     - name: Bharathi Raja Chakravathi 
       degree: PhD 
@@ -261,14 +265,14 @@ activities:
     - Research Visit to Princeton University, November-December 2013.
     - Research Visit to Technical University of Delft, September 2010.
     - "Invited Talk on “Future-proofing under-resourced languages through NLP”. Invited talk at Ukrainian NLP Workshop at ICTERI-2021: 17th International Conference on ICT in Education, Research, and Industrial Applications"
-    - Invited Talk on "Building Multilingual Lexical Resources: the Global WordNet Grid and the ELEXIS infrastructure". Invited talk at The Second Workshop on Multi-Language Processing in a Globalising World and The First Workshop on Multilingualism at the intersection of Knowledge Bases and Machine Translation – co-located with LREC 2018, Miyazaki, Japan
+    - "Invited Talk on \"Building Multilingual Lexical Resources: the Global WordNet Grid and the ELEXIS infrastructure\". Invited talk at The Second Workshop on Multi-Language Processing in a Globalising World and The First Workshop on Multilingualism at the intersection of Knowledge Bases and Machine Translation – co-located with LREC 2018, Miyazaki, Japan"
     - "Invited Talk on “Putting ontologies to work in NLP: The lemon model and its applications”. Invited talk at  Joint Second Workshop on Language and Ontology & Terminology and Knowledge Structures (LangOnto2 + TermiKS), at the 10th edition of the Language Resources and Evaluation Conference, 23rd May 2016, Portorož (Slovenia)."
     - Seminar at the Ontology Engineering Group, Polytechnic University of Madrid
     - Keynote speaker at 5th Meeting of MUMIA project, June 2013.
     - CLT Seminar at Språkbanken, University of Gothenburg, February 2013.
     - Keynote speaker at workshop on “Standardized Data Categories in ISOcat” at TKE-2010, August 2010.
     - External Evaluator for TU Dublin of internal research grants 2020
-    - External Examiner for PhD of Filip Klubicka at TU Dublin - “Probing With Noise: Extracting Idiomatic Knowledge From Meaning Representations”
+    - "External Examiner for PhD of Filip Klubicka at TU Dublin - “Probing With Noise: Extracting Idiomatic Knowledge From Meaning Representations”"
     - External Examiner for PhD of Gary Munnelly at Trinity College Dublin - “Entity Linking for Text Based Digital Cultural Heritage Collections”, September 2019.
     - External Examiner for PhD of Minna Tamper at Aalto University - “From Text to Knowledge: Methods, Tools, and  Applications  for  Digital  Humanities Based on Linked Data”
     - Internal Examiner for Jan Taubert, “ONDEX – A data integration framework for the life sciences,” awarded on 25th January 2011, Bielefeld University.
@@ -351,11 +355,11 @@ program_committees:
     - 14th Extended Semantic Web Conference (ESWC 2017)
     - 39th European Conference on Information Retrieval (ECIR 2017)
     - 15th International Semantic Web Conference (ISWC 2016)
-    - RUMOUR 2016: Workshop on Social Media and the Web of Linked Data
-    - CLARIN in the Low Countries: a Research Infrastructure for the Humanities (CLNLBK16)
+    - "RUMOUR 2016: Workshop on Social Media and the Web of Linked Data"
+    - "CLARIN in the Low Countries: a Research Infrastructure for the Humanities (CLNLBK16)"
     - NLP&DBpedia 2016 Workshop
     - 12th International Conference on Semantic Systems (SEMANTICS 2016)
-    - GLOBALEX 2016: Lexicographic Resources for Human Language Technology
+    - "GLOBALEX 2016: Lexicographic Resources for Human Language Technology"
     - 25th International Joint Conference on Artificial Intelligence (IJCAI-16)
     - 13th Extended Semantic Web Conference (ESWC 2016)
     - 1st Workshop on Cross-Platform Text Mining and Natural Language Processing Interoperability.
@@ -372,7 +376,7 @@ program_committees:
     - 8th International Workshop on Semantic Evaluation (SemEval-2014)
     - NLP & DBpedia 2014 Workshop
     - 8th International Conference of Bio-inspired Information and Communications Technologies (BICT 2014)
-    - 11th OWL: Experience and Directions Workshop (OWLED-2014)
+    - "11th OWL: Experience and Directions Workshop (OWLED-2014)"
     - 7th International Workshop on Semantic Evaluation (SemEval-2014)
     - 9th Language Resource and Evaluation Conference (LREC-2014)
     - 11th Extended Semantic Web Conference (ESWC-2014)

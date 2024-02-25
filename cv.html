@@ -1,13 +1,14 @@
 ---
 ---
 {% include header.html %}
-             <div class="row col-lg-9">
+             <div class="row col-lg-9 col-lg-offset-3">
                 <div class="pageTop">
-                    <a href="one-page.pdf">One-page PDF</a> - <a href="complete.pdf">Complete</a> 
+                    <a href="cv-short.pdf">One-page PDF</a> - <a href="cv.pdf">Complete CV</a> 
                 </div>
             </div>
              <div class="row col-lg-6 col-lg-offset-3">
                 <div class="pageTop">
+                    <h2>Information</h2>
                      <ul>
                          <li><b>Email</b>: <a href="mailto:{{ site.data.cv.email}}">{{ site.data.cv.email }}</a></li>
                          <li><b>Gender</b>: {{ site.data.cv.gender }} </li>
@@ -16,6 +17,18 @@
                          <li><b>GitHub</b>: <a href="{{site.data.cv.github}}">{{site.data.cv.github}}</a></li>
                          <li><b>ORCID</b>: <a href="https://orcid.org/{{orcid}}">{{site.data.cv.orcid}}</a></li>
                     </ul>
+
+                    <h2>Achievements</h2>
+                    <ul>
+                        <li>Obtained over €3.3M in funding, including IRC Consolidator Laureate Award, Co-ordinator of H2020 Project, Collaborative projects with Fidelity Investments, Huawei and Genesys.</li>
+                        <li>{{ site.data.publications | size }} publications. ({{ site.data.cv.google_scholar.citations }} Citations; h-Index: {{ site.data.cv.google_scholar.h_index }} . <a href="publications">Full Publication List</a>.</li>
+                        <li>Supervised 5 PhD students to completion (6 ongoing).</li>
+                        <li>Chair and Founder of <a href="https://2023.ldk-conf.org">Language, Data and Knowledge Conference</a> Series.</li>
+                        <li>Led departmental self-assessment team to Athena SWAN Bronze Award (for gender equality).</li>
+                        <li>NUI Galway President's Award for Research Excellence.</li>
+                        <li>Lectured courses on Natural Language Processing, Knowledge Graphs, Linked Data and Semantic Web and the University of Galway and Bielefeld University.</li>
+                    </ul>
+
 
                     <h2>Education</h2>
                     <ul>

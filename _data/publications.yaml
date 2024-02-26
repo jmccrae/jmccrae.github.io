@@ -7,10 +7,10 @@
   - John P. McCrae
   - Ondrej Dusek
   title: Text Detoxification as Style Transfer in English and Hindi
-  year: "2023"
-  booktitle: The 2023 International Conference on Natural Language Processing (ICON)
-  accepted: true
+  year: "2024"
+  booktitle: The 2024 International Conference on Natural Language Processing (ICON)
   type: Conference
+  url: https://arxiv.org/pdf/2402.07767.pdf
 - id: agarwal2023findings
   author:
   - Milind Agarwal
@@ -157,7 +157,7 @@
   title: "Empowering recommender systems using automatically generated Knowledge Graphs and Reinforcement Learning"
   booktitle: OARS-KDD 2023
   year: "2023"
-  accepted: true
+  url: https://arxiv.org/pdf/2307.04996.pdf
 - id: banerjee2023mg2p
   type: Conference
   author:  
@@ -167,7 +167,8 @@
   title: "MG2P: An Empirical Study Of Multilingual Training for Manx G2P"
   booktitle: LDK 2023 Conference
   year: "2023"
-  accepted: true
+  publisher: "NOVA CLUNL, Portugal"
+  pages: "246--255"
   url: https://aclanthology.org/2023.ldk-1.23/
 - id: doyle2023cardamom
   type: Conference
@@ -181,7 +182,8 @@
   - Priya Rani
   booktitle: LDK 2023 Conference
   year: "2023"
-  accepted: true
+  publisher: "NOVA CLUNL, Portugal"
+  pages: "109-120"
   url: https://aclanthology.org/2023.ldk-1.10/
 - id: sarkar2023pickd
   type: Conference
@@ -340,7 +342,7 @@
     (ProLingKNOWER)
   title: EDIE - Elexis DIctionary Evaluation Tool
   year: "2022"
-  accepted: true
+  url: https://zenodo.org/records/6900760
 - id: ojha2022proceedings
   type: Proceedings
   author:
@@ -706,7 +708,9 @@
   title: When Linguistics Meets Web Technologies. Recent advances in Modelling Linguistic
     Linked Open Data
   year: "2022"
-  accepted: true
+  url: https://www.semantic-web-journal.net/system/files/swj2859.pdf
+  volume: 13
+  number: 6
 - id: ahmadi2021convertir
   type: Conference
   affiliation:

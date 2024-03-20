@@ -35,7 +35,7 @@ education:
       supervisor: Nigel Collier
     - date: Oct 2002 to June 2006
       institute: Imperial College London
-      url: httpL//www.imperial.ac.uk/
+      url: http://www.imperial.ac.uk/
       address: South Kensington Campus, London, SW7 2AZ, UK
       degree: MSci Maths and Computer Science (First Class with Honours)
     - date: Sept 1995 to July 2002
@@ -274,7 +274,7 @@ activities:
     - External Evaluator for TU Dublin of internal research grants 2020
     - "External Examiner for PhD of Filip Klubicka at TU Dublin - “Probing With Noise: Extracting Idiomatic Knowledge From Meaning Representations”"
     - External Examiner for PhD of Gary Munnelly at Trinity College Dublin - “Entity Linking for Text Based Digital Cultural Heritage Collections”, September 2019.
-    - External Examiner for PhD of Minna Tamper at Aalto University - “From Text to Knowledge: Methods, Tools, and  Applications  for  Digital  Humanities Based on Linked Data”
+    - "External Examiner for PhD of Minna Tamper at Aalto University - “From Text to Knowledge: Methods, Tools, and  Applications  for  Digital  Humanities Based on Linked Data”"
     - Internal Examiner for Jan Taubert, “ONDEX – A data integration framework for the life sciences,” awarded on 25th January 2011, Bielefeld University.
     - Internal Examiner for Daniela Dos Santos Oliveira, “Data Model Extraction from a Background Knowledge Graph”, examined 29th October 2020, NUI Galway.
     - Internal Examiner for Muhammad Yahya - “Building Semantic Models and Knowledge Graphs for Intelligent Smart Manufacturing Applications”, examined 4th December 2023, University of Galway.
@@ -426,6 +426,6 @@ taught_students:
     - name: Vytas Vaicuilis
       title: Nineteenth-Century Probabilistic Steamship Data Disambiguation
 google_scholar:
-    citations: 5375
-    h_index: 39
-    i10_index: 108
+    citations: 5857
+    h_index: 41
+    i10_index: 112

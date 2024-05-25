@@ -157,6 +157,10 @@ students:
       degree: PhD
       year: 2023-2029
       completed: false
+    - name: Alamgir Qazi
+      degree: PhD
+      year: 2024-2028
+      completed: false
 funding:
     - name: SFI Insight Centre for Data Analytics
       funder: SFI

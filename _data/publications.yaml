@@ -103,6 +103,7 @@
   open: true
   license: cc-by
   url: "https://aclanthology.org/2024.sigtyp-1.19.pdf"
+  publisher: ELRA and ICCL
 - id: banerjee2024cross
   type: Workshop
   title: "Cross-Lingual Ontology Matching using Structural and Semantic Similarity"
@@ -194,6 +195,7 @@
   open: true
   license: cc-by
   url: "https://aclanthology.org/2024.eurali-1.0.pdf"
+  publisher: ELRA and ICCL
 - id: mukherjee2024text
   type: Conference
   author:

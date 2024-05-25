@@ -1,4 +1,200 @@
-- id: mukherjee2023text
+- id: rani2024findings
+  type: Workshop
+  title: Findings of the WILDRE Shared Task on Code-mixed Less-resourced Sentiment Analysis for Indo-Aryan Languages
+  author:
+    - Priya Rani
+    - Gaurav Negi
+    - Saroj Jha
+    - Shardul Suryawanshi
+    - Atul Kr. Ojha
+    - Paul Buitelaar
+    - John P. McCrae
+  booktitle: "Proceedings of the 7th Workshop on Indian Language Data: Resources and Evaluation"
+  year: "2024"
+  grants: []
+  open: true
+  license: cc-by
+  url: "https://aclanthology.org/2024.wildre-1.3.pdf"
+  description: "This paper describes the structure and findings of the WILDRE 2024 shared task on Code-mixed Less-resourced Sentiment Analysis for Indo-Aryan Languages. The participants were asked to submit the test data’s final prediction on CodaLab. A total of fourteen teams registered for the shared task. Only four participants submitted the system for evaluation on CodaLab, with only two teams submitting the system description paper. While all systems show a rather promising performance, they outperform the baseline scores."
+  pages: "17-23"
+  editors:
+    - Girish Nath Jha
+    - Sobha L.
+    - Kalika Bali
+    - Atul Kr. Ojha
+- id: rani2024macms
+  type: Conference
+  title: "MaCmS: Magahi Code-mixed Dataset for Sentiment Analysis"
+  author:
+    - Priya Rani
+    - Theodorus Fransen
+    - John P. McCrae
+    - Gaurav Negi
+  booktitle: "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)"
+  year: "2024"
+  grants: []
+  open: true
+  license: cc-by
+  url: "https://aclanthology.org/2024.lrec-main.950.pdf"
+  description: "The present paper introduces new sentiment data, MaCMS, for Magahi-Hindi-English (MHE) code-mixed language, where Magahi is a less-resourced minority language. This dataset is the first Magahi-Hindi-English code-mixed dataset for sentiment analysis tasks. Further, we also provide a linguistics analysis of the dataset to understand the structure of code-mixing and a statistical study to understand the language preferences of speakers with different polarities. With these analyses, we also train baseline models to evaluate the dataset’s quality."
+  pages: "10880-10890"
+- id: doyle2024developing
+  type: Workshop
+  title: "Developing a Part-of-speech Tagger for Diplomatically Edited Old Irish Text"
+  author:
+    - Adrian Doyle
+    - John P. McCrae
+  booktitle: "Proceedings of the Third Workshop on Language Technologies for Historical and Ancient Languages (LT4HALA) @ LREC-COLING-2024"
+  year: "2024"
+  grants: []
+  open: true
+  license: cc-by
+  url: "https://aclanthology.org/2024.lt4hala-1.2.pdf"
+  description: "POS-tagging is typically considered a fundamental text preprocessing task, with a variety of downstream NLP tasks and techniques being dependent on the availability of POS-tagged corpora. As such, POS-taggers are important precursors to further NLP tasks, and their accuracy can impact the potential accuracy of these dependent tasks. While a variety of POS-tagging methods have been developed which work well with modern languages, historical languages present orthographic and editorial challenges which require special attention. The effectiveness of POS-taggers developed for modern languages is reduced when applied to Old Irish, with its comparatively complex orthography and morphology. This paper examines some of the obstacles to POS-tagging Old Irish text, and shows that inconsistencies between extant annotated corpora reduce the quantity of data available for use in training POS-taggers. The development of a multi-layer neural network model for POS-tagging Old Irish text is described, and an experiment is detailed which demonstrates that this model outperforms a variety of off-the-shelf POS-taggers. Moreover, this model sets a new benchmark for POS-tagging diplomatically edited Old Irish text."
+  pages: "11-21"
+  editors:
+    - Rachele Sprugnoli
+    - Marco Passarotti
+- id: dereza2024findings
+  type: Workshop
+  title: "Findings of the SIGTYP 2024 Shared Task on Word Embedding Evaluation for Ancient and Historical Languages"
+  author:
+    - Oksana Dereza
+    - Adrian Doyle
+    - Priya Rani
+    - Atul Kr. Ojha
+    - Pádraic Moran
+    - John McCrae
+  booktitle: "Proceedings of the 6th Workshop on Research in Computational Linguistic Typology and Multilingual NLP"
+  year: "2024"
+  grants: []
+  open: true
+  license: cc-by
+  url: "https://aclanthology.org/2024.sigtyp-1.19.pdf"
+  description: "This paper discusses the organisation and findings of the SIGTYP 2024 Shared Task on Word Embedding Evaluation for Ancient and Historical Languages. The shared task was split into the constrained and unconstrained tracks and involved solving either 3 or 5 problems for either 13 or 16 ancient and historical languages belonging to 4 language families, and making use of 6 different scripts. There were 14 registrations in total, of which 3 teams submitted to each track. Out of these 6 submissions, 2 systems were successful in the constrained setting and another 2 in the uncon- strained setting, and 4 system description papers were submitted by different teams. The best average result for morphological feature prediction was about 96%, while the best average results for POS-tagging and lemmatisation were 96% and 94% respectively. At the word level, the winning team could not achieve a higher average accuracy across all 16 languages than 5.95%, which demonstrates the difficulty of this problem. At the character level, the best average result over 16 languages 55.62%"
+  pages: "160-172"
+  editors:
+    - Michael Hahn
+    - Alexey Sorokin
+    - Ritesh Kumar
+    - Andreas Shcherbakov
+    - Yulia Otmakhova
+    - Jinrui Yang
+    - Oleg Serikov
+    - Priya Rani
+    - Edoardo M. Ponti
+    - Saliha Muradoğlu
+    - Rena Gao
+    - Ryan Cotterell
+    - Ekaterina Vylomova
+- id: chiarcos2024proceedings
+  type: Proceedings
+  title: "Proceedings of the 9th Workshop on Linked Data in Linguistics @ LREC-COLING 2024"
+  author:
+    - Christian Chiarcos
+    - Katerina Gkirtzou
+    - Maxim Ionov
+    - Fahad Khan
+    - John P. McCrae
+    - Elena Montiel Ponsoda
+    - Patricia Martín Chozas
+  year: "2024"
+  grants: []
+  open: true
+  license: cc-by
+  url: "https://aclanthology.org/2024.sigtyp-1.19.pdf"
+- id: banerjee2024cross
+  type: Workshop
+  title: "Cross-Lingual Ontology Matching using Structural and Semantic Similarity"
+  author:
+    - Shubhanker Banerjee
+    - Bharathi Raja Chakravarthi
+    - John Philip McCrae
+  booktitle: "Proceedings of the 9th Workshop on Linked Data in Linguistics @ LREC-COLING 2024"
+  year: "2024"
+  grants: []
+  open: true
+  license: cc-by
+  description: "The development of ontologies in various languages is attracting attention as the amount of multilingual data available on the web increases. Cross-lingual ontology matching facilitates interoperability amongst ontologies in different languages. Although supervised machine learning-based methods have shown good performance on ontology matching, their application to the cross-lingual setting is limited by the availability of training data. Current state-of-the-art unsupervised methods for cross-lingual ontology matching focus on lexical similarity between entities. These approaches follow a two-stage pipeline where the entities are translated into a common language using a translation service in the first step followed by computation of lexical similarity between the translations to match the entities in the second step. In this paper we introduce a novel ontology matching method based on the fusion of structural similarity and cross-lingual semantic similarity. We carry out experiments using 3 language pairs and report substantial improvements on the performance of the lexical methods thus showing the effectiveness of our proposed approach. To the best of our knowledge this is the first work which tackles the problem of unsupervised ontology matching in the cross-lingual setting by leveraging both structural and semantic embeddings."
+  pages: "11-21"
+  editors:
+    - Christian Chiarcos
+    - Katerina Gkirtzou
+    - Maxim Ionov
+    - Fahad Khan
+    - John P. McCrae
+    - Elena Montiel Ponsoda
+    - Patricia Martín Chozas
+  url: "https://aclanthology.org/2024.ldl-1.2.pdf"
+- id: khan2024chamuca
+  type: Workshop
+  title: "CHAMUÇA: Towards a Linked Data Language Resource of Portuguese Borrowings in Asian Languages"
+  author:
+    - Fahad Khan
+    - Ana Salgado
+    - Isuri Anuradha
+    - Rute Costa
+    - Chamila Liyanage
+    - John P. McCrae
+    - Atul Kumar Ojha
+    - Priya Rani
+    - Francesca Frontini
+  booktitle: "Proceedings of the 9th Workshop on Linked Data in Linguistics @ LREC-COLING 2024"
+  year: "2024"
+  grants: []
+  open: true
+  license: cc-by
+  description: "This paper presents the development of CHAMUÇA, a novel lexical resource designed to document the influence of the Portuguese language on various Asian languages, with an initial focus on the languages of South Asia. Through the utilization of linked open data and the OntoLex vocabulary, CHAMUÇA offers structured insights into the linguistic characteristics, and cultural ramifications of Portuguese borrowings across multiple languages. The article outlines CHAMUÇA’s potential contributions to the linguistic linked data community, emphasising its role in addressing the scarcity of resources for lesser-resourced languages and serving as a test case for organising etymological data in a queryable format. CHAMUÇA emerges as an initiative towards the comprehensive catalogization and analysis of Portuguese borrowings, offering valuable insights into language contact dynamics, historical evolution, and cultural exchange in Asia, one that is based on linked data technology."
+  pages: "44-48"
+  editor:
+    - Christian Chiarcos
+    - Katerina Gkirtzou
+    - Maxim Ionov
+    - Fahad Khan
+    - John P. McCrae
+    - Elena Montiel Ponsoda
+    - Patricia Martín Chozas
+  url: "https://aclanthology.org/2024.ldl-1.6.pdf"
+- id: mccrae2024teanga
+  type: Workshop
+  title: "The Teanga Data Model for Linked Corpora"
+  author:
+    - John P. McCrae
+    - Priya Rani
+    - Adrian Doyle
+    - Bernardo Stearns
+  booktitle: "Proceedings of the 9th Workshop on Linked Data in Linguistics @ LREC-COLING 2024"
+  year: "2024"
+  grants: []
+  open: true
+  license: cc-by
+  url: "https://aclanthology.org/2024.ldl-1.9.pdf"
+  description: "Corpus data is the main source of data for natural language processing applications, however no standard or model for corpus data has become predominant in the field. Linguistic linked data aims to provide methods by which data can be made findable, accessible, interoperable and reusable (FAIR). However, current attempts to create a linked data format for corpora have been unsuccessful due to the verbose and specialised formats that they use. In this work, we present the Teanga data model, which uses a layered annotation model to capture all NLP-relevant annotations. We present the YAML serializations of the model, which is concise and uses a widely-deployed format, and we describe how this can be interpreted as RDF. Finally, we demonstrate three examples of the use of the Teanga data model for syntactic annotation, literary analysis and multilingual corpora."
+  pages: "66-74"
+  editors:
+    - Christian Chiarcos
+    - Katerina Gkirtzou
+    - Maxim Ionov
+    - Fahad Khan
+    - John P. McCrae
+    - Elena Montiel Ponsoda
+    - Patricia Martín Chozas
+- id: ojha2024eurali
+  type: Proceedings
+  title: "Proceedings of the 2nd Workshop on Resources and Technologies for Indigenous, Endangered and Lesser-resourced Languages in Eurasia (EURALI) @ LREC-COLING 2024"
+  author: 
+    - Atul Kr. Ojha
+    - Sina Ahmadi
+    - Silvie Cinková
+    - Theodorus Fransen
+    - Chao-Hong Liu
+    - John P. McCrae
+  year: "2024"
+  grants: []
+  open: true
+  license: cc-by
+  url: "https://aclanthology.org/2024.eurali-1.0.pdf"
+- id: mukherjee2024text
   type: Conference
   author:
   - Sourabrata Mukherjee
@@ -10,7 +206,7 @@
   year: "2024"
   booktitle: The 2024 International Conference on Natural Language Processing (ICON)
   type: Conference
-  url: https://arxiv.org/pdf/2402.07767.pdf
+  url: "https://arxiv.org/pdf/2402.07767.pdf"
 - id: agarwal2023findings
   author:
   - Milind Agarwal
@@ -85,7 +281,7 @@
   - Marcello Federico
   - Marine Carpuat
   pages: 1-61
-  url: https://aclanthology.org/2023.iwslt-1.1
+  url: "https://aclanthology.org/2023.iwslt-1.1"
   booktitle: Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)
   type: Conference
 - id: arcan2023intent
@@ -105,7 +301,7 @@
   volume: 14
   year: "2023"
   number: 5
-  url: https://www.mdpi.com/2078-2489/14/5/288
+  url: "https://www.mdpi.com/2078-2489/14/5/288"
   issn: 2078-2489
   abstract: Intent classification is an essential task for goal-oriented dialogue systems for automatically identifying customers&rsquo; goals. Although intent classification performs well in general settings, domain-specific user goals can still present a challenge for this task. To address this challenge, we automatically generate knowledge graphs for targeted data sets to capture domain-specific knowledge and leverage embeddings trained on these knowledge graphs for the intent classification task. As existing knowledge graphs might not be suitable for a targeted domain of interest, our automatic generation of knowledge graphs can extract the semantic information of any domain, which can be incorporated within the classification process. We compare our results with state-of-the-art pre-trained sentence embeddings and our evaluation of three data sets shows improvement in the intent classification task in terms of precision.
   doi: 10.3390/info14050288
@@ -124,7 +320,7 @@
   pages: 
   year: "2023"
   description: "In this project note we describe our work to make better documentation for the Open Multilingual Wordnet (OMW), a platform integrating many open wordnets. This includes the documentation of the OMW website itself as well as of semantic relations used by the component wordnets. Some of this documentation work was done with the support of the Google Season of Docs. The OMW project page, which links both to the actual OMW server and the documentation has been moved to a new location: https://omwn.org."
-  url: https://www.hitz.eus/gwc2023/sites/default/files/aurkezpenak/GWC2023_paper_7981.pdf
+  url: "https://www.hitz.eus/gwc2023/sites/default/files/aurkezpenak/GWC2023_paper_7981.pdf"
 - id: raja2023detecting
   type: Article
   author:
@@ -4335,7 +4531,7 @@
   booktitle: Proceedings of 4th Workshop on Cognitive Aspects of the Lexicon
   doi: 10.1007/978-3-319-59888-8_17
   title: Default Physical Measurements in SUMO
-  url: http://www.aclweb.org/anthology/W/W14/W14-47.pdf#page=152
+  url: https://aclanthology.org/W14-4724.pdf
   year: "2014"
 - id: mccrae2014modelling
   type: Workshop

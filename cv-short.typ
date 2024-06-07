@@ -42,12 +42,19 @@
 
 = John P. McCrae
 
-john\@mccr.ae |
-#link("https://github.com/jmccrae")[github.com/jmccrae] | #link("https://john.mccr.ae")[https://john.mccr.ae] \
-#cv.city, #cv.country \ 
+#grid(
+  columns: (70pt, 1fr),
+  gutter: 10pt,
+  [#image("me.jpg")],
+  [
+#h(1fr) #box[#image("_img/noun-mail-6923091.svg", height: 0.7em)] john\@mccr.ae |
+#box[#image("_img/github-mark.svg", height: 0.7em)] #link("https://github.com/jmccrae")[github.com/jmccrae] | 
+#box[#image("_img/noun-globe-6593229.svg", height: 0.7em)] #link("https://john.mccr.ae")[https://john.mccr.ae] \
+#h(1fr) *Location*: #cv.city, #cv.country \
 #h(1fr) *Citizenship*: #cv.citizenship \
 #h(1fr) *Date of Birth*: #cv.date_of_birth \
 #h(1fr) *Gender*: #cv.gender 
+])
 
 == Achievements
 #chiline()

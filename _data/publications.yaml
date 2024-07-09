@@ -1,3 +1,13 @@
+- id: banerjee2024large
+  type: Conference
+  title: Large Language Models for Few-Shot Automatic Term Extraction
+  author:
+    - Shubhanker Banerjee
+    - Bharathi Raja Chakravarthi
+    - John P. McCrae
+  booktitle: "NLDB 2024"
+  year: "2024"
+  accepted: true
 - id: rani2024findings
   type: Workshop
   title: Findings of the WILDRE Shared Task on Code-mixed Less-resourced Sentiment Analysis for Indo-Aryan Languages

@@ -1,3 +1,29 @@
+- id: khan2024cultural
+  type: Conference
+  title: "Cultural HeritAge and Multilingual Understanding through lexiCal Archives,- CHAMUÇA: Portuguese borrowings in contemporary Asian languages."
+  author:
+    - Fahad Khan
+    - Ana Salgado
+    - Isuri Anuradha
+    - Rute Costa
+    - Chamila Liyanage
+    - John P. McCrae
+    - Atul K. Ojha
+    - Priya Rani
+    - Francesca Frontini
+  booktitle: Proceedings of EURALEX 2024
+  year: "2024"
+  accepted: true
+- id: sarkar2024brecs
+  type: Conference
+  title: "BRECS: Enhanced Binary Representation of Word Embeddings via Cosine Similarity"
+  author:
+    - Rajdeep Sarkar
+    - Sourav Dutta
+    - John P. McCrae
+  booktitle: Proceedings of ECAI 2024
+  year: "2024"
+  accepted: true
 - id: banerjee2024large
   type: Conference
   title: Large Language Models for Few-Shot Automatic Term Extraction

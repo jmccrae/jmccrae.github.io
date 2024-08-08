@@ -1,3 +1,16 @@
+- id: mukherjee2024multilingual
+  type: Conference
+  title: "Multilingual Text Style Transfer: Datasets & Models for Indian Languages"
+  author:
+    - Sourabrata Mukherjee
+    - Atul Kr. Ojha
+    - Akanksha Bansal
+    - Deepak Alok
+    - John P. McCrae
+    - Ondrej Dusek
+  booktitle: "INLG 2024"
+  year: "2024"
+  accepted: true
 - id: khan2024cultural
   type: Conference
   title: "Cultural HeritAge and Multilingual Understanding through lexiCal Archives,- CHAMUÇA: Portuguese borrowings in contemporary Asian languages."

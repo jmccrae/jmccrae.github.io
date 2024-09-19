@@ -23,7 +23,7 @@ for publication in publications:
         response.raise_for_status()
         
 
-        if response.headers['Content-Type'] != 'application/pdf':
+        if not response.headers['Content-Type'].startswith('application/pdf'):
             raise ValueError(f"Invalid MIME type: {response.headers['Content-Type']}. Expected 'application/pdf'.")
 
         # Open the PDF from the downloaded content

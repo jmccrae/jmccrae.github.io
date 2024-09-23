@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+    <link rel="stylesheet" type="text/css" media="all" href="mohanty2022building_files/fpo_9.css">
+<script src="mohanty2022building_files/f_002.txt"></script><script src="mohanty2022building_files/f.txt"></script><script type="text/javascript" async="" src="mohanty2022building_files/ga.js"></script><script type="text/javascript">
+var plstart = new Date();
+</script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-174791-1']);
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="title" content="Building a knowledge base taxonomy from structured or unstructured computer text for use in automated user interactions">
+<meta name="robots" content="index, follow">
+<meta name="description" content="Complete Patent Searching Database and Patent Data Analytics Services.">
+<title>Building a knowledge base taxonomy from structured or unstructured computer text for use in automated user interactions</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="shortcut icon" href="https://www.freepatentsonline.com/images/favicon_1.ico">
+<script async="" src="mohanty2022building_files/f_003.txt"></script>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-1586334167197709",
+        enable_page_level_ads: true
+    });
+</script><meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9uiHDzQFAhqALUhTgTYJcz9XrGH2y0/9AORwCSapUO/f7Uh7ysIzyszNkuWDLqNYg8446Uj48XIstBW1qv/wAQAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3Mjc4MjcxOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A9R+gkZL3TWq+Z7RJ2L0c7ZN7FZD5z4mHmVvjrPitg/EMz9P3j5d3W7Vw5ZR9jtJGmWKltM4BO3smNzpCgwYuwwAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3Mjc4MjcxOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"></head>
+<body style="padding: 0px 0px 154px;">
+
+<div style="height: auto !important;">
+    <a name="top"></a>
+
+    <div class="container" style="height: auto !important;">
+        
+<div class="header">
+    <div class="row-fluid top">
+
+        <div class="pull-left figure">
+            <a href="https://www.freepatentsonline.com/" onclick="_gaq.push(['_trackEvent', 'Header', 'Click', 'Logo']);"></a>
+        </div>
+
+
+        <div class="pull-right" style="width: 750px;">
+                        <div class="loginForm">
+                <form class="form-inline form-mini pull-right" action="/login.html" method="post">
+                    <input type="hidden" name="src" value="header_login">
+                    <input id="UID-top" name="UID" type="text" class="input-large" placeholder="Email">
+                    <input id="PWD-top" name="PWD" type="password" class="input-small" placeholder="Password">
+                    <button type="submit" class="btn btn-mini btn-primary" onclick="_gaq.push(['_trackEvent', 'Header', 'Click', 'Login']);">Login
+                    </button>
+                    <a class="btn btn-mini btn-info" href="https://www.freepatentsonline.com/register.html" onclick="_gaq.push(['_trackEvent', 'Header', 'Click', 'Create']);">Sign up
+                    </a>
+                </form>
+            <div style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;" data-lastpass-icon-root=""></div><div style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;" data-lastpass-icon-root=""></div></div>
+            
+
+            <div class="searchForm well">
+                <form id="quick_result" name="quick_result" class="form-inline" action="/result.html" method="get">
+
+                    <input type="hidden" name="sort" value="relevance">
+                    <input type="hidden" name="srch" value="top">
+
+
+                    <div class="searchBox pull-left">
+                        <input type="text" name="query_txt" placeholder="Enter your search here" class="search-query" id="topSearchBox">
+
+                        <div class="btn-group">
+                            <button name="submit" class="btn btn-primary" type="submit" onclick="_gaq.push(['_trackEvent', 'Header', 'Click', 'Search']);">Search
+                            </button>
+                            <button id="searchBox_dropdown" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://www.freepatentsonline.com/search.html" onclick="_gaq.push(['_trackEvent', 'Header', 'Click', 'SearchExpert']);document.cookie = 'searchTab=#expert';">
+                                    Expert Search</a>
+                                </li>
+                                <li><a href="https://www.freepatentsonline.com/search.html" onclick="_gaq.push(['_trackEvent', 'Header', 'Click', 'SearchQuick']);document.cookie = 'searchTab=#quick';">
+                                    Quick Search</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="sideCollections pull-right">
+                        <ul id="header_search_top" class="borderBottom ul-mini ">
+                            <li>
+                                <label class="checkbox">
+                                    <input type="checkbox" id="patents_us" name="patents_us" value="on" checked="checked">US Patents/Apps
+                                </label>
+                            </li>
+
+                            <li>
+                                <label class="checkbox">
+                                    <input type="checkbox" id="patents_other" name="patents_other" value="on">Other
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </form>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <div class="row-fluid">
+        <div class="navbar navbar-inverse center" id="primaryNavBar">
+            <div class="navbar-inner">
+                <ul class="nav">
+                    <li><a href="https://www.freepatentsonline.com/"></a></li>
+                    <li><a href="https://www.freepatentsonline.com/search.html">SEARCH</a></li>
+                    <li>
+                        <a href="https://www.freepatentsonline.com/tools-resources.html" onclick="_gaq.push(['_trackEvent', 'Navbar', 'Click', 'Resources']);">
+                            TOOLS &amp; RESOURCES
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+<div class="clearfix"></div>        <div style="height: auto !important;">
+
+            <div id="dhtmltooltip"></div>
+            
+<b>
+    <center>United States Patent US11328707</center>
+</b>
+<br clear="all">
+<center> Note: If you have problems viewing the PDF, please make sure you have the latest version of <a href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe Acrobat</a>.
+    <br clear="all"></center>
+<center>
+    <a href="https://www.freepatentsonline.com/11328707.html">Back to full text</a></center>
+<br clear="all">
+<!-- 728x90 Responsive 1 -->
+<ins class="adsbygoogle" style="display: block; height: 280px;" data-ad-client="ca-pub-1586334167197709" data-ad-slot="2270521617" data-ad-format="auto" data-adsbygoogle-status="done" data-ad-status="filled">
+<div id="aswift_1_host" style="border: medium; height: 280px; width: 940px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: visible;"><iframe id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;border:0;width:940px;height:280px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="940" height="280" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="mohanty2022building_files/ads.html" data-google-container-id="a!2" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CJqPzveR2YgDFVyFUAYdRzQ1UA" data-load-complete="true"></iframe></div></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<br clear="all">
+<center style="border: 2px inset;">
+    <iframe src="mohanty2022building_files/US11328707B2_002.pdf" height="800" width="100%" style="border: 0 none;"></iframe>
+</center>
+<br clear="all">
+        </div>
+
+        <div class="pageFooter">
+    <div class="row-fluid top">
+        <div class="figure"></div>
+        <ul>
+            <li>
+                <a href="https://www.freepatentsonline.com/" onclick="_gaq.push(['_trackEvent', 'Footer', 'Click', 'Home']);">Home</a>
+            </li>
+            <li>
+                <a href="https://www.freepatentsonline.com/search.html" onclick="_gaq.push(['_trackEvent', 'Footer', 'Click', 'Search']);">Search</a>
+            </li>
+            <li>
+                <a href="https://www.freepatentsonline.com/services.html" onclick="_gaq.push(['_trackEvent', 'Footer', 'Click', 'Services']);">Services</a>
+            </li>
+            <li>
+                <a href="https://www.freepatentsonline.com/contact.html" onclick="_gaq.push(['_trackEvent', 'Footer', 'Click', 'Contact']);">Contact us</a>
+            </li>
+        </ul>
+        <ul class="socialIcons">
+            <li><a href="https://twitter.com/FPOCommunity" class="twitter" onclick="_gaq.push(['_trackEvent', 'Footer', 'Click', 'social twitter']);"></a></li>
+            <li><a href="http://www.linkedin.com/groups/FPO-Community-4524797" class="linkedin" onclick="_gaq.push(['_trackEvent', 'Footer', 'Click', 'social linkedin']);"></a></li>
+            <li><a href="https://www.freepatentsonline.com/contact.html" class="email" onclick="_gaq.push(['_trackEvent', 'Footer', 'Click', 'social email']);"></a></li>
+        </ul>
+    </div>
+    <div class="row-fluid bot">
+        <p>
+            © 2004-2024 FreePatentsOnline.com. All rights reserved.
+            <a href="https://www.freepatentsonline.com/privacy.html" onclick="_gaq.push(['_trackEvent', 'Footer', 'Click', 'Privacy']);">Privacy Policy
+                &amp; Terms of Use.</a>
+        </p>
+    </div>
+</div>    </div>
+</div>
+
+
+<script type="text/javascript">
+
+    _gaq.push(['_setCustomVar', 2, 'User Origin Source', 'known search engine', 2]);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+<script type="text/javascript">
+    function trackPageLoad() {
+        var plend = new Date();
+        var plload = plend.getTime() - plstart.getTime();
+        var pn = document.location.pathname;
+        var lc = 'slow';
+        var la = new Array(200, 300, 400, 500, 1000, 1500, 2000, 2500, 5000);
+        for (var i = 0, len = la.length; i < len; i++) {
+            if (plload <= la[i]) {
+                lc = String(la[i]);
+                break;
+            }
+        }
+        _gaq.push(['onLoadTracker._setAccount', 'UA-174791-5']);
+        _gaq.push(['onLoadTracker._trackEvent', "LoadTime", lc, pn, plload]);
+        }
+</script>
+<script type="text/javascript">
+    try {
+        if (window.onload != null) {
+            var oldOnload = window.onload;
+            window.onload = function (e) {
+                oldOnload(e);
+                trackPageLoad();
+            };
+        }
+        else {
+            window.onload = trackPageLoad();
+        }
+    } catch (err) {
+    }
+</script>
+<script type="text/javascript" src="mohanty2022building_files/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="mohanty2022building_files/fpo_3.js"></script>
+
+
+
+<div style="position: absolute !important; top: 0px !important; left: 0px !important; height: 0px !important; width: 0px !important;" data-lastpass-root=""></div><ins class="adsbygoogle adsbygoogle-noablate" style="display: none !important;" data-adsbygoogle-status="done" data-ad-status="unfilled"><div id="aswift_0_host" style="border: medium; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="mohanty2022building_files/ads_002.html" data-google-container-id="a!1" tabindex="0" title="Advertisement" aria-label="Advertisement" data-load-complete="true"></iframe></div></ins><ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: block; width: 100% !important; height: 129px !important; bottom: 0px; clear: none !important; float: none !important; left: 0px; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1; overflow: visible !important; padding: 0px !important; position: fixed; right: auto !important; top: auto !important; vertical-align: baseline !important; visibility: visible !important; z-index: 2147483647; background: rgb(250, 250, 250) !important;" data-anchor-status="displayed" data-ad-status="filled" data-anchor-shown="true"><div class="grippy-host"></div><div id="aswift_2_host" style="border: medium !important; height: 124px !important; width: 100% !important; margin: 0px !important; padding: 0px !important; position: relative !important; visibility: visible !important; background-color: transparent !important; display: inline-block !important; inset: auto !important; clear: none !important; float: none !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; vertical-align: baseline !important; z-index: auto !important;"><iframe id="aswift_2" name="aswift_2" style="width: 1005px !important; height: 124px !important; display: block; margin: 0px auto;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1005" height="124" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="mohanty2022building_files/zrt_lookup_fy2021.html" data-google-container-id="a!3" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CL3UzfeR2YgDFVWeUAYdmuEWAQ" data-load-complete="true"></iframe></div></ins><ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" data-side-rail-status="displayed" style="display: block !important; z-index: 2147483647 !important; margin: 0px !important; padding: 0px !important; position: fixed !important; left: 248px !important; top: 50px !important; overflow: visible !important; opacity: 1 !important; transition: 500ms ease-in !important;" data-ad-status="filled"><div id="aswift_3_host" style="border: medium; height: 600px; width: 160px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_3" name="aswift_3" style="width:160px !IMPORTANT;height:600px !IMPORTANT" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="160" height="600" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="mohanty2022building_files/zrt_lookup_fy2021_002.html" data-google-container-id="a!4" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CL7UzfeR2YgDFVWeUAYdmuEWAQ" data-load-complete="true"></iframe></div><span class="left-side-rail-edge" style="background: rgb(250, 250, 250) !important; position: absolute !important; left: 0px !important; top: 600px !important; width: 160px !important; height: 5px !important; box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 5px -1px, rgba(0, 0, 0, 0.1) 0px -1px 2px -1px !important;"></span><span style="background: rgb(250, 250, 250) !important; position: absolute !important; left: 55px !important; right: 55px !important; top: 605px !important; box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 5px -1px, rgba(0, 0, 0, 0.1) 0px -1px 2px -1px !important;" class="left-side-rail-dismiss-btn"><svg style="position: absolute !important; top: 0px !important; display: block !important; width: 50px !important; height: 30px !important; margin-top: -5px !important; transform: none !important; pointer-events: initial !important;"><defs><filter id="left-side-rail-drop-shadow" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feComponentTransfer in="SourceAlpha" result="TransferredAlpha"><feFuncR type="discrete" tableValues="0.5"></feFuncR><feFuncG type="discrete" tableValues="0.5"></feFuncG><feFuncB type="discrete" tableValues="0.5"></feFuncB></feComponentTransfer><feGaussianBlur in="TransferredAlpha" stdDeviation="2"></feGaussianBlur><feOffset dx="0" dy="0" result="offsetblur"></feOffset><feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter></defs><path d="M5,5 L5,17 A8,8 0 0,0 13,25 L37,25 A8,8 0 0,0 45,17 L45,5 Z" stroke="#FAFAFA" stroke-width="1" fill="#FAFAFA" style="filter: url(&quot;#left-side-rail-drop-shadow&quot;);"></path><rect x="0" y="0" width="50" height="5" style="fill: rgb(250, 250, 250);"></rect><g stroke="#616161" stroke-width="2px" stroke-linecap="square"><line x1="18" y1="18" x2="25" y2="12"></line><line x1="25" y1="12" x2="32" y2="18"></line></g></svg></span></ins><ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" data-side-rail-status="displayed" style="display: block !important; z-index: 2147483647 !important; margin: 0px !important; padding: 0px !important; position: fixed !important; right: 248px !important; top: 50px !important; overflow: visible !important; opacity: 1 !important; transition: 500ms ease-in !important;" data-ad-status="filled"><div id="aswift_4_host" style="border: medium; height: 600px; width: 160px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_4" name="aswift_4" style="width:160px !IMPORTANT;height:600px !IMPORTANT" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="160" height="600" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="mohanty2022building_files/zrt_lookup_fy2021_003.html" data-google-container-id="a!5" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CL_UzfeR2YgDFVWeUAYdmuEWAQ" data-load-complete="true"></iframe></div><span class="right-side-rail-edge" style="background: rgb(250, 250, 250) !important; position: absolute !important; left: 0px !important; top: 600px !important; width: 160px !important; height: 5px !important; box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 5px -1px, rgba(0, 0, 0, 0.1) 0px -1px 2px -1px !important;"></span><span style="background: rgb(250, 250, 250) !important; position: absolute !important; left: 55px !important; right: 55px !important; top: 605px !important; box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 5px -1px, rgba(0, 0, 0, 0.1) 0px -1px 2px -1px !important;" class="right-side-rail-dismiss-btn"><svg style="position: absolute !important; top: 0px !important; display: block !important; width: 50px !important; height: 30px !important; margin-top: -5px !important; transform: none !important; pointer-events: initial !important;"><defs><filter id="right-side-rail-drop-shadow" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feComponentTransfer in="SourceAlpha" result="TransferredAlpha"><feFuncR type="discrete" tableValues="0.5"></feFuncR><feFuncG type="discrete" tableValues="0.5"></feFuncG><feFuncB type="discrete" tableValues="0.5"></feFuncB></feComponentTransfer><feGaussianBlur in="TransferredAlpha" stdDeviation="2"></feGaussianBlur><feOffset dx="0" dy="0" result="offsetblur"></feOffset><feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter></defs><path d="M5,5 L5,17 A8,8 0 0,0 13,25 L37,25 A8,8 0 0,0 45,17 L45,5 Z" stroke="#FAFAFA" stroke-width="1" fill="#FAFAFA" style="filter: url(&quot;#right-side-rail-drop-shadow&quot;);"></path><rect x="0" y="0" width="50" height="5" style="fill: rgb(250, 250, 250);"></rect><g stroke="#616161" stroke-width="2px" stroke-linecap="square"><line x1="18" y1="18" x2="25" y2="12"></line><line x1="25" y1="12" x2="32" y2="18"></line></g></svg></span></ins></body><iframe id="google_esf" name="google_esf" src="mohanty2022building_files/zrt_lookup_fy2021.html" style="display: none;"></iframe></html>

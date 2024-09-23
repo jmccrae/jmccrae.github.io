@@ -10,6 +10,8 @@ for publication in publications:
     pubid = publication['id']
     if 'url' not in publication:
         continue
+    if publication['type'] == "Book" or publication['type'] == "Proceedings":
+        continue
     if os.path.exists(f'papers/{pubid}.pdf'):
         continue
     print(f"Downloading {pubid} from {publication['url']}")

@@ -1,3 +1,17 @@
+- id: hatami2024english
+  type: Conference
+  title: "English-to-Low-Resource Translation: A Multimodal Approach for Hindi, Malayalam, Bengali, and Hausa"
+  author:
+  - Ali Hatami
+  - Shubhanker Banerjee
+  - Mihael Arcan
+  - Bharathi Raja Chakravarthi
+  - Paul Buitelaar
+  - John Philip McCrae
+  booktitle: Ninth Conference on Machine Translation (WMT24)
+  year: "2024"
+  accepted: true
+  description: "Multimodal machine translation leverages multiple data modalities to enhance translation quality, particularly for low-resourced languages. This paper uses a multimodal model that integrates visual information with textual data to improve translation accuracy from English to Hindi, Malayalam, Bengali, and Hausa. This approach employs a gated fusion mechanism to effectively combine the outputs of textual and visual encoders, enabling more nuanced translations that consider both language and contextual visual cues. The model's performance was evaluated against the text-only machine translation model based on BLEU, ChrF2 and TER. Experimental results demonstrate that the multimodal approach consistently outperforms the text-only baseline, highlighting the potential of integrating visual information in low-resourced language translation tasks."
 - id: mccrae2024cocreational
   type: Workshop
   title: "Co-Creational Teaching of Natural Language Processing"

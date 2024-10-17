@@ -64,9 +64,14 @@
     - Rajdeep Sarkar
     - Sourav Dutta
     - John P. McCrae
-  booktitle: Proceedings of ECAI 2024
+  booktitle: 27th European Conference on Artificial Intelligence, 19–24 October 2024, Santiago de Compostela, Spain – Including 13th Conference on Prestigious Applications of Intelligent Systems (PAIS 2024)
   year: "2024"
-  accepted: true
+  url: https://ebooks.iospress.nl/volumearticle/70061
+  pages: 3995-4002
+  description: "Word representations like GloVe and Word2Vec encapsulate semantic and syntactic attributes and constitute the fundamental building block in diverse Natural Language Processing (NLP) applications. Such vector embeddings are typically stored in float32 format, and for a substantial vocabulary size, they impose considerable memory and computational demands due to the resource-intensive float32 operations. Thus, representing words via binary embeddings has emerged as a promising but challenging solution.  In this paper, we introduce BRECS, an autoencoder-based Siamese framework for the generation of enhanced binary word embeddings (from the original embeddings). We propose the use of the novel Binary Cosine Similarity (BCS) regularisation in BRECS, which enables it to learn the semantics and structure of the vector space spanned by the original word embeddings, leading to better binary representation generation. We further show that our framework is tailored with independent parameters within the various components, thereby providing it with better learning capability. Extensive experiments across multiple datasets and tasks demonstrate the effectiveness of BRECS, compared to existing baselines for static and contextual binary word embedding generation. The source code is available at unmapped: uri https://github.com/rajbsk/brecs."
+  grants: []
+  open: true
+  license: cc-by-nc
 - id: banerjee2024large
   type: Conference
   title: Large Language Models for Few-Shot Automatic Term Extraction
@@ -74,9 +79,13 @@
     - Shubhanker Banerjee
     - Bharathi Raja Chakravarthi
     - John P. McCrae
-  booktitle: "NLDB 2024"
+  booktitle: "Natural Language Processing and Information Systems: 29th International Conference on Applications of Natural Language to Information Systems, NLDB 2024, Turin, Italy, June 25–27, 2024, Proceedings, Part I"
   year: "2024"
-  accepted: true
+  url: https://link.springer.com/chapter/10.1007/978-3-031-70239-6_10
+  grants: []
+  open: false
+  description: "Automatic term extraction is the process of identifying domain-specific terms in a text using automated algorithms and is a key first step in ontology learning and knowledge graph creation. Large language models have shown good few-shot capabilities, thus, in this paper, we present a study to evaluate the few-shot in-context learning performance of GPT-3.5-Turbo on automatic term extraction. To benchmark the performance we compare the results with fine-tuning of a BERT-sized model. We also carry out experiments with count-based term extractors to assess their applicability to few-shot scenarios. We quantify prompt sensitivity with experiments to analyze the variation in performance of large language models across different prompt templates. Our results show that in-context learning with GPT-3.5-Turbo outperforms the BERT-based model and unsupervised count-based methods in few-shot scenarios."
+  pages: 137-150
 - id: rani2024findings
   type: Workshop
   title: Findings of the WILDRE Shared Task on Code-mixed Less-resourced Sentiment Analysis for Indo-Aryan Languages

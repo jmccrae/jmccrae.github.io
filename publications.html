@@ -51,7 +51,6 @@
     <p class="pub y{{ paper.year }} {{ paper.type }}"><b><a class="publication" {% if paper.url %} href="{{ paper.url }}"{% else %} href="papers/{{ paper.id }}"{% endif %}>
     {% endif %}
     {{ paper.title }}</a></b>.
-    {% if 
     {% if paper.author %}
     {% for author in paper.author %}{% if forloop.first %}{% elsif forloop.last %} and {% else %}, {% endif %}{{ author }}{% endfor %}
     {% endif %}

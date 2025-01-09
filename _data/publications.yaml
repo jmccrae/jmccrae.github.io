@@ -51,8 +51,10 @@
   - John Philip McCrae
   booktitle: Ninth Conference on Machine Translation (WMT24)
   year: "2024"
-  accepted: true
   description: "Multimodal machine translation leverages multiple data modalities to enhance translation quality, particularly for low-resourced languages. This paper uses a multimodal model that integrates visual information with textual data to improve translation accuracy from English to Hindi, Malayalam, Bengali, and Hausa. This approach employs a gated fusion mechanism to effectively combine the outputs of textual and visual encoders, enabling more nuanced translations that consider both language and contextual visual cues. The model's performance was evaluated against the text-only machine translation model based on BLEU, ChrF2 and TER. Experimental results demonstrate that the multimodal approach consistently outperforms the text-only baseline, highlighting the potential of integrating visual information in low-resourced language translation tasks."
+  url: "https://aclanthology.org/2024.wmt-1.76v2.pdf"
+  open: true
+  license: cc-by
 - id: mccrae2024cocreational
   type: Workshop
   title: "Co-Creational Teaching of Natural Language Processing"
@@ -84,7 +86,7 @@
   description: "Text style transfer (TST) involves altering the linguistic style of a text while preserving its style-independent content. This paper focuses on sentiment transfer, a popular TST subtask, across a spectrum of Indian languages: Hindi, Magahi, Malayalam, Marathi, Punjabi, Odia, Telugu, and Urdu, expanding upon previous work on English-Bangla sentiment transfer. We introduce dedicated datasets of 1,000 positive and 1,000 negative style-parallel sentences for each of these eight languages. We then evaluate the performance of various benchmark models categorized into parallel, non-parallel, cross-lingual, and shared learning approaches, including the Llama2 and GPT-3.5 large language models (LLMs). Our experiments highlight the significance of parallel data in TST and demonstrate the effectiveness of the Masked Style Filling (MSF) approach in non-parallel techniques. Moreover, cross-lingual and joint multilingual learning methods show promise, offering insights into selecting optimal models tailored to the specific language and task requirements. To the best of our knowledge, this work represents the first comprehensive exploration of the TST task as sentiment transfer across a diverse set of languages."
 - id: khan2024cultural
   type: Conference
-  title: "Cultural HeritAge and Multilingual Understanding through lexiCal Archives,- CHAMUÇA: Portuguese borrowings in contemporary Asian languages."
+  title: "Cultural HeritAge and Multilingual Understanding through lexiCal Archives,- CHAMUÇA: Portuguese borrowings in contemporary Asian languages"
   author:
     - Fahad Khan
     - Ana Salgado
@@ -97,7 +99,9 @@
     - Francesca Frontini
   booktitle: Proceedings of EURALEX 2024
   year: "2024"
-  accepted: true
+  url: "https://research.unl.pt/ws/portalfiles/portal/101449167/Cultural_heritage_and_multilingual_understanding_through_lexical_archives_chamu_a_.pdf"
+  open: true
+  license: cc-by
 - id: sarkar2024brecs
   type: Conference
   title: "BRECS: Enhanced Binary Representation of Word Embeddings via Cosine Similarity"
@@ -231,7 +235,7 @@
   grants: []
   open: true
   license: cc-by
-  url: "https://aclanthology.org/2024.sigtyp-1.19.pdf"
+  url: "https://aclanthology.org/2024.ldl-1.pdf"
   publisher: ELRA and ICCL
 - id: banerjee2024cross
   type: Workshop
@@ -337,7 +341,9 @@
   year: "2024"
   booktitle: The 2024 International Conference on Natural Language Processing (ICON)
   type: Conference
-  url: "https://arxiv.org/pdf/2402.07767.pdf"
+  url: "https://aclanthology.org/2023.icon-1.13.pdf"
+  open: true
+  license: cc-by
 - id: agarwal2023findings
   author:
   - Milind Agarwal

@@ -48,7 +48,7 @@ employment:
       institute: University of Galway
       url: https://www.universityofgalway.ie/
       address: IDA Business Park, Lower Dangan, Galway, Ireland
-      jobtitle: Assistant Professor
+      jobtitle: Associate Professor
     - date: Aug 2015-Dec 2016
       institute: National University of Ireland, Galway
       url: https://www.universityofgalway.ie/
@@ -276,14 +276,17 @@ activities:
     - Keynote speaker at 5th Meeting of MUMIA project, June 2013.
     - CLT Seminar at Språkbanken, University of Gothenburg, February 2013.
     - Keynote speaker at workshop on “Standardized Data Categories in ISOcat” at TKE-2010, August 2010.
-    - External Evaluator for TU Dublin of internal research grants 2020
+    - External Evaluator for TU Dublin of internal research grants 2020, 2021, 2022, 2023, 2024.
     - "External Examiner for PhD of Filip Klubicka at TU Dublin - “Probing With Noise: Extracting Idiomatic Knowledge From Meaning Representations”"
     - External Examiner for PhD of Gary Munnelly at Trinity College Dublin - “Entity Linking for Text Based Digital Cultural Heritage Collections”, September 2019.
     - "External Examiner for PhD of Minna Tamper at Aalto University - “From Text to Knowledge: Methods, Tools, and  Applications  for  Digital  Humanities Based on Linked Data”"
-    - Internal Examiner for Jan Taubert, “ONDEX – A data integration framework for the life sciences,” awarded on 25th January 2011, Bielefeld University.
-    - Internal Examiner for Daniela Dos Santos Oliveira, “Data Model Extraction from a Background Knowledge Graph”, examined 29th October 2020, NUI Galway.
-    - Internal Examiner for Muhammad Yahya - “Building Semantic Models and Knowledge Graphs for Intelligent Smart Manufacturing Applications”, examined 4th December 2023, University of Galway.
-    - "Internal Examiner for Shardul Suryawanshi - “Unimodal, Multimodal and Transformational Approaches for Offensive Meme Classification: Challenges, Datasets, and Models”, examined 25th March 2024, University of Galway."
+    - Internal Examiner for PhD of Jan Taubert, “ONDEX – A data integration framework for the life sciences,” awarded on 25th January 2011, Bielefeld University.
+    - Internal Examiner for PhD of Daniela Dos Santos Oliveira, “Data Model Extraction from a Background Knowledge Graph”, examined 29th October 2020, NUI Galway.
+    - Internal Examiner for PhD of Muhammad Yahya - “Building Semantic Models and Knowledge Graphs for Intelligent Smart Manufacturing Applications”, examined 4th December 2023, University of Galway.
+    - "Internal Examiner for PhD of Shardul Suryawanshi - “Unimodal, Multimodal and Transformational Approaches for Offensive Meme Classification: Challenges, Datasets, and Models”, examined 25th March 2024, University of Galway."
+    - Internal Examiner for MSc (research) of Yifei Zhou - “Graph-Based Diffusion Method for Recommender Systems”, University of Galway.
+    - Internal Examiner for PhD of Dhairya Dalal - “Foundations for Causality-Aware Language Models For Causal Question-Answering”, examined 20th January 2025, University of Galway.
+    - External Exmainer for PhD of Sören Dréano - “Breaking Language Barriers: Reimagining Machine Translation as Style Transfer”, examined 5th February 2025, Dublin City University.
 journal_reviews:
     - Editorial Board of MDPI Information.
     - EPSRC Associate Reviewer
@@ -311,6 +314,9 @@ journal_reviews:
     - External Reviewer for Slovenian Research and Innovation Agency
 program_committees:
     - ACL Rolling Review (ACL, NAACL, EMNLP, EACL) since 2021
+    - 15th International Conference on Historical Lexicography and Lexicology
+    - NAACL Student Research Workshop 2025
+    - Low-Resource Machine Translation Workshop 2025
     - CIKM 2024
     - 3rd Annual Meeting of the ELRA-ISCA Special Interest Group on Under-resourced Languages (SIGUL2024) 
     - Joint Workshop on Multiword Expressions and Universal Dependencies (MWE-UD 2024)

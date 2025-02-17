@@ -139,6 +139,13 @@ john\@mccr.ae |
 - #a
 ]
 
+== Examining Roles
+#chiline()
+
+#for e in cv.examining [
+- #e
+]
+
 == Program Committees
 #chiline()
 

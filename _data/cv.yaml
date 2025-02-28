@@ -415,6 +415,16 @@ program_committees:
     - 3rd Workshop on the People’s Web meets NLP co-located with ACL-2012
     - 8th Extended Semantic Web Conference (ESWC-2011)
 taught_students:
+    - name: Gao Wei
+      title: Large Language Models Outclass Masked Models for Automatic Term Extraction
+    - name: Vaishali Lalit
+      title: "Enhancing Safety Compliance on Construction Sites through Computer Vision: The Impact of Synthetic Data on Automated Safety Gear Detection"
+    - name: Sahil Santosh Chitnis
+      title: "Enhancing Skin Cancer Classification using LDA and VGG19: A Synthetic Data Approach"
+    - name: Yang Liu
+      title: A comparison of Llama-VITS2 and Accent-VITS in the applications of voice cloning and voice conversion
+    - name: Vinit Hemant Vaidya
+      title: "FungiFusion: Integrating Ensemble Deep Learning for Fungi Species Recognition"
     - name: Thomas Sebastian
       title: Fake News Detection in Web Platforms –Social Media
     - name: Alexey Shapovalov

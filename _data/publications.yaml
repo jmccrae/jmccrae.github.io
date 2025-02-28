@@ -1,3 +1,23 @@
+- id: gracia2025mooc
+  title: "MOOC on Linguistic Linked Data"
+  author:
+  - Jorge Gracia
+  - Slavko Žitnik
+  - Max Ionov
+  - Christian Chiarcos
+  - Dagmar Gromann
+  - Francesco Mambrini
+  - Marco Passarotti
+  - Armando Stellato
+  - John P. McCrae
+  - Gilles Sérasset
+  - Elena Montiel-Ponsoda
+  - Sara Carvalho
+  - Penny Labropoulou
+  - Rute Costa
+  booktitle: "ESWC 2025 - Extended Semantic Web Conference"
+  year: "2025"
+  accepted: true
 - id: doyle2025assessment
   type: Workshop
   title: "An Assessment of Word Separation Practices in Old Irish Text Resources and a Universal Method for Tokenising Old Irish Text"

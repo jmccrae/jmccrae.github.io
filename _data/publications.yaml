@@ -1,4 +1,5 @@
 - id: gracia2025mooc
+  type: Conference
   title: "MOOC on Linguistic Linked Data"
   author:
   - Jorge Gracia

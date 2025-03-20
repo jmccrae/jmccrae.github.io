@@ -1,4 +1,4 @@
-#import "@preview/tada:0.1.0"
+#import "@preview/tada:0.2.0"
 
 #show heading: set text(font: "Linux Biolinum")
 
@@ -104,9 +104,9 @@ john\@mccr.ae |
   ("Name": f.name, "Funder": f.funder, "Date": f.date, "Amount": [€#d(f.total) (€#d(f.assigned))])
 )
 
-#import tada: TableData, to-tablex
+#import tada: TableData, to-table
 
-#to-tablex(tada.from-records(funding_data))
+#to-table(tada.from-records(funding_data))
 
 == Publications
 #chiline()

@@ -1,3 +1,20 @@
+- id: khan2025dalgado
+  type: Conference
+  title: "Revisiting Dalgado: Tracing the Heritage of the Portuguese Language in South Asia"
+  author:
+  - Anas Fahad Khan
+  - Ana de Castro Salgado
+  - Isuri Anuradha
+  - Rute Costa
+  - Francesca Frontini
+  - David Lindemann
+  - Chamila Liyange
+  - John P. McCrae
+  - Atul Kr. Ojha
+  - Priya Rani
+  booktitle: "Alliance of Digital Humanities Organizations (ADHO) International Conference (DH2025)"
+  year: "2025"
+  accepted: true
 - id: mukherjee2025evaluating
   type: Workshop
   title: "Evaluating Text Style Transfer Evaluation: Are There Any Reliable Metrics?"

@@ -140,7 +140,7 @@ students:
       degree: PhD 
       year: 2016-2023
       title: Development of Natural Language Processing Techniques and Resources for Old Irish
-      completed: false
+      completed: true
     - name: Oksana Dereza
       degree: PhD 
       year: 2019-2023

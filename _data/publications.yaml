@@ -23,10 +23,13 @@
   - Atul Kr. Ojha
   - John Philip McCrae
   - Ondrej Dusek
-  booktitle: "NAACL Student Research Workshop 2025"
+  booktitle: "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 4: Student Research Workshop)"
   year: "2025"
-  accepted: true
   description: "Text Style Transfer (TST) is the task of transforming a text to reflect a particular style while preserving its original content. Evaluating TST outputs is a multidimensional challenge, requiring the assessment of style transfer accuracy, content preservation, and naturalness. Using human evaluation is ideal but costly, same as in other NLP tasks; however, automatic metrics for TST have not received as much attention as metrics for, e.g., machine translation or summarization. In this paper, we examine both set of existing and novel metrics from broader NLP tasks for TST evaluation, focusing on two popular subtasks—sentiment transfer and detoxification—in a multilingual context comprising English, Hindi, and Bengali. By conducting meta-evaluation through correlation with human judgments, we demonstrate the effectiveness of these metrics when used individually and in ensembles. Additionally, we investigate the potential of Large Language Models (LLMs) as tools for TST evaluation. Our findings highlight that certain advanced NLP metrics and experimental-hybrid-techniques provide better insights than existing TST metrics for delivering more accurate, consistent, and reproducible TST evaluations."
+  url: https://aclanthology.org/2025.naacl-srw.41.pdf
+  open: true
+  license: cc-by
+  pages: "418-434"
 - id: gracia2025mooc
   type: Conference
   title: "MOOC on Linguistic Linked Data"

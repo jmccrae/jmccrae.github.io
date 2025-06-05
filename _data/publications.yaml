@@ -170,6 +170,21 @@
   grants: []
   open: true
   license: cc-by-nc
+- id: stearns2024evaluating
+  type: Conference
+  title: "Evaluating the Generalisation of an Artificial Learner"
+  author:
+    - Bernardo Stearns
+    - Nicolas Ballier
+    - Thomas Gaillat
+    - Andrew Simpkin
+    - John P. McCrae
+  booktitle: "Proceedings of the 13th Workshop on Natural Language Processing for Computer Assisted Language Learning"
+  year: "2024"
+  url: "https://aclanthology.org/2024.nlp4call-1.15.pdf"
+  open: true
+  license: cc-by
+  description: "This paper focused on the creation of LLM-based artificial learners. Motivated by the capability of language models to encode language representation, we evaluated such models for predicting masked tokens in learner corpora. We domain-adapted the BERT model, pre-trained on native English, by further pre-training two learner models on learner corpora: a natural learner model on the EFCAMDAT dataset and a synthetic learner model on the C4200m dataset. We evaluated the two artificial learner models alongside the baseline native model using an external English-for-specific-purposes corpus from French under-graduates. We evaluated metrics related to accuracy, consistency, and divergence. While the native model performed reasonably well, the natural learner pre-trained model showed improvements in recall-at-k. We analysed error patterns, showing that the native model made “overconfident” errors by assigning high probabilities to incorrect predictions, while the artificial learners distributed probabilities more evenly when wrong. Finally, we showed that the general token choices from the native model diverged from the natural learner model and this divergence was higher at lower proficiency levels."
 - id: banerjee2024large
   type: Conference
   title: Large Language Models for Few-Shot Automatic Term Extraction

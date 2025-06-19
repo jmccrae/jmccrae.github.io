@@ -1,3 +1,62 @@
+- id: munir2025when
+  type: Conference
+  title: "When retrieval outperforms generation: Dense evidence retrieval for scalable fake news detection"
+  author:
+    - Alamgir Munir Qazi
+    - John P. McCrae
+    - Jamal Nasir
+  booktitle: "LDK 2025"
+  year: 2025
+  accepted: true
+- id: banerjee2025benchmarking
+  type: Conference
+  title: "Benchmarking Hindi Term Extraction in Education: A Dataset and Analysis"
+  author:
+  - Shubhanker Banerjee
+  - Bharathi Raja Chakravarthi
+  - John P. McCrae
+  booktitle: "LDK 2025"
+  year: 2025
+  accepted: true
+- id: mccrae2025cuac
+  type: Conference
+  title: "Cuaċ: Fast and Small Universal Representations of Corpora"
+  author:
+  - John P. McCrae
+  - Bernardo Stearns
+  - Alamgir Munir Qazi
+  - Shubhanker Banerjee
+  - Atul Kr. Ojha
+  booktitle: "LDK 2025"
+  year: 2025
+  accepted: true
+- id: verma2025empowering
+  type: Conference
+  title: "Empowering Recommender Systems using Automatically Generated Knowledge Graphs and Reinforcement Learning"
+  author:
+  - Ghanshyam Verma
+  - Simanta Sarkar
+  - Devishree Pillai
+  - Huan Chen
+  - John P. McCrae
+  - János A. Perge,
+  - Shovon Sengupta
+  - Paul Buitelaar
+  booktitle: "LDK 2025"
+  year: 2025
+  accepted: true
+- id: doyle2025development
+  type: Conference
+  title: "Development of Old Irish Lexical Resources, and Two Universal Dependencies Treebanks for Diplomatically Edited Old Irish Text"
+  author:
+  - Adrian Doyle
+  - John P. McCrae
+  booktitle: "Proceedings of the 5th International Conference on Natural Language Processing for Digital Humanities"
+  year: 2025
+  url: https://aclanthology.org/2025.nlp4dh-1.34.pdf
+  open: true
+  license: cc-by
+  description: "The quantity and variety of Old Irish text which survives in contemporary manuscripts, those dating from the Old Irish period, is quite small by comparison to what is available for Modern Irish, not to mention better-resourced modern languages. As no native speakers have existed for more than a millennium, no more text will ever be created by native speakers. For these reasons, text surviving in contemporary sources is particularly valuable. Ideally, all such text would be annotated using a single, common standard to ensure compatibility. At present, discrete Old Irish text repositories make use of incompatible annotation styles, few of which are utilised by text resources for other languages. This limits the potential for using text from more than any one resource simultaneously in NLP applications, or as a basis for creating further resources. This paper describes the production of the first Old Irish text resources to be designed specifically to ensure lexical compatibility and interoperability."
 - id: khan2025dalgado
   type: Conference
   title: "Revisiting Dalgado: Tracing the Heritage of the Portuguese Language in South Asia"
@@ -48,9 +107,13 @@
   - Sara Carvalho
   - Penny Labropoulou
   - Rute Costa
-  booktitle: "ESWC 2025 - Extended Semantic Web Conference"
+  booktitle: "The Semantic Web. ESWC 2025. Lecture Notes in Computer Science, vol 15719."
   year: "2025"
   accepted: true
+  url: "https://link.springer.com/chapter/10.1007/978-3-031-94578-6_9"
+  open: false
+  publisher: Springer
+  doi: "10.1007/978-3-031-94578-6_9"
 - id: doyle2025assessment
   type: Workshop
   title: "An Assessment of Word Separation Practices in Old Irish Text Resources and a Universal Method for Tokenising Old Irish Text"

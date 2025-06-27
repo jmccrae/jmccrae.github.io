@@ -6,7 +6,7 @@
     - John P. McCrae
     - Jamal Nasir
   booktitle: "LDK 2025"
-  year: 2025
+  year: "2025"
   accepted: true
 - id: banerjee2025benchmarking
   type: Conference
@@ -16,7 +16,7 @@
   - Bharathi Raja Chakravarthi
   - John P. McCrae
   booktitle: "LDK 2025"
-  year: 2025
+  year: "2025"
   accepted: true
 - id: mccrae2025cuac
   type: Conference
@@ -28,7 +28,7 @@
   - Shubhanker Banerjee
   - Atul Kr. Ojha
   booktitle: "LDK 2025"
-  year: 2025
+  year: "2025"
   accepted: true
 - id: verma2025empowering
   type: Conference
@@ -43,7 +43,7 @@
   - Shovon Sengupta
   - Paul Buitelaar
   booktitle: "LDK 2025"
-  year: 2025
+  year: "2025"
   accepted: true
 - id: doyle2025development
   type: Conference
@@ -52,7 +52,7 @@
   - Adrian Doyle
   - John P. McCrae
   booktitle: "Proceedings of the 5th International Conference on Natural Language Processing for Digital Humanities"
-  year: 2025
+  year: "2025"
   url: https://aclanthology.org/2025.nlp4dh-1.34.pdf
   open: true
   license: cc-by

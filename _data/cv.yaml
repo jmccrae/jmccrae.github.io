@@ -474,6 +474,6 @@ taught_students:
     - name: Vytas Vaicuilis
       title: Nineteenth-Century Probabilistic Steamship Data Disambiguation
 google_scholar:
-    citations: 6691
+    citations: 6965
     h_index: 44
-    i10_index: 123
+    i10_index: 125

@@ -1,3 +1,13 @@
+- id: banerjee2025daate
+  type: Conference
+  title: "DA-ATE: Data Augmentation for Automatic Term Extraction"
+  author:
+  - Shubhanker Banerjee
+  - Bharathi Raja Chakravarthi
+  - John P. McCrae
+  booktitle: "SEMANTiCS 2025"
+  year: "2025"
+  accepted: true
 - id: munir2025when
   type: Conference
   title: "When retrieval outperforms generation: Dense evidence retrieval for scalable fake news detection"

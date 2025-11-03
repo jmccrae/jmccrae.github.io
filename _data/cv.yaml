@@ -65,7 +65,7 @@ employment:
       address: Hitotsubashi 2-1-2, Chiyoda-ku, Tokyo-to, 101-8430, Japan
       jobtitle: Research Assistant
 teaching:
-    - AY: 21/22-24/25
+    - AY: 21/22-25/26
       title: Knowledge Graphs 
       code: CT5166
       level: MSc
@@ -77,13 +77,13 @@ teaching:
       level: MSc
       institute: University of Galway
       role: Lecturer
-    - AY: 19/20 - 24/25
+    - AY: 19/20 - 25/26
       title: Advanced Natural Language Processing 
       code: CT5121
       level: MSc
       institute: University of Galway
       role: Developed course and co-lecturer.
-    - AY: 15/16 - 24/25
+    - AY: 15/16 - 25/26
       title: Introduction to Natural Language Processing 
       code: CT5120
       level: MSc 
@@ -146,9 +146,10 @@ students:
       year: 2019-2023
       completed: false
     - name: Shubhanker Banerjee
+      title: Deep Learning for Automatic Term Extraction
       degree: PhD 
       year: 2021-2025
-      completed: false
+      completed: true
     - name: Bernardo Stearns
       degree: PhD
       year: 2021-2027
@@ -474,6 +475,6 @@ taught_students:
     - name: Vytas Vaicuilis
       title: Nineteenth-Century Probabilistic Steamship Data Disambiguation
 google_scholar:
-    citations: 6965
-    h_index: 44
-    i10_index: 125
+    citations: 7120
+    h_index: 45
+    i10_index: 128

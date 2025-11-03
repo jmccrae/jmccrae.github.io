@@ -91,3 +91,16 @@ so check the documentation of the style you are using.
 
 For IEEE style citations, it **is allowed** to use the citation as a noun, e.g.,
 "In [1], they show that...". I don't like this **but** it is allowed.
+
+## Sin 6: Not Grouping References
+
+If you wish to reference multiple papers at once, do not write each reference
+separately like this: (Smith et al., 2020), (Doe et al., 2019), (Johnson, 2018).
+Instead, group them together in a single citation command like this:
+
+```latex
+\citep{smith2020awesome, doe2019great, johnson2018fantastic}
+```
+
+This will produce a single citation with all the references grouped together,
+like this: (Smith et al., 2020; Doe et al., 2019; Johnson, 2018).

@@ -31,7 +31,9 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Setup Typst
-        uses: typst-community/setup-typst@v3
+        uses: typst-community/setup-typst@v4
+        with: 
+          typst-version: 0.13.0
       - name: Run Typst (CV)
         run: typst compile cv.typ cv.pdf
       - name: Run Typst (Short CV)

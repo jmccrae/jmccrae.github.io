@@ -1,6 +1,7 @@
 #import "@preview/tada:0.2.0"
 
-#show heading: set text(font: "Linux Biolinum")
+//#show heading: set text(font: "Linux Biolinum")
+#show heading: set text(font: "Gill Sans")
 
 #let n(num, decimal: ".", thousands: ",") = {
   let parts = str(num).split(".")

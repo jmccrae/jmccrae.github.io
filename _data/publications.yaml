@@ -5,9 +5,12 @@
   - Shubhanker Banerjee
   - Bharathi Raja Chakravarthi
   - John P. McCrae
-  booktitle: "SEMANTiCS 2025"
+  booktitle: "Proceedings of the 21st International Conference on Semantic Systems"
   year: "2025"
-  accepted: true
+  doi: 10.3233/SSW250013
+  url: https://ebooks.iospress.nl/doi/10.3233/SSW250013
+  open: true
+  license: cc-by
 - id: munir2025when
   type: Conference
   title: "When retrieval outperforms generation: Dense evidence retrieval for scalable fake news detection"
@@ -15,9 +18,11 @@
     - Alamgir Munir Qazi
     - John P. McCrae
     - Jamal Nasir
-  booktitle: "LDK 2025"
+  booktitle: "Proceedings of the 5th Conference on Language, Data and Knowledge"
   year: "2025"
-  accepted: true
+  url: https://aclanthology.org/2025.ldk-1.26.pdf
+  open: true
+  license: cc-by
 - id: banerjee2025benchmarking
   type: Conference
   title: "Benchmarking Hindi Term Extraction in Education: A Dataset and Analysis"
@@ -25,9 +30,11 @@
   - Shubhanker Banerjee
   - Bharathi Raja Chakravarthi
   - John P. McCrae
-  booktitle: "LDK 2025"
+  booktitle: "Proceedings of the 5th Conference on Language, Data and Knowledge"
+  open: true
+  license: cc-by
+  url: https://aclanthology.org/2025.ldk-1.3.pdf
   year: "2025"
-  accepted: true
 - id: mccrae2025cuac
   type: Conference
   title: "Cuaċ: Fast and Small Universal Representations of Corpora"
@@ -37,9 +44,11 @@
   - Alamgir Munir Qazi
   - Shubhanker Banerjee
   - Atul Kr. Ojha
-  booktitle: "LDK 2025"
+  booktitle: "Proceedings of the 5th Conference on Language, Data and Knowledge"
   year: "2025"
-  accepted: true
+  url: https://aclanthology.org/2025.ldk-1.17.pdf
+  open: true
+  license: cc-by
 - id: verma2025empowering
   type: Conference
   title: "Empowering Recommender Systems using Automatically Generated Knowledge Graphs and Reinforcement Learning"
@@ -54,7 +63,9 @@
   - Paul Buitelaar
   booktitle: "LDK 2025"
   year: "2025"
-  accepted: true
+  url: https://aclanthology.org/2025.ldk-1.33.pdf
+  open: true
+  license: cc-by
 - id: doyle2025development
   type: Conference
   title: "Development of Old Irish Lexical Resources, and Two Universal Dependencies Treebanks for Diplomatically Edited Old Irish Text"
@@ -119,7 +130,6 @@
   - Rute Costa
   booktitle: "The Semantic Web. ESWC 2025. Lecture Notes in Computer Science, vol 15719."
   year: "2025"
-  accepted: true
   url: "https://link.springer.com/chapter/10.1007/978-3-031-94578-6_9"
   open: false
   publisher: Springer
@@ -131,17 +141,21 @@
   - Adrian Doyle
   - John P. McCrae
   year: "2025"
-  accepted: true
-  booktitle: "CLTW 2025 : The Fifth Celtic Language Technology Workshop"
+  booktitle: "Proceedings of the 5th Celtic Language Technology Workshop"
+  url: https://aclanthology.org/2025.cltw-1.1.pdf
+  open: true
+  license: cc-by
 - id: mccrae2025renovating
   type: Conference
   title: "Renovating the Verb Hierarchy of English Wordnet"
   author:
   - John P. McCrae
   year: "2025"
-  accepted: true
-  booktitle: Global WordNet Conference 2025
+  booktitle: Proceedings of the 13th Global Wordnet Conference
   description: "English Wordnet's hierarchy of senses is a key feature that enables the resource to be used for a wide range of analysis, however, it is only complete for nouns and not for other parts of speech. In this work, we propose an improvement of the hierarchy of verbs, such that all verbs are connected to one of eight top synsets. We evaluate this resource in terms of improved connectivity and in comparison to SimVerb-3500, and show that this hierarchy makes the resource more useful. We extensively discuss further improvements that would make English Wordnet more practical for a wide range of applications and bring it closer in line with other lexical resources for verbs."
+  url: https://aclanthology.org/2025.gwc-1.2/]
+  open: true
+  license: cc-by
 - id: khan2025shacl4gw
   type: Conference
   title: "SHACL4GW: SHACL Shapes for the Global Wordnet Association RDF Schema"
@@ -149,9 +163,11 @@
   - Fahad Khan
   - John P. McCrae
   year: "2025"
-  accepted: true
-  booktitle: Global WordNet Conference 2025
+  booktitle: Proceedings of the 13th Global Wordnet Conference
   description: "In this article, we introduce SHACL4GW, a new resource which uses the Semantic Web SHACL standard for the validation of RDF files using the Global Wordnet Association RDF format. We begin by giving a motivation for the creation of such a resource, continue by describing the resource and end with a list of things still to do."
+  url: https://aclanthology.org/2025.gwc-1.6/
+  open: true
+  license: cc-by
 - id: mccrae2025remedying
   type: Conference
   title: "Remedying Gender Bias in Open English Wordnet"
@@ -162,9 +178,11 @@
   - Al Waskow
   - Kexin Gao
   year: "2025"
-  accepted: true
-  booktitle: Global WordNet Conference 2025
+  booktitle: Proceedings of the 13th Global Wordnet Conference
   description: "Open English Wordnet aims to improve and maintain a wordnet for English, based on the Princeton WordNet. In this context, we identify a number of gender biases in the existing wordnet and consider the challenges of remediating the biases in the resource. In particular, we look at structural, contextual and definitional biases in the resource and examine how changes to the structure of the wordnet and to the textual definitions can create a wordnet that more fairly represents reality. We propose a number of changes that introduce 317 new synsets as well as changing the definitions or relations of over 400 further synsets. We show that these changes reduce certain kinds of gender bias within the resource."
+  url: https://aclanthology.org/2025.gwc-1.16/
+  open: true
+  license: cc-by
 - id: hatami2024english
   type: Conference
   title: "English-to-Low-Resource Translation: A Multimodal Approach for Hindi, Malayalam, Bengali, and Hausa"

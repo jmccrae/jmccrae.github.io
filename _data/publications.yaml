@@ -153,7 +153,7 @@
   year: "2025"
   booktitle: Proceedings of the 13th Global Wordnet Conference
   description: "English Wordnet's hierarchy of senses is a key feature that enables the resource to be used for a wide range of analysis, however, it is only complete for nouns and not for other parts of speech. In this work, we propose an improvement of the hierarchy of verbs, such that all verbs are connected to one of eight top synsets. We evaluate this resource in terms of improved connectivity and in comparison to SimVerb-3500, and show that this hierarchy makes the resource more useful. We extensively discuss further improvements that would make English Wordnet more practical for a wide range of applications and bring it closer in line with other lexical resources for verbs."
-  url: https://aclanthology.org/2025.gwc-1.2/]
+  url: https://aclanthology.org/2025.gwc-1.2.pdf
   open: true
   license: cc-by
 - id: khan2025shacl4gw
@@ -165,7 +165,7 @@
   year: "2025"
   booktitle: Proceedings of the 13th Global Wordnet Conference
   description: "In this article, we introduce SHACL4GW, a new resource which uses the Semantic Web SHACL standard for the validation of RDF files using the Global Wordnet Association RDF format. We begin by giving a motivation for the creation of such a resource, continue by describing the resource and end with a list of things still to do."
-  url: https://aclanthology.org/2025.gwc-1.6/
+  url: https://aclanthology.org/2025.gwc-1.6.pdf
   open: true
   license: cc-by
 - id: mccrae2025remedying
@@ -180,7 +180,7 @@
   year: "2025"
   booktitle: Proceedings of the 13th Global Wordnet Conference
   description: "Open English Wordnet aims to improve and maintain a wordnet for English, based on the Princeton WordNet. In this context, we identify a number of gender biases in the existing wordnet and consider the challenges of remediating the biases in the resource. In particular, we look at structural, contextual and definitional biases in the resource and examine how changes to the structure of the wordnet and to the textual definitions can create a wordnet that more fairly represents reality. We propose a number of changes that introduce 317 new synsets as well as changing the definitions or relations of over 400 further synsets. We show that these changes reduce certain kinds of gender bias within the resource."
-  url: https://aclanthology.org/2025.gwc-1.16/
+  url: https://aclanthology.org/2025.gwc-1.16.pdf
   open: true
   license: cc-by
 - id: hatami2024english

@@ -213,6 +213,31 @@ funding:
       date: 1/18-7/22
       total: 5000000
       assigned: 473000
+    - name: AI4Debunk
+      funder: EU H2020
+      date:   01/24-12/27
+      total: 4895183
+      assigned: 125000
+    - name: ASTech EDIH (Data2Sustain)
+      funder: EU H2020
+      date: 11/24-05/25
+      total: 57500
+      assigned: 57500
+    - name: Clubforce EDIH (Data2Sustain)
+      funder: EU H2020
+      date: 11/25-03/26
+      total: 44700
+      assigned: 44700
+    - name: Genesys-Insight Collaborative Project
+      funder: Genesys/SFI co-fund
+      date: ...
+      total: ...
+      assigned: ...
+    - name: CRT-AI
+      funder: Science Foundation Ireland
+      date: ...
+      total: ...
+      assigned: ...
     - name: NexusLinguarum (Vice-chair)
       funder: COST
       date: 10/19-10/23
@@ -221,8 +246,13 @@ funding:
     - name: Distributed Knowledge Graphs (Grant Holder)
       funder: COST
       date: 9/20-9/24
-      total: 229322.50
-      assigned: 0
+      total: 575591.80
+      assigned: 86339
+    - name: GOBLIN (Grant Holder)
+      funder: COST
+      date: 11/24-10/28
+      total: 341000
+      assigned: 51150
     - name: IRC Postgraduate Scholarship (Rajdeep Sarkar)
       funder: IRC
       date: 9/19-8/23
@@ -235,9 +265,9 @@ funding:
       assigned: 55000
     - name: EI Proposal Preparation Support
       funder: Enterprise Ireland
-      date: 1/21, 7/21
-      total: 29390
-      assigned: 29390
+      date: 1/21, 7/21, 8/24
+      total: 41618
+      assigned: 41618
 total_assigned: 3657241
 activities:
     - Led ATHENA Swan Bronze application of School of Computer Science and Data Science Institute at the University of Galway

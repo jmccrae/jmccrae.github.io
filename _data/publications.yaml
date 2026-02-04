@@ -1,3 +1,34 @@
+- id: donald2026investigating
+  type: Journal
+  title: Investigating transformer models for textual bias detection in model, data, and dataspace cards
+  author:
+  - Andy Donald
+  - Apostolos Galanopoulos
+  - Atul Kumar Ojha
+  - Edward Curry
+  - Emir Muñoz
+  - Ihsan Ullah
+  - John P. McCrae
+  - Manan Kalra
+  - Sagar Saxena
+  - Talha Iqbal 
+  journal: "AI Ethics"
+  year: "2026"
+  volume: "6"
+  number: 118
+  url: https://link.springer.com/content/pdf/10.1007/s43681-025-00975-3.pdf
+  doi: 10.1007/s43681-025-00975-3
+  open: true
+  license: cc-by
+  description: "Identifying hidden biases in AI documentation metadata (model, data, and dataspace cards) is essential for responsible AI; yet this domain remains largely unexplored. The proposed work evaluates four Transformer models (XLNet, DistilBERT, RoBERTa, and ELECTRA) for bias detection across publicly available, synthetic, and custom datasets. On the BABE news corpus, all models achieved 77–80% accuracy, with only ELECTRA exceeding 80% on every metric. To address the absence of publicly available AI-card datasets, we generated synthetic metadata for two use cases (Customer Interaction and Customer Data Uploaded by Organisations) using ChatGPT. Models trained on this synthetic corpus displayed near-perfect scores, reflecting shared stylistic cues embedded in the generated text. To test real-world robustness, we curated a Hugging Face dataset by scraping documentation comments, filtering for bias-related keywords, and obtaining annotations from four independent labellers in a single-blind setting. Partial fine-tuning (zero-shot) evaluations of models trained only on BABE or synthetic data revealed substantial performance drops on this real-world set. To mitigate this cross-domain loss, we introduce a cascaded, full fine-tuning (few-shot) pipeline in which Transformer models are sequentially fine-tuned on BABE, synthetic text, and a subset of the Hugging Face corpus. Evaluation on the remaining portion achieved over 85% across all performance metrics, enhancing precision and generalisation. This study demonstrates the challenges of bias detection beyond controlled or synthetic data and highlights cascaded fine-tuning as a practical, low-resource strategy. Future directions include leveraging evidence fusion methods, integrating cross-attention with bias taxonomies, and adopting dual-encoder architectures to advance bias detection toward more in-depth, knowledge-guided reasoning."
+- id: sudam2025lossy
+  type: Conference
+  title: "Lossy Text Compression Using Genetic Algorithms with LLM-Guided Operators"
+  author:
+  - Rajesh Sudam
+  - John McCrae
+  booktitle: "33rd International Conference on Artificial Intelligence and Cognitive Science (AICS 2025)"
+  year: "2025"
 - id: banerjee2025daate
   type: Conference
   title: "DA-ATE: Data Augmentation for Automatic Term Extraction"

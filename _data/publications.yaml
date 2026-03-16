@@ -1,3 +1,33 @@
+- id: augello2026towards
+  type: Conference
+  title: "Towards a Gold Standard for Adjectival Hypernymy: Enriching the Open English WordNet with a Hybrid Approach"
+  author:
+  - Lorenzo Augello
+  - John P. McCrae
+  - Marco Passarotti
+  booktitle: "Proceedings of the Fifteenth biennial Language Resources and Evaluation Conference (LREC)"
+  year: "2026"
+  accepted: true
+- id: mccrae2026towards
+  type: Conference
+  title: Towards a Comprehensive English Wordnet-Wikidata Mapping
+  author:
+  - John P. McCrae
+  - Johann Bergh
+  - Krasimir Angelov
+  booktitle: "Proceedings of the Fifteenth biennial Language Resources and Evaluation Conference (LREC)"
+  year: "2026"
+  accepted: true
+- id: stearns2026cross
+  type: Conference
+  title: Cross-Corpus CEFR Classification through Artificial Learners Perplexities
+  author:
+  - Bernardo Stearns
+  - John P. McCrae
+  - Thomas Gaillat
+  booktitle: "Proceedings of the Fifteenth biennial Language Resources and Evaluation Conference (LREC)"
+  year: "2026"
+  accepted: true
 - id: donald2026investigating
   type: Journal
   title: Investigating transformer models for textual bias detection in model, data, and dataspace cards

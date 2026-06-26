@@ -22,9 +22,20 @@
     - Lorenzo Augello
     - John P. McCrae
     - Marco Passarotti
-  booktitle: "Proceedings of the Fifteenth biennial Language Resources and Evaluation Conference (LREC)"
+  booktitle: "Proceedings of The Fifteenth Language Resources and Evaluation Conference (LREC 2026)"
   year: "2026"
-  accepted: true
+  url: http://www.lrec-conf.org/proceedings/lrec2026/pdf/2026.lrec2026-1.293.pdf
+  pages: 3662-3671
+  doi: 10.63317/5eaqyq2rwc43
+  editors: 
+  - Stelios Piperidis
+  - Núria Bel
+  - Henk van den Heuvel
+  - Nancy Ide
+  - Simon Krek
+  - Antonio Toral
+  publisher: European Language Resources Association (ELRA)
+  description: "Adjectival hypernymy is an underexplored lexical-semantic relation essential for Natural Language Processing (NLP) and hierarchical semantic organization of the lexicon. While hypernymy in nouns and verbs has been extensively modeled in resources such as WordNet, adjectives remain largely unstructured due to their gradability and context-dependence. We present a hybrid Large Language Model (LLM)-Human approach towards the creation of a gold-standard dataset for adjectival hypernymy. Our method integrates three LLMs with systematic human evaluation, guided by a specifically developed theoretical framework ensuring consistency and linguistically-based principles, compiling a resource of 3,836 validated adjective hyponym-hypernym pairs. Results demonstrate high precision for consensus predictions (87%), confirming the utility of cross-model agreement as a proxy for semantic validity. This method highlights how LLMs can complement human effort and expertise to support the construction of lexical resources. The resulting dataset aims to enrich the Open English WordNet (OEWN) with explicit adjectival hierarchies and serves as a benchmark for hypernymy detection and lexical entailment evaluation."
 - id: mccrae2026towards
   type: Conference
   title: Towards a Comprehensive English Wordnet-Wikidata Mapping
@@ -34,7 +45,18 @@
     - Krasimir Angelov
   booktitle: "Proceedings of the Fifteenth biennial Language Resources and Evaluation Conference (LREC)"
   year: "2026"
-  accepted: true
+  url: http://www.lrec-conf.org/proceedings/lrec2026/pdf/2026.lrec2026-1.933.pdf
+  pages: 11916-11925
+  doi: 10.63317/2hv5jxde5mv5
+  editors: 
+  - Stelios Piperidis
+  - Núria Bel
+  - Henk van den Heuvel
+  - Nancy Ide
+  - Simon Krek
+  - Antonio Toral
+  publisher: European Language Resources Association (ELRA)
+  description: "In this study, we present a comprehensive investigation into the mapping of English Wordnet to Wikidata, focusing on the existing mappings created by different projects. We systematically analyze the current mapping methodologies and their effectiveness, highlighting the strengths and limitations of each approach. Through a comparative analysis, we identified overlaps and discrepancies among the mappings, revealing insights into the relationships between the data sets. Our findings underscore the need for a more unified dataset that consolidates disparate mappings into a comprehensive unified Wordnet-Wikidata mapping. We propose a novel construction methodology for this unified data set, taking advantage of existing mappings while addressing their shortcomings. In addition, we discuss future perspectives and advanced techniques for mapping the remaining unmapped records, such as machine learning algorithms. This work not only contributes to the enhancement of data interoperability between Wordnet and Wikidata but also sets the stage for future research aimed at refining mapping techniques and expanding coverage."  
 - id: stearns2026cross
   type: Conference
   title: Cross-Corpus CEFR Classification through Artificial Learners Perplexities
@@ -44,9 +66,20 @@
     - Thomas Gaillat
   booktitle: "Proceedings of the Fifteenth biennial Language Resources and Evaluation Conference (LREC)"
   year: "2026"
-  accepted: true
+  url: http://www.lrec-conf.org/proceedings/lrec2026/pdf/2026.lrec2026-1.62.pdf
+  pages: 828-837
+  doi: 10.63317/2bvpcczgao2t
+  editors: 
+  - Stelios Piperidis
+  - Núria Bel
+  - Henk van den Heuvel
+  - Nancy Ide
+  - Simon Krek
+  - Antonio Toral
+  publisher: European Language Resources Association (ELRA)
+  description: "The complexity of neural methods for automatic proficiency assessment often sacrifices interpretability and robustness. This paper presents a competitive alternative for CEFR classification using optimized statistical models with a novel perplexity-based feature engineering pipeline. We introduce LLM-derived perplexity features as a proxy for how unexpected a learner’s word choices are: native model perplexity measures unexpectedness relative to native language use, while Artificial Learner model perplexity quantifies relative to a specific proficiency level. While recent work favors end-to-end neural architectures, we demonstrate that traditional pipelines enhanced with these interpretable perplexity features can achieve comparable performance on established benchmarks. We evaluate two transfer scenarios: zero-shot (trained on EFCAMDAT, tested on external corpora) and 90-10 split (same features, in-domain classifier training). On KUPA-KEYS, perplexity features achieve RMSE 0.707 (zero-shot) and 0.660 (90-10 split), outperforming fine-tuned BERT and prompt-based LLMs. On CELVA-SP, zero-shot perplexity shows limited generalization (RMSE 1.437 vs. LLM’s 1.016), but statistical models close this gap in the 90-10 split (RMSE 0.872). Across all three evaluation datasets, perplexity-based models achieve the best average macro F1 in the 90-10 split (0.446 vs. 0.287 for BERT and 0.175 for prompting), demonstrating that interpretable features paired with domain-adapted classifiers provide the most robust cross-domain representations. We contribute: (1) state-of-the-art KUPA-KEYS results with interpretable models, (2) the first comprehensive CELVA-SP benchmark, and (3) evidence that feature-level transfer outperforms both end-to-end fine-tuning and zero-shot prompting."
 - id: donald2026investigating
-  type: Journal
+  type: Article
   title: Investigating transformer models for textual bias detection in model, data, and dataspace cards
   author:
     - Andy Donald

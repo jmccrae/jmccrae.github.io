@@ -109,6 +109,7 @@
     - John McCrae
   booktitle: "33rd International Conference on Artificial Intelligence and Cognitive Science (AICS 2025)"
   year: "2025"
+  url: https://zenodo.org/records/19136061
 - id: waskow2025enhancing
   type: Workshop
   title: "Enhancing Policy Analysis with NLP: A Reproducible Approach to Incentive Classification"

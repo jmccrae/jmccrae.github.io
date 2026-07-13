@@ -1,3 +1,37 @@
+- id: mccrae2026open
+  type: Workshop
+  title: "Open English NameNet: Extending English Wordnet with Names"
+  booktitle: "Proceedings of 10th Workshop on Linked Data in Linguistics (LDL-2026)"
+  editors:
+  - John P. McCrae
+  - Katerina Gkirtzou
+  - Fahad Khan
+  - Patricia Martin Chozas
+  - Sara Carvalho
+  - Erin Canning
+  publisher: European Language Resource Association (ELRA)
+  year: "2026"
+  url: http://www.lrec-conf.org/proceedings/lrec2026/workshops/ldl/pdf/2026.ldl-1.7.pdf
+  pages: 60-68
+  doi: 10.63317/4mit9o8vc2gw
+  description: "We present Open English NameNet, a new large-scale lexical resource that extends Open English Wordnet with named entities derived from Wikidata. While English Wordnet has historically included many proper nouns, its coverage has been incomplete and inconsistent, and encyclopedic knowledge sources have grown rapidly in parallel. To address this gap, we systematically extract and align named entities from Wikidata with the Open English Wordnet hierarchy, ensuring each entity is appropriately placed through instance hypernym relations. Our methodology combines existing WordNet–Wikipedia mappings with Wikidata information and applies domain-specific strategies for people, plants and animals, and languages, to account for structural and semantic differences between the resources. This approach results in the largest English lexical-semantic resource currently available, with extensive coverage and structured integration. We release the resource openly to support the development of lexically and encyclopedically informed language technologies."
+- id: mccrae2026bridging
+  type: Workshop
+  title: "Bridging the Gap between Ontologies and Dictionaries: Requirements and Implementation of a New Core for OntoLex-Lemon"
+  booktitle: "Proceedings of 10th Workshop on Linked Data in Linguistics (LDL-2026)"
+  editors:
+  - John P. McCrae
+  - Katerina Gkirtzou
+  - Fahad Khan
+  - Patricia Martin Chozas
+  - Sara Carvalho
+  - Erin Canning
+  publisher: European Language Resource Association (ELRA)
+  year: "2026"
+  url: http://www.lrec-conf.org/proceedings/lrec2026/workshops/ldl/pdf/2026.ldl-1.8.pdf
+  pages: 69-79
+  doi: 10.63317/34udc9epj535
+  description: "This paper presents the requirements and implementation details for a new core module of the OntoLex-Lemon model, representing the first major evolution of the de-facto standard since its 2016 release. While the original model successfully bridged ontologies and dictionaries through \"semantics by reference,\" community adoption has identified critical gaps in handling lexicographic structures and retrodigitized resources. We detail a community-driven methodology that identified fifteen key requirements and we present a proposed architecture for the new OntoLex core, which integrates elements from the Lexicography module and addresses both semantic web and lexicography use cases. Further, we improve interoperability with standards like DMLex and TEI-Lex0 while maintaining strict backwards compatibility for existing users of the model."
 - id: mcccrae2026ontolex
   type: InCollection
   title: "OntoLex-Lemon Model for Linked Data Lexicography"

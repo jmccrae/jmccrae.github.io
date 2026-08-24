@@ -2113,6 +2113,40 @@
     Malayalam, and Kannada
   url: https://aclanthology.org/2021.dravidianlangtech-1.17.pdf
   year: "2021"
+- id: chakravarthi2021dataset
+  type: Misc
+  author:
+    - Bharathi Raja Chakravarthi
+    - Ruba Priyadharshini
+    - Rahul Ponnusamy
+    - Prasanna Kumar Kumaresan
+    - Kayalvizhi Sampath
+    - Durairaj Thenmozhi
+    - Sathiyaraj Thangasamy
+    - Rajendran Nallathambi
+    - John Phillip McCrae
+  date: "2021-09-01"
+  description:
+    "The increased proliferation of abusive content on social media platforms
+    has a negative impact on online users. The dread, dislike, discomfort, or mistrust
+    of lesbian, gay, transgender or bisexual persons is defined as homophobia/transphobia.
+    Homophobic/transphobic speech is a type of offensive language that may be summarized
+    as hate speech directed toward LGBT+ people, and it has been a growing concern
+    in recent years. Online homophobia/transphobia is a severe societal problem that
+    can make online platforms poisonous and unwelcome to LGBT+ people while also attempting
+    to eliminate equality, diversity, and inclusion. We provide a new hierarchical
+    taxonomy for online homophobia and transphobia, as well as an expert-labelled
+    dataset that will allow homophobic/transphobic content to be automatically identified.
+    We educated annotators and supplied them with comprehensive annotation rules because
+    this is a sensitive issue, and we previously discovered that untrained crowdsourcing
+    annotators struggle with diagnosing homophobia due to cultural and other prejudices.
+    The dataset comprises 15,141 annotated multilingual comments. This paper describes
+    the process of building the dataset, qualitative analysis of data, and inter-annotator
+    agreement. In addition, we create baseline models for the dataset. To the best
+    of our knowledge, our dataset is the first such dataset created."
+  title: "Dataset for Identification of Homophobia and Transophobia in Multilingual YouTube Comments"
+  url: https://arxiv.org/abs/2109.00227
+  year: "2021"
 - id: markantonatou2020proceedings
   type: Workshop
   affiliation:
@@ -2144,6 +2178,35 @@
     Proceedings of the Joint Workshop on Multiword Expressions and Electronic
     Lexicons
   url: https://aclanthology.org/2020.mwe-1.0.pdf
+  year: "2020"
+- id: banerjee2020comparison
+  type: Conference
+  author:
+    - Shubhanker Banerjee
+    - Bharathi Raja Chakravarthi
+    - John P. McCrae
+  booktitle:
+    2020 2nd International Conference on Advances in Computing, Communication
+    Control and Networking (ICACCCN)
+  date: "2020-12-18"
+  description:
+    "Two or more languages used in the same sentence is known as the code-mixed
+    text. The phenomenon is abundant in social media due to multilingualism. It poses
+    a considerable challenge for classic NLP tools trained on monolingual corpora.
+    Automatic hate speech detection in code-mixed text becomes even more challenging
+    due to non-standard variations in the spelling, grammar and writing in foreign
+    scripts. Pre-trained models provide word embedding trained on massive monolingual
+    corpora, which are now ubiquitous forms of word representation to classifying
+    text. In this paper, we compare pretrained models and create an ensemble model
+    for code-mixed data of hate speech classification task on Hindi-English data.
+    We have also experimented with using word embedding for CNN networks and showed
+    that XLNet performs better for hate speech detection in code-mixed text."
+  doi: 10.1109/ICACCCN51052.2020.9362731
+  open: false
+  pages: 21-25
+  publisher: IEEE
+  title: "Comparison of Pretrained Embeddings to Identify Hate Speech in Indian Code-Mixed Text"
+  url: https://ieeexplore.ieee.org/document/9362731
   year: "2020"
 - id: goswami2020uld
   type: Workshop

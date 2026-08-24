@@ -1,5 +1,3 @@
-#import "@preview/tada:0.2.0"
-
 //#show heading: set text(font: "Linux Biolinum")
 #show heading: set text(font: "Gill Sans")
 
@@ -101,13 +99,12 @@ john\@mccr.ae |
 == Funding
 #chiline()
 
-#let funding_data = cv.funding.map(f =>
-  ("Name": f.name, "Funder": f.funder, "Date": f.date, "Amount": [€#d(f.total) (€#d(f.assigned))])
+#table(
+  columns: 4,
+  align: (left, left, left, right),
+  table.header([*Name*], [*Funder*], [*Date*], [*Amount*]),
+  ..cv.funding.map(f => (f.name, f.funder, f.date, [€#d(f.total) (€#d(f.assigned))])).flatten()
 )
-
-#import tada: TableData, to-table
-
-#to-table(tada.from-records(funding_data))
 
 == Publications
 #chiline()

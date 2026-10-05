@@ -1,3 +1,16 @@
+- id: hashmi2026cor
+  type: Article
+  title: "CoR-Hate: counterfactual retrieval and fairness-regularized hate-speech detection"
+  author:
+    - Ehtesham Hashmi
+    - John McCrae
+    - Sule Yildirim Yayilgan
+    - Rajendra Akerkar
+  journal: "Complex & Intelligent Systems"
+  year: "2026"
+  number: 2528
+  url: https://link.springer.com/article/10.1007/s40747-026-02528-5
+  doi: 10.1007/s40747-026-02528-5
 - id: mccrae2026open
   type: Workshop
   title: "Open English NameNet: Extending English Wordnet with Names"

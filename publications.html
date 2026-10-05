@@ -39,6 +39,7 @@
 <a href="#" class="year sely2008" onclick="showonly(event,'y2008')" style="padding-left:5px;">2008</a>
 </div>
 {% assign last_year = "" %}
+{% capture paper_files %}{% for f in site.static_files %}{% if f.path contains "/papers/" %}|{{ f.name }}|{% endif %}{% endfor %}{% endcapture %}
 {% for paper in site.data.publications %}
     {% unless paper.year %}
     {{ paper.title }} does not have a year
@@ -79,7 +80,8 @@
          
     ({{ paper.year }}{% if paper.accepted %} Accepted{% endif %})
  
-    {% if paper.url %}
+    {% capture pdf_key %}|{{ paper.id }}.pdf|{% endcapture %}
+    {% if paper_files contains pdf_key %}
     <a href='papers/{{ paper.id }}.pdf'>PDF</a>
     {% endif %}
 

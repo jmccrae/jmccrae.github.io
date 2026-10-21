@@ -1,3 +1,25 @@
+- id: diachenko2026predicting
+  type: Workshop
+  title: "Predicting Personalized Vocabulary Learning Burden from Intralexical and Interlexical Factors"
+  author:
+    - Mykhailo Diachenko
+    - John P. McCrae
+  booktitle: "Proceedings of the Workshop on Natural Language Processing for Computer Assisted Language Learning (NLP4CALL 2026)"
+  year: "2026"
+  description: "Existing measures of word difficulty rarely capture how much effort a particular learner needs to learn a particular word. We introduce personalized learning burden (PLB) --- the number of spaced, non-cramming reviews a learner needs to bring a word to 14-day memory stability, extracted from existing review logs without human annotation. In Anki notes and review logs from four multilingual learners of Japanese, non-personalized features explain little of PLB: the lexical item accounts for at most 14.84% of its variance. We therefore ask whether PLB on known words transfers to unseen words through semantic, morphological, orthographic, or phonological similarity. Neighbor-informed models improve over a within-learner median for two of the three learners we test, but the gain does not come from similarity: random words the learner completed within one month of each neighbor reproduce it, and the target's position on the learner's timeline alone predicts best (up to $\\rho = .557$ and a 16.2% error reduction). Because neighborhoods drawn from a learner's history encode timeline position by construction, studies of interlexical effects need temporally matched controls. We will release a dataset of about 50,000 lexical items and over 500,000 review logs from eight learners with language profiles."
+- id: negi2026large
+  type: Workshop
+  title: "Large Language Models as Automatic Annotators and Annotation Adjudicators for Fine-Grained Opinion Analysis"
+  author:
+    - Gaurav Negi
+    - M.A. Waskow
+    - John P. McCrae
+    - Omnia Zayed
+    - Paul Buitelaar
+  booktitle: "EMNLP 2026 Workshop on Uncertainty-Aware NLP (UncertaiNLP)"
+  year: "2026"
+  url: https://openreview.net/forum?id=4jUsnq2cDA
+  description: "Fine-grained opinion analysis enables a detailed understanding of expressed sentiments and their corresponding targets. However, annotating domain-specific datasets requires substantial human effort and financial resources. To address this limitation, we investigate the feasibility of using large language models (LLMs) as automatic annotators for fine-grained opinion analysis. We use a declarative annotation pipeline to reduce prompt engineering when identifying fine-grained opinion spans, and compare rule-based voting against an LLM-based adjudicator for reconciling conflicting predictions. We trial the pipeline across different model sizes on the Aspect Sentiment Triplet Extraction (ASTE) and Aspect-Category-Opinion-Sentiment (ACOS) tasks. Our findings indicate a critical performance bifurcation: LLMs are reliable at the span level yet struggle to faithfully reproduce the relational structures connecting those spans. The better aggregation strategy depends on this complexity: voting suffices for triplets, while quadruples require an adjudicator that re-reads the source. Treating annotator disagreement as an informative signal rather than noise, we further show that agreement between LLM annotators is a calibrated predictor of correctness and can be used to delegate cases with high annotator disagreement to humans."
 - id: hashmi2026cor
   type: Article
   title: "CoR-Hate: counterfactual retrieval and fairness-regularized hate-speech detection"

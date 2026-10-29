@@ -1,3 +1,17 @@
+- id: platzgummer2026versteasch
+  type: Article
+  title: "Versteasch du mi? Computational and socio-linguistic perspectives on GenAI, LLMs and non-standard language"
+  author:
+    - Verena Platzgummer
+    - John McCrae
+    - Sina Ahmadi
+  journal: "Language Policy"
+  year: "2026"
+  volume: 25
+  number: 59
+  url: https://link.springer.com/article/10.1007/s10993-026-09811-8
+  doi: 10.1007/s10993-026-09811-8
+  description: "The design of Large Language Models (LLMs) and generative artificial intelligence (GenAI) has been shown to be “unfair” to less-spoken languages and to deepen the digital language divide. Critical sociolinguistic work has also argued that these technologies are not only made possible by prior socio-historical processes of linguistic standardisation, often grounded in European nationalist and colonial projects, but also exacerbate epistemologies of language as “monolithic, monolingual, syntactically standardized systems of meaning” (Schneider, 2024, p. 5). In our paper, we draw on earlier work on the intersections of technology and language policy (Kelly-Holmes, 2019) and bring our respective expertise in critical sociolinguistics and computational linguistics to bear on an interrogation of these arguments. We take two different complexes of non-standard linguistic varieties in our respective repertoires – South Tyrolean dialects, widely used in informal communication in the Italian province of South Tyrol, and varieties of Kurdish across different national contexts – as starting points for an interdisciplinary exploration of the intersections between GenAI, linguistic variation, and language standardisation. Through these case studies, we show that linguistic marginalization in AI systems can arise through different mechanisms: from the limited visibility of dialects within computational infrastructures to the interaction of technological underrepresentation with histories of political and institutional exclusion. We discuss the technical barriers preventing LLMs from processing non-standard varieties, examine how evaluation frameworks reproduce standardization biases, and explore policy implications for diverse actors, thereby contributing to ongoing efforts to develop language technologies that account for linguistic variation and the diverse sociopolitical conditions under which languages and varieties become digitally represented."
 - id: diachenko2026predicting
   type: Workshop
   title: "Predicting Personalized Vocabulary Learning Burden from Intralexical and Interlexical Factors"
